@@ -1,0 +1,477 @@
+{
+ "_id": "aGdFNR2SyFzhmpKQ",
+ "_key": "!actors!aGdFNR2SyFzhmpKQ",
+ "name": "Brat Kaspar",
+ "type": "postac",
+ "img": "systems/degenesis2/assets/portraits/kaspar.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 3
+   },
+   "zre": {
+    "value": 3
+   },
+   "cha": {
+    "value": 2
+   },
+   "int": {
+    "value": 1
+   },
+   "psy": {
+    "value": 3
+   },
+   "ins": {
+    "value": 4
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 3
+   },
+   "bronBiala": {
+    "value": 3
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 2
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 3
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 2
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 2
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 4
+   },
+   "refleks": {
+    "value": 3
+   },
+   "wola": {
+    "value": 0
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 2
+   },
+   "pierwotnosc": {
+    "value": 2
+   },
+   "przetrwanie": {
+    "value": 2
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "path": "pierwotnosc",
+  "belief": "wiara",
+  "backgrounds": {
+   "sojusznicy": {
+    "value": 2,
+    "spent": 0
+   },
+   "autorytet": {
+    "value": 0,
+    "spent": 0
+   },
+   "slawa": {
+    "value": 2,
+    "spent": 0
+   },
+   "zasoby": {
+    "value": 0,
+    "spent": 0
+   },
+   "sekrety": {
+    "value": 0,
+    "spent": 0
+   },
+   "siec": {
+    "value": 0,
+    "spent": 0
+   }
+  },
+  "zarazenie": {
+   "value": 0,
+   "permanent": 0
+  },
+  "archetypeUsed": false,
+  "identity": {
+   "kultura": "Borca",
+   "koncept": "XVIII. Zelota",
+   "kult": "Anabaptyści",
+   "ranga": "Orgiasta (Orgiastic)",
+   "wiek": "",
+   "plec": ""
+  },
+  "ambicja": "Wypalić handel Burnem w Justitian, zanim zje miasto tak, jak zjadł jego młodość.",
+  "tajemnica": "Jako chłopak był Burnerem i dłużnikiem Kruczego Stada. Ilsa Kruczyca wciąż pamięta jego twarz i jego dług.",
+  "cien": "Nie widzi ludzi, tylko sprawę.",
+  "wiezi": "Rodzina rolników spod Justitian, która przyjęła go, gdy wychodził z nałogu",
+  "blizny": "",
+  "xp": {
+   "total": 0,
+   "spent": 0
+  },
+  "money": "",
+  "eliminated": false,
+  "ego": {
+   "value": 12
+  },
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Kaspar spędził młodość w spelunkach Justitian, z kokonem Burnu przy ustach i długiem u Kruków na karku. Wyciągnęli go Anabaptyści: trzy kropki na czole, miecz w dłoni, wiara zamiast cusp. Teraz poluje na dilerów, a jego gniew jest szczery i niebezpieczny. Gdy usłyszał o uśmiechniętych chorych w dzielnicy Dostawców, od razu rozpoznał objawy. To Burn Unity, ten sam, który kiedyś brał. Wie też, kto w tym mieście nim handluje.</p>"
+ },
+ "items": [
+  {
+   "name": "Borca",
+   "type": "kultura",
+   "img": "icons/svg/village.svg",
+   "system": {
+    "description": "<p>Dawne serce Europy: rdzawe pustkowia, ruiny pełne artefaktów i odbudowane metropolie, takie jak Justitian. Porządek kultów zderza się tu z Klanami, które wracają z podziemi po swoje.</p>",
+    "attributeBonuses": [
+     "zre",
+     "ins"
+    ],
+    "skillBonuses": [
+     "twardosc",
+     "artefakty",
+     "inzynieria",
+     "rzemioslo",
+     "przetrwanie"
+    ],
+    "kulty": "Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Hellveci, Jehammedanie, Sędziowie, Złomiarze, Spitalianie"
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "tavKGp75EHwNuLmq",
+   "_key": "!actors.items!aGdFNR2SyFzhmpKQ.tavKGp75EHwNuLmq"
+  },
+  {
+   "name": "XVIII. Zelota",
+   "type": "koncept",
+   "img": "icons/svg/book.svg",
+   "system": {
+    "description": "<p>Arkana XVIII. Raz na sesję +2K w sytuacji zgodnej z Archetypem. <b>Cień:</b> Nie widzi ludzi, tylko sprawę.</p>",
+    "tarot": "XVIII",
+    "attributeBonuses": [
+     "ins"
+    ],
+    "skillBonuses": [
+     "refleks",
+     "wiara",
+     "wola"
+    ],
+    "cien": "Nie widzi ludzi, tylko sprawę."
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "69Y75z1MRd6hAsU2",
+   "_key": "!actors.items!aGdFNR2SyFzhmpKQ.69Y75z1MRd6hAsU2"
+  },
+  {
+   "name": "Anabaptyści",
+   "type": "kult",
+   "img": "icons/svg/temple.svg",
+   "system": {
+    "description": "<p>Pochodnie w raju. Rolnicy i wojownicy Neognozy, palą Sepsę i Burn, a Cathedral City jest ich twierdzą.</p>",
+    "skillBonuses": [
+     "bronBiala",
+     "sila",
+     "mobilnosc",
+     "legendy",
+     "wiara",
+     "wola"
+    ],
+    "metoda": "Wizja, kazanie, rozpoznanie herezji, głos demiurgów (PSY+Wiara, CHA+Ekspresja).",
+    "ideal": "Ciało jest więzieniem, ale świat wciąż jest do ocalenia.",
+    "moneyFactor": 50,
+    "currency": "CD",
+    "ranks": [
+     {
+      "level": 1,
+      "name": "Dotknięty (Touched)",
+      "prereq": "[]",
+      "prereqText": "—",
+      "result": "Trzy kropki wytatuowane na czole (+1K do obrony mentalnej) i kółko w nosie, które przykuwa duszę do ciała.",
+      "equipment": "Długa łopata; ziarno od bandy"
+     },
+     {
+      "level": 2,
+      "name": "Asceta (Ascetic)",
+      "prereq": "[[\"cia\", \"kondycja\", 6], [\"cha\", \"obycie\", 4], [[\"psy\", \"wiara\", 6], [\"psy\", \"wola\", 6]]]",
+      "prereqText": "CIA+Kondycja 6; CHA+Obycie 4; PSY+Wiara 6 lub PSY+Wola 6",
+      "result": "Wobec dostawców i rolników +1K do CHA+Przywództwo i CHA+Obycie.",
+      "equipment": "Nasiona"
+     },
+     {
+      "level": 2,
+      "name": "Orgiasta (Orgiastic)",
+      "prereq": "[[\"cia\", \"twardosc\", 4], [\"cia\", \"bronBiala\", 6], [[\"int\", \"skupienie\", 6], [\"ins\", \"pierwotnosc\", 6]]]",
+      "prereqText": "CIA+Twardość 4; CIA+Broń biała 6; INT+Skupienie 6 lub INS+Pierwotność 6",
+      "result": "Z bandą +1K do ataku, −1K do aktywnej obrony. Żyjąc skrajnościami ma +1K do PSY+Wiara/Wola; półśrodki je odbierają.",
+      "equipment": "Bidenhänder"
+     },
+     {
+      "level": 3,
+      "name": "Elizjanin (Elysian)",
+      "prereq": "[[\"int\", \"medycyna\", 8], [\"int\", \"legendy\", 6], [\"int\", \"nauka\", 6], [\"bg\", \"slawa\", 2], [\"bg\", \"sekrety\", 2]]",
+      "prereqText": "INT+Medycyna 8; INT+Legendy 6; INT+Nauka 6; Sława 2; Sekrety 2",
+      "result": "Oleje elizejskie: +2K do odporności na Sepsę; potrafi je sporządzać.",
+      "equipment": "Tygiel i tłuczek; zioła; kamienie znad Adriatyku"
+     },
+     {
+      "level": 3,
+      "name": "Furor",
+      "prereq": "[[\"cia\", \"bronBiala\", 8], [[\"psy\", \"wiara\", 8], [\"psy\", \"wola\", 8]], [\"bg\", \"slawa\", 4]]",
+      "prereqText": "CIA+Broń biała 8; PSY+Wiara 8 lub PSY+Wola 8; Sława 4",
+      "result": "Wstęp do katakumb i arsenałów Cathedral City; dowolna broń z listy ogólnej; ze Spitfire'em +1K do ataku.",
+      "equipment": "Spitfire"
+     },
+     {
+      "level": 4,
+      "name": "Wysłannik (Emissary)",
+      "prereq": "[[[\"psy\", \"dominacja\", 8], [\"cha\", \"obycie\", 8]], [\"cha\", \"negocjacje\", 6], [[\"psy\", \"wiara\", 10], [\"psy\", \"wola\", 10]], [\"bg\", \"autorytet\", 4], [\"bg\", \"slawa\", 3]]",
+      "prereqText": "PSY+Dominacja 8 lub CHA+Obycie 8; CHA+Negocjacje 6; PSY+Wiara 10 lub PSY+Wola 10; Autorytet 4; Sława 3",
+      "result": "Rozejm z Klastrem: +2K do CHA+Negocjacje z Kronikarzami.",
+      "equipment": "—"
+     },
+     {
+      "level": 4,
+      "name": "Wzniosły (Sublime)",
+      "prereq": "[[[\"int\", \"skupienie\", 10], [\"ins\", \"pierwotnosc\", 10]], [\"bg\", \"sojusznicy\", 4], [\"bg\", \"slawa\", 6]]",
+      "prereqText": "INT+Skupienie 10 lub INS+Pierwotność 10; Sojusznicy 4; Sława 6",
+      "result": "Uznany za objawioną emanację: Zasoby 6 w Cathedral City, ale każdy krok śledzą Wysłannicy.",
+      "equipment": "Zakazane oleje"
+     },
+     {
+      "level": 5,
+      "name": "Doradca / Acheron / Baptysta",
+      "prereq": "[[\"txt\", \"kampania\"]]",
+      "prereqText": "kampania",
+      "result": "Następcy Baptystów, legendarni wojownicy, przywódcy kultu.",
+      "equipment": "—"
+     }
+    ]
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "nwfEEAaFByr6xg3j",
+   "_key": "!actors.items!aGdFNR2SyFzhmpKQ.nwfEEAaFByr6xg3j"
+  },
+  {
+   "name": "Zelota (Zealot)",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Kary za rany mniejsze o 1/PP.</p>",
+    "level": 1,
+    "kult": "Anabaptyści",
+    "prerequisite": ""
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "qsuwV5NuryLKsHEx",
+   "_key": "!actors.items!aGdFNR2SyFzhmpKQ.qsuwV5NuryLKsHEx"
+  },
+  {
+   "name": "Miecz",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 1,
+    "damage": "2+F/2",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "oxdSZi9LjCMeLRkW",
+   "_key": "!actors.items!aGdFNR2SyFzhmpKQ.oxdSZi9LjCMeLRkW"
+  },
+  {
+   "name": "Płaszcz skórzany",
+   "type": "pancerz",
+   "img": "icons/svg/shield.svg",
+   "system": {
+    "description": "",
+    "armor": 2,
+    "qualities": "",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "RJGeW4wIUcSCL9XE",
+   "_key": "!actors.items!aGdFNR2SyFzhmpKQ.RJGeW4wIUcSCL9XE"
+  }
+ ],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Brat Kaspar",
+  "actorLink": true,
+  "disposition": 1,
+  "texture": {
+   "src": "systems/degenesis2/assets/tokens/kaspar.webp"
+  }
+ }
+}

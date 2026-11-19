@@ -1,0 +1,27 @@
+{
+ "_id": "C97kW9Jg4ORs8yLi",
+ "_key": "!items!C97kW9Jg4ORs8yLi",
+ "name": "Koło Fortuny (Wheel of Fortune)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Przed atakiem lub obroną odkłada do 2 kości/PP; przy sukcesie +1 Wyzwalacz w następnej akcji za każde 2 odłożone kości.</p>",
+  "level": 1,
+  "kult": "Neolibijczycy",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

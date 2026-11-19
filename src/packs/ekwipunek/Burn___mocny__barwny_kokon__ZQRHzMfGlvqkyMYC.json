@@ -1,0 +1,27 @@
+{
+ "_id": "ZQRHzMfGlvqkyMYC",
+ "_key": "!items!ZQRHzMfGlvqkyMYC",
+ "name": "Burn — mocny (barwny kokon)",
+ "type": "ekwipunek",
+ "img": "icons/svg/item-bag.svg",
+ "system": {
+  "description": "<p>Moc 1k6. Z pól macierzystych. Drogi i groźny.</p>",
+  "quantity": 1,
+  "encumbrance": 0,
+  "value": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

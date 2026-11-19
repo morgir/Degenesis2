@@ -1,0 +1,23 @@
+{
+ "_id": "0iHa8SJEIR0r2hId",
+ "_key": "!macros!0iHa8SJEIR0r2hId",
+ "name": "Nowa sesja (odnów Archetypy)",
+ "type": "script",
+ "scope": "global",
+ "command": "game.degenesis2.newSession();",
+ "img": "icons/svg/sun.svg",
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "author": null
+}

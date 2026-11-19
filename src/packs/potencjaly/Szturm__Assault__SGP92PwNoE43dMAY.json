@@ -1,0 +1,27 @@
+{
+ "_id": "SGP92PwNoE43dMAY",
+ "_key": "!items!SGP92PwNoE43dMAY",
+ "name": "Szturm (Assault)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Tylko w 1. rundzie: 2 Wyzwalacze w ataku dają towarzyszom atakującym po nim w tej rundzie +1K/PP.</p>",
+  "level": 1,
+  "kult": "Hellveci",
+  "prerequisite": "Pierwotność"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "_id": "7Q2oFpDVx4SOFWmo",
+ "_key": "!actors!7Q2oFpDVx4SOFWmo",
+ "name": "Leperos",
+ "type": "npc",
+ "img": "icons/svg/mystery-man.svg",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 3
+   },
+   "zre": {
+    "value": 1
+   },
+   "cha": {
+    "value": 1
+   },
+   "int": {
+    "value": 1
+   },
+   "psy": {
+    "value": 3
+   },
+   "ins": {
+    "value": 1
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 1
+   },
+   "wola": {
+    "value": 3
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 0
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "statysta",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 12,
+   "max": 12
+  },
+  "armor": 0,
+  "progBonus": 1,
+  "kult": "Ludzie",
+  "ranga": "",
+  "motyw": "Wola Prymera",
+  "lek": "",
+  "sekret": "",
+  "cena": "",
+  "postawa": -1,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 0,
+   "max": 0
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Człowiek, którego duszę pożarł Prymer; myśli Leperosów i Psychonautów splatają się w zewie Czakr. Spitalianie palą ich bez pytania. [Primal Punk]</p>"
+ },
+ "items": [
+  {
+   "name": "Prymitywna broń",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 0,
+    "damage": "5",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "iHw0SdmujqsahW0P",
+   "_key": "!actors.items!7Q2oFpDVx4SOFWmo.iHw0SdmujqsahW0P"
+  },
+  {
+   "name": "Rozgorzenie",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Gdy ginie Leperos, pozostali atakują winnych w szale: +1K do ataków za każdego martwego (maks. +4K), bez aktywnej obrony. [Primal Punk]</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "4jhPZUs3xXE3jFun",
+   "_key": "!actors.items!7Q2oFpDVx4SOFWmo.4jhPZUs3xXE3jFun"
+  },
+  {
+   "name": "Nosiciel [2.0]",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Bliski kontakt: rzut na Sepsę (intensywność 2).</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "E0bdsYCIqszvJbaZ",
+   "_key": "!actors.items!7Q2oFpDVx4SOFWmo.E0bdsYCIqszvJbaZ"
+  }
+ ],
+ "effects": [],
+ "folder": "L8qI0pxhnmWzH0Sq",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Leperos",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "icons/svg/mystery-man.svg"
+  }
+ }
+}

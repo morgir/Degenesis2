@@ -1,0 +1,27 @@
+{
+ "_id": "8jg0Bqx49g7J6hKa",
+ "_key": "!items!8jg0Bqx49g7J6hKa",
+ "name": "Pępek Nefertuma (Navel of Nefertem)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Trudność obrony przed Raze i katalizy leków −1/PP.</p>",
+  "level": 1,
+  "kult": "Anubianie",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

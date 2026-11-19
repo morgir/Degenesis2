@@ -1,0 +1,23 @@
+{
+ "_id": "WNjCBz291kwKFZEu",
+ "_key": "!macros!WNjCBz291kwKFZEu",
+ "name": "Nowa postać (kreator)",
+ "type": "script",
+ "scope": "global",
+ "command": "game.degenesis2.newCharacter();",
+ "img": "icons/svg/mystery-man.svg",
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "author": null
+}

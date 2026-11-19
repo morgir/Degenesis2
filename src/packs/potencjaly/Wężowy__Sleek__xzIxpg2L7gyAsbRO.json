@@ -1,0 +1,27 @@
+{
+ "_id": "xzIxpg2L7gyAsbRO",
+ "_key": "!items!xzIxpg2L7gyAsbRO",
+ "name": "Wężowy (Sleek)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>+1K/PP do wyrwania się z chwytu, więzów, łańcuchów.</p>",
+  "level": 1,
+  "kult": "Ogólne",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

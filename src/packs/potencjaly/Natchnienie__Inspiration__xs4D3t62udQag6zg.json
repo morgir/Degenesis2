@@ -1,0 +1,27 @@
+{
+ "_id": "xs4D3t62udQag6zg",
+ "_key": "!items!xs4D3t62udQag6zg",
+ "name": "Natchnienie (Inspiration)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Sukces z 3+ Wyzwalaczami: towarzysze robiący coś podobnego mają +1K/PP do następnej akcji.</p>",
+  "level": 1,
+  "kult": "Neolibijczycy",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

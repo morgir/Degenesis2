@@ -1,0 +1,55 @@
+{
+ "_id": "ddmCr6kg5ujmN5vx",
+ "_key": "!journal!ddmCr6kg5ujmN5vx",
+ "name": "Dla MG",
+ "pages": [
+  {
+   "_id": "HlByMXzwaDO6M5a3",
+   "_key": "!journal.pages!ddmCr6kg5ujmN5vx.HlByMXzwaDO6M5a3",
+   "name": "Jak prowadzić: pierwsza sesja",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<ol><li><b>Sesja zero</b>: pytania z Katharsys (oś gry, dlaczego ta grupa, kto kogo gra) plus jedno nowe: <i>czyja prawda jest stawką?</i></li>\n<li><b>Przygotuj region</b>: 2–3 Frakcje z zegarami, 3–4 Lokacje z Cechami (jedną ukrytą w każdej), 4–6 NPC z Motywem, Lękiem, Sekretem i Ceną.</li>\n<li><b>Przygotuj śledztwo</b>: pytanie główne, 3 tropy kluczowe dla każdej sceny-węzła (zasada trzech tropów), Zegar zagrożenia na 6–8.</li>\n<li><b>Graj od pytań</b>: gdy nie wiesz, co jest za drzwiami, użyj Wyroczni FU i zbuduj odpowiedź z fikcji.</li>\n<li><b>Nagradzaj uważność</b>: ukryte Cechy, Dźwignie i Wnioski to waluta graczy. Dawaj ją hojnie tym, którzy pytają i słuchają.</li>\n<li><b>Ogłaszaj Stawki</b>: przed naprawdę śmiertelnym starciem powiedz to wprost. Reszta walk kosztuje, ale nie zabija.</li>\n<li><b>Na koniec sesji</b>: PD, przesunięcie zegarów frakcji, makro „Nowa sesja” (odnawia Archetypy).</li></ol>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "categories": []
+}

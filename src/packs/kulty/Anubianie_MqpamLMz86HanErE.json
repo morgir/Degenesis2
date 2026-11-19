@@ -1,0 +1,110 @@
+{
+ "_id": "MqpamLMz86HanErE",
+ "_key": "!items!MqpamLMz86HanErE",
+ "name": "Anubianie",
+ "type": "kult",
+ "img": "icons/svg/temple.svg",
+ "system": {
+  "description": "<p>Strażnicy proroctwa. Uzdrowiciele i sędziowie dusz, wierni wiecznemu cyklowi życia i śmierci.</p>",
+  "skillBonuses": [
+   "twardosc",
+   "przywodztwo",
+   "legendy",
+   "medycyna",
+   "wiara",
+   "wola"
+  ],
+  "metoda": "Zmarli, Ka i Ba, rytuał, sąd nad duszą (INT+Legendy, INS+Empatia).",
+  "ideal": "Krąg musi się domknąć: każda dusza wraca na swoje miejsce.",
+  "moneyFactor": 100,
+  "currency": "Dinarów",
+  "ranks": [
+   {
+    "level": 1,
+    "name": "Inicjowany (Initiate)",
+    "prereq": "[[\"txt\", \"Znak Anubisa\"]]",
+    "prereqText": "Znak Anubisa",
+    "result": "Siedem kręgów na brzuchu; +1K do rzutów przeciw Raze (zgubie, którą niosą Psychovory). Żaden Afrykanin nie odmówi mu jedzenia ani wody.",
+    "equipment": "—"
+   },
+   {
+    "level": 2,
+    "name": "Zaklinacz (Enchanter)",
+    "prereq": "[[[\"psy\", \"wiara\", 6], [\"psy\", \"wola\", 6]], [\"int\", \"legendy\", 6], [\"bg\", \"slawa\", 1]]",
+    "prereqText": "PSY+Wiara 6 lub PSY+Wola 6; INT+Legendy 6; Sława 1",
+    "result": "Uczy obrzędów; Zaplecze (bez Zasobów) działa też wobec Neolibijczyków, Skurgerów, afrykańskich Złomiarzy i Klanowców. Odporność na Raze rośnie: +2K.",
+    "equipment": "Maska Anubisa; kamienie dusz (+1K do CHA przy wpływie zabobonem)"
+   },
+   {
+    "level": 3,
+    "name": "Balsamista (Embalmer)",
+    "prereq": "[[\"cha\", \"ekspresja\", 6], [\"int\", \"legendy\", 7], [\"ins\", \"empatia\", 7], [\"bg\", \"slawa\", 2]]",
+    "prereqText": "CHA+Ekspresja 6; INT+Legendy 7; INS+Empatia 7; Sława 2",
+    "result": "Wpływa na eter Psychovorów i na ludzi szeptem przodków; emocje zależą od jego najsilniejszego atrybutu.",
+    "equipment": "Palec Anubisa (zaostrzona kość)"
+   },
+   {
+    "level": 3,
+    "name": "Uzdrowiciel (Healer)",
+    "prereq": "[[\"cia\", \"twardosc\", 8], [\"int\", \"medycyna\", 6], [[\"int\", \"skupienie\", 6], [\"ins\", \"pierwotnosc\", 6]], [\"bg\", \"autorytet\", 2]]",
+    "prereqText": "CIA+Twardość 8; INT+Medycyna 6; INT+Skupienie 6 lub INS+Pierwotność 6; Autorytet 2",
+    "result": "Zbiera lecznicze ziemie i owoce Duat (+2 Zasobów na leki od Anubian); je owoce Duat bez szkody od Raze (katalizę zaczyna CIA+Twardość, Trudność = poziom owocu). Odporność na Raze: +3K.",
+    "equipment": "Tygiel; lecznicze ziemie"
+   },
+   {
+    "level": 3,
+    "name": "Sierp (Sickle)",
+    "prereq": "[[\"cia\", \"bronBiala\", 6], [\"psy\", \"refleks\", 6], [\"bg\", \"slawa\", 2], [\"bg\", \"siec\", 2]]",
+    "prereqText": "CIA+Broń biała 6; PSY+Refleks 6; Sława 2; Sieć 2",
+    "result": "Dostaje Potencjał Oko Horusa (poziom 1); stado Skurgerów przyjmuje go jako wojownika. Odporność na Raze: +3K.",
+    "equipment": "Chopesz"
+   },
+   {
+    "level": 4,
+    "name": "Widzący Dusze (Soul Seer)",
+    "prereq": "[[\"cha\", \"ekspresja\", 10], [\"int\", \"nauka\", 7], [\"bg\", \"sekrety\", 3], [\"bg\", \"slawa\", 3]]",
+    "prereqText": "CHA+Ekspresja 10; INT+Nauka 7; Sekrety 3; Sława 3",
+    "result": "Siłą woli otwiera przejście przez Psychovory dla siebie i towarzyszy (Psychovory poziomu 5+ się opierają). Odporność na Raze: +4K. INS+Empatia (4) odczytuje Nić Życia człowieka — każdy Wyzwalacz to pewniejsza wiedza.",
+    "equipment": "—"
+   },
+   {
+    "level": 4,
+    "name": "Hekatejczyk (Hecatean)",
+    "prereq": "[[\"cia\", \"twardosc\", 10], [[\"int\", \"skupienie\", 8], [\"ins\", \"pierwotnosc\", 8]], [\"int\", \"nauka\", 6], [\"bg\", \"autorytet\", 3]]",
+    "prereqText": "CIA+Twardość 10; INT+Skupienie 8 lub INS+Pierwotność 8; INT+Nauka 6; Autorytet 3",
+    "result": "Pan śmierci: rytuałem Imiut może przywrócić świeżo zmarłego.",
+    "equipment": "Krew Duat (poziom 1)"
+   },
+   {
+    "level": 4,
+    "name": "Ammit",
+    "prereq": "[[\"cia\", \"atletyka\", 6], [\"cia\", \"bronBiala\", 10], [[\"psy\", \"wiara\", 6], [\"psy\", \"wola\", 6]], [\"bg\", \"slawa\", 5], [\"bg\", \"siec\", 3]]",
+    "prereqText": "CIA+Atletyka 6; CIA+Broń biała 10; PSY+Wiara 6 lub PSY+Wola 6; Sława 5; Sieć 3",
+    "result": "W zasięgu Psychovorów +2K do rzutów CHA i PSY+Dominacja, a Sławę może dodać jako kości. Każde trafienie bronią zadaje też obrażenia Ego równe Wyzwalaczom. Odporność na Raze: +4K.",
+    "equipment": "Sierp Ammit"
+   },
+   {
+    "level": 5,
+    "name": "Hogon",
+    "prereq": "[[\"int\", \"medycyna\", 10], [\"int\", \"nauka\", 8], [\"ins\", \"empatia\", 8], [\"bg\", \"sekrety\", 5]]",
+    "prereqText": "INT+Medycyna 10; INT+Nauka 8; INS+Empatia 8; Sekrety 5",
+    "result": "+4K przeciw wpływowi przez zabobon; odporność na Raze +6K.",
+    "equipment": "—"
+   }
+  ]
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

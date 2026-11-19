@@ -1,0 +1,55 @@
+{
+ "_id": "o3TbHXqYiaSsHy3c",
+ "_key": "!scenes!o3TbHXqYiaSsHy3c",
+ "name": "Pod Złamanym Skrzydłem (spelunka Kruków)",
+ "navName": "",
+ "navigation": true,
+ "navOrder": 3,
+ "active": false,
+ "width": 1820,
+ "height": 1260,
+ "padding": 0.05,
+ "backgroundColor": "#0b0a09",
+ "background": {
+  "src": "systems/degenesis2/assets/maps/spelunka-krukow.webp"
+ },
+ "thumb": null,
+ "grid": {
+  "type": 1,
+  "size": 70,
+  "distance": 1,
+  "units": "m",
+  "alpha": 0,
+  "color": "#000000"
+ },
+ "initial": {
+  "x": null,
+  "y": null,
+  "scale": null
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "tokens": [],
+ "lights": [],
+ "notes": [],
+ "sounds": [],
+ "tiles": [],
+ "walls": [],
+ "drawings": [],
+ "regions": [],
+ "folder": null,
+ "sort": 300,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "13.351",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

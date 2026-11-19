@@ -1,0 +1,28 @@
+{
+ "_id": "oeIyqXCoFYMkczdg",
+ "_key": "!items!oeIyqXCoFYMkczdg",
+ "name": "Gumowy kombinezon z maską",
+ "type": "pancerz",
+ "img": "icons/svg/shield.svg",
+ "system": {
+  "description": "",
+  "armor": 3,
+  "qualities": "Szczelny: +2 automatyczne sukcesy przeciw zarodnikom",
+  "encumbrance": 3,
+  "equipped": true
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

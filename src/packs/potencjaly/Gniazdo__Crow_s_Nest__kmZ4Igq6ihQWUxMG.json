@@ -1,0 +1,27 @@
+{
+ "_id": "kmZ4Igq6ihQWUxMG",
+ "_key": "!items!kmZ4Igq6ihQWUxMG",
+ "name": "Gniazdo (Crow's Nest)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Działając dla Stada albo w jego obronie: 1 Ego za +1K/PP do dowolnego rzutu.</p>",
+  "level": 1,
+  "kult": "Apokaliptycy",
+  "prerequisite": "Pierwotność"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

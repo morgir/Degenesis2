@@ -1,0 +1,92 @@
+{
+ "_id": "tag7CnPQqplksyHr",
+ "_key": "!playlists!tag7CnPQqplksyHr",
+ "name": "Degenesis — Efekty (jednorazowe)",
+ "description": "Pojedyncze dźwięki: dzwon lazaretu, alarm, grzmot.",
+ "mode": -1,
+ "channel": "environment",
+ "playing": false,
+ "fade": 1500,
+ "sounds": [
+  {
+   "_id": "c0whduYXcH2toXVJ",
+   "_key": "!playlists.sounds!tag7CnPQqplksyHr.c0whduYXcH2toXVJ",
+   "name": "Dzwony",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/dzwony.ogg",
+   "channel": "",
+   "repeat": false,
+   "volume": 0.6,
+   "fade": 1500,
+   "sort": 0,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "d3bG5WupxRLn3fss",
+   "_key": "!playlists.sounds!tag7CnPQqplksyHr.d3bG5WupxRLn3fss",
+   "name": "Alarm",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/alarm.ogg",
+   "channel": "",
+   "repeat": false,
+   "volume": 0.6,
+   "fade": 1500,
+   "sort": 100,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "GfSUwaMmmER2BOyl",
+   "_key": "!playlists.sounds!tag7CnPQqplksyHr.GfSUwaMmmER2BOyl",
+   "name": "Grzmot",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/grzmot.ogg",
+   "channel": "",
+   "repeat": false,
+   "volume": 0.6,
+   "fade": 1500,
+   "sort": 200,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  }
+ ],
+ "folder": null,
+ "sort": 100,
+ "seed": null,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

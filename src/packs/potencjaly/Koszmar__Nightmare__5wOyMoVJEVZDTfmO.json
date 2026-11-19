@@ -1,0 +1,27 @@
+{
+ "_id": "5wOyMoVJEVZDTfmO",
+ "_key": "!items!5wOyMoVJEVZDTfmO",
+ "name": "Koszmar (Nightmare)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>+1K/PP do ZRĘ+Skradanie; po wygranym Starciu Skradania z Percepcją wroga następnego ataku nie można bronić aktywnie, a przy trafieniu +PP Wyzwalaczy.</p>",
+  "level": 1,
+  "kult": "Palerzy",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

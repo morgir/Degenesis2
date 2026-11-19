@@ -1,0 +1,251 @@
+{
+ "_id": "KLVtQDaAzQTtAyEr",
+ "_key": "!actors!KLVtQDaAzQTtAyEr",
+ "name": "Złomiarz-najemnik",
+ "type": "npc",
+ "img": "icons/svg/mystery-man.svg",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 3
+   },
+   "zre": {
+    "value": 3
+   },
+   "cha": {
+    "value": 1
+   },
+   "int": {
+    "value": 3
+   },
+   "psy": {
+    "value": 3
+   },
+   "ins": {
+    "value": 3
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 3
+   },
+   "skradanie": {
+    "value": 2
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 2
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 2
+   },
+   "wola": {
+    "value": 1
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 3
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 3
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "weteran",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 4,
+   "max": 4
+  },
+  "armor": 2,
+  "progBonus": 2,
+  "kult": "Ludzie",
+  "ranga": "",
+  "motyw": "Zarobić i wrócić",
+  "lek": "Kartel",
+  "sekret": "",
+  "cena": "Drafty",
+  "postawa": -1,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 0,
+   "max": 0
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Zna ruiny lepiej niż ktokolwiek. Lojalny wobec tego, kto płaci najwięcej. [2.0 — profil własny]</p>"
+ },
+ "items": [
+  {
+   "name": "Marvel (karabin domowej roboty)",
+   "type": "bron",
+   "img": "icons/svg/target.svg",
+   "system": {
+    "description": "",
+    "skill": "strzelectwo",
+    "handling": 0,
+    "damage": "7",
+    "range": "20/80",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Zacina się na Zgrzyt",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "dBDsPty3yiltC0HA",
+   "_key": "!actors.items!KLVtQDaAzQTtAyEr.dBDsPty3yiltC0HA"
+  },
+  {
+   "name": "Trufla",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>+1K do Percepcji przy szukaniu złomu i pułapek.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "Z0YChKBOKc8kGw4G",
+   "_key": "!actors.items!KLVtQDaAzQTtAyEr.Z0YChKBOKc8kGw4G"
+  }
+ ],
+ "effects": [],
+ "folder": "L8qI0pxhnmWzH0Sq",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Złomiarz-najemnik",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "icons/svg/mystery-man.svg"
+  }
+ }
+}

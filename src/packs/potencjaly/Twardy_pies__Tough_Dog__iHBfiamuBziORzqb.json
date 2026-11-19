@@ -1,0 +1,27 @@
+{
+ "_id": "iHBfiamuBziORzqb",
+ "_key": "!items!iHBfiamuBziORzqb",
+ "name": "Twardy pies (Tough Dog)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Dodatkowy pancerz „Twarde mięso” równy PP.</p>",
+  "level": 1,
+  "kult": "Złomiarze",
+  "prerequisite": "CIA+Twardość 6"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

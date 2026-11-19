@@ -1,0 +1,109 @@
+{
+ "_id": "fvCyf31yKzFWGPzO",
+ "_key": "!items!fvCyf31yKzFWGPzO",
+ "name": "Palerzy",
+ "type": "kult",
+ "img": "icons/svg/temple.svg",
+ "system": {
+  "description": "<p>Pełzacze krypt. Mieszkańcy bunkrów, wrażliwi na światło, czekają na powrót swoich bogów.</p>",
+  "skillBonuses": [
+   "strzelectwo",
+   "skradanie",
+   "inzynieria",
+   "spryt",
+   "percepcja"
+  ],
+  "metoda": "Ciemność, bunkry, podsłuch, sekretny język (ZRĘ+Skradanie, INS+Percepcja).",
+  "ideal": "Słońce jest wrogiem, Bunkier jest domem, Śpiący wrócą.",
+  "moneyFactor": 50,
+  "currency": "CD",
+  "ranks": [
+   {
+    "level": 1,
+    "name": "Widmo (Specter)",
+    "prereq": "[[\"txt\", \"urodzony w ciemności\"]]",
+    "prereqText": "urodzony w ciemności",
+    "result": "Doskonały słuch: +2K do INS+Percepcja przy nasłuchiwaniu i gdy ktoś się skrada. Kary za jasne światło.",
+    "equipment": "—"
+   },
+   {
+    "level": 2,
+    "name": "Solar",
+    "prereq": "[[\"int\", \"inzynieria\", 5], [\"zre\", \"rzemioslo\", 5], [\"bg\", \"zasoby\", 1], [\"bg\", \"sekrety\", 2]]",
+    "prereqText": "INT+Inżynieria 5; ZRĘ+Rzemiosło 5; Zasoby 1; Sekrety 2",
+    "result": "Przyzwyczajony do słońca: znika kara do ataku i aktywnej obrony za światło dzienne.",
+    "equipment": "Dysk Słońca (Arbiter, poziom 1); narzędzia elektroniczne"
+   },
+   {
+    "level": 2,
+    "name": "Ożywiciel (Reviver)",
+    "prereq": "[[\"ins\", \"przetrwanie\", 4], [\"psy\", \"spryt\", 6], [\"bg\", \"siec\", 3]]",
+    "prereqText": "INS+Przetrwanie 4; PSY+Spryt 6; Sieć 3",
+    "result": "Bez kar za światło dzienne; zbiera ślady bunkrów, Padlinożercy pomagają mu się do nich dostać.",
+    "equipment": "Dysk Słońca (Phaeton 1); Sunburst; złoty pasek (200 CD); pistolet maszynowy"
+   },
+   {
+    "level": 2,
+    "name": "Fantom (Phantom)",
+    "prereq": "[[\"ins\", \"percepcja\", 4], [\"zre\", \"strzelectwo\", 6], [\"zre\", \"skradanie\", 4]]",
+    "prereqText": "INS+Percepcja 4; ZRĘ+Strzelectwo 6; ZRĘ+Skradanie 4",
+    "result": "+2 Zasoby w arsenałach bunkrów; kara za ciemność spada z −4K do −2K.",
+    "equipment": "Wytłumiony pistolet maszynowy z bagnetem; +1k6 naboi/mies.; granat ogłuszający"
+   },
+   {
+    "level": 3,
+    "name": "Zorza (Aurora)",
+    "prereq": "[[\"int\", \"inzynieria\", 8], [\"zre\", \"rzemioslo\", 8], [\"bg\", \"zasoby\", 3], [\"bg\", \"sekrety\", 4]]",
+    "prereqText": "INT+Inżynieria 8; ZRĘ+Rzemiosło 8; Zasoby 3; Sekrety 4",
+    "result": "Kontroluje programy memetyczne bunkra i jego obronę; traci wiarę.",
+    "equipment": "Dysk Słońca (Arbiter, poziom 2)"
+   },
+   {
+    "level": 3,
+    "name": "Odkupiciel (Redeemer)",
+    "prereq": "[[\"txt\", \"Dysk Słońca (Orbital 1); obudził co najmniej jeden bunkier\"], [\"ins\", \"orientacja\", 6], [\"psy\", \"oszustwo\", 8], [\"int\", \"artefakty\", 6], [\"bg\", \"sojusznicy\", 3], [\"bg\", \"siec\", 4]]",
+    "prereqText": "Dysk Słońca (Orbital 1); obudził co najmniej jeden bunkier; INS+Orientacja 6; PSY+Oszustwo 8; INT+Artefakty 6; Sojusznicy 3; Sieć 4",
+    "result": "Palerzy z otwartego bunkra pojawiają się, gdy ich potrzebuje (+2 Sojusznicy).",
+    "equipment": "Atlas RG"
+   },
+   {
+    "level": 3,
+    "name": "Cyklop (Cyclops)",
+    "prereq": "[[\"cia\", \"atletyka\", 6], [\"zre\", \"strzelectwo\", 8], [\"bg\", \"slawa\", 4]]",
+    "prereqText": "CIA+Atletyka 6; ZRĘ+Strzelectwo 8; Sława 4",
+    "result": "+2K do inicjatywy w ciemności; sabotażysta.",
+    "equipment": "Oko Cyklopa; Dysk Słońca (Quantum 1); +2k6 naboi/mies."
+   },
+   {
+    "level": 4,
+    "name": "Aspirant / Halo",
+    "prereq": "[[\"txt\", \"kampania\"]]",
+    "prereqText": "kampania",
+    "result": "Droga demagogii albo służby Prorokowi Śpiących.",
+    "equipment": "—"
+   },
+   {
+    "level": 5,
+    "name": "Demagog (Demagogue)",
+    "prereq": "[[[\"int\", \"skupienie\", 10], [\"ins\", \"pierwotnosc\", 10]], [\"cha\", \"przywodztwo\", 8], [[\"bg\", \"autorytet\", 6], [\"bg\", \"slawa\", 6]]]",
+    "prereqText": "INT+Skupienie 10 lub INS+Pierwotność 10; CHA+Przywództwo 8; Autorytet 6 lub Sława 6",
+    "result": "Rzutuje opanowaną emocję (+2K); odporny na innych Demagogów.",
+    "equipment": "—"
+   }
+  ]
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

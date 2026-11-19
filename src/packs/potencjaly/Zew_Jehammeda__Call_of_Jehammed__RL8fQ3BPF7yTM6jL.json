@@ -1,0 +1,27 @@
+{
+ "_id": "RL8fQ3BPF7yTM6jL",
+ "_key": "!items!RL8fQ3BPF7yTM6jL",
+ "name": "Zew Jehammeda (Call of Jehammed)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Runda modlitwy: CHA+Sztuka +1K/PP (Trudność 2–6 wg zagrożenia); sukces łamie psychiczną manipulację wroga, Wyzwalacze to dodatkowe kości do obrony mentalnej grupy (maleją o 1 na rundę).</p>",
+  "level": 1,
+  "kult": "Jehammedanie",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

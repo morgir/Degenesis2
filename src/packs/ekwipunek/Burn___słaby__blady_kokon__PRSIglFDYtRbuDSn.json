@@ -1,0 +1,27 @@
+{
+ "_id": "PRSIglFDYtRbuDSn",
+ "_key": "!items!PRSIglFDYtRbuDSn",
+ "name": "Burn — słaby (blady kokon)",
+ "type": "ekwipunek",
+ "img": "icons/svg/item-bag.svg",
+ "system": {
+  "description": "<p>Moc 1. Ego +1, Zarażenie +1, efekt czakry na godzinę. Patrz: Sepsa, Burn i Zew Prymera.</p>",
+  "quantity": 1,
+  "encumbrance": 0,
+  "value": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

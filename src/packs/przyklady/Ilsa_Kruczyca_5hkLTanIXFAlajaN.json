@@ -1,0 +1,225 @@
+{
+ "_id": "5hkLTanIXFAlajaN",
+ "_key": "!actors!5hkLTanIXFAlajaN",
+ "name": "Ilsa Kruczyca",
+ "type": "npc",
+ "img": "systems/degenesis2/assets/portraits/ilsa.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 2
+   },
+   "zre": {
+    "value": 3
+   },
+   "cha": {
+    "value": 4
+   },
+   "int": {
+    "value": 2
+   },
+   "psy": {
+    "value": 4
+   },
+   "ins": {
+    "value": 3
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 4
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 3
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 4
+   },
+   "oszustwo": {
+    "value": 4
+   },
+   "dominacja": {
+    "value": 3
+   },
+   "wiara": {
+    "value": 3
+   },
+   "refleks": {
+    "value": 2
+   },
+   "wola": {
+    "value": 0
+   },
+   "empatia": {
+    "value": 3
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 0
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "antagonista",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 6,
+   "max": 6
+  },
+  "armor": 1,
+  "progBonus": 0,
+  "kult": "",
+  "ranga": "",
+  "motyw": "Zapłata i dług Vargi",
+  "lek": "Że wina spadnie na Stado",
+  "sekret": "Ma list z pieczęcią Vargi",
+  "cena": "Dług Poważny albo czyste ręce Stada",
+  "postawa": 0,
+  "frakcja": "",
+  "eliminated": false,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Kruk Kruczego Stada, czyta z Tarota i z ludzi. Uprzejma, cierpliwa, bezlitosna. Woli dłużnika niż trupa.</p>"
+ },
+ "items": [
+  {
+   "name": "Nóż",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 1,
+    "damage": "1+F/3",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Ukrywalna",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "k11T8PQfusRA3DSe",
+   "_key": "!actors.items!5hkLTanIXFAlajaN.k11T8PQfusRA3DSe"
+  }
+ ],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Ilsa Kruczyca",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "systems/degenesis2/assets/tokens/ilsa.webp"
+  }
+ }
+}

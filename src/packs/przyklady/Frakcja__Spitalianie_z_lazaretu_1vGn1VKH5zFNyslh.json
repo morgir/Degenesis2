@@ -1,0 +1,48 @@
+{
+ "_id": "1vGn1VKH5zFNyslh",
+ "_key": "!actors!1vGn1VKH5zFNyslh",
+ "name": "Frakcja: Spitalianie z lazaretu",
+ "type": "frakcja",
+ "img": "icons/svg/fire.svg",
+ "system": {
+  "cel": "Wypalić ognisko Sepsy, zanim się rozprzestrzeni",
+  "zasoby": 4,
+  "imie": {
+   "value": 1,
+   "echo": 2
+  },
+  "osobiste": "",
+  "cecha": "Lepiej spalić za dużo niż za mało",
+  "clocks": [
+   {
+    "name": "Kwarantanna i podpalenie dzielnicy",
+    "size": 6,
+    "value": 1
+   }
+  ],
+  "notes": ""
+ },
+ "items": [],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Frakcja: Spitalianie z lazaretu",
+  "actorLink": false,
+  "disposition": 0,
+  "texture": {
+   "src": "icons/svg/fire.svg"
+  }
+ }
+}

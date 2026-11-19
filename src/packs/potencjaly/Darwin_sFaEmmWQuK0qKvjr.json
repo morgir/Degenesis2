@@ -1,0 +1,27 @@
+{
+ "_id": "sFaEmmWQuK0qKvjr",
+ "_key": "!items!sFaEmmWQuK0qKvjr",
+ "name": "Darwin",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>W pozornie przegranej sytuacji +1K/PP do umiejętności ratującej życie; przeżycie daje +1 Sławę (maks. 4).</p>",
+  "level": 1,
+  "kult": "Złomiarze",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

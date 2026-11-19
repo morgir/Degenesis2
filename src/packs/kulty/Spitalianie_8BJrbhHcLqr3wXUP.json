@@ -1,0 +1,166 @@
+{
+ "_id": "8BJrbhHcLqr3wXUP",
+ "_key": "!items!8BJrbhHcLqr3wXUP",
+ "name": "Spitalianie",
+ "type": "kult",
+ "img": "icons/svg/temple.svg",
+ "system": {
+  "description": "<p>Ostatni bastion. Lekarze i żołnierze w wojnie z Sepsą i Psychonautami. Leczenie jest przywilejem, a ogień oczyszcza.</p>",
+  "skillBonuses": [
+   "twardosc",
+   "medycyna",
+   "nauka",
+   "percepcja",
+   "wiara",
+   "wola"
+  ],
+  "metoda": "Sekcja, test na zarodniki, kwarantanna, dokumentacja przypadku (INT+Medycyna, INT+Nauka).",
+  "ideal": "Ludzkość musi przetrwać, nawet jeśli pojedynczy człowiek nie.",
+  "moneyFactor": 100,
+  "currency": "CD",
+  "ranks": [
+   {
+    "level": 1,
+    "name": "Rekrut (Recruit)",
+    "prereq": "[]",
+    "prereqText": "—",
+    "result": "—",
+    "equipment": "Podręcznik (+1K do INT+Medycyna, dopóki Medycyna ≤ 2); skórzany fartuch"
+   },
+   {
+    "level": 2,
+    "name": "Sanitariusz (Orderly)",
+    "prereq": "[[\"int\", \"medycyna\", 4], [\"cia\", \"kondycja\", 4]]",
+    "prereqText": "INT+Medycyna 4; CIA+Kondycja 4",
+    "result": "Przeżył zakaźne oddziały: dożywotnio +1K do rzutów przeciw chorobom.",
+    "equipment": "Kombinezon Spitaliański"
+   },
+   {
+    "level": 3,
+    "name": "Famulancer",
+    "prereq": "[[\"cia\", \"twardosc\", 4], [\"int\", \"medycyna\", 6], [\"int\", \"nauka\", 4]]",
+    "prereqText": "CIA+Twardość 4; INT+Medycyna 6; INT+Nauka 4",
+    "result": "Szanowany w Protektoracie, jada tam za darmo. Bez specjalizacji Rejestrator wysyła go na misje bojowe albo do sojuszników.",
+    "equipment": "Splayer z Molluskiem (+1 nasadka); karabin fungicydowy"
+   },
+   {
+    "level": 4,
+    "name": "Medyk polowy (Field Medic)",
+    "prereq": "[[\"int\", \"medycyna\", 8], [\"bg\", \"slawa\", 2], [\"bg\", \"zasoby\", 2], [\"bg\", \"siec\", 2]]",
+    "prereqText": "INT+Medycyna 8; Sława 2; Zasoby 2; Sieć 2",
+    "result": "Darmowy dostęp do szpitali i oczyszczania z zarodników. +1 Sojusznicy za każdego uratowanego w akcji Spitalianina, +1 Sieć za ludzi z innych kultów.",
+    "equipment": "Zestaw polowy"
+   },
+   {
+    "level": 4,
+    "name": "Higienista (Hygienist)",
+    "prereq": "[[\"cia\", \"twardosc\", 6], [\"int\", \"inzynieria\", 4], [\"bg\", \"sojusznicy\", 4], [\"bg\", \"autorytet\", 4]]",
+    "prereqText": "CIA+Twardość 6; INT+Inżynieria 4; Sojusznicy 4; Autorytet 4",
+    "result": "Może zarządzić oczyszczanie z zarodników w całym Protektoracie; obecni Sędziowie podlegają jego poleceniom. Certyfikuje zbiory.",
+    "equipment": "Kombinezon higienisty; granat chlorowy; granat SP 4016"
+   },
+   {
+    "level": 4,
+    "name": "Epigenetyk (Epigeneticist)",
+    "prereq": "[[\"int\", \"medycyna\", 8], [\"int\", \"inzynieria\", 6], [\"int\", \"nauka\", 6], [\"bg\", \"sekrety\", 3]]",
+    "prereqText": "INT+Medycyna 8; INT+Inżynieria 6; INT+Nauka 6; Sekrety 3",
+    "result": "Dostęp do więzień Psychonautów. Za 2 Autorytetu dostaje ochroniarza-Famulancera. Kronikarze otwierają mu Alkowy. +3 do Zasobów przy eksperymentalnych środkach bojowych.",
+    "equipment": "Sekwencer; miotacz kartridży; 2× kartridż EX Aerosol / EG 1"
+   },
+   {
+    "level": 4,
+    "name": "Farmaceuta (Pharmacist)",
+    "prereq": "[[\"int\", \"medycyna\", 10], [\"int\", \"nauka\", 8], [\"bg\", \"slawa\", 4]]",
+    "prereqText": "INT+Medycyna 10; INT+Nauka 8; Sława 4",
+    "result": "Elita techniczna. Sława zależy od wyników badań (−1 po miesiącach bez odkryć). Przy Sławie 2+ darmowy dostęp do aptek szpitali (+3 Zasobów na leki).",
+    "equipment": "Apothecarium (poziom 1)"
+   },
+   {
+    "level": 4,
+    "name": "Chirurg (Surgeon)",
+    "prereq": "[[\"int\", \"medycyna\", 8], [\"zre\", \"zwinnePalce\", 6], [\"cha\", \"przywodztwo\", 4], [\"bg\", \"slawa\", 4]]",
+    "prereqText": "INT+Medycyna 8; ZRĘ+Zwinne palce 6; CHA+Przywództwo 4; Sława 4",
+    "result": "Zawsze może wezwać anestezjologa i 1k6 sanitariuszy. Szanowany przez Anabaptystów, ma wstęp do Rady Emanacji.",
+    "equipment": "Narzędzia chirurgiczne (poziom 1)"
+   },
+   {
+    "level": 4,
+    "name": "Anestezjolog (Anesthesiologist)",
+    "prereq": "[[\"int\", \"medycyna\", 8], [\"cia\", \"bijatyka\", 6], [\"cia\", \"sila\", 4], [\"cia\", \"kondycja\", 6], [\"bg\", \"sojusznicy\", 3]]",
+    "prereqText": "INT+Medycyna 8; CIA+Bijatyka 6; CIA+Siła 4; CIA+Kondycja 6; Sojusznicy 3",
+    "result": "+3 Zasobów na narkotyki i stymulanty; może bezkarnie używać Burnu. Przesłuchuje uśpionych Spitalian dla Hipokratów.",
+    "equipment": "Pistolet iniekcyjny; 2 kartridże Black Band miesięcznie"
+   },
+   {
+    "level": 4,
+    "name": "Hipokrata (Hippocrat)",
+    "prereq": "[[\"psy\", \"dominacja\", 6], [\"bg\", \"sojusznicy\", 2], [\"bg\", \"autorytet\", 4], [\"bg\", \"sekrety\", 3]]",
+    "prereqText": "PSY+Dominacja 6; Sojusznicy 2; Autorytet 4; Sekrety 3",
+    "result": "Dostęp do najtajniejszych placówek; może zarządzać rewizje i usuwać Spitalian ze stanowisk rękami Prezerwistów; reprezentuje Spital wobec kultów.",
+    "equipment": "Rewolwer; +1k6 naboi/mies.; krzyż Ita Sit (paszport); podsłuchy"
+   },
+   {
+    "level": 4,
+    "name": "Prezerwista (Preservist)",
+    "prereq": "[[\"txt\", \"mianowany po wybitnej walce z wrogami Spitalu\"], [\"bg\", \"slawa\", 4], [\"cia\", \"bronBiala\", 8], [\"cia\", \"twardosc\", 6], [\"zre\", \"mobilnosc\", 6]]",
+    "prereqText": "mianowany po wybitnej walce z wrogami Spitalu; Sława 4; CIA+Broń biała 8; CIA+Twardość 6; ZRĘ+Mobilność 6",
+    "result": "Dostęp do Arsenału (+3 Zasobów na broń, środki bojowe, stymulanty). Może używać (nie nadużywać) Burnu. Na misję może dobrać 1k6 Famulancerów.",
+    "equipment": "Miecz Preservalis; pistolet; +1k6 naboi/mies.; koń"
+   },
+   {
+    "level": 0,
+    "name": "Lekarz wiejski (Village Doctor)",
+    "prereq": "[[\"txt\", \"co najmniej Famulancer, wysłany do regionu lub wioski\"]]",
+    "prereqText": "co najmniej Famulancer, wysłany do regionu lub wioski",
+    "result": "+1 Sieć. Ratując obcych z 3+ Wyzwalaczami na INT+Medycyna trwale +1 Sieć (maks. 4). W swojej społeczności +1K do PSY i CHA.",
+    "equipment": "Zestaw polowy"
+   },
+   {
+    "level": 5,
+    "name": "Rejestrator (Registrar)",
+    "prereq": "[[\"bg\", \"sojusznicy\", 5], [\"bg\", \"slawa\", 4], [\"bg\", \"sekrety\", 4]]",
+    "prereqText": "Sojusznicy 5; Sława 4; Sekrety 4",
+    "result": "Dostęp do tajnych laboratoriów (bez placówek Prezerwistów), +1 Sława. Głos Konsultantów: +2K do Negocjacji z najwyższymi przywódcami kultów.",
+    "equipment": "—"
+   },
+   {
+    "level": 5,
+    "name": "Komandor Prime (Commando Prime)",
+    "prereq": "[[\"cia\", \"bronBiala\", 10], [\"zre\", \"prowadzenie\", 6], [\"bg\", \"slawa\", 5], [\"bg\", \"sekrety\", 3], [\"bg\", \"autorytet\", 4]]",
+    "prereqText": "CIA+Broń biała 10; ZRĘ+Prowadzenie 6; Sława 5; Sekrety 3; Autorytet 4",
+    "result": "Pełny dostęp do Arsenału, dowodzi wszystkimi Spitalianami; może dobrać 1k6 Prezerwistów i 1k6 Spitalian rangi 4.",
+    "equipment": "Pierścień prowosta; czarny koń Newcrest"
+   },
+   {
+    "level": 6,
+    "name": "Konsultant (Consultant)",
+    "prereq": "[[\"txt\", \"musi opuścić Radę\"], [\"bg\", \"sojusznicy\", 5], [\"bg\", \"autorytet\", 5], [\"bg\", \"sekrety\", 5]]",
+    "prereqText": "musi opuścić Radę; Sojusznicy 5; Autorytet 5; Sekrety 5",
+    "result": "Głowa kultu, dowodzi Hipokratami, ma własny obszar badań.",
+    "equipment": "—"
+   },
+   {
+    "level": 6,
+    "name": "Prowost (Provost)",
+    "prereq": "[[\"txt\", \"Kranzler musi ustąpić; mianują Konsultanci\"], [\"bg\", \"slawa\", 6], [\"bg\", \"autorytet\", 6], [\"bg\", \"sekrety\", 5]]",
+    "prereqText": "Kranzler musi ustąpić; mianują Konsultanci; Sława 6; Autorytet 6; Sekrety 5",
+    "result": "Dowodzi wszystkimi Prezerwistami; weto wobec Konsultantów w sprawach bezpieczeństwa.",
+    "equipment": "—"
+   }
+  ]
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

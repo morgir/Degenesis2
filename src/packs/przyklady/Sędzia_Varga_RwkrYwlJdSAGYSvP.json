@@ -1,0 +1,258 @@
+{
+ "_id": "RwkrYwlJdSAGYSvP",
+ "_key": "!actors!RwkrYwlJdSAGYSvP",
+ "name": "Sędzia Varga",
+ "type": "npc",
+ "img": "systems/degenesis2/assets/portraits/varga.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 3
+   },
+   "zre": {
+    "value": 2
+   },
+   "cha": {
+    "value": 3
+   },
+   "int": {
+    "value": 2
+   },
+   "psy": {
+    "value": 4
+   },
+   "ins": {
+    "value": 2
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 3
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 2
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 2
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 3
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 3
+   },
+   "dominacja": {
+    "value": 4
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 2
+   },
+   "wola": {
+    "value": 3
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 0
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "antagonista",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 8,
+   "max": 8
+  },
+  "armor": 2,
+  "kult": "Sędziowie",
+  "ranga": "Sędzia miejski",
+  "motyw": "Spokój w dzielnicy przed wizytą Senatora",
+  "lek": "Że Kodeks go dosięgnie",
+  "sekret": "Opłacił Kruki za Burn w studniach",
+  "cena": "Czyjaś głowa zamiast jego",
+  "postawa": 0,
+  "eliminated": false,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": ""
+ },
+ "items": [
+  {
+   "name": "Pałka / maczuga",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 0,
+    "damage": "2+F/3",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Tępa",
+    "encumbrance": 1,
+    "equipped": true
+   },
+   "effects": [],
+   "sort": 0,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "FstpoisSFOnnrqbc",
+   "_key": "!actors.items!RwkrYwlJdSAGYSvP.FstpoisSFOnnrqbc"
+  },
+  {
+   "name": "Muszkiet",
+   "type": "bron",
+   "img": "icons/svg/target.svg",
+   "system": {
+    "description": "",
+    "skill": "strzelectwo",
+    "handling": -1,
+    "damage": "9",
+    "range": "15/60",
+    "magazine": {
+     "value": 1,
+     "max": 1
+    },
+    "qualities": "Ładowany od lufy (2 akcje)",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "sort": 0,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "FhClqf4JZFwaxBQD",
+   "_key": "!actors.items!RwkrYwlJdSAGYSvP.FhClqf4JZFwaxBQD"
+  }
+ ],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Sędzia Varga",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "systems/degenesis2/assets/tokens/varga.webp"
+  }
+ }
+}

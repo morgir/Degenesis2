@@ -1,0 +1,27 @@
+{
+ "_id": "Eqvm49ql6cc4Bqbk",
+ "_key": "!items!Eqvm49ql6cc4Bqbk",
+ "name": "Sugestor (Suggestor)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Po podkradnięciu się (Skradanie vs Percepcja) szepcze do ofiary: +2K/PP do CHA+Negocjacje przeciw jej obronie mentalnej, by zasiać myśl.</p>",
+  "level": 1,
+  "kult": "Palerzy",
+  "prerequisite": "Demagog"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

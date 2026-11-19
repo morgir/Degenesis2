@@ -1,0 +1,23 @@
+{
+ "_id": "C1om6SReIccGtw4I",
+ "_key": "!macros!C1om6SReIccGtw4I",
+ "name": "Przyznaj PD drużynie",
+ "type": "script",
+ "scope": "global",
+ "command": "game.degenesis2.awardParty();",
+ "img": "icons/svg/upgrade.svg",
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "author": null
+}

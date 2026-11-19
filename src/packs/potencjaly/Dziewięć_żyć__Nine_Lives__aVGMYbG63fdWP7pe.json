@@ -1,0 +1,27 @@
+{
+ "_id": "aVGMYbG63fdWP7pe",
+ "_key": "!items!aVGMYbG63fdWP7pe",
+ "name": "Dziewięć żyć (Nine Lives)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>W śmiertelnym zagrożeniu +1K/PP do rzutów, które mogą uratować życie, kosztem 1 Ego za rzut.</p>",
+  "level": 1,
+  "kult": "Neolibijczycy",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

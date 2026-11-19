@@ -1,0 +1,27 @@
+{
+ "_id": "UVJ2gQIvmYXM1Kqs",
+ "_key": "!items!UVJ2gQIvmYXM1Kqs",
+ "name": "Download",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Przesłuchanie osaczonego bez drogi ucieczki: +1K i +1 Wyzwalacz/PP do PSY+Dominacja.</p>",
+  "level": 1,
+  "kult": "Kronikarze",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

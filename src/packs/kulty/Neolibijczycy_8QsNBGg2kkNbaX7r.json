@@ -1,0 +1,93 @@
+{
+ "_id": "8QsNBGg2kkNbaX7r",
+ "_key": "!items!8QsNBGg2kkNbaX7r",
+ "name": "Neolibijczycy",
+ "type": "kult",
+ "img": "icons/svg/temple.svg",
+ "system": {
+  "description": "<p>Zdobywcy świata. Kupcy, kartografowie i łowcy z Trypolisu: koncesje, banki, kontrakty.</p>",
+  "skillBonuses": [
+   "strzelectwo",
+   "obycie",
+   "negocjacje",
+   "spryt",
+   "empatia"
+  ],
+  "metoda": "Księgi handlowe, przepływ towaru i dinarów, kto komu jest winien (CHA+Negocjacje, INT+Nauka).",
+  "ideal": "Każdy opór ma swoją cenę i swój zysk.",
+  "moneyFactor": 1000,
+  "currency": "Dinarów",
+  "ranks": [
+   {
+    "level": 1,
+    "name": "Uczeń (Apprentice)",
+    "prereq": "[]",
+    "prereqText": "—",
+    "result": "Opuszcza skryptorium tylko na polecenie mentora; przepisuje teksty, ćwiczy rachunki. Jest „inwestycją” firmy.",
+    "equipment": "Balansownik (księżeczka w skórze z kratkowanym papierem i liczydłem)"
+   },
+   {
+    "level": 2,
+    "name": "Skryba (Scribe)",
+    "prereq": "[[\"int\", \"nauka\", 4], [\"cha\", \"ekspresja\", 4], [\"bg\", \"autorytet\", 1]]",
+    "prereqText": "INT+Nauka 4; CHA+Ekspresja 4; Autorytet 1",
+    "result": "Prowadzi księgi szlaku handlowego; Autorytet działa także wobec dostawców spoza kultu.",
+    "equipment": "—"
+   },
+   {
+    "level": 3,
+    "name": "Kupiec (Merchant)",
+    "prereq": "[[\"cha\", \"negocjacje\", 6], [\"psy\", \"spryt\", 4], [\"bg\", \"zasoby\", 2], [\"bg\", \"siec\", 2]]",
+    "prereqText": "CHA+Negocjacje 6; PSY+Spryt 4; Zasoby 2; Sieć 2",
+    "result": "Pełnoprawny Neolibijczyk; Sławę zyskuje, wspierając rodzinną wioskę Zasobami lub dinarami.",
+    "equipment": "Karabin neolibijski; Pieczęć Libijczyka"
+   },
+   {
+    "level": 4,
+    "name": "Żeglarz (Seafarer)",
+    "prereq": "[[\"txt\", \"statek handlowy\"], [\"zre\", \"prowadzenie\", 6], [\"int\", \"legendy\", 6], [\"ins\", \"orientacja\", 8], [\"bg\", \"zasoby\", 3], [\"bg\", \"autorytet\", 2], [\"bg\", \"slawa\", 2]]",
+    "prereqText": "statek handlowy; ZRĘ+Prowadzenie 6; INT+Legendy 6; INS+Orientacja 8; Zasoby 3; Autorytet 2; Sława 2",
+    "result": "Za nowe szlaki i miasta czasowo +1 Zasoby.",
+    "equipment": "Astrolabium"
+   },
+   {
+    "level": 4,
+    "name": "Ambasador (Ambassador)",
+    "prereq": "[[\"cha\", \"negocjacje\", 8], [\"cha\", \"obycie\", 10], [\"ins\", \"empatia\", 8], [\"bg\", \"sojusznicy\", 4], [\"bg\", \"slawa\", 4], [\"bg\", \"siec\", 3]]",
+    "prereqText": "CHA+Negocjacje 8; CHA+Obycie 10; INS+Empatia 8; Sojusznicy 4; Sława 4; Sieć 3",
+    "result": "Wolny wstęp do ambasad wszystkich kultów; dostaje każde spotkanie.",
+    "equipment": "—"
+   },
+   {
+    "level": 4,
+    "name": "Magnat (Magnate)",
+    "prereq": "[[\"cha\", \"obycie\", 8], [\"cha\", \"negocjacje\", 10], [[\"psy\", \"wiara\", 6], [\"psy\", \"wola\", 6]], [\"bg\", \"sojusznicy\", 4], [\"bg\", \"autorytet\", 3], [\"bg\", \"zasoby\", 4]]",
+    "prereqText": "CHA+Obycie 8; CHA+Negocjacje 10; PSY+Wiara 6 lub PSY+Wola 6; Sojusznicy 4; Autorytet 3; Zasoby 4",
+    "result": "Imperium handlowe, setki podwładnych w basenie Morza Śródziemnego.",
+    "equipment": "—"
+   },
+   {
+    "level": 5,
+    "name": "Wielki Łowca / Kartograf / Szejk / Rajder / Konsul / Waziri",
+    "prereq": "[[\"txt\", \"kampania\"]]",
+    "prereqText": "kampania",
+    "result": "Elita Banku Handlowego: łowcy Psychonautów, odkrywcy, politycy, gubernatorzy.",
+    "equipment": "—"
+   }
+  ]
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

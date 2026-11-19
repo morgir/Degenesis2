@@ -1,0 +1,33 @@
+{
+ "_id": "al30ZBtfogQdOkcs",
+ "_key": "!items!al30ZBtfogQdOkcs",
+ "name": "V. Badacz",
+ "type": "koncept",
+ "img": "icons/svg/book.svg",
+ "system": {
+  "description": "<p>Arkana V. Raz na sesję +2K w sytuacji zgodnej z Archetypem. <b>Cień:</b> Prawda usprawiedliwia każdy środek.</p>",
+  "tarot": "V",
+  "attributeBonuses": [
+   "int"
+  ],
+  "skillBonuses": [
+   "artefakty",
+   "nauka"
+  ],
+  "cien": "Prawda usprawiedliwia każdy środek."
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 600,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

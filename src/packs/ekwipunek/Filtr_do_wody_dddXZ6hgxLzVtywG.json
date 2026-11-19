@@ -1,0 +1,27 @@
+{
+ "_id": "dddXZ6hgxLzVtywG",
+ "_key": "!items!dddXZ6hgxLzVtywG",
+ "name": "Filtr do wody",
+ "type": "ekwipunek",
+ "img": "icons/svg/item-bag.svg",
+ "system": {
+  "description": "<p>Czysta woda w drodze.</p>",
+  "quantity": 1,
+  "encumbrance": 0,
+  "value": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

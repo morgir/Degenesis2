@@ -1,0 +1,150 @@
+{
+ "_id": "wMpCuvjutbNa0Leq",
+ "_key": "!items!wMpCuvjutbNa0Leq",
+ "name": "Jehammedanie",
+ "type": "kult",
+ "img": "icons/svg/temple.svg",
+ "system": {
+  "description": "<p>Niosący oblicze Boga. Plemiona potomków Jehammeda, wojownicy-pasterze, dla których przysięga i ród znaczą wszystko.</p>",
+  "skillBonuses": [
+   "bronBiala",
+   "rzemioslo",
+   "sztuka",
+   "oswajanie",
+   "wiara",
+   "wola"
+  ],
+  "metoda": "Rody, przysięgi, długi krwi, pamięć plemion (CHA+Obycie, PSY+Wiara).",
+  "ideal": "Krew Jehammeda zobowiązuje: przysięga jest święta.",
+  "moneyFactor": 100,
+  "currency": "CD",
+  "ranks": [
+   {
+    "level": 1,
+    "name": "Ismaeli (mężczyzna)",
+    "prereq": "[[\"txt\", \"urodzenie\"]]",
+    "prereqText": "urodzenie",
+    "result": "Nie wolno mu dotykać kobiet.",
+    "equipment": "Laska pasterska"
+   },
+   {
+    "level": 1,
+    "name": "Isaaki (syn Saraeli)",
+    "prereq": "[[\"txt\", \"urodzenie jako syn Saraeli\"]]",
+    "prereqText": "urodzenie jako syn Saraeli",
+    "result": "Dostęp do całego majątku plemienia: Zasoby 6; najlepsze wyszkolenie.",
+    "equipment": "Koń bojowy; szabla damasceńska"
+   },
+   {
+    "level": 1,
+    "name": "Hagari (kobieta)",
+    "prereq": "[[\"txt\", \"urodzenie\"]]",
+    "prereqText": "urodzenie",
+    "result": "+1K w walce w obronie swoich; poświęcając się +3K do akcji fizycznych; poza wspólnotą czasowo +3 Sojusznicy.",
+    "equipment": "—"
+   },
+   {
+    "level": 1,
+    "name": "Saraeli (córka Abramiego i Saraeli)",
+    "prereq": "[[\"txt\", \"urodzenie\"]]",
+    "prereqText": "urodzenie",
+    "result": "Nikt się jej nie sprzeciwia, ale nie ma wpływu; przeznaczona dla Abramiego.",
+    "equipment": "Szaty i biżuteria; tatuaże (+1K do obrony mentalnej)"
+   },
+   {
+    "level": 2,
+    "name": "Miecz Jehammeda (Sword of Jehammed)",
+    "prereq": "[[\"cia\", \"bronBiala\", 6], [\"int\", \"legendy\", 4], [\"bg\", \"slawa\", 1]]",
+    "prereqText": "CIA+Broń biała 6; INT+Legendy 4; Sława 1",
+    "result": "Zamienia plemię na przygodę i wojnę; przy wspólnym wrogu z innym kultem czasowo +2 Sieć.",
+    "equipment": "Szabla; kilof jeździecki; lekki pancerz"
+   },
+   {
+    "level": 2,
+    "name": "Błogosławieństwo Jehammeda (Jehammed's Blessing)",
+    "prereq": "[[\"cia\", \"twardosc\", 10], [\"cia\", \"bronBiala\", 10], [\"zre\", \"prowadzenie\", 8], [\"bg\", \"slawa\", 4], [\"bg\", \"autorytet\", 4]]",
+    "prereqText": "CIA+Twardość 10; CIA+Broń biała 10; ZRĘ+Prowadzenie 8; Sława 4; Autorytet 4",
+    "result": "Ostatni krok przed Ikonidą: +2K do CHA+Przywództwo wobec Mieczy Jehammeda.",
+    "equipment": "—"
+   },
+   {
+    "level": 2,
+    "name": "Dalila (Delilah)",
+    "prereq": "[[[\"psy\", \"wiara\", 10], [\"psy\", \"wola\", 10]], [\"cia\", \"bronBiala\", 6]]",
+    "prereqText": "PSY+Wiara 10 lub PSY+Wola 10; CIA+Broń biała 6",
+    "result": "Upadła Hagari: walcząc o honor, bez aktywnej obrony, ale +2K do ataków; Sława spada do 0.",
+    "equipment": "Szabla"
+   },
+   {
+    "level": 2,
+    "name": "Głos Jehammeda (Voice of Jehammed)",
+    "prereq": "[[\"int\", \"legendy\", 8], [\"cha\", \"ekspresja\", 8], [\"bg\", \"slawa\", 3], [\"bg\", \"autorytet\", 2]]",
+    "prereqText": "INT+Legendy 8; CHA+Ekspresja 8; Sława 3; Autorytet 2",
+    "result": "W kulcie +2K do wszystkich interakcji społecznych; może oskarżać Jehammedan o przewinienia.",
+    "equipment": "Odpis nauk Jehammeda"
+   },
+   {
+    "level": 2,
+    "name": "Duma Jehammeda / Splamiona / Niepokalana",
+    "prereq": "[[\"txt\", \"zależnie od losu Saraeli (urodzenie Isaakiego, niewierność, 30+ lat bez męża)\"]]",
+    "prereqText": "zależnie od losu Saraeli (urodzenie Isaakiego, niewierność, 30+ lat bez męża)",
+    "result": "Ścieżki Saraeli: wpływ przez syna (+4K), wygnanie (−2 Sława) albo święta mediatorka (+2K do CHA+Negocjacje).",
+    "equipment": "—"
+   },
+   {
+    "level": 3,
+    "name": "Abrami",
+    "prereq": "[[\"txt\", \"zaprawiony w boju\"], [\"int\", \"legendy\", 6], [[\"psy\", \"wiara\", 6], [\"psy\", \"wola\", 6]], [\"bg\", \"autorytet\", 3], [\"bg\", \"zasoby\", 2]]",
+    "prereqText": "zaprawiony w boju; INT+Legendy 6; PSY+Wiara 6 lub PSY+Wola 6; Autorytet 3; Zasoby 2",
+    "result": "Zakłada nowe plemię z Hagari; jego Autorytet nie maleje przy oporze.",
+    "equipment": "Okrycie z koziej skóry (dar ślubny)"
+   },
+   {
+    "level": 3,
+    "name": "Arianoi",
+    "prereq": "[[\"txt\", \"wybrany przez Aresa\"], [\"cia\", \"twardosc\", 8], [[\"psy\", \"wiara\", 8], [\"psy\", \"wola\", 8]], [\"bg\", \"sekrety\", 3]]",
+    "prereqText": "wybrany przez Aresa; CIA+Twardość 8; PSY+Wiara 8 lub PSY+Wola 8; Sekrety 3",
+    "result": "Krew Aresa leczy co godzinę 1 Lekką ranę; uzależnia.",
+    "equipment": "Krew Aresa (na 15 dni); runo"
+   },
+   {
+    "level": 3,
+    "name": "Ikonida / Ikonessa",
+    "prereq": "[[\"bg\", \"slawa\", 6], [\"bg\", \"autorytet\", 5]]",
+    "prereqText": "Sława 6; Autorytet 5",
+    "result": "Tworzy 1 Ikonę miesięcznie; twarz kultu na zewnątrz.",
+    "equipment": "Laska z głową barana"
+   },
+   {
+    "level": 3,
+    "name": "Sprawiedliwa (Righteous One)",
+    "prereq": "[[\"int\", \"legendy\", 10], [[\"psy\", \"wiara\", 10], [\"psy\", \"wola\", 10]], [\"bg\", \"slawa\", 4], [\"bg\", \"autorytet\", 5]]",
+    "prereqText": "INT+Legendy 10; PSY+Wiara 10 lub PSY+Wola 10; Sława 4; Autorytet 5",
+    "result": "Zna wszystkie pisma Jehammeda; szacunek jak dla Ikonidy.",
+    "equipment": "Kamień pieczętny"
+   },
+   {
+    "level": 4,
+    "name": "Pasterz / Prorok / Wyrocznia / Krew Aresa",
+    "prereq": "[[\"txt\", \"kampania\"]]",
+    "prereqText": "kampania",
+    "result": "Radykalni przywódcy, głos Jehammeda, wcielenia Aresa.",
+    "equipment": "—"
+   }
+  ]
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

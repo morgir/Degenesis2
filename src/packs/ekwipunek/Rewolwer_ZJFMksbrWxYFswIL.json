@@ -1,0 +1,35 @@
+{
+ "_id": "ZJFMksbrWxYFswIL",
+ "_key": "!items!ZJFMksbrWxYFswIL",
+ "name": "Rewolwer",
+ "type": "bron",
+ "img": "icons/svg/target.svg",
+ "system": {
+  "description": "",
+  "skill": "strzelectwo",
+  "handling": 0,
+  "damage": "6",
+  "range": "10/40",
+  "magazine": {
+   "value": 6,
+   "max": 6
+  },
+  "qualities": "",
+  "encumbrance": 1,
+  "equipped": true
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

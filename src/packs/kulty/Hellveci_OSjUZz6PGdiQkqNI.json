@@ -1,0 +1,165 @@
+{
+ "_id": "OSjUZz6PGdiQkqNI",
+ "_key": "!items!OSjUZz6PGdiQkqNI",
+ "name": "Hellveci",
+ "type": "kult",
+ "img": "icons/svg/temple.svg",
+ "system": {
+  "description": "<p>Bractwo broni z Twierdzy Alpejskiej. Żołnierze do szpiku kości, pobierają myto za przejście przez góry.</p>",
+  "skillBonuses": [
+   "sila",
+   "kondycja",
+   "strzelectwo",
+   "przywodztwo",
+   "refleks"
+  ],
+  "metoda": "Rekonesans, obserwacja, raport, przesłuchanie jeńca (INS+Percepcja, PSY+Refleks).",
+  "ideal": "Broń, towarzysz, kraj. Każdy zmarnowany strzał osłabia Fortecę.",
+  "moneyFactor": 50,
+  "currency": "CD",
+  "ranks": [
+   {
+    "level": 1,
+    "name": "Żołnierz (Soldier)",
+    "prereq": "[]",
+    "prereqText": "—",
+    "result": "Raport w Fortecy Alpejskiej co pół roku, inaczej Zasoby trwale −1 za każdy opuszczony raport.",
+    "equipment": "Trailblazer; +5 naboi/mies.; Uprząż (Harness); ostatnia racja"
+   },
+   {
+    "level": 2,
+    "name": "Kapral (Corporal)",
+    "prereq": "[[\"cia\", \"sila\", 4], [\"zre\", \"strzelectwo\", 5], [\"ins\", \"przetrwanie\", 4], [\"bg\", \"autorytet\", 2]]",
+    "prereqText": "CIA+Siła 4; ZRĘ+Strzelectwo 5; INS+Przetrwanie 4; Autorytet 2",
+    "result": "Trailblazer dostaje ulepszenie 1 poziomu (+20% zasięgu, +1K Poręczności albo +1 obrażeń); może nosić 2 ładunki wybuchowe.",
+    "equipment": "+10 naboi/mies. (także na wyższych rangach)"
+   },
+   {
+    "level": 3,
+    "name": "Saper (Sapper)",
+    "prereq": "[[\"cia\", \"sila\", 6], [\"cia\", \"kondycja\", 6], [\"zre\", \"zwinnePalce\", 6], [\"int\", \"nauka\", 4], [\"bg\", \"autorytet\", 3]]",
+    "prereqText": "CIA+Siła 6; CIA+Kondycja 6; ZRĘ+Zwinne palce 6; INT+Nauka 4; Autorytet 3",
+    "result": "+3 Zasobów na materiały wybuchowe; do walki zabiera 4 ładunki.",
+    "equipment": "Tarcza tunelowa; granatnik; lekki karabin maszynowy; materiały wybuchowe"
+   },
+   {
+    "level": 3,
+    "name": "Grenadier",
+    "prereq": "[[\"zre\", \"strzelectwo\", 8], [\"psy\", \"refleks\", 6], [\"ins\", \"przetrwanie\", 6], [\"ins\", \"orientacja\", 6], [\"bg\", \"autorytet\", 3]]",
+    "prereqText": "ZRĘ+Strzelectwo 8; PSY+Refleks 6; INS+Przetrwanie 6; INS+Orientacja 6; Autorytet 3",
+    "result": "Bez obowiązku raportów; znaki do skrytek z bronią; ulepszenie Trailblazera 2 poziomu; +1K do negocjacji ze Skurgerami.",
+    "equipment": "+20 naboi/mies.; Pathfinder"
+   },
+   {
+    "level": 3,
+    "name": "Wartownik (Sentinel)",
+    "prereq": "[[\"cia\", \"sila\", 8], [\"cia\", \"twardosc\", 6], [\"zre\", \"prowadzenie\", 6], [\"cha\", \"negocjacje\", 6], [\"bg\", \"autorytet\", 4], [\"bg\", \"zasoby\", 3]]",
+    "prereqText": "CIA+Siła 8; CIA+Twardość 6; ZRĘ+Prowadzenie 6; CHA+Negocjacje 6; Autorytet 4; Zasoby 3",
+    "result": "+3 Zasobów na materiały wybuchowe; może aresztować każdego w Fortecy i postawić przed Trybunałem.",
+    "equipment": "Ciężka uprząż"
+   },
+   {
+    "level": 3,
+    "name": "Radiooperator (Radio Beam Unit)",
+    "prereq": "[[\"cia\", \"kondycja\", 6], [\"zre\", \"rzemioslo\", 6], [\"int\", \"inzynieria\", 8], [\"bg\", \"zasoby\", 3]]",
+    "prereqText": "CIA+Kondycja 6; ZRĘ+Rzemiosło 6; INT+Inżynieria 8; Zasoby 3",
+    "result": "Łączność z siecią radiową Kronikarzy; wezwanie pomocy sprowadza pluton Grenadierów (minuty–godziny, w zasięgu Alp).",
+    "equipment": "Plecak radiowy; Pathfinder"
+   },
+   {
+    "level": 3,
+    "name": "Obserwator (Spotter)",
+    "prereq": "[[\"cia\", \"atletyka\", 6], [\"zre\", \"skradanie\", 7], [\"ins\", \"percepcja\", 6], [\"ins\", \"orientacja\", 6], [\"bg\", \"siec\", 3]]",
+    "prereqText": "CIA+Atletyka 6; ZRĘ+Skradanie 7; INS+Percepcja 6; INS+Orientacja 6; Sieć 3",
+    "result": "Bransoleta-transponder, żeby swoi nie wzięli go w przebraniu za wroga.",
+    "equipment": "Lekka uprząż Obserwatora; bransoleta-transponder; lornetka"
+   },
+   {
+    "level": 3,
+    "name": "Medyk (Medic)",
+    "prereq": "[[\"int\", \"medycyna\", 7], [\"ins\", \"empatia\", 4], [\"bg\", \"autorytet\", 2]]",
+    "prereqText": "INT+Medycyna 7; INS+Empatia 4; Autorytet 2",
+    "result": "+1K do rzutów PSY i CHA w kantonach; +1 Autorytet.",
+    "equipment": "Granaty dymne i ogłuszające; zestaw polowy"
+   },
+   {
+    "level": 3,
+    "name": "Genie",
+    "prereq": "[[\"cia\", \"sila\", 6], [\"zre\", \"prowadzenie\", 4], [\"zre\", \"rzemioslo\", 6], [\"int\", \"inzynieria\", 6], [\"int\", \"nauka\", 6], [\"bg\", \"zasoby\", 2]]",
+    "prereqText": "CIA+Siła 6; ZRĘ+Prowadzenie 4; ZRĘ+Rzemiosło 6; INT+Inżynieria 6; INT+Nauka 6; Zasoby 2",
+    "result": "Umocnienia: oddział w osłonie ma +1K do aktywnej obrony i +1 Obrony; +3 Zasobów na ciężki sprzęt.",
+    "equipment": "Ciężka uprząż z modułem dźwigowym"
+   },
+   {
+    "level": 3,
+    "name": "Kwatermistrz (Forager)",
+    "prereq": "[[\"int\", \"artefakty\", 6], [\"cha\", \"negocjacje\", 6], [\"cha\", \"obycie\", 4], [\"bg\", \"zasoby\", 3], [\"bg\", \"slawa\", 3], [\"bg\", \"siec\", 2]]",
+    "prereqText": "INT+Artefakty 6; CHA+Negocjacje 6; CHA+Obycie 4; Zasoby 3; Sława 3; Sieć 2",
+    "result": "Zamawiając amunicję i sprzęt (bez Uprzęży, Trailblazerów, pojazdów) ma Zasoby 6. Przymyka uszy (+1 Sława) albo notuje brudy (+1 Sekrety).",
+    "equipment": "Uplink kwatermistrza"
+   },
+   {
+    "level": 4,
+    "name": "Oddział specjalny (Special Detachment)",
+    "prereq": "[[\"cia\", \"bijatyka\", 6], [\"cia\", \"bronBiala\", 6], [\"zre\", \"strzelectwo\", 10], [\"zre\", \"skradanie\", 6], [\"psy\", \"refleks\", 7], [\"bg\", \"slawa\", 3]]",
+    "prereqText": "CIA+Bijatyka 6; CIA+Broń biała 6; ZRĘ+Strzelectwo 10; ZRĘ+Skradanie 6; PSY+Refleks 7; Sława 3",
+    "result": "Wolny wstęp do siedzib kultów, dopóki nosi oznaczenia rangi.",
+    "equipment": "Skrócony Trailblazer; +20 naboi/mies."
+   },
+   {
+    "level": 4,
+    "name": "Infiltrator",
+    "prereq": "[[\"psy\", \"oszustwo\", 8], [\"psy\", \"spryt\", 8], [\"psy\", \"refleks\", 6], [\"bg\", \"siec\", 4]]",
+    "prereqText": "PSY+Oszustwo 8; PSY+Spryt 8; PSY+Refleks 6; Sieć 4",
+    "result": "Zna ukryte przejścia Fortecy: +4K do INS+Orientacja przy ich szukaniu.",
+    "equipment": "—"
+   },
+   {
+    "level": 4,
+    "name": "Subaltern",
+    "prereq": "[[\"cha\", \"przywodztwo\", 8], [\"zre\", \"strzelectwo\", 8], [\"bg\", \"autorytet\", 4]]",
+    "prereqText": "CHA+Przywództwo 8; ZRĘ+Strzelectwo 8; Autorytet 4",
+    "result": "Oficer: trwale +1 Autorytet; dowodzi oddziałami; negocjuje dostawy z Neolibijczykami i Złomiarzami.",
+    "equipment": "—"
+   },
+   {
+    "level": 5,
+    "name": "Oddział P-26 (P-26 Squad)",
+    "prereq": "[[\"cha\", \"obycie\", 6], [\"cha\", \"ekspresja\", 6], [\"cia\", \"bronBiala\", 8], [\"psy\", \"spryt\", 10], [\"bg\", \"siec\", 5]]",
+    "prereqText": "CHA+Obycie 6; CHA+Ekspresja 6; CIA+Broń biała 8; PSY+Spryt 10; Sieć 5",
+    "result": "Komórka 1–3 Infiltratorów; Zasoby 6 w arsenale Fortecy, póki działa na rzecz zjednoczenia Konfederacji.",
+    "equipment": "—"
+   },
+   {
+    "level": 5,
+    "name": "Oficer polowy (Field Officer)",
+    "prereq": "[[\"bg\", \"sojusznicy\", 3], [\"bg\", \"autorytet\", 5], [\"bg\", \"slawa\", 4]]",
+    "prereqText": "Sojusznicy 3; Autorytet 5; Sława 4",
+    "result": "+1 Sekrety; wobec cywilów Hellwecji Autorytet jako kości do PSY+Dominacja.",
+    "equipment": "—"
+   },
+   {
+    "level": 6,
+    "name": "Komendant korpusu (Corps Commander)",
+    "prereq": "[[\"txt\", \"stanowisko musi być wolne\"], [\"bg\", \"sojusznicy\", 5], [\"bg\", \"autorytet\", 6]]",
+    "prereqText": "stanowisko musi być wolne; Sojusznicy 5; Autorytet 6",
+    "result": "Naczelne dowództwo jednego z czterech regionów terytorialnych.",
+    "equipment": "—"
+   }
+  ]
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

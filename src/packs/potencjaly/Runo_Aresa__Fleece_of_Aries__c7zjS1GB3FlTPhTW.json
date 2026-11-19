@@ -1,0 +1,27 @@
+{
+ "_id": "c7zjS1GB3FlTPhTW",
+ "_key": "!items!c7zjS1GB3FlTPhTW",
+ "name": "Runo Aresa (Fleece of Aries)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>15-minutowy rytuał: na godzinę umiejętności CHA spadają do 0, ale limit wydawanego Ego na rzut rośnie o PP.</p>",
+  "level": 1,
+  "kult": "Jehammedanie",
+  "prerequisite": "Arianoi; czarne runo"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

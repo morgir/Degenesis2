@@ -1,0 +1,37 @@
+{
+ "_id": "dH7Ecq666MesBIZb",
+ "_key": "!items!dH7Ecq666MesBIZb",
+ "name": "Franka",
+ "type": "kultura",
+ "img": "icons/svg/village.svg",
+ "system": {
+  "description": "<p>Kraina Roju. Feromanci tkają sieci zapachów, a owady służą im jak armia. Ludzie żyją na rzekach i prowadzą wojnę podjazdową z ulami i zigguratami.</p>",
+  "attributeBonuses": [
+   "cha",
+   "ins"
+  ],
+  "skillBonuses": [
+   "kondycja",
+   "skradanie",
+   "negocjacje",
+   "oszustwo",
+   "wiara",
+   "wola"
+  ],
+  "kulty": "Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Hellveci, Sędziowie, Złomiarze, Spitalianie"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

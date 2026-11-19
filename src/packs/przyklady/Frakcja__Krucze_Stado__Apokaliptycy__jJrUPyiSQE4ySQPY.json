@@ -1,0 +1,48 @@
+{
+ "_id": "jJrUPyiSQE4ySQPY",
+ "_key": "!actors!jJrUPyiSQE4ySQPY",
+ "name": "Frakcja: Krucze Stado (Apokaliptycy)",
+ "type": "frakcja",
+ "img": "icons/svg/wing.svg",
+ "system": {
+  "cel": "Uspokoić dzielnicę Dostawców Burnem i zgarnąć zapłatę od Sędziego",
+  "zasoby": 3,
+  "imie": {
+   "value": 0,
+   "echo": 0
+  },
+  "osobiste": "",
+  "cecha": "Każdy jest coś winien Krukom",
+  "clocks": [
+   {
+    "name": "Dostawa dla Sędziego",
+    "size": 6,
+    "value": 3
+   }
+  ],
+  "notes": ""
+ },
+ "items": [],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Frakcja: Krucze Stado (Apokaliptycy)",
+  "actorLink": false,
+  "disposition": 0,
+  "texture": {
+   "src": "icons/svg/wing.svg"
+  }
+ }
+}

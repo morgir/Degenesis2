@@ -1,0 +1,23 @@
+{
+ "_id": "tBekKnaAOzr1YgGh",
+ "_key": "!macros!tBekKnaAOzr1YgGh",
+ "name": "Nałóż obrażenia na cel",
+ "type": "script",
+ "scope": "global",
+ "command": "const v = await foundry.applications.api.DialogV2.prompt({\n  window: { title: \"Obrażenia\" },\n  content: '<label>Obrażenia (z Wyzwalaczami, przed pancerzem) <input type=\"number\" name=\"dmg\" value=\"5\" autofocus></label>',\n  ok: { callback: (ev, btn) => Number(btn.form.elements.dmg.value) || 0 }, rejectClose: false });\nif (v) game.degenesis2.applyDamageToTargets(v);",
+ "img": "icons/svg/blood.svg",
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "author": null
+}

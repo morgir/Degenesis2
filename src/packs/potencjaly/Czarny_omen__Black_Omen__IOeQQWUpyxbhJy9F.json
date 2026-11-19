@@ -1,0 +1,27 @@
+{
+ "_id": "IOeQQWUpyxbhJy9F",
+ "_key": "!items!IOeQQWUpyxbhJy9F",
+ "name": "Czarny omen (Black Omen)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Klątwa jako atak mentalny: PSY+Dominacja +1K/PP vs PSY+Wiara (kto wybrał Wolę, jest odporny). Przegrany ma trwałą karę do wszystkich rzutów = Wyzwalacze+1, dopóki się nie oczyści (modlitwa, rytuał, pielgrzymka).</p>",
+  "level": 1,
+  "kult": "Apokaliptycy",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "_id": "qULJEuwN5oO7Fd08",
+ "_key": "!items!qULJEuwN5oO7Fd08",
+ "name": "Północne słońce (Midnight Sun)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Kary za złą widoczność, ślepotę i ciemność mniejsze o 1/PP.</p>",
+  "level": 1,
+  "kult": "Palerzy",
+  "prerequisite": "Skupienie"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "_id": "drbxrVsnsGtsvygu",
+ "_key": "!items!drbxrVsnsGtsvygu",
+ "name": "Mogło być gorzej (Could Be Worse)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Kary za rany mniejsze o 1/PP. [2.0: odejmij PP od sumy kar z ran Poważnych i Krytycznej.]</p>",
+  "level": 1,
+  "kult": "Ogólne",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

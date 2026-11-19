@@ -1,0 +1,55 @@
+{
+ "_id": "myb0O3alkdyqnzxr",
+ "_key": "!journal!myb0O3alkdyqnzxr",
+ "name": "Odgłosy — źródła i licencje",
+ "pages": [
+  {
+   "_id": "reGWvtcxdwFTQwIA",
+   "_key": "!journal.pages!myb0O3alkdyqnzxr.reGWvtcxdwFTQwIA",
+   "name": "Źródła",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Odgłosy dołączone do systemu pochodzą z wolnych licencji. Nazwy plików skrócono, a odgłosy przemianowano na polskie; dźwięku nie zmieniano.</p>\n<h2>Odgłosy</h2>\n<p>Z pakietu CC-Sounds (https://github.com/Fris0uman/CDDA-Soundpacks), oryginały na freesound.org:</p>\n<table><tr><th>W Foundry</th><th>Plik źródłowy</th><th>Autor</th><th>Licencja</th><th>Link</th></tr><tr><td>Deszcz</td><td>heavyrain.ogg</td><td>Ali@k</td><td>CC0 1.0</td><td><a href='https://freesound.org/people/Ali@k/sounds/128907/'>https://freesound.org/people/Ali@k/sounds/128907/</a></td></tr><tr><td>Mżawka</td><td>drizzle.ogg</td><td>klankbeeld</td><td>CC BY 3.0</td><td><a href='https://freesound.org/people/klankbeeld/sounds/325442/'>https://freesound.org/people/klankbeeld/sounds/325442/</a></td></tr><tr><td>Ulewa pod dachem</td><td>WEATHER_RAINSTORM_inside.ogg</td><td>klankbeeld</td><td>CC BY 4.0</td><td><a href='https://freesound.org/people/klankbeeld/sounds/614134/'>https://freesound.org/people/klankbeeld/sounds/614134/</a></td></tr><tr><td>Burza</td><td>thunderstorm.ogg</td><td>bruno.auzet</td><td>CC0 1.0</td><td><a href='https://freesound.org/people/bruno.auzet/sounds/531041/'>https://freesound.org/people/bruno.auzet/sounds/531041/</a></td></tr><tr><td>Zamieć</td><td>WEATHER_SNOWSTORM.ogg</td><td>guyburns</td><td>CC0</td><td><a href='https://freesound.org/people/guyburns/sounds/473815/'>https://freesound.org/people/guyburns/sounds/473815/</a></td></tr><tr><td>Noc — świerszcze</td><td>clear_night_1.ogg</td><td>rsn267</td><td>CC0 1.0</td><td><a href='https://freesound.org/people/rsn267/sounds/275595/'>https://freesound.org/people/rsn267/sounds/275595/</a></td></tr><tr><td>Noc — wiatr</td><td>cloudy_night.ogg</td><td>beambot</td><td>CC0 1.0</td><td><a href='https://freesound.org/people/beambot/sounds/259987/'>https://freesound.org/people/beambot/sounds/259987/</a></td></tr><tr><td>Pochmurny dzień</td><td>weather_cloudy_autumn.ogg</td><td>(CC-Sounds, zob. repozytorium)</td><td>CC0/CC BY</td><td><a href='https://github.com/Fris0uman/CDDA-Soundpacks'>https://github.com/Fris0uman/CDDA-Soundpacks</a></td></tr><tr><td>Podziemia</td><td>underground.ogg</td><td>Kinoton</td><td>CC0 1.0</td><td><a href='https://freesound.org/people/Kinoton/sounds/421826/'>https://freesound.org/people/Kinoton/sounds/421826/</a></td></tr><tr><td>Wnętrze</td><td>indoors.ogg</td><td>blouhond</td><td>CC BY 3.0</td><td><a href='https://freesound.org/people/blouhond/sounds/163604/'>https://freesound.org/people/blouhond/sounds/163604/</a></td></tr><tr><td>Dzwony</td><td>church_bells.ogg</td><td>Nox_Sound</td><td>CC0 1.0</td><td><a href='https://freesound.org/people/Nox_Sound/sounds/563885/'>https://freesound.org/people/Nox_Sound/sounds/563885/</a></td></tr><tr><td>Alarm</td><td>alarm.ogg</td><td>kyles</td><td>CC0 1.0</td><td><a href='https://freesound.org/people/kyles/sounds/452175/'>https://freesound.org/people/kyles/sounds/452175/</a></td></tr><tr><td>Grzmot</td><td>thunder_near.ogg</td><td>mrsorbias</td><td>CC BY 3.0</td><td><a href='https://freesound.org/people/mrsorbias/sounds/574687/'>https://freesound.org/people/mrsorbias/sounds/574687/</a></td></tr></table>\n<h2>Muzyka</h2><p>System nie zawiera muzyki — dodaj własną w zakładce Playlisty (pliki z <code>Data/</code> albo adresy URL). Propozycje utworów są w dzienniku „Szkoła MG”.</p>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "categories": []
+}
