@@ -1,9 +1,12 @@
 name: Wydanie systemu
 
-# Uruchamia się po wypchnięciu tagu w formacie v0.6.2 (także gdy tag powstaje przez „Draft a new release”).
+# Nowe wydanie powstaje samo, gdy na main zmieni się "version" w system.json
+# (albo ręcznie: Actions → Wydanie systemu → Run workflow).
 on:
   push:
-    tags: ["v*"]
+    branches: [main]
+    paths: ["system.json"]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,15 +21,21 @@ jobs:
         with:
           node-version: 22
 
-      - name: Wersja z tagu
+      - name: Wersja z system.json
         id: ver
-        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=$(node -p 'require("./system.json").version')
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "tag=v$V" >> "$GITHUB_OUTPUT"
+          if gh release view "v$V" >/dev/null 2>&1; then echo "exists=true" >> "$GITHUB_OUTPUT"; else echo "exists=false" >> "$GITHUB_OUTPUT"; fi
 
       - name: Ustaw wersję, manifest i download w system.json
         env:
           VERSION: ${{ steps.ver.outputs.version }}
           REPO: ${{ github.repository }}
-          TAG: ${{ github.ref_name }}
+          TAG: ${{ steps.ver.outputs.tag }}
         run: |
           node -e '
             const fs = require("fs");
@@ -53,7 +62,9 @@ jobs:
       - name: Załącz pliki do Release
         env:
           GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.ver.outputs.tag }}
         run: |
-          gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || \
-            gh release create "$GITHUB_REF_NAME" --title "Degenesis 2.0 — $GITHUB_REF_NAME" --notes-file RELEASE_NOTES.md
-          gh release upload "$GITHUB_REF_NAME" dist/degenesis2.zip system.json --clobber
+          if [ "${{ steps.ver.outputs.exists }}" != "true" ]; then
+            gh release create "$TAG" --target "$GITHUB_SHA" --title "Degenesis 2.0 — $TAG" --notes-file RELEASE_NOTES.md
+          fi
+          gh release upload "$TAG" dist/degenesis2.zip system.json --clobber

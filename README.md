@@ -17,8 +17,8 @@ Instalacja ręczna: pobierz `degenesis2.zip` z [Releases](https://github.com/mor
 ## Dla twórców: wydanie nowej wersji
 1. Zmiany w kodzie wypchnij na `main`. Źródła kompendiów to pliki JSON w `src/packs/` (kompilowane automatycznie).
 2. Opisz zmiany w `RELEASE_NOTES.md`.
-3. Wypchnij tag: `git tag v0.6.2 && git push origin v0.6.2` (albo na GitHubie: **Releases → Draft a new release** z nowym tagiem).
-4. Akcja „Wydanie systemu” sama utworzy wydanie, ustawi wersję, skompiluje kompendia, uruchomi testy i dołączy `degenesis2.zip` oraz `system.json` do wydania.
+3. Podbij `"version"` w `system.json` (np. na `0.6.2`) i wypchnij na `main`.
+4. Akcja „Wydanie systemu” sama utworzy wydanie `v0.6.2`, ustawi wersję, skompiluje kompendia, uruchomi testy i dołączy `degenesis2.zip` oraz `system.json` do wydania.
 
 Lokalnie: `npm install`, `npm run build` (kompendia do `packs/`), `npm test`.
 

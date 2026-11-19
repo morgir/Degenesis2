@@ -281,7 +281,7 @@
   },
   "primaryTokenAttribute": "ego",
   "initiative": "(@initPool)d6cs>=4",
-  "url": "https://github.com/morgir/degenesis2",
+  "url": "https://github.com/morgir/Degenesis2",
   "manifest": "https://github.com/morgir/degenesis2/releases/latest/download/system.json",
   "download": "https://github.com/morgir/degenesis2/releases/download/v0.6.1/degenesis2.zip",
   "license": "Fan content. Mechanika i kod: użytek prywatny.",
