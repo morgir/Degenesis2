@@ -1,0 +1,532 @@
+{
+ "_id": "saUxtNiJYc7a9cCP",
+ "_key": "!actors!saUxtNiJYc7a9cCP",
+ "name": "Kasia „Sroka”",
+ "type": "postac",
+ "img": "systems/degenesis2/assets/portraits/sroka.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 2
+   },
+   "zre": {
+    "value": 3
+   },
+   "cha": {
+    "value": 4
+   },
+   "int": {
+    "value": 1
+   },
+   "psy": {
+    "value": 3
+   },
+   "ins": {
+    "value": 3
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 2
+   },
+   "bijatyka": {
+    "value": 2
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 0
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 3
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 2
+   },
+   "sztuka": {
+    "value": 2
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 2
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 4
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 3
+   },
+   "oszustwo": {
+    "value": 3
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 0
+   },
+   "wola": {
+    "value": 1
+   },
+   "empatia": {
+    "value": 2
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 0
+   },
+   "pierwotnosc": {
+    "value": 2
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "path": "pierwotnosc",
+  "belief": "wola",
+  "backgrounds": {
+   "sojusznicy": {
+    "value": 0,
+    "spent": 0
+   },
+   "autorytet": {
+    "value": 0,
+    "spent": 0
+   },
+   "slawa": {
+    "value": 2,
+    "spent": 0
+   },
+   "zasoby": {
+    "value": 0,
+    "spent": 0
+   },
+   "sekrety": {
+    "value": 0,
+    "spent": 0
+   },
+   "siec": {
+    "value": 2,
+    "spent": 0
+   }
+  },
+  "zarazenie": {
+   "value": 0,
+   "permanent": 0
+  },
+  "archetypeUsed": false,
+  "identity": {
+   "kultura": "Franka",
+   "koncept": "XVII. Wizjoner",
+   "kult": "Apokaliptycy",
+   "ranga": "Sroka (Magpie)",
+   "wiek": "",
+   "plec": ""
+  },
+  "ambicja": "Założyć własne Stado, w którym nikt nie będzie towarem.",
+  "tajemnica": "Wie, co Kruki wlewają do studni, i boi się, że to ją obciąży.",
+  "cien": "Kłamie dla wyższego celu.",
+  "wiezi": "Matka Agna, stara akuszerka z Franki, która nauczyła ją czytać z kart",
+  "blizny": "",
+  "xp": {
+   "total": 0,
+   "spent": 0
+  },
+  "money": "",
+  "eliminated": false,
+  "ego": {
+   "value": 10
+  },
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Sroka przyszła do Justitian z Franki, z rzeki, przed rojem. W Kruczym Stadzie nauczyła się, że każdy sekret ma cenę, a każdy człowiek jest coś winien. Zna wszystkie plotki dzielnicy, połowę jej łóżek i całą jej biedę. Ilsa Kruczyca kazała jej pilnować, żeby nikt nie węszył przy studni. Sroka widziała beczki z białym pyłem. Widziała też, jak dziecko, które piło tę wodę, przestało płakać. Na zawsze.</p>"
+ },
+ "items": [
+  {
+   "name": "Franka",
+   "type": "kultura",
+   "img": "icons/svg/village.svg",
+   "system": {
+    "description": "<p>Kraina Roju. Feromanci tkają sieci zapachów, a owady służą im jak armia. Ludzie żyją na rzekach i prowadzą wojnę podjazdową z ulami i zigguratami.</p>",
+    "attributeBonuses": [
+     "cha",
+     "ins"
+    ],
+    "skillBonuses": [
+     "kondycja",
+     "skradanie",
+     "negocjacje",
+     "oszustwo",
+     "wiara",
+     "wola"
+    ],
+    "kulty": "Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Hellveci, Sędziowie, Złomiarze, Spitalianie"
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "fpKDQia0FXsa9THe",
+   "_key": "!actors.items!saUxtNiJYc7a9cCP.fpKDQia0FXsa9THe"
+  },
+  {
+   "name": "XVII. Wizjoner",
+   "type": "koncept",
+   "img": "icons/svg/book.svg",
+   "system": {
+    "description": "<p>Arkana XVII. Raz na sesję +2K w sytuacji zgodnej z Archetypem. <b>Cień:</b> Kłamie dla wyższego celu.</p>",
+    "tarot": "XVII",
+    "attributeBonuses": [
+     "cha"
+    ],
+    "skillBonuses": [
+     "uwodzenie",
+     "spryt"
+    ],
+    "cien": "Kłamie dla wyższego celu."
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "Vv55vxJiLmBfcXsB",
+   "_key": "!actors.items!saUxtNiJYc7a9cCP.Vv55vxJiLmBfcXsB"
+  },
+  {
+   "name": "Apokaliptycy",
+   "type": "kult",
+   "img": "icons/svg/temple.svg",
+   "system": {
+    "description": "<p>Władcy pożądania. Przemytnicy, dilerzy Burnu, hazardziści i ptaki nocy, każdy Stado ma swój kod.</p>",
+    "skillBonuses": [
+     "atletyka",
+     "zwinnePalce",
+     "sztuka",
+     "uwodzenie",
+     "spryt"
+    ],
+    "metoda": "Półświatek, plotka, przysługa, Burn jako waluta (CHA+Uwodzenie, PSY+Oszustwo).",
+    "ideal": "Żyj teraz. Jutro i tak należy do kogoś innego.",
+    "moneyFactor": 200,
+    "currency": "CD",
+    "ranks": [
+     {
+      "level": 1,
+      "name": "Zięba (Finch, Europa)",
+      "prereq": "[[\"txt\", \"umiejętność cierpienia\"]]",
+      "prereqText": "umiejętność cierpienia",
+      "result": "Hartowany przez Stado: +1K do inicjatywy wśród swoich (znika po awansie).",
+      "equipment": "—"
+     },
+     {
+      "level": 1,
+      "name": "Rybitwa (Tern, Ptaki wodne)",
+      "prereq": "[[\"txt\", \"lubi wodę — albo nie\"]]",
+      "prereqText": "lubi wodę — albo nie",
+      "result": "+1K do inicjatywy wśród swoich (znika po awansie).",
+      "equipment": "Hak z liną"
+     },
+     {
+      "level": 1,
+      "name": "Koliber (Hummingbird, Afryka)",
+      "prereq": "[]",
+      "prereqText": "—",
+      "result": "+1K do inicjatywy w walce ze swoim Stadem (znika po awansie).",
+      "equipment": "Sztylet koumaya"
+     },
+     {
+      "level": 2,
+      "name": "Wrona Bojowa (Battle Crow)",
+      "prereq": "[[\"cia\", \"bijatyka\", 6], [\"cia\", \"twardosc\", 6], [\"cia\", \"atletyka\", 4], [\"bg\", \"autorytet\", 2]]",
+      "prereqText": "CIA+Bijatyka 6; CIA+Twardość 6; CIA+Atletyka 4; Autorytet 2",
+      "result": "Wojownik Stada: w razie ataku używa Autorytetu bez ryzyka upokorzenia.",
+      "equipment": "Bransoleta z ostrzem"
+     },
+     {
+      "level": 2,
+      "name": "Sroka (Magpie)",
+      "prereq": "[[\"zre\", \"zwinnePalce\", 6], [\"cha\", \"uwodzenie\", 6], [\"psy\", \"spryt\", 4], [\"bg\", \"slawa\", 2]]",
+      "prereqText": "ZRĘ+Zwinne palce 6; CHA+Uwodzenie 6; PSY+Spryt 4; Sława 2",
+      "result": "Słyszy wiele od klientów: szantaż (−1 Sieć, +2 Zasoby) albo dyskrecja.",
+      "equipment": "Sztylet; szpila do włosów"
+     },
+     {
+      "level": 2,
+      "name": "Sęp (Vulture)",
+      "prereq": "[[\"zre\", \"skradanie\", 4], [\"psy\", \"spryt\", 6], [\"ins\", \"przetrwanie\", 6], [\"bg\", \"siec\", 2]]",
+      "prereqText": "ZRĘ+Skradanie 4; PSY+Spryt 6; INS+Przetrwanie 6; Sieć 2",
+      "result": "Kronikarze oficjalnie go nie wpuszczają, ale Shutterzy chętnie skupują jego łupy.",
+      "equipment": "Bransoleta z ostrzem"
+     },
+     {
+      "level": 2,
+      "name": "Kukułka (Cuckoo)",
+      "prereq": "[[\"psy\", \"oszustwo\", 6], [\"cha\", \"ekspresja\", 6], [\"ins\", \"empatia\", 4], [\"bg\", \"sekrety\", 2]]",
+      "prereqText": "PSY+Oszustwo 6; CHA+Ekspresja 6; INS+Empatia 4; Sekrety 2",
+      "result": "Mistrz ról: wraz z nową maską zapomina się o jego winach.",
+      "equipment": "Strzelba; pęk kluczy"
+     },
+     {
+      "level": 2,
+      "name": "Sowa (Owl)",
+      "prereq": "[[\"cia\", \"bronBiala\", 8], [\"zre\", \"skradanie\", 6], [\"psy\", \"refleks\", 6]]",
+      "prereqText": "CIA+Broń biała 8; ZRĘ+Skradanie 6; PSY+Refleks 6",
+      "result": "Skrytobójca: +4K do ataku z zasadzki; udane zlecenie dla innego kultu +1 Sieć (maks. 4).",
+      "equipment": "Bransoleta z ostrzem"
+     },
+     {
+      "level": 2,
+      "name": "Dzięcioł (Woodpecker)",
+      "prereq": "[[\"cha\", \"sztuka\", 4], [\"cha\", \"przywodztwo\", 6], [\"psy\", \"oszustwo\", 8], [\"bg\", \"siec\", 3], [\"bg\", \"zasoby\", 3]]",
+      "prereqText": "CHA+Sztuka 4; CHA+Przywództwo 6; PSY+Oszustwo 8; Sieć 3; Zasoby 3",
+      "result": "Buduje gniazda-kryjówki Stada (+1 Sekrety); odpowiada za Zasoby Stada.",
+      "equipment": "—"
+     },
+     {
+      "level": 2,
+      "name": "Bocian (Stork)",
+      "prereq": "[[\"cha\", \"uwodzenie\", 8], [\"psy\", \"spryt\", 6], [\"cha\", \"sztuka\", 4], [\"bg\", \"siec\", 2]]",
+      "prereqText": "CHA+Uwodzenie 8; PSY+Spryt 6; CHA+Sztuka 4; Sieć 2",
+      "result": "Kradnie dzieci: do pracy (+1 Zasoby) albo do Stada (+1 Sława).",
+      "equipment": "Sieć; laska; instrument"
+     },
+     {
+      "level": 2,
+      "name": "Mewa (Seagull)",
+      "prereq": "[[\"cia\", \"bronBiala\", 6], [\"zre\", \"mobilnosc\", 6], [\"zre\", \"strzelectwo\", 4]]",
+      "prereqText": "CIA+Broń biała 6; ZRĘ+Mobilność 6; ZRĘ+Strzelectwo 4",
+      "result": "Bez kar za sztorm i dym przy abordażu; +1 Sieć w portach.",
+      "equipment": "Kusza harpunowa"
+     },
+     {
+      "level": 2,
+      "name": "Marabut (Marabou, Afryka)",
+      "prereq": "[[\"cia\", \"twardosc\", 4], [\"cia\", \"bronBiala\", 6], [\"zre\", \"skradanie\", 6], [\"bg\", \"siec\", 3]]",
+      "prereqText": "CIA+Twardość 4; CIA+Broń biała 6; ZRĘ+Skradanie 6; Sieć 3",
+      "result": "Brudna robota dla Neolibijczyków; ściąga haracz w Bedain.",
+      "equipment": "Stalowe kliny"
+     },
+     {
+      "level": 2,
+      "name": "Ibis (Afryka)",
+      "prereq": "[[\"int\", \"legendy\", 8], [\"bg\", \"sojusznicy\", 3], [\"bg\", \"autorytet\", 3], [\"bg\", \"siec\", 3], [\"bg\", \"sekrety\", 3]]",
+      "prereqText": "INT+Legendy 8; Sojusznicy 3; Autorytet 3; Sieć 3; Sekrety 3",
+      "result": "Pośrednik między afrykańskimi Stadami a Bankiem Handlowym; Autorytet działa wobec wszystkich Afrykanów.",
+      "equipment": "Laska ibisa"
+     },
+     {
+      "level": 3,
+      "name": "Kruk (Raven)",
+      "prereq": "[[[\"psy\", \"wiara\", 10], [\"psy\", \"wola\", 10]], [\"ins\", \"przetrwanie\", 6], [\"bg\", \"autorytet\", 5], [\"bg\", \"slawa\", 3], [\"bg\", \"sojusznicy\", 3], [\"bg\", \"sekrety\", 5]]",
+      "prereqText": "PSY+Wiara 10 lub PSY+Wola 10; INS+Przetrwanie 6; Autorytet 5; Sława 3; Sojusznicy 3; Sekrety 5",
+      "result": "Rządzi Stadem przez Tarot; Autorytet nie maleje przy porażce.",
+      "equipment": "Tarot Apokaliptyków; broń z 2 ulepszeniami; +1k6 naboi/mies."
+     },
+     {
+      "level": 3,
+      "name": "Pelikan / Albatros / Myszołów / Toko / Feniks",
+      "prereq": "[[\"txt\", \"kampania\"]]",
+      "prereqText": "kampania",
+      "result": "Sternicy, kapitanowie, przywódcy afrykańskich Stad, odrodzeni wygnańcy.",
+      "equipment": "—"
+     }
+    ]
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "BkGoFOCfcQsRMA7A",
+   "_key": "!actors.items!saUxtNiJYc7a9cCP.BkGoFOCfcQsRMA7A"
+  },
+  {
+   "name": "Gniazdo (Crow's Nest)",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Działając dla Stada albo w jego obronie: 1 Ego za +1K/PP do dowolnego rzutu.</p>",
+    "level": 1,
+    "kult": "Apokaliptycy",
+    "prerequisite": "Pierwotność"
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "4nfVMNzQfpm5wfxF",
+   "_key": "!actors.items!saUxtNiJYc7a9cCP.4nfVMNzQfpm5wfxF"
+  },
+  {
+   "name": "Nóż",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 1,
+    "damage": "1+F/3",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Ukrywalna",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "TdxvKUWDMOnQDL92",
+   "_key": "!actors.items!saUxtNiJYc7a9cCP.TdxvKUWDMOnQDL92"
+  },
+  {
+   "name": "Płaszcz skórzany",
+   "type": "pancerz",
+   "img": "icons/svg/shield.svg",
+   "system": {
+    "description": "",
+    "armor": 2,
+    "qualities": "",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "BxC90WMxiKnpgASj",
+   "_key": "!actors.items!saUxtNiJYc7a9cCP.BxC90WMxiKnpgASj"
+  }
+ ],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Kasia „Sroka”",
+  "actorLink": true,
+  "disposition": 1,
+  "texture": {
+   "src": "systems/degenesis2/assets/tokens/sroka.webp"
+  }
+ }
+}

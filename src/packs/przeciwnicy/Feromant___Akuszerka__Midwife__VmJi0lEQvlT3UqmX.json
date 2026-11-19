@@ -1,0 +1,347 @@
+{
+ "_id": "VmJi0lEQvlT3UqmX",
+ "_key": "!actors!VmJi0lEQvlT3UqmX",
+ "name": "Feromant — Akuszerka (Midwife)",
+ "type": "npc",
+ "img": "icons/svg/skull.svg",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 3
+   },
+   "zre": {
+    "value": 4
+   },
+   "cha": {
+    "value": 6
+   },
+   "int": {
+    "value": 1
+   },
+   "psy": {
+    "value": 5
+   },
+   "ins": {
+    "value": 1
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 3
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 6
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 1
+   },
+   "wola": {
+    "value": 4
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 0
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "antagonista",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 6,
+   "max": 6
+  },
+  "armor": 0,
+  "progBonus": 4,
+  "kult": "Psychonauci",
+  "ranga": "",
+  "motyw": "Rozszerzyć ul",
+  "lek": "",
+  "sekret": "",
+  "cena": "",
+  "postawa": -2,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 12,
+   "max": 16
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Psychonautka z Franki, prowadzi wybranych do świata Prymera. Rój siła 6. [Katharsys s. 305]</p>"
+ },
+ "items": [
+  {
+   "name": "Laska z gniazdem os",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 0,
+    "damage": "3",
+    "range": "2",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Osy żądlą każdego, kto podejdzie (1K obrażeń, chroni tylko pancerz Szczelny); udany blok też rani osami",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "k9neMu1bJ0FcQgP9",
+   "_key": "!actors.items!VmJi0lEQvlT3UqmX.k9neMu1bJ0FcQgP9"
+  },
+  {
+   "name": "Plaga (rój)",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Wypuszcza swój rój. Zaatakowani mają karę −K równą Sile roju do wszystkich akcji i co rundę 1 Lekką ranę; rój ranią tylko broń obszarowa i ogień. </p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "2zm5w6PWy2XUESbP",
+   "_key": "!actors.items!VmJi0lEQvlT3UqmX.2zm5w6PWy2XUESbP"
+  },
+  {
+   "name": "Kwas",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Plunięcie ichorem w oczy: −1K za każdy punkt Przeciążenia + Wyzwalacz do rzutów opartych na wzroku. Nie działa na zamknięty hełm.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 5
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "HWSBwB1zkjVBJ4jE",
+   "_key": "!actors.items!VmJi0lEQvlT3UqmX.HWSBwB1zkjVBJ4jE"
+  },
+  {
+   "name": "Jedność",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Obszar: kto nie zda PSY+Wiara/Wola (Trudność = Przeciążenie), składa broń.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 4
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "DAg3GBJEQzJM5B42",
+   "_key": "!actors.items!VmJi0lEQvlT3UqmX.DAg3GBJEQzJM5B42"
+  },
+  {
+   "name": "Strach",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Kto nie zda PSY+Wiara/Wola (Trudność = Przeciążenie), ucieka.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 6
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "REEXzKbPaylplOVd",
+   "_key": "!actors.items!VmJi0lEQvlT3UqmX.REEXzKbPaylplOVd"
+  },
+  {
+   "name": "Dron",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Feromonowa sieć osady: wchodzący rzuca PSY+Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 10
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "gx0hsd0KczYWEyKn",
+   "_key": "!actors.items!VmJi0lEQvlT3UqmX.gx0hsd0KczYWEyKn"
+  }
+ ],
+ "effects": [],
+ "folder": "p3saEnG1SZA23vve",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Feromant — Akuszerka (Midwife)",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "icons/svg/skull.svg"
+  }
+ }
+}

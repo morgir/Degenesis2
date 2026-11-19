@@ -258,6 +258,8 @@ packs["gracze"].append(journal("Kultury i Archetypy", kul_pages + [("Archetypy (
 
 packs["przygoda"].append(journal("Ciche studnie — przygoda (MG)", ADVENTURE))
 packs["przygoda"].append(journal("Szkoła MG: pierwsza sesja", GM_SCHOOL))
+from music_links import MUSIC_PAGES
+packs["przygoda"].append(journal("Muzyka do sesji (Spotify, YouTube)", MUSIC_PAGES))
 
 def folder(name, type_="Actor", sort=0):
     fid = rid()

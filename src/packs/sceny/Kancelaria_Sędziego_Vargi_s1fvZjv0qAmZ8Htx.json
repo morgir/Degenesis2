@@ -1,0 +1,55 @@
+{
+ "_id": "s1fvZjv0qAmZ8Htx",
+ "_key": "!scenes!s1fvZjv0qAmZ8Htx",
+ "name": "Kancelaria Sędziego Vargi",
+ "navName": "",
+ "navigation": true,
+ "navOrder": 4,
+ "active": false,
+ "width": 1680,
+ "height": 1260,
+ "padding": 0.05,
+ "backgroundColor": "#0b0a09",
+ "background": {
+  "src": "systems/degenesis2/assets/maps/kancelaria-vargi.webp"
+ },
+ "thumb": null,
+ "grid": {
+  "type": 1,
+  "size": 70,
+  "distance": 1,
+  "units": "m",
+  "alpha": 0,
+  "color": "#000000"
+ },
+ "initial": {
+  "x": null,
+  "y": null,
+  "scale": null
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "tokens": [],
+ "lights": [],
+ "notes": [],
+ "sounds": [],
+ "tiles": [],
+ "walls": [],
+ "drawings": [],
+ "regions": [],
+ "folder": null,
+ "sort": 400,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "13.351",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

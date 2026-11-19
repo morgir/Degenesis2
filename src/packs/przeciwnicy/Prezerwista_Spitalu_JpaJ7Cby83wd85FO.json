@@ -1,0 +1,305 @@
+{
+ "_id": "JpaJ7Cby83wd85FO",
+ "_key": "!actors!JpaJ7Cby83wd85FO",
+ "name": "Prezerwista Spitalu",
+ "type": "npc",
+ "img": "icons/svg/mystery-man.svg",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 5
+   },
+   "zre": {
+    "value": 3
+   },
+   "cha": {
+    "value": 1
+   },
+   "int": {
+    "value": 3
+   },
+   "psy": {
+    "value": 4
+   },
+   "ins": {
+    "value": 3
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 4
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 3
+   },
+   "strzelectwo": {
+    "value": 3
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 3
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 3
+   },
+   "wola": {
+    "value": 3
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 3
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "antagonista",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 6,
+   "max": 6
+  },
+  "armor": 3,
+  "progBonus": 2,
+  "kult": "Ludzie",
+  "ranga": "",
+  "motyw": "Wypalić Sepsę razem z tymi, którzy ją niosą",
+  "lek": "Że Spital przegrywa",
+  "sekret": "",
+  "cena": "Psychonauta albo pole spor",
+  "postawa": -1,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 0,
+   "max": 0
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Najlepszy wojownik Spitalu. Nie bierze jeńców wśród zarażonych. Typowa Stawka Śmierci. [2.0 — profil własny]</p>"
+ },
+ "items": [
+  {
+   "name": "Miecz Preservalis",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 1,
+    "damage": "3+F/2",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "sF5SgCQPTmJ0b6mA",
+   "_key": "!actors.items!JpaJ7Cby83wd85FO.sF5SgCQPTmJ0b6mA"
+  },
+  {
+   "name": "Pistolet",
+   "type": "bron",
+   "img": "icons/svg/target.svg",
+   "system": {
+    "description": "",
+    "skill": "strzelectwo",
+    "handling": 0,
+    "damage": "5",
+    "range": "10/40",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "oRb6AV4YxttLjzGS",
+   "_key": "!actors.items!JpaJ7Cby83wd85FO.oRb6AV4YxttLjzGS"
+  },
+  {
+   "name": "Ostatni Bastion",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>+1 Wyzwalacz w ataku na Psychonautów.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "dabkpxjqMIp0EIEj",
+   "_key": "!actors.items!JpaJ7Cby83wd85FO.dabkpxjqMIp0EIEj"
+  },
+  {
+   "name": "Preservalis",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Po trafieniu mieczem strzał ignorujący pancerz (−2K).</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "vgYzKULCmyANm9i6",
+   "_key": "!actors.items!JpaJ7Cby83wd85FO.vgYzKULCmyANm9i6"
+  }
+ ],
+ "effects": [],
+ "folder": "4XavY8yo1Ji0pUXL",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Prezerwista Spitalu",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "icons/svg/mystery-man.svg"
+  }
+ }
+}

@@ -1,0 +1,573 @@
+{
+ "_id": "J9wPDFstkMzm8DR6",
+ "_key": "!actors!J9wPDFstkMzm8DR6",
+ "name": "Siostra Wera",
+ "type": "postac",
+ "img": "systems/degenesis2/assets/portraits/wera.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 2
+   },
+   "zre": {
+    "value": 3
+   },
+   "cha": {
+    "value": 2
+   },
+   "int": {
+    "value": 3
+   },
+   "psy": {
+    "value": 3
+   },
+   "ins": {
+    "value": 3
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 2
+   },
+   "twardosc": {
+    "value": 3
+   },
+   "rzemioslo": {
+    "value": 2
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 2
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 4
+   },
+   "nauka": {
+    "value": 3
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 2
+   },
+   "wola": {
+    "value": 3
+   },
+   "empatia": {
+    "value": 2
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 3
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "path": "skupienie",
+  "belief": "wola",
+  "backgrounds": {
+   "sojusznicy": {
+    "value": 1,
+    "spent": 0
+   },
+   "autorytet": {
+    "value": 0,
+    "spent": 0
+   },
+   "slawa": {
+    "value": 1,
+    "spent": 0
+   },
+   "zasoby": {
+    "value": 1,
+    "spent": 0
+   },
+   "sekrety": {
+    "value": 0,
+    "spent": 0
+   },
+   "siec": {
+    "value": 1,
+    "spent": 0
+   }
+  },
+  "zarazenie": {
+   "value": 0,
+   "permanent": 0
+  },
+  "archetypeUsed": false,
+  "identity": {
+   "kultura": "Borca",
+   "koncept": "VI. Uzdrowiciel",
+   "kult": "Spitalianie",
+   "ranga": "Famulancer",
+   "wiek": "",
+   "plec": ""
+  },
+  "ambicja": "Udowodnić, że da się leczyć bez ognia.",
+  "tajemnica": "Raz spróbowała Burnu, żeby zrozumieć swoich pacjentów, i nigdy nie zapomniała tego ciepła.",
+  "cien": "Decyduje za innych, co jest dla nich dobre.",
+  "wiezi": "Lew, młodszy brat, tragarz z dzielnicy Dostawców (teraz chory w lazarecie)",
+  "blizny": "",
+  "xp": {
+   "total": 0,
+   "spent": 0
+  },
+  "money": "",
+  "eliminated": false,
+  "ego": {
+   "value": 10
+  },
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Wera trafiła do Spitalu jako dziecko, oddana przez matkę w zamian za worek antybiotyków dla reszty rodzeństwa. Przez dwanaście lat uczyła się, że jedno życie nic nie znaczy wobec ludzkości. Wierzyła w to do dnia, w którym musiała wypalić wioskę razem z dziećmi. Od tamtej pory pracuje w lazarecie przy Bramie Wschodniej i robi wszystko, żeby nie musieć więcej sięgać po ogień. Higienista Kessel uważa ją za miękką. Brat Tobiasz za jedyną rozsądną. Teraz na sali leży jej brat Lew i uśmiecha się do sufitu.</p>"
+ },
+ "items": [
+  {
+   "name": "Borca",
+   "type": "kultura",
+   "img": "icons/svg/village.svg",
+   "system": {
+    "description": "<p>Dawne serce Europy: rdzawe pustkowia, ruiny pełne artefaktów i odbudowane metropolie, takie jak Justitian. Porządek kultów zderza się tu z Klanami, które wracają z podziemi po swoje.</p>",
+    "attributeBonuses": [
+     "zre",
+     "ins"
+    ],
+    "skillBonuses": [
+     "twardosc",
+     "artefakty",
+     "inzynieria",
+     "rzemioslo",
+     "przetrwanie"
+    ],
+    "kulty": "Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Hellveci, Jehammedanie, Sędziowie, Złomiarze, Spitalianie"
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "ER5IwUDqdEQ5mMGm",
+   "_key": "!actors.items!J9wPDFstkMzm8DR6.ER5IwUDqdEQ5mMGm"
+  },
+  {
+   "name": "VI. Uzdrowiciel",
+   "type": "koncept",
+   "img": "icons/svg/book.svg",
+   "system": {
+    "description": "<p>Arkana VI. Raz na sesję +2K w sytuacji zgodnej z Archetypem. <b>Cień:</b> Decyduje za innych, co jest dla nich dobre.</p>",
+    "tarot": "VI",
+    "attributeBonuses": [
+     "zre"
+    ],
+    "skillBonuses": [
+     "medycyna",
+     "rzemioslo"
+    ],
+    "cien": "Decyduje za innych, co jest dla nich dobre."
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "zuAGZnwhZH9SIKVS",
+   "_key": "!actors.items!J9wPDFstkMzm8DR6.zuAGZnwhZH9SIKVS"
+  },
+  {
+   "name": "Spitalianie",
+   "type": "kult",
+   "img": "icons/svg/temple.svg",
+   "system": {
+    "description": "<p>Ostatni bastion. Lekarze i żołnierze w wojnie z Sepsą i Psychonautami. Leczenie jest przywilejem, a ogień oczyszcza.</p>",
+    "skillBonuses": [
+     "twardosc",
+     "medycyna",
+     "nauka",
+     "percepcja",
+     "wiara",
+     "wola"
+    ],
+    "metoda": "Sekcja, test na zarodniki, kwarantanna, dokumentacja przypadku (INT+Medycyna, INT+Nauka).",
+    "ideal": "Ludzkość musi przetrwać, nawet jeśli pojedynczy człowiek nie.",
+    "moneyFactor": 100,
+    "currency": "CD",
+    "ranks": [
+     {
+      "level": 1,
+      "name": "Rekrut (Recruit)",
+      "prereq": "[]",
+      "prereqText": "—",
+      "result": "—",
+      "equipment": "Podręcznik (+1K do INT+Medycyna, dopóki Medycyna ≤ 2); skórzany fartuch"
+     },
+     {
+      "level": 2,
+      "name": "Sanitariusz (Orderly)",
+      "prereq": "[[\"int\", \"medycyna\", 4], [\"cia\", \"kondycja\", 4]]",
+      "prereqText": "INT+Medycyna 4; CIA+Kondycja 4",
+      "result": "Przeżył zakaźne oddziały: dożywotnio +1K do rzutów przeciw chorobom.",
+      "equipment": "Kombinezon Spitaliański"
+     },
+     {
+      "level": 3,
+      "name": "Famulancer",
+      "prereq": "[[\"cia\", \"twardosc\", 4], [\"int\", \"medycyna\", 6], [\"int\", \"nauka\", 4]]",
+      "prereqText": "CIA+Twardość 4; INT+Medycyna 6; INT+Nauka 4",
+      "result": "Szanowany w Protektoracie, jada tam za darmo. Bez specjalizacji Rejestrator wysyła go na misje bojowe albo do sojuszników.",
+      "equipment": "Splayer z Molluskiem (+1 nasadka); karabin fungicydowy"
+     },
+     {
+      "level": 4,
+      "name": "Medyk polowy (Field Medic)",
+      "prereq": "[[\"int\", \"medycyna\", 8], [\"bg\", \"slawa\", 2], [\"bg\", \"zasoby\", 2], [\"bg\", \"siec\", 2]]",
+      "prereqText": "INT+Medycyna 8; Sława 2; Zasoby 2; Sieć 2",
+      "result": "Darmowy dostęp do szpitali i oczyszczania z zarodników. +1 Sojusznicy za każdego uratowanego w akcji Spitalianina, +1 Sieć za ludzi z innych kultów.",
+      "equipment": "Zestaw polowy"
+     },
+     {
+      "level": 4,
+      "name": "Higienista (Hygienist)",
+      "prereq": "[[\"cia\", \"twardosc\", 6], [\"int\", \"inzynieria\", 4], [\"bg\", \"sojusznicy\", 4], [\"bg\", \"autorytet\", 4]]",
+      "prereqText": "CIA+Twardość 6; INT+Inżynieria 4; Sojusznicy 4; Autorytet 4",
+      "result": "Może zarządzić oczyszczanie z zarodników w całym Protektoracie; obecni Sędziowie podlegają jego poleceniom. Certyfikuje zbiory.",
+      "equipment": "Kombinezon higienisty; granat chlorowy; granat SP 4016"
+     },
+     {
+      "level": 4,
+      "name": "Epigenetyk (Epigeneticist)",
+      "prereq": "[[\"int\", \"medycyna\", 8], [\"int\", \"inzynieria\", 6], [\"int\", \"nauka\", 6], [\"bg\", \"sekrety\", 3]]",
+      "prereqText": "INT+Medycyna 8; INT+Inżynieria 6; INT+Nauka 6; Sekrety 3",
+      "result": "Dostęp do więzień Psychonautów. Za 2 Autorytetu dostaje ochroniarza-Famulancera. Kronikarze otwierają mu Alkowy. +3 do Zasobów przy eksperymentalnych środkach bojowych.",
+      "equipment": "Sekwencer; miotacz kartridży; 2× kartridż EX Aerosol / EG 1"
+     },
+     {
+      "level": 4,
+      "name": "Farmaceuta (Pharmacist)",
+      "prereq": "[[\"int\", \"medycyna\", 10], [\"int\", \"nauka\", 8], [\"bg\", \"slawa\", 4]]",
+      "prereqText": "INT+Medycyna 10; INT+Nauka 8; Sława 4",
+      "result": "Elita techniczna. Sława zależy od wyników badań (−1 po miesiącach bez odkryć). Przy Sławie 2+ darmowy dostęp do aptek szpitali (+3 Zasobów na leki).",
+      "equipment": "Apothecarium (poziom 1)"
+     },
+     {
+      "level": 4,
+      "name": "Chirurg (Surgeon)",
+      "prereq": "[[\"int\", \"medycyna\", 8], [\"zre\", \"zwinnePalce\", 6], [\"cha\", \"przywodztwo\", 4], [\"bg\", \"slawa\", 4]]",
+      "prereqText": "INT+Medycyna 8; ZRĘ+Zwinne palce 6; CHA+Przywództwo 4; Sława 4",
+      "result": "Zawsze może wezwać anestezjologa i 1k6 sanitariuszy. Szanowany przez Anabaptystów, ma wstęp do Rady Emanacji.",
+      "equipment": "Narzędzia chirurgiczne (poziom 1)"
+     },
+     {
+      "level": 4,
+      "name": "Anestezjolog (Anesthesiologist)",
+      "prereq": "[[\"int\", \"medycyna\", 8], [\"cia\", \"bijatyka\", 6], [\"cia\", \"sila\", 4], [\"cia\", \"kondycja\", 6], [\"bg\", \"sojusznicy\", 3]]",
+      "prereqText": "INT+Medycyna 8; CIA+Bijatyka 6; CIA+Siła 4; CIA+Kondycja 6; Sojusznicy 3",
+      "result": "+3 Zasobów na narkotyki i stymulanty; może bezkarnie używać Burnu. Przesłuchuje uśpionych Spitalian dla Hipokratów.",
+      "equipment": "Pistolet iniekcyjny; 2 kartridże Black Band miesięcznie"
+     },
+     {
+      "level": 4,
+      "name": "Hipokrata (Hippocrat)",
+      "prereq": "[[\"psy\", \"dominacja\", 6], [\"bg\", \"sojusznicy\", 2], [\"bg\", \"autorytet\", 4], [\"bg\", \"sekrety\", 3]]",
+      "prereqText": "PSY+Dominacja 6; Sojusznicy 2; Autorytet 4; Sekrety 3",
+      "result": "Dostęp do najtajniejszych placówek; może zarządzać rewizje i usuwać Spitalian ze stanowisk rękami Prezerwistów; reprezentuje Spital wobec kultów.",
+      "equipment": "Rewolwer; +1k6 naboi/mies.; krzyż Ita Sit (paszport); podsłuchy"
+     },
+     {
+      "level": 4,
+      "name": "Prezerwista (Preservist)",
+      "prereq": "[[\"txt\", \"mianowany po wybitnej walce z wrogami Spitalu\"], [\"bg\", \"slawa\", 4], [\"cia\", \"bronBiala\", 8], [\"cia\", \"twardosc\", 6], [\"zre\", \"mobilnosc\", 6]]",
+      "prereqText": "mianowany po wybitnej walce z wrogami Spitalu; Sława 4; CIA+Broń biała 8; CIA+Twardość 6; ZRĘ+Mobilność 6",
+      "result": "Dostęp do Arsenału (+3 Zasobów na broń, środki bojowe, stymulanty). Może używać (nie nadużywać) Burnu. Na misję może dobrać 1k6 Famulancerów.",
+      "equipment": "Miecz Preservalis; pistolet; +1k6 naboi/mies.; koń"
+     },
+     {
+      "level": 0,
+      "name": "Lekarz wiejski (Village Doctor)",
+      "prereq": "[[\"txt\", \"co najmniej Famulancer, wysłany do regionu lub wioski\"]]",
+      "prereqText": "co najmniej Famulancer, wysłany do regionu lub wioski",
+      "result": "+1 Sieć. Ratując obcych z 3+ Wyzwalaczami na INT+Medycyna trwale +1 Sieć (maks. 4). W swojej społeczności +1K do PSY i CHA.",
+      "equipment": "Zestaw polowy"
+     },
+     {
+      "level": 5,
+      "name": "Rejestrator (Registrar)",
+      "prereq": "[[\"bg\", \"sojusznicy\", 5], [\"bg\", \"slawa\", 4], [\"bg\", \"sekrety\", 4]]",
+      "prereqText": "Sojusznicy 5; Sława 4; Sekrety 4",
+      "result": "Dostęp do tajnych laboratoriów (bez placówek Prezerwistów), +1 Sława. Głos Konsultantów: +2K do Negocjacji z najwyższymi przywódcami kultów.",
+      "equipment": "—"
+     },
+     {
+      "level": 5,
+      "name": "Komandor Prime (Commando Prime)",
+      "prereq": "[[\"cia\", \"bronBiala\", 10], [\"zre\", \"prowadzenie\", 6], [\"bg\", \"slawa\", 5], [\"bg\", \"sekrety\", 3], [\"bg\", \"autorytet\", 4]]",
+      "prereqText": "CIA+Broń biała 10; ZRĘ+Prowadzenie 6; Sława 5; Sekrety 3; Autorytet 4",
+      "result": "Pełny dostęp do Arsenału, dowodzi wszystkimi Spitalianami; może dobrać 1k6 Prezerwistów i 1k6 Spitalian rangi 4.",
+      "equipment": "Pierścień prowosta; czarny koń Newcrest"
+     },
+     {
+      "level": 6,
+      "name": "Konsultant (Consultant)",
+      "prereq": "[[\"txt\", \"musi opuścić Radę\"], [\"bg\", \"sojusznicy\", 5], [\"bg\", \"autorytet\", 5], [\"bg\", \"sekrety\", 5]]",
+      "prereqText": "musi opuścić Radę; Sojusznicy 5; Autorytet 5; Sekrety 5",
+      "result": "Głowa kultu, dowodzi Hipokratami, ma własny obszar badań.",
+      "equipment": "—"
+     },
+     {
+      "level": 6,
+      "name": "Prowost (Provost)",
+      "prereq": "[[\"txt\", \"Kranzler musi ustąpić; mianują Konsultanci\"], [\"bg\", \"slawa\", 6], [\"bg\", \"autorytet\", 6], [\"bg\", \"sekrety\", 5]]",
+      "prereqText": "Kranzler musi ustąpić; mianują Konsultanci; Sława 6; Autorytet 6; Sekrety 5",
+      "result": "Dowodzi wszystkimi Prezerwistami; weto wobec Konsultantów w sprawach bezpieczeństwa.",
+      "equipment": "—"
+     }
+    ]
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "smyQmckVHSAAIYwp",
+   "_key": "!actors.items!J9wPDFstkMzm8DR6.smyQmckVHSAAIYwp"
+  },
+  {
+   "name": "Ostatni Bastion (Last Bastion)",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>+1 Wyzwalacz/PP do każdego ataku przeciw Psychonautom.</p>",
+    "level": 1,
+    "kult": "Spitalianie",
+    "prerequisite": ""
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "3rBiZ1KTxWUjc5JX",
+   "_key": "!actors.items!J9wPDFstkMzm8DR6.3rBiZ1KTxWUjc5JX"
+  },
+  {
+   "name": "Włócznia",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 0,
+    "damage": "2+F/2",
+    "range": "2",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Długa",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "LzClTllQrp5jjbiw",
+   "_key": "!actors.items!J9wPDFstkMzm8DR6.LzClTllQrp5jjbiw"
+  },
+  {
+   "name": "Pistolet",
+   "type": "bron",
+   "img": "icons/svg/target.svg",
+   "system": {
+    "description": "",
+    "skill": "strzelectwo",
+    "handling": 0,
+    "damage": "5",
+    "range": "10/40",
+    "magazine": {
+     "value": 6,
+     "max": 6
+    },
+    "qualities": "",
+    "encumbrance": 1,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "z0lNo0UqIkpM2wKn",
+   "_key": "!actors.items!J9wPDFstkMzm8DR6.z0lNo0UqIkpM2wKn"
+  },
+  {
+   "name": "Płaszcz skórzany",
+   "type": "pancerz",
+   "img": "icons/svg/shield.svg",
+   "system": {
+    "description": "",
+    "armor": 2,
+    "qualities": "",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "CiS5UQp6txHlbt1B",
+   "_key": "!actors.items!J9wPDFstkMzm8DR6.CiS5UQp6txHlbt1B"
+  }
+ ],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Siostra Wera",
+  "actorLink": true,
+  "disposition": 1,
+  "texture": {
+   "src": "systems/degenesis2/assets/tokens/wera.webp"
+  }
+ }
+}

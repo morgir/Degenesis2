@@ -3,7 +3,5 @@
 Aktualizacja: przycisk **Update** przy systemie.
 
 ## Zmiany w tej wersji
-- Naprawione zakładki kart i kreator postaci (Foundry v14).
-- Zakładka **Rozwój**: zakup cech za PD, nagrody MG, dziennik rozwoju.
-- Instalator zawartości przy pierwszym wejściu do świata.
-- Odgłosy tła i efekty (CC0/CC BY), bez muzyki.
+- Nowy dziennik MG **„Muzyka do sesji (Spotify, YouTube)”** w kompendium przygody: playlisty i albumy pogrupowane według nastroju (pustkowia, Prymer, miasto i śledztwo, bunkry, Afryka, walka, spelunka) oraz tabela „co kiedy” dla „Cichych studni”.
+- Instalator doinstaluje go po aktualizacji (zaznacz grupę „Przygoda”).

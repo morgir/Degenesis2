@@ -1,0 +1,19 @@
+{
+ "_id": "4XavY8yo1Ji0pUXL",
+ "_key": "!folders!4XavY8yo1Ji0pUXL",
+ "name": "Ludzie",
+ "type": "Actor",
+ "folder": null,
+ "sorting": "a",
+ "sort": 0,
+ "color": null,
+ "description": "",
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}
