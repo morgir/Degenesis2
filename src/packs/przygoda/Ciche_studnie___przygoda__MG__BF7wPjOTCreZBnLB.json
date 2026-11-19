@@ -1,0 +1,395 @@
+{
+ "_id": "BF7wPjOTCreZBnLB",
+ "_key": "!journal!BF7wPjOTCreZBnLB",
+ "name": "Ciche studnie — przygoda (MG)",
+ "pages": [
+  {
+   "_id": "tST0bDVAgIdHaz1n",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.tST0bDVAgIdHaz1n",
+   "name": "0. Zanim zaczniesz",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p><b>Ciche studnie</b> to przygoda startowa na 1–2 sesje (6–8 godzin) dla 3–5 graczy. Dzieje się w dzielnicy Dostawców w Justitian, mieście Sędziów w Borce. To śledztwo z rozmowami w centrum. Walka może się zdarzyć, ale nie musi.</p>\n<h3>Co jest w pakiecie</h3>\n<ul><li><b>Sceny</b> (kompendium „Quick start: sceny”): plan dzielnicy i 4 mapy taktyczne (targ ze studnią, lazaret, spelunka Kruków, kancelaria Vargi).</li>\n<li><b>Aktorzy</b> (kompendium „Quick start: aktorzy”): Śledztwo, Lokacja, 2 Frakcje, Rejestr Długów, NPC z portretami i tokenami.</li>\n<li><b>Gotowe postacie</b>: 7 postaci graczy z historią, portretem i tokenem, każda z osobistym hakiem w tej przygodzie.</li>\n<li><b>Dźwięk</b>: playlista „Degenesis — Odgłosy” (deszcz, noc, podziemia) i „Efekty” (dzwony, alarm). Muzykę dobierz sam — propozycje utworów są w „Szkole MG”.</li></ul>\n<h3>Jak czytać ten dziennik</h3>\n<p>Ramki z cytatem to <b>teksty do przeczytania graczom</b>. Szare ramki to <b>notatki dla ciebie</b>. Każda scena ma: tekst wejściowy, Cechy miejsca (jawne i ukryte), kto tu jest, tropy kluczowe (zawsze do zdobycia), Odsłony (nagrody za dobre rzuty), komplikacje, mapę i muzykę.</p>\n<div class=\"d2-gmnote\"><p>Jeśli to twoja pierwsza sesja jako MG, przeczytaj najpierw dziennik <b>Szkoła MG: pierwsza sesja</b>. Prowadzi przez przygotowanie w Foundry, rytm sesji i każdą mechanikę na przykładach z tej przygody.</p></div>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "WlnKBd57uoS9hlna",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.WlnKBd57uoS9hlna",
+   "name": "1. Prawda i zegary (tylko MG)",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p><b>Co się naprawdę dzieje:</b> Sędzia miejski <b>Varga</b> odpowiada za spokój w dzielnicy Dostawców, która karmi Justitian. Za dwa tygodnie przyjeżdża Senator, a Dostawcy szykują strajk. Varga zapłacił <b>Kruczemu Stadu</b> (Apokaliptykom) za „uspokojenie dzielnicy”. Kruki od tygodnia nocą wlewają do studni przy Bramie Wschodniej rozcieńczony Burn <b>Unity</b>. Ludzie robią się łagodni, posłuszni, uśmiechnięci. Ale Burn zaraża i najwrażliwsi zaczynają chorować.</p>\n<p><b>Spitalianie</b> widzą objawy Sepsy bez pola spor i bez Leperosa. Podejrzewają Psychonautę ukrytego pod miastem. Higienista <b>Kessel</b> chce kwarantanny i ognia, brat <b>Tobiasz</b> ma wątpliwości.</p>\n<p><b>Głębsza warstwa</b> (na przyszłość): chorzy śnią ten sam sen o „matce pod miastem”. To Prymer odpowiadający na Burn w wodzie. Tę nić możesz zostawić otwartą na kampanię.</p>\n<h3>Kto czego chce</h3>\n<table><tr><th>Kto</th><th>Chce</th><th>Boi się</th><th>Sekret</th></tr>\n<tr><td>Sędzia Varga</td><td>spokoju przed Senatorem</td><td>że Kodeks go dosięgnie</td><td>zapłacił Krukom</td></tr>\n<tr><td>Ilsa Kruczyca (Kruk Stada)</td><td>zapłaty i długu Vargi</td><td>że Burn kogoś zabije i wina spadnie na Stado</td><td>ma list z pieczęcią Vargi</td></tr>\n<tr><td>Higienista Kessel</td><td>wypalić „ognisko”</td><td>Psychonauty w mieście</td><td>dostał rozkaz, by nie pytać Sędziów</td></tr>\n<tr><td>Brat Tobiasz</td><td>wyleczyć ludzi</td><td>Kessela</td><td>wie, że to Burn, ale nie ma dowodu</td></tr>\n<tr><td>Halka, przekupka</td><td>ochronić syna</td><td>że syn pił wodę</td><td>syn nosi beczki dla Kruków</td></tr></table>\n<h3>Zegary (na aktorach Śledztwo i Frakcje)</h3>\n<ul><li><b>Epidemia</b> (8, start 2): +1 co dzień gry, +1 za hałas (Koszt), +1 za Zgrzyt w dzielnicy. Na 4: pierwsi chorzy umierają. Na 6: Kessel ogłasza kwarantannę. Na 8: ogień.</li>\n<li><b>Dostawa dla Sędziego</b> (Kruki, 6, start 3): +1 każdej nocy. Na 6 Kruki kończą, sprzątają magazyn i znikają z dowodami.</li>\n<li><b>Kwarantanna i podpalenie</b> (Spitalianie, 6, start 1): +1, gdy postacie coś przed Spitalem ukrywają albo Kessel zobaczy kolejnego chorego. Cofa się, gdy dostarczą mu dowód na Burn.</li></ul>\n<div class=\"d2-gmnote\"><p>Zegary to twoja presja zamiast ryzyka śmierci. Przesuwaj je jawnie („słyszycie dzwon z lazaretu, kolejny zmarły”). Gracze, którzy widzą tykający zegar, sami przyspieszają.</p></div>"
+   },
+   "sort": 200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "OSXTabWFh0qm406s",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.OSXTabWFh0qm406s",
+   "name": "2. Otwarcie",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<blockquote class=\"d2-read\"><p>Justitian budzi się w szarym świcie. Nad dzielnicą Dostawców wisi smród gnijących warzyw, dymu i wapna. Od tygodnia jest tu za cicho. Tragarze nie kłócą się o miejsce przy bramie, przekupki nie przekrzykują się nad koszami, dzieci nie biegają między wozami. Ludzie uśmiechają się do siebie łagodnie, jak po dobrym winie, i zapominają, co mieli zrobić.</p></blockquote><blockquote class=\"d2-read\"><p>Przy Bramie Wschodniej studnię oplata łańcuch z pieczęcią Spitalu: biały krzyż w okręgu. Obok stoi Sędzia w szerokim kapeluszu i patrzy na tłum tak, jakby wszyscy byli winni. Z lazaretu dochodzi dzwon. Ktoś znów umarł z uśmiechem na ustach.</p></blockquote>\n<h3>Dlaczego postacie tu są (haki osobiste)</h3>\n<ul><li><b>Siostra Wera</b> (Spitalianka): jej brat Lew, tragarz, leży w lazarecie. Kessel każe jej trzymać się z daleka od sprawy.</li>\n<li><b>Oddo</b> (Sędzia miejski): Varga osobiście przydzielił go do patrolu przy studni z rozkazem „nikogo nie dopuszczać i o nic nie pytać”.</li>\n<li><b>Kasia „Sroka”</b> (Apokaliptyczka): Stado kazało jej „pilnować, żeby nikt nie węszył”, a ona wie, co jest w beczkach.</li>\n<li><b>Mirek „Borsuk”</b> (Złomiarz): sprzedał Krukom mapę kanałów pod dzielnicą i dopiero teraz rozumie, do czego jej użyli.</li>\n<li><b>Kapral Anja Reiss</b> (Hellwetka): jej ostatni żołnierz, Pit, leży w lazarecie. Forteca każe jej obserwować Sędziów, a nie się wtrącać.</li>\n<li><b>Brat Kaspar</b> (Anabaptysta): rozpoznaje objawy Burnu Unity, bo kiedyś sam go brał, i wie, że w tym mieście handlują nim Kruki. Ilsa pamięta jego stary dług.</li>\n<li><b>Modus</b> (Kronikarz): Klaster zauważył spadek wydajności dzielnicy o jedną trzecią i chce wiedzieć dlaczego, zanim zrobią to Sędziowie.</li></ul>\n<div class=\"d2-gmnote\"><p>Zacznij od krótkiej sceny dla każdej postaci (1–2 minuty): Wera przy łóżku brata, Oddo dostaje rozkaz od Vargi, Sroka odbiera polecenie od Ilsy, Borsuk widzi swoją runę ostrzegawczą zamalowaną na włazie kanału, Modus odbiera raport z Alkowy, Anja szuka Pita w lazarecie, a Kaspar wącha osad na kubku chorego i zaciska pięść. Potem zbierz ich przy studni: tłum, kolejny chory pada na bruk i wszyscy są na miejscu. Tak drużyna formuje się sama.</p></div>\n<p><b>Mapa:</b> „Plan dzielnicy”, potem „Targ i studnia”. <b>Dźwięk:</b> „Mżawka” z Odgłosów, a na koniec sceny „Dzwony” z Efektów.</p>"
+   },
+   "sort": 300000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "d7ZPcZtK4176TTyG",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.d7ZPcZtK4176TTyG",
+   "name": "A. Lazaret Spitalian",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<blockquote class=\"d2-read\"><p>Wapno chrzęści pod butami. Długa sala, dwa rzędy łóżek, na każdym ktoś, kto się uśmiecha. Kobieta nuci kołysankę do sufitu. Mężczyzna w kącie głaszcze ścianę, jakby była żywa. Między łóżkami chodzi Spitalianin w masce z goglami i liczy oddechy.</p></blockquote>\n<p><b>Cechy:</b> „Smród wapna i strachu”, „Za mało łóżek”. Ukryta: „Brat Tobiasz ma wątpliwości” (odkrywa INS+Empatia albo szczera rozmowa).</p>\n<p><b>Kto tu jest:</b> Higienista Kessel (Nieufny, Spitalianin wysokiej rangi), brat Tobiasz (Życzliwy wobec Wery), chorzy, w tym brat Wery, Lew.</p>\n<p><b>Tropy kluczowe:</b></p>\n<ol><li>Chorują tylko ludzie pijący ze studni przy Bramie. Z innych studni nikt. → <b>C</b></li>\n<li>W ślinie chorych są białe włókna, ale Mollusk reaguje słabo. To nie wygląda na zwykłą Sepsę. → <b>C</b> albo <b>D</b></li>\n<li>Chorzy śnią ten sam sen o „matce pod miastem”. → <b>E</b></li></ol>\n<p><b>Odsłony:</b> objawy przypominają odurzenie Burnem Unity, a nie chorobę (INT+Medycyna z Wyzwalaczem); Kessel ma rozkaz „nie pytać Sędziów” (Dźwignia na Kessela); Tobiasz odda próbki za obietnicę ochrony przed Kesselem (tworzy <b>dług Drobny</b> Tobiasza wobec drużyny albo odwrotnie).</p>\n<p><b>Komplikacje:</b> Kessel każe wszystkim przejść oczyszczanie wapnem (−1 Ego, zgubiony sprzęt); Lew w majakach mówi o „beczkach w nocy” przy wszystkich, co spala Srokę przed drużyną, jeśli jest obecna.</p>\n<div class=\"d2-gmnote\"><p>Metoda Spitalian (sekcja, testy) daje Werze automatyczną Odsłonę raz na scenę. To dobry moment, by pokazać graczom, że ich kult ma znaczenie w śledztwie.</p></div><p><b>Mapa:</b> Lazaret. <b>Muzyka:</b> „Lazaret”.</p>"
+   },
+   "sort": 400000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "iY3h6WJtwycPpAIA",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.iY3h6WJtwycPpAIA",
+   "name": "B. Targ przy Bramie Wschodniej",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<blockquote class=\"d2-read\"><p>Targ żyje, ale jakoś wolniej. Kupcy podają towar z uśmiechem i zapominają wziąć zapłatę. Tragarze siedzą na skrzyniach i patrzą w niebo. Tylko jedna przekupka, stara i twarda jak rzemień, ogląda się nerwowo na studnię i na Sędziów.</p></blockquote>\n<p><b>Cechy:</b> „Tłum, w którym łatwo zniknąć”, „Patrole Sędziów co kwadrans”. Ukryta: „Przekupki widzą wszystko” (darmowe wywołanie dla odkrywcy).</p>\n<p><b>Kto tu jest:</b> Halka (Nieufna), tragarze, patrol Sędziów.</p>\n<p><b>Tropy kluczowe:</b></p>\n<ol><li>Halka widziała nocą wóz z beczkami bez znaków, który jechał od strony kanałów. → <b>D</b></li>\n<li>Tragarze płacą za piwo dinarami, choć zarabiają w Draftach. Ktoś płaci im po afrykańsku. → <b>D</b></li>\n<li>Sędziowie pilnują studni od tygodnia, czyli zanim ktokolwiek zachorował. → <b>F</b></li></ol>\n<p><b>Halka:</b> Motyw: utrzymać stragan i syna. Lęk: że syn pił wodę. Sekret: syn nosi beczki dla Kruków. Cena: lekarstwo dla syna albo glejt od Sędziów. Gdy postacie użyją Dźwigni (lęk o syna, Wera z lekarstwem, Oddo z glejtem), Halka mówi wszystko. Jeśli ochronią syna, ma u nich <b>dług Drobny</b>.</p>\n<div class=\"d2-gmnote\"><p>To idealne miejsce, żeby nauczyć graczy Postawy i Dźwigni. Pierwsza próba „po prostu ją przekonać” ma Trudność 3 (Nieufna) +1 (istotna prośba) = 4. Gdy gracze odkryją lęk o syna, dostają +2K albo prośba staje się łatwa.</p></div><p><b>Mapa:</b> Targ i studnia. <b>Muzyka:</b> „Wiatr nad dzielnicą”.</p>"
+   },
+   "sort": 500000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "HMXFDeiyqtmTdurk",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.HMXFDeiyqtmTdurk",
+   "name": "C. Studnia",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<blockquote class=\"d2-read\"><p>Łańcuch jest gruby, pieczęć świeża. Z dołu ciągnie chłód i coś jeszcze, słodkawy zapach, jak od zwiędłych kwiatów. Na kamiennej cembrowinie osiada biały pył, cienki jak mąka. Gdy się nachylasz, przez moment wydaje ci się, że ktoś na dole nuci.</p></blockquote>\n<p><b>Cechy:</b> „Łańcuch i pieczęć Spitalu”, „Wilgoć i ciemność”. Ukryta: „Ślady ciągnięcia beczek po bruku” (prowadzą w stronę kanałów).</p>\n<p><b>Tropy kluczowe:</b></p>\n<ol><li>Na cembrowinie biały, słodkawy osad, którego nie wyczuwa Mollusk. → <b>A</b> albo <b>D</b></li>\n<li>Świeże rysy po linie, jakby coś spuszczano nocą. → <b>D</b></li>\n<li>W szczelinie tkwi czarne pióro, znak Kruczego Stada. → <b>D</b></li></ol>\n<p><b>Sporyzacja:</b> kto schodzi do studni albo wącha osad bez maski, rzuca CIA+Twardość (2). Porażka daje +1 Zarażenie. Kto ma Zarażenie ≥ 1, może dostać pierwszy <b>Szept Prymera</b>:</p>\n<blockquote class=\"d2-read\"><p>Ciepło. Wszyscy razem, wszyscy spokojni, nikt nie musi się bać. Dzielnica oddycha jednym oddechem jak śpiące dziecko. Wystarczy przestać się opierać…</p></blockquote>\n<p>Jeśli gracz przyjmie Szept (+1 Zarażenie), powiedz mu wprost: <i>to Burn Unity, dużo, rozcieńczony w wodzie</i>. To prawdziwa Odsłona za cenę ciała.</p>\n<div class=\"d2-gmnote\"><p>Zatrzymaj się tu na chwilę i zapytaj gracza: „Chcesz to poczuć? Dostaniesz odpowiedź, ale Prymer cię dotknie”. To najlepszy moment, żeby pokazać, czym jest Degenesis.</p></div><p><b>Mapa:</b> Targ i studnia. <b>Muzyka:</b> „Studnia”.</p>"
+   },
+   "sort": 600000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "OTCjJsNcVJhWtfj4",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.OTCjJsNcVJhWtfj4",
+   "name": "D. Pod Złamanym Skrzydłem",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<blockquote class=\"d2-read\"><p>Dym, muzyka i śmiech. Na ścianach wiszą kości ptaków i karty Tarota przybite nożami. Za barem łysy Apokaliptyk poleruje kufel. Pod sceną ktoś przegrywa ostatnią koszulę. Za czerwoną kurtyną, przy której stoi dwóch tragarzy, coś bieleje w półmroku.</p></blockquote>\n<p><b>Cechy:</b> „Dym, kości i muzyka”, „Każdy coś jest winien Krukom”. Ukryta: „Magazyn za kurtyną” (beczki z resztkami białego pyłu).</p>\n<p><b>Kto tu jest:</b> Ilsa Kruczyca (Kruk Stada, Obojętna; dla Sroki Życzliwa), banda tragarzy Kruków (6 osób), goście.</p>\n<p><b>Tropy kluczowe:</b></p>\n<ol><li>W magazynie stoją beczki z resztkami białego pyłu, czyli Burnu Unity. → <b>F</b></li>\n<li>Ilsa wie, kto płaci, i sprzeda to za <b>dług Poważny</b> albo za ochronę Stada przed winą. → <b>F</b></li>\n<li>Wóz w zaułku rusza o świcie (zegar Dostawy). Kto go zatrzyma, ma beczki jako dowód. → <b>F</b></li></ol>\n<p><b>Ilsa:</b> Motyw: zapłata i dług Vargi. Lęk: że wina spadnie na Stado. Sekret: ma list z pieczęcią Vargi (handout). Cena: dług albo obietnica, że Kruki wyjdą z tego czyste.</p>\n<p><b>Walka (opcjonalnie):</b> banda tragarzy (Banda, liczebność 6, morale pęka po 3 stratach). To nie jest Stawka Śmierci. Pokonani gracze budzą się w zaułku bez sakiewek, z długiem wobec Kruków za „darowane życie”.</p>\n<div class=\"d2-gmnote\"><p>Kruk woli dłużnika niż trupa. Zanim padnie pierwszy cios, Ilsa proponuje rozmowę. Pokaż graczom, że w tej grze walka jest tylko jedną z opcji.</p></div><p><b>Mapa:</b> Spelunka Kruków. <b>Muzyka:</b> „Napięcie” (walka) albo muzyka z listy (spelunka).</p>"
+   },
+   "sort": 700000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "c3O4jT3lenYsdhg6",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.c3O4jT3lenYsdhg6",
+   "name": "E. Sny chorych",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<blockquote class=\"d2-read\"><p>Stary tragarz łapie cię za rękę zaskakująco mocno. „Ona jest pod nami” — szepcze z uśmiechem. — „Ciepła. Mówi, że już nie musimy się bać. Sędzia pił z nami wino w zeszłym tygodniu. A potem woda zrobiła się słodka.”</p></blockquote>\n<p>Rozmowy z chorymi w domach dzielnicy (INS+Empatia, Trudność 2) albo w wizji przez Szept Prymera.</p>\n<p><b>Tropy kluczowe:</b></p>\n<ol><li>Wszyscy śnią to samo: „matkę pod miastem”. → zostaw jako nić kampanii</li>\n<li>Sen nasila się po wypiciu wody. → <b>C</b></li>\n<li>„Sędzia pił z nami wino, a potem woda zrobiła się słodka.” Varga był w dzielnicy dzień przed pierwszym zatruciem. → <b>F</b></li></ol>\n<div class=\"d2-gmnote\"><p>Ta scena to horror, nie akcja. Mów cicho, rób pauzy. Puść „Studnię” albo „Lazaret” i pozwól graczom się bać.</p></div><p><b>Mapa:</b> Plan dzielnicy (teatr wyobraźni). <b>Muzyka:</b> „Studnia”.</p>"
+   },
+   "sort": 800000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "GRVtbBRIMLcBBjcY",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.GRVtbBRIMLcBBjcY",
+   "name": "F. Kancelaria Sędziego Vargi",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<blockquote class=\"d2-read\"><p>Hala sądowa pachnie woskiem i starym papierem. Na pulpicie leży Kodeks, otwarty na rozdziale o porządku publicznym. Sędzia Varga nie wstaje zza biurka. Kapelusz zdjął, ale rękę trzyma na młocie. „Słucham. Krótko. Mam miasto do pilnowania.”</p></blockquote>\n<p><b>Cechy:</b> „Kodeks na pulpicie”, „Dwaj Protektorzy przy drzwiach”. Ukryta: „Księga wydatków z podwójnymi wpisami” (Kronikarz albo INT+Nauka, Trudność 3).</p>\n<p><b>Varga:</b> Obojętny. Motyw: spokój przed Senatorem. Lęk: że Kodeks go dosięgnie. Sekret: zapłacił Krukom. Cena: czyjaś głowa zamiast jego. Bez Dźwigni nie powie nic i każe wyprowadzić gości. Każdy dowód (księga, pióro, beczki, list Ilsy, zeznanie chorego) to Dźwignia: +2K i coraz mniej miejsca na kłamstwa. Przy trzech dowodach zaczyna negocjować.</p>\n<div class=\"d2-gmnote\"><p>Oddo w tej scenie stoi przed wyborem: lojalność wobec przełożonego czy wobec Kodeksu. Nie rozstrzygaj tego za gracza. Zaproponuj Pokusę Archetypu: „Sprawiedliwy dzieli świat na winnych i niewinnych, a ty jesteś zawsze po właściwej stronie. Czy aby na pewno?”</p></div><p><b>Mapa:</b> Kancelaria Vargi. <b>Muzyka:</b> „Napięcie”.</p>"
+   },
+   "sort": 900000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "0KeL3j6CfazW7KRH",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.0KeL3j6CfazW7KRH",
+   "name": "G. Finał i epilogi",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<table><tr><th>Rozwiązanie</th><th>Co się dzieje</th><th>Imię i długi</th></tr>\n<tr><td>Zdemaskować Vargę przed Sędziami</td><td>Arbiter odbiera Vargę; Kruki mszczą się na informatorach</td><td>Sędziowie Echo +2; Krucze Stado Echo −2; Halka ma dług, jeśli ją chroniono</td></tr>\n<tr><td>Szantażować Vargę</td><td>Varga odwołuje Kruki, ale zostaje u władzy</td><td>Varga ma dług Krwawy (ukryty); wróg osobisty</td></tr>\n<tr><td>Wydać wszystko Spitalianom</td><td>kwarantanna bez ognia, chorzy na badania</td><td>Spitalianie Echo +2; Dostawcy pamiętają</td></tr>\n<tr><td>Dogadać się z Krukami</td><td>Kruki kończą za dobrą cenę</td><td>dług Poważny wobec Stada; Sędziowie podejrzliwi</td></tr>\n<tr><td>Spóźnić się</td><td>zegar epidemii pełny: ogień</td><td>Imię −1 u wszystkich; −Ego dla świadków</td></tr></table>\n<h3>Epilogi do przeczytania</h3>\n<blockquote class=\"d2-read\"><p><b>Gdy prawda wyszła na jaw:</b> Trzy dni później studnię odpieczętowano. Woda znów jest gorzka i zimna, a dzielnica znów krzyczy, kłóci się i targuje. Nigdy nie była piękniejsza. Tylko chorzy w lazarecie wciąż czasem nucą tę samą kołysankę.</p></blockquote><blockquote class=\"d2-read\"><p><b>Gdy przyszedł ogień:</b> Spitalianie palili przez całą noc. Rano z dzielnicy Dostawców zostały czarne kikuty domów i zapach wapna. Varga wygłosił mowę o bezpieczeństwie. Senator przyjechał punktualnie.</p></blockquote>\n<p><b>PD:</b> 5 za sesję, +2 za Wniosek „to Burn, nie Psychonauta”, +2 za Sekret (Varga i Kruki), +1 za przyjętą Pokusę Archetypu.</p>\n<p><b>Ciąg dalszy:</b> „matka pod miastem”. Borsuk zna kanały. Coś odpowiedziało na Burn w wodzie i teraz wie, gdzie są ludzie.</p>"
+   },
+   "sort": 1000000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "fAgzxNkYvSGvGWeX",
+   "_key": "!journal.pages!BF7wPjOTCreZBnLB.fAgzxNkYvSGvGWeX",
+   "name": "H. Handouty",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Przeczytaj albo skopiuj graczom, gdy znajdą.</p>\n<h3>List z pieczęcią Vargi (u Ilsy)</h3>\n<blockquote class=\"d2-read\"><p><i>Do Stada. Spokój w dzielnicy do przyjazdu Senatora. Sposób wasz, cena jak ustalono. Żadnych trupów na bruku. Po wszystkim — nic się nie wydarzyło. — V.</i></p></blockquote>\n<h3>Notatka Tobiasza (lazaret)</h3>\n<blockquote class=\"d2-read\"><p><i>Pacjenci 11–19: euforia, posłuszeństwo, ślinotok z włóknami. Mollusk: reakcja śladowa. Brak pola spor w promieniu kilometra. To nie wygląda na naturalną sporyzację. Raczej na podanie. Higienista nie chce słuchać. — T.</i></p></blockquote>\n<h3>Księga wydatków Vargi (wpis podwójny)</h3>\n<blockquote class=\"d2-read\"><p><i>„Utrzymanie porządku, dzielnica Dostawców — 1200 dinarów.” Dwa wiersze niżej, inną ręką: „Ptaszki — zaliczka”.</i></p></blockquote>\n<h3>Runa Borsuka</h3>\n<blockquote class=\"d2-read\"><p>Na włazie kanału ktoś zamalował twoją runę ostrzegawczą świeżą sadzą. Pod spodem wydrapano czarne pióro.</p></blockquote>"
+   },
+   "sort": 1100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "categories": []
+}

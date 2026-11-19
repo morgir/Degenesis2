@@ -1,0 +1,27 @@
+{
+ "_id": "qeicVGHdyIbV4AxE",
+ "_key": "!items!qeicVGHdyIbV4AxE",
+ "name": "Uderzenie młota (Hammer Blow)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Kara z cechy Impact (ciężka broń) mniejsza o 1/PP.</p>",
+  "level": 1,
+  "kult": "Sędziowie",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

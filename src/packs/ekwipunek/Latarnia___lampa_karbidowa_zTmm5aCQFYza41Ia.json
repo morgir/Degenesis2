@@ -1,0 +1,27 @@
+{
+ "_id": "zTmm5aCQFYza41Ia",
+ "_key": "!items!zTmm5aCQFYza41Ia",
+ "name": "Latarnia / lampa karbidowa",
+ "type": "ekwipunek",
+ "img": "icons/svg/item-bag.svg",
+ "system": {
+  "description": "<p>Usuwa karę za ciemność w promieniu kilku metrów.</p>",
+  "quantity": 1,
+  "encumbrance": 0,
+  "value": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

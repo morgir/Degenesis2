@@ -1,0 +1,27 @@
+{
+ "_id": "X45sh09ikIz0JmkQ",
+ "_key": "!items!X45sh09ikIz0JmkQ",
+ "name": "Strzelec wyborowy (Marksman)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Celuje przez pełną rundę; jeśli nie został rozproszony, w następnej +PP Wyzwalaczy do ZRĘ+Strzelectwo.</p>",
+  "level": 1,
+  "kult": "Neolibijczycy",
+  "prerequisite": "Skupienie"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

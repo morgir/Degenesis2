@@ -1,0 +1,246 @@
+{
+ "_id": "RhD4t4WB5LlUNPI2",
+ "_key": "!playlists!RhD4t4WB5LlUNPI2",
+ "name": "Degenesis — Odgłosy (tło)",
+ "description": "Pętle tła do łączenia z twoją muzyką: kliknij pojedynczy odgłos, żeby go włączyć.",
+ "mode": -1,
+ "channel": "environment",
+ "playing": false,
+ "fade": 1500,
+ "sounds": [
+  {
+   "_id": "GzcO1MptNGejQLO7",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.GzcO1MptNGejQLO7",
+   "name": "Deszcz",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/deszcz.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 0,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "oeTogVzz29zG9Pw1",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.oeTogVzz29zG9Pw1",
+   "name": "Mżawka",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/mzawka.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 100,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "XayAJixr3Fmd5sKe",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.XayAJixr3Fmd5sKe",
+   "name": "Ulewa pod dachem",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/ulewa-pod-dachem.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 200,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "jmjSCSAJIFkwwQBS",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.jmjSCSAJIFkwwQBS",
+   "name": "Burza",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/burza.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 300,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "cisgxZMvRzNqaATE",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.cisgxZMvRzNqaATE",
+   "name": "Zamieć",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/zamiec.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 400,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "XvEceYrbeJySY7mG",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.XvEceYrbeJySY7mG",
+   "name": "Noc — świerszcze",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/noc-swierszcze.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 500,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "xQ8x6VMKc6InzjkU",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.xQ8x6VMKc6InzjkU",
+   "name": "Noc — wiatr",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/noc-wiatr.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 600,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "BblFnFkXAZ9Bw6TI",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.BblFnFkXAZ9Bw6TI",
+   "name": "Pochmurny dzień",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/pochmurny-dzien.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 700,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "cXILDSxE3frc12H9",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.cXILDSxE3frc12H9",
+   "name": "Podziemia, kanały",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/podziemia.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 800,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  },
+  {
+   "_id": "ftfF2DMlBcoEVq11",
+   "_key": "!playlists.sounds!RhD4t4WB5LlUNPI2.ftfF2DMlBcoEVq11",
+   "name": "Wnętrze budynku",
+   "description": "",
+   "path": "systems/degenesis2/assets/audio/odglosy/wnetrze.ogg",
+   "channel": "",
+   "repeat": true,
+   "volume": 0.35,
+   "fade": 1500,
+   "sort": 900,
+   "playing": false,
+   "pausedTime": null,
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   }
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "seed": null,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

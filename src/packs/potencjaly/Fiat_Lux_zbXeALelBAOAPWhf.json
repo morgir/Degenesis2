@@ -1,0 +1,27 @@
+{
+ "_id": "zbXeALelBAOAPWhf",
+ "_key": "!items!zbXeALelBAOAPWhf",
+ "name": "Fiat Lux",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Wobec szumowin (zwłaszcza Apokaliptyków) +1K/PP do przejrzenia oszustwa i +1K do obrony mentalnej. [2.0: w przesłuchaniu daje też Odsłonę „Dźwignia” przy sukcesie.]</p>",
+  "level": 1,
+  "kult": "Sędziowie",
+  "prerequisite": "Sława 4"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

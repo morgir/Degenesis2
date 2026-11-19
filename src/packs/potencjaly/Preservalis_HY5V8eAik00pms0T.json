@@ -1,0 +1,27 @@
+{
+ "_id": "HY5V8eAik00pms0T",
+ "_key": "!items!HY5V8eAik00pms0T",
+ "name": "Preservalis",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Po trafieniu mieczem: następny atak z −3K (PP2: −2K, PP3: −1K) to strzał z pistoletu ignorujący pancerz.</p>",
+  "level": 1,
+  "kult": "Spitalianie",
+  "prerequisite": "Prezerwista"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

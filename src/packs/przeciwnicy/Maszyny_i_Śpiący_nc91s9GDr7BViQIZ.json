@@ -1,0 +1,19 @@
+{
+ "_id": "nc91s9GDr7BViQIZ",
+ "_key": "!folders!nc91s9GDr7BViQIZ",
+ "name": "Maszyny i Śpiący",
+ "type": "Actor",
+ "folder": null,
+ "sorting": "a",
+ "sort": 300,
+ "color": null,
+ "description": "",
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

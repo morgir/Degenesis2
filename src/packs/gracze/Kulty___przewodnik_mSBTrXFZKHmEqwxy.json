@@ -1,0 +1,497 @@
+{
+ "_id": "mSBTrXFZKHmEqwxy",
+ "_key": "!journal!mSBTrXFZKHmEqwxy",
+ "name": "Kulty — przewodnik",
+ "pages": [
+  {
+   "_id": "X3yem3up1KW4WM2b",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.X3yem3up1KW4WM2b",
+   "name": "Spitalianie",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Ostatni bastion. Lekarze i żołnierze w wojnie z Sepsą i Psychonautami. Leczenie jest przywilejem, a ogień oczyszcza.</p><p><b>Bonusy do limitu umiejętności:</b> Twardość, Medycyna, Nauka, Percepcja, Wiara, Wola</p><p><b>Metoda (śledztwo):</b> Sekcja, test na zarodniki, kwarantanna, dokumentacja przypadku (INT+Medycyna, INT+Nauka).</p><p><b>Ideał:</b> Ludzkość musi przetrwać, nawet jeśli pojedynczy człowiek nie.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Rekrut (Recruit)</b></td><td>—</td><td>—</td><td>Podręcznik (+1K do INT+Medycyna, dopóki Medycyna ≤ 2); skórzany fartuch</td></tr><tr><td>2</td><td><b>Sanitariusz (Orderly)</b></td><td>INT+Medycyna 4; CIA+Kondycja 4</td><td>Przeżył zakaźne oddziały: dożywotnio +1K do rzutów przeciw chorobom.</td><td>Kombinezon Spitaliański</td></tr><tr><td>3</td><td><b>Famulancer</b></td><td>CIA+Twardość 4; INT+Medycyna 6; INT+Nauka 4</td><td>Szanowany w Protektoracie, jada tam za darmo. Bez specjalizacji Rejestrator wysyła go na misje bojowe albo do sojuszników.</td><td>Splayer z Molluskiem (+1 nasadka); karabin fungicydowy</td></tr><tr><td>4</td><td><b>Medyk polowy (Field Medic)</b></td><td>INT+Medycyna 8; Sława 2; Zasoby 2; Sieć 2</td><td>Darmowy dostęp do szpitali i oczyszczania z zarodników. +1 Sojusznicy za każdego uratowanego w akcji Spitalianina, +1 Sieć za ludzi z innych kultów.</td><td>Zestaw polowy</td></tr><tr><td>4</td><td><b>Higienista (Hygienist)</b></td><td>CIA+Twardość 6; INT+Inżynieria 4; Sojusznicy 4; Autorytet 4</td><td>Może zarządzić oczyszczanie z zarodników w całym Protektoracie; obecni Sędziowie podlegają jego poleceniom. Certyfikuje zbiory.</td><td>Kombinezon higienisty; granat chlorowy; granat SP 4016</td></tr><tr><td>4</td><td><b>Epigenetyk (Epigeneticist)</b></td><td>INT+Medycyna 8; INT+Inżynieria 6; INT+Nauka 6; Sekrety 3</td><td>Dostęp do więzień Psychonautów. Za 2 Autorytetu dostaje ochroniarza-Famulancera. Kronikarze otwierają mu Alkowy. +3 do Zasobów przy eksperymentalnych środkach bojowych.</td><td>Sekwencer; miotacz kartridży; 2× kartridż EX Aerosol / EG 1</td></tr><tr><td>4</td><td><b>Farmaceuta (Pharmacist)</b></td><td>INT+Medycyna 10; INT+Nauka 8; Sława 4</td><td>Elita techniczna. Sława zależy od wyników badań (−1 po miesiącach bez odkryć). Przy Sławie 2+ darmowy dostęp do aptek szpitali (+3 Zasobów na leki).</td><td>Apothecarium (poziom 1)</td></tr><tr><td>4</td><td><b>Chirurg (Surgeon)</b></td><td>INT+Medycyna 8; ZRĘ+Zwinne palce 6; CHA+Przywództwo 4; Sława 4</td><td>Zawsze może wezwać anestezjologa i 1k6 sanitariuszy. Szanowany przez Anabaptystów, ma wstęp do Rady Emanacji.</td><td>Narzędzia chirurgiczne (poziom 1)</td></tr><tr><td>4</td><td><b>Anestezjolog (Anesthesiologist)</b></td><td>INT+Medycyna 8; CIA+Bijatyka 6; CIA+Siła 4; CIA+Kondycja 6; Sojusznicy 3</td><td>+3 Zasobów na narkotyki i stymulanty; może bezkarnie używać Burnu. Przesłuchuje uśpionych Spitalian dla Hipokratów.</td><td>Pistolet iniekcyjny; 2 kartridże Black Band miesięcznie</td></tr><tr><td>4</td><td><b>Hipokrata (Hippocrat)</b></td><td>PSY+Dominacja 6; Sojusznicy 2; Autorytet 4; Sekrety 3</td><td>Dostęp do najtajniejszych placówek; może zarządzać rewizje i usuwać Spitalian ze stanowisk rękami Prezerwistów; reprezentuje Spital wobec kultów.</td><td>Rewolwer; +1k6 naboi/mies.; krzyż Ita Sit (paszport); podsłuchy</td></tr><tr><td>4</td><td><b>Prezerwista (Preservist)</b></td><td>mianowany po wybitnej walce z wrogami Spitalu; Sława 4; CIA+Broń biała 8; CIA+Twardość 6; ZRĘ+Mobilność 6</td><td>Dostęp do Arsenału (+3 Zasobów na broń, środki bojowe, stymulanty). Może używać (nie nadużywać) Burnu. Na misję może dobrać 1k6 Famulancerów.</td><td>Miecz Preservalis; pistolet; +1k6 naboi/mies.; koń</td></tr><tr><td>spec.</td><td><b>Lekarz wiejski (Village Doctor)</b></td><td>co najmniej Famulancer, wysłany do regionu lub wioski</td><td>+1 Sieć. Ratując obcych z 3+ Wyzwalaczami na INT+Medycyna trwale +1 Sieć (maks. 4). W swojej społeczności +1K do PSY i CHA.</td><td>Zestaw polowy</td></tr><tr><td>5</td><td><b>Rejestrator (Registrar)</b></td><td>Sojusznicy 5; Sława 4; Sekrety 4</td><td>Dostęp do tajnych laboratoriów (bez placówek Prezerwistów), +1 Sława. Głos Konsultantów: +2K do Negocjacji z najwyższymi przywódcami kultów.</td><td>—</td></tr><tr><td>5</td><td><b>Komandor Prime (Commando Prime)</b></td><td>CIA+Broń biała 10; ZRĘ+Prowadzenie 6; Sława 5; Sekrety 3; Autorytet 4</td><td>Pełny dostęp do Arsenału, dowodzi wszystkimi Spitalianami; może dobrać 1k6 Prezerwistów i 1k6 Spitalian rangi 4.</td><td>Pierścień prowosta; czarny koń Newcrest</td></tr><tr><td>6</td><td><b>Konsultant (Consultant)</b></td><td>musi opuścić Radę; Sojusznicy 5; Autorytet 5; Sekrety 5</td><td>Głowa kultu, dowodzi Hipokratami, ma własny obszar badań.</td><td>—</td></tr><tr><td>6</td><td><b>Prowost (Provost)</b></td><td>Kranzler musi ustąpić; mianują Konsultanci; Sława 6; Autorytet 6; Sekrety 5</td><td>Dowodzi wszystkimi Prezerwistami; weto wobec Konsultantów w sprawach bezpieczeństwa.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Rozwarcie (Splaying)</b>: 2 Wyzwalacze w ataku Splayerem: na rundę +1 Obrony i +1K Poręczności; kolejne ataki z 2 Wyzwalaczami kumulują premię do poziomu PP; nieudana aktywacja ją zeruje.</li><li><b>Falanga (Phalanx)</b>: Z towarzyszem z bronią drzewcową: przejmuje ataki na niego; +1K/towarzysza do aktywnej obrony (maks. PP); 2 Wyzwalacze w obronie = trafienie wroga z Wyzwalaczami jako obrażeniami. Po 1. rundzie wymaga rundy na uformowanie szyku.</li><li><b>Preservalis</b> <i>(wym.: Prezerwista)</i>: Po trafieniu mieczem: następny atak z −3K (PP2: −2K, PP3: −1K) to strzał z pistoletu ignorujący pancerz.</li><li><b>Ostatni Bastion (Last Bastion)</b>: +1 Wyzwalacz/PP do każdego ataku przeciw Psychonautom.</li><li><b>Nauki Kranzlera (Kranzler's Teachings)</b> <i>(wym.: Skupienie)</i>: Odporność na mentalne wpływy Psychonautów przez co najmniej PP rund.</li><li><b>Ostatnie pożegnanie (The Last Farewell)</b> <i>(wym.: Pierwotność)</i>: Gdy wszyscy sojusznicy leżą: przez 6 rund +1K/PP do ataku i obrony, +PP do Obrony i obrażeń. Kończy się, gdy sojusznik wstaje.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 47–48, Potencjały s. 49. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "dKEEGeSGPqratlcI",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.dKEEGeSGPqratlcI",
+   "name": "Kronikarze",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Wszechwiedzący. Spadkobiercy Strumienia, kupują artefakty, kontrolują przepływ informacji i Drafty, którymi płaci pół Europy.</p><p><b>Bonusy do limitu umiejętności:</b> Rzemiosło, Negocjacje, Artefakty, Inżynieria, Oszustwo</p><p><b>Metoda (śledztwo):</b> Dane, korelacja, nasłuch, archiwa i płatni informatorzy (INT+Artefakty, PSY+Spryt).</p><p><b>Ideał:</b> Wiedza musi płynąć, ale to my decydujemy dokąd.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Bit</b></td><td>—</td><td>Kod kreskowy na czole: dostęp do wszystkich Alków (dopóki wynik nie spadnie do zera — wtedy staje się Zerem).</td><td>Szata</td></tr><tr><td>2</td><td><b>Agent</b></td><td>INT+Artefakty 5</td><td>Ograniczone przepustki: trasy zaczynają się i kończą w Alkowach, Klastrze albo przy ważnym artefakcie.</td><td>Vocoder; maska Kronikarza; peleryna</td></tr><tr><td>3</td><td><b>Mediator</b></td><td>INT+Artefakty 7; INT+Inżynieria 4; Sekrety 1; Sieć 2</td><td>Zlecenia i przepustki do placówek niemal wszystkich kultów (poza Anabaptystami). W Klastrze dostęp do Statycznego Strumienia: +3K do pytań o wiedzę.</td><td>Drukarka Draftów; kombinezon Kronikarza; 1 darmowy moduł</td></tr><tr><td>3</td><td><b>Shutter</b></td><td>CIA+Broń biała 6 lub ZRĘ+Strzelectwo 6; PSY+Spryt 6</td><td>Misje sankcjonowane przez Klaster; niemile widziany w Alkowach.</td><td>Dostęp do technologii sankcjonowanej (zdolnej zabijać)</td></tr><tr><td>4</td><td><b>Streamer</b></td><td>INT+Legendy 5; INT+Inżynieria 7; CHA+Negocjacje 5; Autorytet 1; Sekrety 2; Sieć 4</td><td>Zna sekrety innych kultów (Sekrety wobec nich z −2). Wolny wstęp do Górnego Miasta Justitian i Hali Sądowej.</td><td>Rękawica Streamera; Shocker; Tracker; 1 moduł lub ulepszenie</td></tr><tr><td>4</td><td><b>Fuse</b></td><td>CIA+Broń biała 8 lub ZRĘ+Strzelectwo 8; CIA+Twardość 6; ZRĘ+Skradanie 6; Sieć 3</td><td>Wszczepiony transponder: ukryte części Klastra i skrytki z bronią; Scalar lub Streamer może go namierzyć Trackerem.</td><td>Technologia sankcjonowana wg Zasobów</td></tr><tr><td>spec.</td><td><b>Zero</b></td><td>co najmniej Shutter lub Mediator; nie ma powrotu; Sekrety 2; PSY+Oszustwo 6</td><td>Włamał się do systemu: Zasoby 6, ale każde ich użycie to Starcie z Klastrem (PSY+Oszustwo vs Percepcja Klastra); przegrana sprowadza Shuttera, potem Fuse, potem Scalara.</td><td>Technologia sankcjonowana i Kronikarzy</td></tr><tr><td>spec.</td><td><b>Igła (Needle)</b></td><td>CHA+Przywództwo 8; Sojusznicy 3; Sekrety 5; Sieć 4</td><td>Czczony i chroniony przez Klan; traci arsenały Klastra, tworzy własny z łupów Klanowców (Zasoby = dostępny poziom technologii). Przy Sławie > 3 interesują się nim Maruderzy.</td><td>Wg poziomu technologii; 1 przedmiot Free Spirit</td></tr><tr><td>5</td><td><b>Fragment</b></td><td>INT+Artefakty 10; PSY+Wiara 6 lub PSY+Wola 6; Sekrety 5; Autorytet 2; Zasoby 4</td><td>Połączony ze Statycznym Strumieniem: +6K do umiejętności INT. Kody lustrzane Klastra; dostęp do siedzib innych kultów (poza Hellvetami i Anabaptystami).</td><td>Cascader; dron Strumienia</td></tr><tr><td>5</td><td><b>Paradigma</b></td><td>INT+Legendy 6; PSY+Wiara 8 lub PSY+Wola 8; PSY+Oszustwo 8; PSY+Dominacja 6</td><td>Czyta runy Złomiarzy (+1 Sieć wśród nich); sieje zabobon i skłóca kulty (+3 Sieć prowokatorów).</td><td>Cascader; przenośny uplink sieci Kronikarzy</td></tr><tr><td>5</td><td><b>Scalar</b></td><td>PSY+Spryt 8; PSY+Oszustwo 10; Sekrety 4; Sieć 6</td><td>Fałszywe tożsamości: trwale +2 Zasoby, zleca zadania Shutterom i Fuse'om; wirtualne tożsamości dają 1k6×10 CD dziennie.</td><td>Technologia sankcjonowana wg Zasobów</td></tr></table><h3>Potencjały</h3><ul><li><b>Pamięć fraktalna (Fractal Memory)</b> <i>(wym.: Skupienie)</i>: Zawsze aktywny: +PP Wyzwalaczy do rzutów na INT. [2.0: Wyzwalacze kupują Odsłony w śledztwie.]</li><li><b>Download</b>: Przesłuchanie osaczonego bez drogi ucieczki: +1K i +1 Wyzwalacz/PP do PSY+Dominacja.</li><li><b>Upload</b>: +PP Wyzwalaczy przy wpływaniu na kogoś CHA lub PSY. Łączy się z Download.</li><li><b>Tesla</b>: Moduł wyładowań: +1 Wyzwalacz/PP do ZRĘ+Mobilność przy ofensywnym użyciu; +1K/PP do aktywnej obrony wręcz, gdy moduł naładowany.</li><li><b>Nova</b> <i>(wym.: Pierwotność)</i>: Wpada między wrogów i odpala wszystkie moduły obronne: INT+Inżynieria (5), Trudność −1/PP. Przy 2+ wrogach wręcz sojusznicy są bezpieczni; porażka odpala tylko 1 losowy moduł i dotyka też swoich.</li><li><b>Ślepy zaułek (Dead End)</b>: Gdy ofiara Shuttera nie ma drogi ucieczki: +PP do ataku oraz do obrony biernej i aktywnej.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 51–52, Potencjały s. 53. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "caj9zddJwsAqRV7P",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.caj9zddJwsAqRV7P",
+   "name": "Hellveci",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Bractwo broni z Twierdzy Alpejskiej. Żołnierze do szpiku kości, pobierają myto za przejście przez góry.</p><p><b>Bonusy do limitu umiejętności:</b> Siła, Kondycja, Strzelectwo, Przywództwo, Refleks</p><p><b>Metoda (śledztwo):</b> Rekonesans, obserwacja, raport, przesłuchanie jeńca (INS+Percepcja, PSY+Refleks).</p><p><b>Ideał:</b> Broń, towarzysz, kraj. Każdy zmarnowany strzał osłabia Fortecę.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Żołnierz (Soldier)</b></td><td>—</td><td>Raport w Fortecy Alpejskiej co pół roku, inaczej Zasoby trwale −1 za każdy opuszczony raport.</td><td>Trailblazer; +5 naboi/mies.; Uprząż (Harness); ostatnia racja</td></tr><tr><td>2</td><td><b>Kapral (Corporal)</b></td><td>CIA+Siła 4; ZRĘ+Strzelectwo 5; INS+Przetrwanie 4; Autorytet 2</td><td>Trailblazer dostaje ulepszenie 1 poziomu (+20% zasięgu, +1K Poręczności albo +1 obrażeń); może nosić 2 ładunki wybuchowe.</td><td>+10 naboi/mies. (także na wyższych rangach)</td></tr><tr><td>3</td><td><b>Saper (Sapper)</b></td><td>CIA+Siła 6; CIA+Kondycja 6; ZRĘ+Zwinne palce 6; INT+Nauka 4; Autorytet 3</td><td>+3 Zasobów na materiały wybuchowe; do walki zabiera 4 ładunki.</td><td>Tarcza tunelowa; granatnik; lekki karabin maszynowy; materiały wybuchowe</td></tr><tr><td>3</td><td><b>Grenadier</b></td><td>ZRĘ+Strzelectwo 8; PSY+Refleks 6; INS+Przetrwanie 6; INS+Orientacja 6; Autorytet 3</td><td>Bez obowiązku raportów; znaki do skrytek z bronią; ulepszenie Trailblazera 2 poziomu; +1K do negocjacji ze Skurgerami.</td><td>+20 naboi/mies.; Pathfinder</td></tr><tr><td>3</td><td><b>Wartownik (Sentinel)</b></td><td>CIA+Siła 8; CIA+Twardość 6; ZRĘ+Prowadzenie 6; CHA+Negocjacje 6; Autorytet 4; Zasoby 3</td><td>+3 Zasobów na materiały wybuchowe; może aresztować każdego w Fortecy i postawić przed Trybunałem.</td><td>Ciężka uprząż</td></tr><tr><td>3</td><td><b>Radiooperator (Radio Beam Unit)</b></td><td>CIA+Kondycja 6; ZRĘ+Rzemiosło 6; INT+Inżynieria 8; Zasoby 3</td><td>Łączność z siecią radiową Kronikarzy; wezwanie pomocy sprowadza pluton Grenadierów (minuty–godziny, w zasięgu Alp).</td><td>Plecak radiowy; Pathfinder</td></tr><tr><td>3</td><td><b>Obserwator (Spotter)</b></td><td>CIA+Atletyka 6; ZRĘ+Skradanie 7; INS+Percepcja 6; INS+Orientacja 6; Sieć 3</td><td>Bransoleta-transponder, żeby swoi nie wzięli go w przebraniu za wroga.</td><td>Lekka uprząż Obserwatora; bransoleta-transponder; lornetka</td></tr><tr><td>3</td><td><b>Medyk (Medic)</b></td><td>INT+Medycyna 7; INS+Empatia 4; Autorytet 2</td><td>+1K do rzutów PSY i CHA w kantonach; +1 Autorytet.</td><td>Granaty dymne i ogłuszające; zestaw polowy</td></tr><tr><td>3</td><td><b>Genie</b></td><td>CIA+Siła 6; ZRĘ+Prowadzenie 4; ZRĘ+Rzemiosło 6; INT+Inżynieria 6; INT+Nauka 6; Zasoby 2</td><td>Umocnienia: oddział w osłonie ma +1K do aktywnej obrony i +1 Obrony; +3 Zasobów na ciężki sprzęt.</td><td>Ciężka uprząż z modułem dźwigowym</td></tr><tr><td>3</td><td><b>Kwatermistrz (Forager)</b></td><td>INT+Artefakty 6; CHA+Negocjacje 6; CHA+Obycie 4; Zasoby 3; Sława 3; Sieć 2</td><td>Zamawiając amunicję i sprzęt (bez Uprzęży, Trailblazerów, pojazdów) ma Zasoby 6. Przymyka uszy (+1 Sława) albo notuje brudy (+1 Sekrety).</td><td>Uplink kwatermistrza</td></tr><tr><td>4</td><td><b>Oddział specjalny (Special Detachment)</b></td><td>CIA+Bijatyka 6; CIA+Broń biała 6; ZRĘ+Strzelectwo 10; ZRĘ+Skradanie 6; PSY+Refleks 7; Sława 3</td><td>Wolny wstęp do siedzib kultów, dopóki nosi oznaczenia rangi.</td><td>Skrócony Trailblazer; +20 naboi/mies.</td></tr><tr><td>4</td><td><b>Infiltrator</b></td><td>PSY+Oszustwo 8; PSY+Spryt 8; PSY+Refleks 6; Sieć 4</td><td>Zna ukryte przejścia Fortecy: +4K do INS+Orientacja przy ich szukaniu.</td><td>—</td></tr><tr><td>4</td><td><b>Subaltern</b></td><td>CHA+Przywództwo 8; ZRĘ+Strzelectwo 8; Autorytet 4</td><td>Oficer: trwale +1 Autorytet; dowodzi oddziałami; negocjuje dostawy z Neolibijczykami i Złomiarzami.</td><td>—</td></tr><tr><td>5</td><td><b>Oddział P-26 (P-26 Squad)</b></td><td>CHA+Obycie 6; CHA+Ekspresja 6; CIA+Broń biała 8; PSY+Spryt 10; Sieć 5</td><td>Komórka 1–3 Infiltratorów; Zasoby 6 w arsenale Fortecy, póki działa na rzecz zjednoczenia Konfederacji.</td><td>—</td></tr><tr><td>5</td><td><b>Oficer polowy (Field Officer)</b></td><td>Sojusznicy 3; Autorytet 5; Sława 4</td><td>+1 Sekrety; wobec cywilów Hellwecji Autorytet jako kości do PSY+Dominacja.</td><td>—</td></tr><tr><td>6</td><td><b>Komendant korpusu (Corps Commander)</b></td><td>stanowisko musi być wolne; Sojusznicy 5; Autorytet 6</td><td>Naczelne dowództwo jednego z czterech regionów terytorialnych.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Szturm (Assault)</b> <i>(wym.: Pierwotność)</i>: Tylko w 1. rundzie: 2 Wyzwalacze w ataku dają towarzyszom atakującym po nim w tej rundzie +1K/PP.</li><li><b>Ściana tarcz (Shield Wall)</b>: Przejmuje atak na towarzysza w zasięgu ruchu: PSY+Refleks (4 wręcz / 6 dystans) +1K/PP; z bagnetem Wyzwalacze dają kontratak.</li><li><b>Infiltracja (Infiltration)</b>: +1K/PP do rzutów CHA i PSY na oszukiwanie; +1 Sieć/PP.</li><li><b>Marsz forsowny (Forced March)</b>: Obciążenie Uprzęży −1/PP.</li><li><b>Dyscyplina (Discipline)</b> <i>(wym.: Skupienie)</i>: Wyzwalacze z ataku lub obrony można zamienić na Ego (maks. PP na rzut).</li><li><b>Morale</b>: +1K/PP do obrony mentalnej, gdy wróg ma przewagę liczebną.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 55–56, Potencjały s. 57. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 300000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "VEoqE0aXRhuEVhaP",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.VEoqE0aXRhuEVhaP",
+   "name": "Sędziowie",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Młot sprawiedliwości. Przynieśli prawo na pustkowia, a Justitian i Protektorat są ich dziełem. Klany znów rosną w siłę.</p><p><b>Bonusy do limitu umiejętności:</b> Broń biała, Prowadzenie, Strzelectwo, Obycie, Dominacja</p><p><b>Metoda (śledztwo):</b> Przesłuchanie, Kodeks, rejestry, świadkowie, wyrok (PSY+Dominacja, INS+Empatia).</p><p><b>Ideał:</b> Prawo ponad litość. Bez prawa jest tylko pustkowie.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Włóczęga (Vagrant)</b></td><td>—</td><td>Przez pierwsze lata nie odstępuje mentora (+1 Sojusznicy, znika po awansie na Sędziego miejskiego).</td><td>Lekcje: zeszyt z ćwiczeniami pisania i czytania, notatki o przestępcach i doświadczeniach, pomysły na nowe prawa</td></tr><tr><td>2</td><td><b>Sędzia miejski (City Judge)</b></td><td>INT+Legendy 4; CIA+Broń biała 6; CHA+Ekspresja 4; CHA+Obycie 4</td><td>Sądzi drobne przestępstwa; pies stróżujący w strefach kryzysu. Jeśli włączy osadę do Protektoratu, zostaje tam przedstawicielem Justitian i pobiera dziesięcinę (+1 do +4 Zasobów).</td><td>Młot sędziowski; skórzany płaszcz; kapelusz; Kodeks (prosty druk)</td></tr><tr><td>3</td><td><b>Protektor (Protector)</b></td><td>ZRĘ+Prowadzenie 6; INT+Skupienie 6 lub INS+Pierwotność 6; PSY+Refleks 6; Sojusznicy 2</td><td>+2 Sojusznicy wobec innych Protektorów; zna każdy kąt Protektoratu; +2 Sieć przy szukaniu drobnych przestępców i informatorów.</td><td>Muszkiet sędziowski; +1k6 naboi/mies.; koń</td></tr><tr><td>3</td><td><b>Adwokat (Advocate)</b></td><td>CHA+Ekspresja 6; CHA+Negocjacje 6; INT+Legendy 6; Autorytet 2; Zasoby 2</td><td>Może podważać wyroki Protektorów i Egzekutorów (+2 Autorytetu wobec Protektorów).</td><td>Kodeks z komentarzem (+2K do CHA+Ekspresja przy wyrokach)</td></tr><tr><td>4</td><td><b>Egzekutor (Executioner)</b></td><td>CIA+Twardość 6; PSY+Dominacja 6 lub CHA+Przywództwo 6; Sława 3</td><td>Legenda gniewu (+1 Sieć); je i śpi w Protektoracie za darmo. Wierny Kodeksowi może korzystać z Sojuszników innych kultów przeciw wspólnemu wrogowi.</td><td>Koń bojowy; +2k6 naboi/mies.</td></tr><tr><td>4</td><td><b>Czarny Sędzia (Black Judge)</b></td><td>CIA+Broń biała 8 lub ZRĘ+Strzelectwo 8; ZRĘ+Skradanie 8; PSY+Spryt 6; Autorytet 3; Sojusznicy 3</td><td>Tajny zabójca senatora Rutgara; poluje na skorumpowanych Sędziów (+1 Sekrety).</td><td>Radio; broń Tech IV z ulepszeniami; +2k6 naboi/mies.</td></tr><tr><td>4</td><td><b>Arbiter</b></td><td>PSY+Wiara 6 lub PSY+Wola 6; CHA+Ekspresja 8; Autorytet 3; Zasoby 4</td><td>Współautor Kodeksu: +3 Autorytetu wobec Protektorów.</td><td>—</td></tr><tr><td>4</td><td><b>Asesor (Assessor)</b></td><td>INS+Percepcja 8; PSY+Dominacja 6 lub CHA+Negocjacje 6; Sojusznicy 1; Sieć 2</td><td>Pomaga Komisarzowi dojść do wyroku; w wielu miastach pod ochroną Kruków.</td><td>+1k6 naboi/mies.</td></tr><tr><td>5</td><td><b>Komisarz (Commissioner)</b></td><td>PSY+Dominacja 10 lub CHA+Negocjacje 10; INS+Empatia 6; Sława 4; Sieć 4; Sojusznicy 2</td><td>Śledczy z siecią informatorów; dostęp do Alków i zapisów Klastra.</td><td>+2k6 naboi/mies.</td></tr><tr><td>5</td><td><b>Wysoki Sędzia (High Judge)</b></td><td>Sojusznicy 5; Autorytet 4; Zasoby 4</td><td>Działa niezależnie, może przeszukać każdy dom w Protektoracie, żądać ochrony Egzekutora.</td><td>Koń sędziowski; +3k6 naboi/mies.</td></tr><tr><td>6</td><td><b>Senator</b></td><td>wolne miejsce w Senacie; CHA+Ekspresja 10; Sława 6 lub Zasoby 6</td><td>Stanowi prawo w Protektoracie i miastach sprzymierzonych.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Fiat Lux</b> <i>(wym.: Sława 4)</i>: Wobec szumowin (zwłaszcza Apokaliptyków) +1K/PP do przejrzenia oszustwa i +1K do obrony mentalnej. [2.0: w przesłuchaniu daje też Odsłonę „Dźwignia” przy sukcesie.]</li><li><b>Twarz Janusa (Janus Face)</b>: INS+Empatia vs PSY+Wiara/Wola przeciwnika; przy sukcesie +1K/PP do ataku i obrony przeciw niemu do końca walki.</li><li><b>Taran (Stampede)</b>: Szarża przez pełną rundę: CIA+Siła + PP kości; trafiony upada i nie rusza się przez rundę.</li><li><b>Uderzenie młota (Hammer Blow)</b>: Kara z cechy Impact (ciężka broń) mniejsza o 1/PP.</li><li><b>Lincz (Lynch Law)</b>: +1K/PP do CHA+Przywództwo przy podburzaniu tłumu przeciw celowi.</li><li><b>Stalowy grom (Steel Thunder)</b>: Młot i muszkiet naraz: −4K Poręczności (−1 na PP) do kolejnych ataków; każdy Wyzwalacz przy trafieniu = +2 obrażenia; do następnej tury po zakończeniu Obrona spada do 1.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 59–60, Potencjały s. 61. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 400000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "QUvf772atXmAcDhJ",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.QUvf772atXmAcDhJ",
+   "name": "Klanowcy",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Władcy pustkowi. Od ludów epoki kamienia po osiadłe społeczności: rodziny, plemiona, nomadzi.</p><p><b>Bonusy do limitu umiejętności:</b> Kondycja, Broń biała, Legendy, Przetrwanie, Oswajanie</p><p><b>Metoda (śledztwo):</b> Tropienie, znaki, ścieżki zwierząt, opowieści starszyzny (INS+Przetrwanie, INS+Orientacja).</p><p><b>Ideał:</b> Klan jest wszystkim, jednostka niczym.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Zwiadowca (Scout)</b></td><td>—</td><td>+1K do ataku w obronie Klanu.</td><td>Prymitywna pałka; proca (przy poziomie technologii >II muszkiet lub pistolet skałkowy)</td></tr><tr><td>2</td><td><b>Myśliwy (Hunter)</b></td><td>CIA+Kondycja 4; ZRĘ+Strzelectwo 6; INS+Przetrwanie 6</td><td>W domenie Klanu +2K do szukania zwierzyny i +2K do ZRĘ+Skradanie.</td><td>Pułapki; włócznia; łuk (przy technologii >III karabin myśliwski)</td></tr><tr><td>2</td><td><b>Zbieracz (Gatherer)</b></td><td>CHA+Negocjacje 4; CHA+Obycie 6; INS+Orientacja 6</td><td>+2K do szukania jagód i korzeni; utrzymuje stosunki z innymi Klanami i strzeże pokoju.</td><td>Proste mapy na skórze (+1K do INS+Orientacja)</td></tr><tr><td>3</td><td><b>Wojownik plemienny (Tribal Warrior)</b></td><td>CIA+Broń biała 8; ZRĘ+Strzelectwo 6; CIA+Bijatyka 7 lub ZRĘ+Rzemiosło 7; Sława 3</td><td>W wojowniczym Klanie +2 Autorytet; codziennie trenuje i ćwiczy z innymi wojownikami.</td><td>Miecz lub inna broń biała (przy technologii >III broń automatyczna)</td></tr><tr><td>3</td><td><b>Szaman (Shaman)</b></td><td>CHA+Negocjacje 7; INT+Legendy 8; INS+Empatia 7; Sekrety 3</td><td>Błogosławi talizmany, zamyka duchy w tatuażach (+1K do PSY+Wiara), przygotowuje wojowników na śmierć.</td><td>Naszyjniki z kości; talizmany; kamienie wyroczni</td></tr><tr><td>4</td><td><b>Wódz (Chieftain)</b></td><td>stary wódz musi ustąpić; Autorytet 5; Sojusznicy 5; Zasoby 3</td><td>Samotny autorytet: prowadzi wyprawy, umacnia stosunki z sąsiadami.</td><td>Ulepszona broń Klanu; insygnia władzy</td></tr><tr><td>5</td><td><b>Czempion (Champion)</b></td><td>CIA+Siła 8 lub CHA+Sztuka 8; umiejętność bojowa lub inżynieryjna 10; Sława 6</td><td>Legenda Klanu; pełny dostęp do Zasobów Klanu (6).</td><td>—</td></tr><tr><td>5</td><td><b>Założyciel (Founder)</b></td><td>zjednoczył rodziny w Klan; CHA+Przywództwo 10 lub CHA+Obycie 10 lub PSY+Dominacja 10; Autorytet 6</td><td>Twórca nowego Klanu, który wchodzi w konflikt z kultami.</td><td>Symbol władzy</td></tr></table><h3>Potencjały</h3><p>Ten kult nie ma własnych Potencjałów — korzysta z ogólnych (Katharsys).</p><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 63–64, Potencjały s. 65. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 500000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "2qlCWXP5m2G3d0TO",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.2qlCWXP5m2G3d0TO",
+   "name": "Złomiarze",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Kopacze. Przeszukują ruiny w poszukiwaniu artefaktów dla Kronikarzy, żyją na krawędzi i liczą na łut szczęścia.</p><p><b>Bonusy do limitu umiejętności:</b> Atletyka, Twardość, Rzemiosło, Artefakty, Przetrwanie</p><p><b>Metoda (śledztwo):</b> Ruiny, materiał, ślady pracy, zapomniane wejścia (ZRĘ+Rzemiosło, INT+Artefakty).</p><p><b>Ideał:</b> Co znajdziesz, jest twoje, dopóki go nie sprzedasz.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Mysz (Mouse)</b></td><td>—</td><td>Pracuje dla starszego Złomiarza za posiłek; jeśli to nie wychodzi, szybko znika.</td><td>Lina; kompas; peryskop</td></tr><tr><td>2</td><td><b>Borsuk (Badger)</b></td><td>INS+Percepcja 4; INS+Przetrwanie 6</td><td>Działa sam; ma własną runę. Znakując nią ostrzeżenia w ruinach, z czasem zyskuje Sławę (maks. 3).</td><td>Strzelba albo karabin myśliwski</td></tr><tr><td>3</td><td><b>Lis (Fox)</b></td><td>PSY+Spryt 6; INS+Przetrwanie 6; INS+Orientacja 6</td><td>Ruiny to dom: +2K do zbierania złomu. W swojej kryjówce +2K do aktywnej obrony i +2 Obrony.</td><td>Marvel (karabin Złomiarza); stelaż; motyka</td></tr><tr><td>3</td><td><b>Mechanik (Mechanist)</b></td><td>INT+Inżynieria 6; ZRĘ+Rzemiosło 7; Zasoby 2</td><td>+1 Zasoby; o 50% więcej surowca z rozbiórki artefaktów.</td><td>Skrzynka narzędzi (+1K do ZRĘ+Rzemiosło na poziom)</td></tr><tr><td>3</td><td><b>Padlinożerca (Scavenger)</b></td><td>Autorytet 2; Sojusznicy 2; Sieć 2</td><td>Wspólnota: +3 Zasobów na ciężki sprzęt do wydobycia artefaktów; zawsze się nawzajem przygarniają.</td><td>Crusher</td></tr><tr><td>3</td><td><b>Zbir Kartelu (Cartel Thug)</b></td><td>przyjęty do Kartelu</td><td>Tatuaż Kartelu na przedramieniu: przepustka u Rzeczoznawców, którzy (prawie) zawsze zostawiają go w spokoju.</td><td>Ciężki skórzany fartuch</td></tr><tr><td>4</td><td><b>Samotny Wilk (Lone Wolf)</b></td><td>INT+Artefakty 6; ZRĘ+Rzemiosło 6; INS+Percepcja 6; Sława 4</td><td>Marvel ma +1 miejsce na ulepszenia; +1K do zbierania złomu; uciekając na swoim terenie +2K do ZRĘ+Skradanie i CIA+Atletyka.</td><td>—</td></tr><tr><td>4</td><td><b>Wytwórca (Manufacturer)</b></td><td>wyposażony warsztat w Centrum Technicznym lub Syrakuzach; INT+Inżynieria 10; Sława 5; Zasoby 4</td><td>W warsztacie +4K do ZRĘ+Rzemiosło; w cudzych warsztatach +2K.</td><td>Klucze do warsztatów</td></tr><tr><td>4</td><td><b>Alfa (Alpha Wolf)</b></td><td>CHA+Przywództwo 8; Autorytet 4; Sieć 4; Sojusznicy 4</td><td>W walce z Kartelem Sojusznicy rosną do 6.</td><td>—</td></tr><tr><td>4</td><td><b>Rzeczoznawca (Appraiser)</b></td><td>CHA+Negocjacje 7 lub PSY+Dominacja 7; INT+Artefakty 6; Autorytet 3; Sojusznicy 2</td><td>Negocjuje z Kronikarzami w imieniu innych Złomiarzy za 20% zysku.</td><td>Rewolwer albo inna ciężka broń krótka</td></tr><tr><td>5</td><td><b>Niedźwiedź Jaskiniowy (Cave Bear)</b></td><td>CIA+Twardość 8; INS+Przetrwanie 10; Sława 5</td><td>Kronikarze płacą mu 30% więcej; z Krukami rozmawia jak równy z równym. W swojej jaskini-pułapce +4K do aktywnej obrony i +3 Obrony; Marvel +1 miejsce na ulepszenia.</td><td>—</td></tr><tr><td>5</td><td><b>Legenda (Legend)</b></td><td>wyrył runę na murze run w Syrakuzach; Zasoby 4; Sława 6</td><td>Złomiarze idą za nim; u Apokaliptyków ma specjalne warunki.</td><td>—</td></tr><tr><td>5</td><td><b>Oficer Kartelu (Officer)</b></td><td>CHA+Negocjacje 9 lub PSY+Dominacja 9; PSY+Spryt 6; Autorytet 5</td><td>Wyciska Rzeczoznawców (+4 Zasoby) albo daje im żyć.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Motłoch (The Mob)</b>: W konflikcie z przedstawicielami innego kultu podburza tłum: CHA+Przywództwo +1K/PP (przeciwnik może uspokajać CHA+Ekspresja); potem wydaje mu rozkazy (Trudność 2–6).</li><li><b>Nitro</b> <i>(wym.: Pierwotność)</i>: W 1. rundzie walki +1K/PP do ataku.</li><li><b>Szczur (Rat)</b> <i>(wym.: PSY+Spryt 6)</i>: +1K/PP przy zacieraniu śladów własnych czynów.</li><li><b>Trufla (Truffle Pig)</b>: +1K/PP do INS+Percepcja przy szukaniu złomu i pułapek.</li><li><b>Twardy pies (Tough Dog)</b> <i>(wym.: CIA+Twardość 6)</i>: Dodatkowy pancerz „Twarde mięso” równy PP.</li><li><b>Darwin</b>: W pozornie przegranej sytuacji +1K/PP do umiejętności ratującej życie; przeżycie daje +1 Sławę (maks. 4).</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 67–68, Potencjały s. 69. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 600000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "JSp2PGJ7hFQDziqc",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.JSp2PGJ7hFQDziqc",
+   "name": "Neolibijczycy",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Zdobywcy świata. Kupcy, kartografowie i łowcy z Trypolisu: koncesje, banki, kontrakty.</p><p><b>Bonusy do limitu umiejętności:</b> Strzelectwo, Obycie, Negocjacje, Spryt, Empatia</p><p><b>Metoda (śledztwo):</b> Księgi handlowe, przepływ towaru i dinarów, kto komu jest winien (CHA+Negocjacje, INT+Nauka).</p><p><b>Ideał:</b> Każdy opór ma swoją cenę i swój zysk.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Uczeń (Apprentice)</b></td><td>—</td><td>Opuszcza skryptorium tylko na polecenie mentora; przepisuje teksty, ćwiczy rachunki. Jest „inwestycją” firmy.</td><td>Balansownik (księżeczka w skórze z kratkowanym papierem i liczydłem)</td></tr><tr><td>2</td><td><b>Skryba (Scribe)</b></td><td>INT+Nauka 4; CHA+Ekspresja 4; Autorytet 1</td><td>Prowadzi księgi szlaku handlowego; Autorytet działa także wobec dostawców spoza kultu.</td><td>—</td></tr><tr><td>3</td><td><b>Kupiec (Merchant)</b></td><td>CHA+Negocjacje 6; PSY+Spryt 4; Zasoby 2; Sieć 2</td><td>Pełnoprawny Neolibijczyk; Sławę zyskuje, wspierając rodzinną wioskę Zasobami lub dinarami.</td><td>Karabin neolibijski; Pieczęć Libijczyka</td></tr><tr><td>4</td><td><b>Żeglarz (Seafarer)</b></td><td>statek handlowy; ZRĘ+Prowadzenie 6; INT+Legendy 6; INS+Orientacja 8; Zasoby 3; Autorytet 2; Sława 2</td><td>Za nowe szlaki i miasta czasowo +1 Zasoby.</td><td>Astrolabium</td></tr><tr><td>4</td><td><b>Ambasador (Ambassador)</b></td><td>CHA+Negocjacje 8; CHA+Obycie 10; INS+Empatia 8; Sojusznicy 4; Sława 4; Sieć 3</td><td>Wolny wstęp do ambasad wszystkich kultów; dostaje każde spotkanie.</td><td>—</td></tr><tr><td>4</td><td><b>Magnat (Magnate)</b></td><td>CHA+Obycie 8; CHA+Negocjacje 10; PSY+Wiara 6 lub PSY+Wola 6; Sojusznicy 4; Autorytet 3; Zasoby 4</td><td>Imperium handlowe, setki podwładnych w basenie Morza Śródziemnego.</td><td>—</td></tr><tr><td>5</td><td><b>Wielki Łowca / Kartograf / Szejk / Rajder / Konsul / Waziri</b></td><td>kampania</td><td>Elita Banku Handlowego: łowcy Psychonautów, odkrywcy, politycy, gubernatorzy.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Lwia część (Lion's Share)</b>: +PP Wyzwalaczy w negocjowaniu transakcji (większy udział albo niższa cena).</li><li><b>Dziewięć żyć (Nine Lives)</b>: W śmiertelnym zagrożeniu +1K/PP do rzutów, które mogą uratować życie, kosztem 1 Ego za rzut.</li><li><b>Strzelec wyborowy (Marksman)</b> <i>(wym.: Skupienie)</i>: Celuje przez pełną rundę; jeśli nie został rozproszony, w następnej +PP Wyzwalaczy do ZRĘ+Strzelectwo.</li><li><b>Natchnienie (Inspiration)</b>: Sukces z 3+ Wyzwalaczami: towarzysze robiący coś podobnego mają +1K/PP do następnej akcji.</li><li><b>Na wysokości oczu (At Eye Level)</b>: W rozmowie lub negocjacjach z nie-Neolibijczykiem +1K/PP do umiejętności CHA, ale −3K do PSY.</li><li><b>Koło Fortuny (Wheel of Fortune)</b>: Przed atakiem lub obroną odkłada do 2 kości/PP; przy sukcesie +1 Wyzwalacz w następnej akcji za każde 2 odłożone kości.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 71–72, Potencjały s. 73. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 700000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "GRpq6xCc9h10RAKO",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.GRpq6xCc9h10RAKO",
+   "name": "Skurgerzy",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Mściciele Czarnego Lądu. Afrykańscy wojownicy-łowcy pełni gniewu na Europejczyków, w Hybrispanii i poza nią.</p><p><b>Bonusy do limitu umiejętności:</b> Atletyka, Siła, Kondycja, Mobilność, Refleks</p><p><b>Metoda (śledztwo):</b> Polowanie, zapach strachu, presja, pościg (INS+Percepcja, PSY+Dominacja).</p><p><b>Ideał:</b> Lew nie przebacza Wronie.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Dufu</b></td><td>—</td><td>Codziennie udowadnia wartość w zwiadzie i polowaniu; nie wolno mu się skarżyć ani uchylać od wyzwań.</td><td>Włócznia; owalna tarcza; maska Skurgera; hełm; kamizelka</td></tr><tr><td>2</td><td><b>Hondo</b></td><td>CIA+Bijatyka 5; CIA+Broń biała 6; CIA+Kondycja 6; ZRĘ+Mobilność 4; Sława 2; Sojusznicy 1</td><td>Sprawdzony wojownik: może używać broni palnej z arsenałów Neolibijczyków (wg Zasobów). Poza Afryką traktowany nieufnie.</td><td>Karabin szturmowy; +2k6 naboi/mies.; bicz Skurgera</td></tr><tr><td>2</td><td><b>Damu</b></td><td>CIA+Bijatyka 5; CHA+Przywództwo 6; PSY+Spryt 5; INS+Percepcja 5; Autorytet 3; Sojusznicy 1</td><td>Zwiadowca stada; udany atak z zaskoczenia według jego planu daje stadu +2K do inicjatywy.</td><td>Karabin szturmowy; +2k6 naboi/mies.; bicz Skurgera</td></tr><tr><td>3</td><td><b>Chaga</b></td><td>CIA+Broń biała 8 lub ZRĘ+Strzelectwo 8; CHA+Przywództwo 8; INT+Legendy 6; Autorytet 4</td><td>Stado wykonuje jego rozkazy bez pytań; tylko Dumisai może go wyzwać (pojedynek na pięści).</td><td>Broń przodków (+2K do ataku)</td></tr><tr><td>3</td><td><b>Simba</b></td><td>ranga Simby musi być wolna; CIA+Atletyka 8; CIA+Broń biała 8; ZRĘ+Strzelectwo 8; PSY+Refleks 6; Sława 5; Sojusznicy 3</td><td>Jedyny w stadzie: wyzywa najsilniejszego wroga i walczy sam; odmowa lub porażka −1 Sława.</td><td>Hełm lwa; +3k6 naboi/mies.</td></tr><tr><td>4</td><td><b>Dumisai</b></td><td>pokonać Dumisaia w rytualnym pojedynku albo zostać mianowanym; CIA+Twardość 10; CIA+Broń biała 10; ZRĘ+Strzelectwo 10; Sława 5; Autorytet 5</td><td>Nikt go nie wyzywa; tylko on może podważyć decyzję Chagi.</td><td>Dowolna ilość amunicji od Neolibijczyków</td></tr><tr><td>spec.</td><td><b>Moyo / Kifo</b></td><td>kampania</td><td>Dusza-bliźniak Dumisaia albo wygnaniec, który stracił dostęp do zasobów.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Zemsta lwa (The Lion's Revenge)</b> <i>(wym.: Pierwotność)</i>: Kto trafi go wręcz w zasięgu jego broni, dostaje tyle samo obrażeń (maks. PP); chroni tylko pancerz Massive.</li><li><b>Śmiech hieny (Hyena's Laughter)</b>: Raz na walkę, w 1. rundzie +1K/PP do ataku i obrony.</li><li><b>Krew przodków (Elder Blood)</b> <i>(wym.: PSY+Wiara 8)</i>: 15-minutowy rytuał przed walką: obrona mentalna +PP.</li><li><b>Bieg dzikiego psa (Wild Dog Run)</b>: Za każdą rundę pościgu pieszo za uciekającym odzyskuje 1 Ego/PP.</li><li><b>Próba bohatera (Trial of the Hero)</b>: Przeciw fizycznie lub technologicznie silniejszemu wrogowi +1K/PP do inicjatywy.</li><li><b>Zdobycz Simby (Simba's Prey)</b> <i>(wym.: Skupienie)</i>: Wybiera jednego wroga; +PP do Obrony przeciw wszystkim pozostałym.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 75–76, Potencjały s. 77. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 800000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "iS1QAOTasND6xVME",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.iS1QAOTasND6xVME",
+   "name": "Anubianie",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Strażnicy proroctwa. Uzdrowiciele i sędziowie dusz, wierni wiecznemu cyklowi życia i śmierci.</p><p><b>Bonusy do limitu umiejętności:</b> Twardość, Przywództwo, Legendy, Medycyna, Wiara, Wola</p><p><b>Metoda (śledztwo):</b> Zmarli, Ka i Ba, rytuał, sąd nad duszą (INT+Legendy, INS+Empatia).</p><p><b>Ideał:</b> Krąg musi się domknąć: każda dusza wraca na swoje miejsce.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Inicjowany (Initiate)</b></td><td>Znak Anubisa</td><td>Siedem kręgów na brzuchu; +1K do rzutów przeciw Raze (zgubie, którą niosą Psychovory). Żaden Afrykanin nie odmówi mu jedzenia ani wody.</td><td>—</td></tr><tr><td>2</td><td><b>Zaklinacz (Enchanter)</b></td><td>PSY+Wiara 6 lub PSY+Wola 6; INT+Legendy 6; Sława 1</td><td>Uczy obrzędów; Zaplecze (bez Zasobów) działa też wobec Neolibijczyków, Skurgerów, afrykańskich Złomiarzy i Klanowców. Odporność na Raze rośnie: +2K.</td><td>Maska Anubisa; kamienie dusz (+1K do CHA przy wpływie zabobonem)</td></tr><tr><td>3</td><td><b>Balsamista (Embalmer)</b></td><td>CHA+Ekspresja 6; INT+Legendy 7; INS+Empatia 7; Sława 2</td><td>Wpływa na eter Psychovorów i na ludzi szeptem przodków; emocje zależą od jego najsilniejszego atrybutu.</td><td>Palec Anubisa (zaostrzona kość)</td></tr><tr><td>3</td><td><b>Uzdrowiciel (Healer)</b></td><td>CIA+Twardość 8; INT+Medycyna 6; INT+Skupienie 6 lub INS+Pierwotność 6; Autorytet 2</td><td>Zbiera lecznicze ziemie i owoce Duat (+2 Zasobów na leki od Anubian); je owoce Duat bez szkody od Raze (katalizę zaczyna CIA+Twardość, Trudność = poziom owocu). Odporność na Raze: +3K.</td><td>Tygiel; lecznicze ziemie</td></tr><tr><td>3</td><td><b>Sierp (Sickle)</b></td><td>CIA+Broń biała 6; PSY+Refleks 6; Sława 2; Sieć 2</td><td>Dostaje Potencjał Oko Horusa (poziom 1); stado Skurgerów przyjmuje go jako wojownika. Odporność na Raze: +3K.</td><td>Chopesz</td></tr><tr><td>4</td><td><b>Widzący Dusze (Soul Seer)</b></td><td>CHA+Ekspresja 10; INT+Nauka 7; Sekrety 3; Sława 3</td><td>Siłą woli otwiera przejście przez Psychovory dla siebie i towarzyszy (Psychovory poziomu 5+ się opierają). Odporność na Raze: +4K. INS+Empatia (4) odczytuje Nić Życia człowieka — każdy Wyzwalacz to pewniejsza wiedza.</td><td>—</td></tr><tr><td>4</td><td><b>Hekatejczyk (Hecatean)</b></td><td>CIA+Twardość 10; INT+Skupienie 8 lub INS+Pierwotność 8; INT+Nauka 6; Autorytet 3</td><td>Pan śmierci: rytuałem Imiut może przywrócić świeżo zmarłego.</td><td>Krew Duat (poziom 1)</td></tr><tr><td>4</td><td><b>Ammit</b></td><td>CIA+Atletyka 6; CIA+Broń biała 10; PSY+Wiara 6 lub PSY+Wola 6; Sława 5; Sieć 3</td><td>W zasięgu Psychovorów +2K do rzutów CHA i PSY+Dominacja, a Sławę może dodać jako kości. Każde trafienie bronią zadaje też obrażenia Ego równe Wyzwalaczom. Odporność na Raze: +4K.</td><td>Sierp Ammit</td></tr><tr><td>5</td><td><b>Hogon</b></td><td>INT+Medycyna 10; INT+Nauka 8; INS+Empatia 8; Sekrety 5</td><td>+4K przeciw wpływowi przez zabobon; odporność na Raze +6K.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Uczta Ammit (Ammit's Feast)</b> <i>(wym.: Pierwotność)</i>: 2 Wyzwalacze w ataku wręcz = szał: bez aktywnej obrony, co rundę +1K i +1 obrażeń (maks. PP); trzeba go odnawiać 2 Wyzwalaczami, każda runda po pierwszej kosztuje Lekką ranę.</li><li><b>Łaska Anubisa (Mercy of Anubis)</b>: Wyeliminowany walczy dalej przez PP rund, a jego broń budzi grozę. [2.0: po tych rundach pada — to Stawka Śmierci na własne życzenie.]</li><li><b>Pępek Nefertuma (Navel of Nefertem)</b>: Trudność obrony przed Raze i katalizy leków −1/PP.</li><li><b>Oko Horusa (Eye of Horus)</b>: Wyczuwa zaburzenia fali (PP1: 100 m, PP2: 1 km, PP3: 10 km), prowadzi do Psychonautów; +1 Wyzwalacz/PP w ataku na Psychonautów, bestie sporowe i Leperosów.</li><li><b>Sen Sachmet (Sekhmet's Slumber)</b>: Nieprzerywalna śpiączka podobna do śmierci; budzi się w pełni wyleczony po 4−PP dniach. Łączy się z Łaską Anubisa.</li><li><b>Spojrzenie losu (Gaze of Fate)</b> <i>(wym.: Skupienie)</i>: Raz w miesiącu przeżywa przyszłą akcję: +2K/PP do niej. PP1: sekundy (jeden atak lub obrona); PP2: minuty (wynik rozmowy, proste pytania); PP3: godziny (rozwiązanie trudnego problemu). [2.0: na PP2–3 MG może dać Odsłonę z przyszłości.]</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 79–80, Potencjały s. 81. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 900000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "jJ55Cy414i1T9XuV",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.jJ55Cy414i1T9XuV",
+   "name": "Jehammedanie",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Niosący oblicze Boga. Plemiona potomków Jehammeda, wojownicy-pasterze, dla których przysięga i ród znaczą wszystko.</p><p><b>Bonusy do limitu umiejętności:</b> Broń biała, Rzemiosło, Sztuka, Oswajanie, Wiara, Wola</p><p><b>Metoda (śledztwo):</b> Rody, przysięgi, długi krwi, pamięć plemion (CHA+Obycie, PSY+Wiara).</p><p><b>Ideał:</b> Krew Jehammeda zobowiązuje: przysięga jest święta.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Ismaeli (mężczyzna)</b></td><td>urodzenie</td><td>Nie wolno mu dotykać kobiet.</td><td>Laska pasterska</td></tr><tr><td>1</td><td><b>Isaaki (syn Saraeli)</b></td><td>urodzenie jako syn Saraeli</td><td>Dostęp do całego majątku plemienia: Zasoby 6; najlepsze wyszkolenie.</td><td>Koń bojowy; szabla damasceńska</td></tr><tr><td>1</td><td><b>Hagari (kobieta)</b></td><td>urodzenie</td><td>+1K w walce w obronie swoich; poświęcając się +3K do akcji fizycznych; poza wspólnotą czasowo +3 Sojusznicy.</td><td>—</td></tr><tr><td>1</td><td><b>Saraeli (córka Abramiego i Saraeli)</b></td><td>urodzenie</td><td>Nikt się jej nie sprzeciwia, ale nie ma wpływu; przeznaczona dla Abramiego.</td><td>Szaty i biżuteria; tatuaże (+1K do obrony mentalnej)</td></tr><tr><td>2</td><td><b>Miecz Jehammeda (Sword of Jehammed)</b></td><td>CIA+Broń biała 6; INT+Legendy 4; Sława 1</td><td>Zamienia plemię na przygodę i wojnę; przy wspólnym wrogu z innym kultem czasowo +2 Sieć.</td><td>Szabla; kilof jeździecki; lekki pancerz</td></tr><tr><td>2</td><td><b>Błogosławieństwo Jehammeda (Jehammed's Blessing)</b></td><td>CIA+Twardość 10; CIA+Broń biała 10; ZRĘ+Prowadzenie 8; Sława 4; Autorytet 4</td><td>Ostatni krok przed Ikonidą: +2K do CHA+Przywództwo wobec Mieczy Jehammeda.</td><td>—</td></tr><tr><td>2</td><td><b>Dalila (Delilah)</b></td><td>PSY+Wiara 10 lub PSY+Wola 10; CIA+Broń biała 6</td><td>Upadła Hagari: walcząc o honor, bez aktywnej obrony, ale +2K do ataków; Sława spada do 0.</td><td>Szabla</td></tr><tr><td>2</td><td><b>Głos Jehammeda (Voice of Jehammed)</b></td><td>INT+Legendy 8; CHA+Ekspresja 8; Sława 3; Autorytet 2</td><td>W kulcie +2K do wszystkich interakcji społecznych; może oskarżać Jehammedan o przewinienia.</td><td>Odpis nauk Jehammeda</td></tr><tr><td>2</td><td><b>Duma Jehammeda / Splamiona / Niepokalana</b></td><td>zależnie od losu Saraeli (urodzenie Isaakiego, niewierność, 30+ lat bez męża)</td><td>Ścieżki Saraeli: wpływ przez syna (+4K), wygnanie (−2 Sława) albo święta mediatorka (+2K do CHA+Negocjacje).</td><td>—</td></tr><tr><td>3</td><td><b>Abrami</b></td><td>zaprawiony w boju; INT+Legendy 6; PSY+Wiara 6 lub PSY+Wola 6; Autorytet 3; Zasoby 2</td><td>Zakłada nowe plemię z Hagari; jego Autorytet nie maleje przy oporze.</td><td>Okrycie z koziej skóry (dar ślubny)</td></tr><tr><td>3</td><td><b>Arianoi</b></td><td>wybrany przez Aresa; CIA+Twardość 8; PSY+Wiara 8 lub PSY+Wola 8; Sekrety 3</td><td>Krew Aresa leczy co godzinę 1 Lekką ranę; uzależnia.</td><td>Krew Aresa (na 15 dni); runo</td></tr><tr><td>3</td><td><b>Ikonida / Ikonessa</b></td><td>Sława 6; Autorytet 5</td><td>Tworzy 1 Ikonę miesięcznie; twarz kultu na zewnątrz.</td><td>Laska z głową barana</td></tr><tr><td>3</td><td><b>Sprawiedliwa (Righteous One)</b></td><td>INT+Legendy 10; PSY+Wiara 10 lub PSY+Wola 10; Sława 4; Autorytet 5</td><td>Zna wszystkie pisma Jehammeda; szacunek jak dla Ikonidy.</td><td>Kamień pieczętny</td></tr><tr><td>4</td><td><b>Pasterz / Prorok / Wyrocznia / Krew Aresa</b></td><td>kampania</td><td>Radykalni przywódcy, głos Jehammeda, wcielenia Aresa.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Gniew Jehammeda (Ire of Jehammed)</b> <i>(wym.: Wiara)</i>: Liczy ataki bluźnierców (Psychonautów, Apokaliptyków, Anabaptystów, wyjętych spod prawa) na grupę (atak na przyjaciela liczy się podwójnie); przy 10 wpada w szał: +1K/PP do ataku, +1 Ego za każde trafienie.</li><li><b>Zew Jehammeda (Call of Jehammed)</b>: Runda modlitwy: CHA+Sztuka +1K/PP (Trudność 2–6 wg zagrożenia); sukces łamie psychiczną manipulację wroga, Wyzwalacze to dodatkowe kości do obrony mentalnej grupy (maleją o 1 na rundę).</li><li><b>Runo Aresa (Fleece of Aries)</b> <i>(wym.: Arianoi; czarne runo)</i>: 15-minutowy rytuał: na godzinę umiejętności CHA spadają do 0, ale limit wydawanego Ego na rzut rośnie o PP.</li><li><b>Klątwa Ikonidy (Iconides Curse)</b> <i>(wym.: Ikonida lub Wyrocznia)</i>: Atak mentalny na grupę ludzi: PSY+Wiara/Wola +1K/PP; kto nie obroni się aktywnie, ma −1K za każdy Wyzwalacz, malejąco o 1 na rundę.</li><li><b>Błogosławieństwo Ikonidy (Iconides Blessing)</b> <i>(wym.: Ikonida lub Wyrocznia)</i>: Uznaje ważne wydarzenie za omen: przez ten dzień Ikony, które tworzy, mają efekty silniejsze o +1K/PP.</li><li><b>Wyrocznia (Oracle)</b> <i>(wym.: ranga Wyroczni)</i>: Raz dziennie przepowiednia: kto w ciągu miesiąca trafi na opisaną sytuację, ma +1K/PP do akcji zbliżającej go do celu. [2.0: dobre narzędzie MG do zasiania tropu.]</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 83–84, Potencjały s. 85. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 1000000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "pM4B1tlYXoHzaznu",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.pM4B1tlYXoHzaznu",
+   "name": "Apokaliptycy",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Władcy pożądania. Przemytnicy, dilerzy Burnu, hazardziści i ptaki nocy, każdy Stado ma swój kod.</p><p><b>Bonusy do limitu umiejętności:</b> Atletyka, Zwinne palce, Sztuka, Uwodzenie, Spryt</p><p><b>Metoda (śledztwo):</b> Półświatek, plotka, przysługa, Burn jako waluta (CHA+Uwodzenie, PSY+Oszustwo).</p><p><b>Ideał:</b> Żyj teraz. Jutro i tak należy do kogoś innego.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Zięba (Finch, Europa)</b></td><td>umiejętność cierpienia</td><td>Hartowany przez Stado: +1K do inicjatywy wśród swoich (znika po awansie).</td><td>—</td></tr><tr><td>1</td><td><b>Rybitwa (Tern, Ptaki wodne)</b></td><td>lubi wodę — albo nie</td><td>+1K do inicjatywy wśród swoich (znika po awansie).</td><td>Hak z liną</td></tr><tr><td>1</td><td><b>Koliber (Hummingbird, Afryka)</b></td><td>—</td><td>+1K do inicjatywy w walce ze swoim Stadem (znika po awansie).</td><td>Sztylet koumaya</td></tr><tr><td>2</td><td><b>Wrona Bojowa (Battle Crow)</b></td><td>CIA+Bijatyka 6; CIA+Twardość 6; CIA+Atletyka 4; Autorytet 2</td><td>Wojownik Stada: w razie ataku używa Autorytetu bez ryzyka upokorzenia.</td><td>Bransoleta z ostrzem</td></tr><tr><td>2</td><td><b>Sroka (Magpie)</b></td><td>ZRĘ+Zwinne palce 6; CHA+Uwodzenie 6; PSY+Spryt 4; Sława 2</td><td>Słyszy wiele od klientów: szantaż (−1 Sieć, +2 Zasoby) albo dyskrecja.</td><td>Sztylet; szpila do włosów</td></tr><tr><td>2</td><td><b>Sęp (Vulture)</b></td><td>ZRĘ+Skradanie 4; PSY+Spryt 6; INS+Przetrwanie 6; Sieć 2</td><td>Kronikarze oficjalnie go nie wpuszczają, ale Shutterzy chętnie skupują jego łupy.</td><td>Bransoleta z ostrzem</td></tr><tr><td>2</td><td><b>Kukułka (Cuckoo)</b></td><td>PSY+Oszustwo 6; CHA+Ekspresja 6; INS+Empatia 4; Sekrety 2</td><td>Mistrz ról: wraz z nową maską zapomina się o jego winach.</td><td>Strzelba; pęk kluczy</td></tr><tr><td>2</td><td><b>Sowa (Owl)</b></td><td>CIA+Broń biała 8; ZRĘ+Skradanie 6; PSY+Refleks 6</td><td>Skrytobójca: +4K do ataku z zasadzki; udane zlecenie dla innego kultu +1 Sieć (maks. 4).</td><td>Bransoleta z ostrzem</td></tr><tr><td>2</td><td><b>Dzięcioł (Woodpecker)</b></td><td>CHA+Sztuka 4; CHA+Przywództwo 6; PSY+Oszustwo 8; Sieć 3; Zasoby 3</td><td>Buduje gniazda-kryjówki Stada (+1 Sekrety); odpowiada za Zasoby Stada.</td><td>—</td></tr><tr><td>2</td><td><b>Bocian (Stork)</b></td><td>CHA+Uwodzenie 8; PSY+Spryt 6; CHA+Sztuka 4; Sieć 2</td><td>Kradnie dzieci: do pracy (+1 Zasoby) albo do Stada (+1 Sława).</td><td>Sieć; laska; instrument</td></tr><tr><td>2</td><td><b>Mewa (Seagull)</b></td><td>CIA+Broń biała 6; ZRĘ+Mobilność 6; ZRĘ+Strzelectwo 4</td><td>Bez kar za sztorm i dym przy abordażu; +1 Sieć w portach.</td><td>Kusza harpunowa</td></tr><tr><td>2</td><td><b>Marabut (Marabou, Afryka)</b></td><td>CIA+Twardość 4; CIA+Broń biała 6; ZRĘ+Skradanie 6; Sieć 3</td><td>Brudna robota dla Neolibijczyków; ściąga haracz w Bedain.</td><td>Stalowe kliny</td></tr><tr><td>2</td><td><b>Ibis (Afryka)</b></td><td>INT+Legendy 8; Sojusznicy 3; Autorytet 3; Sieć 3; Sekrety 3</td><td>Pośrednik między afrykańskimi Stadami a Bankiem Handlowym; Autorytet działa wobec wszystkich Afrykanów.</td><td>Laska ibisa</td></tr><tr><td>3</td><td><b>Kruk (Raven)</b></td><td>PSY+Wiara 10 lub PSY+Wola 10; INS+Przetrwanie 6; Autorytet 5; Sława 3; Sojusznicy 3; Sekrety 5</td><td>Rządzi Stadem przez Tarot; Autorytet nie maleje przy porażce.</td><td>Tarot Apokaliptyków; broń z 2 ulepszeniami; +1k6 naboi/mies.</td></tr><tr><td>3</td><td><b>Pelikan / Albatros / Myszołów / Toko / Feniks</b></td><td>kampania</td><td>Sternicy, kapitanowie, przywódcy afrykańskich Stad, odrodzeni wygnańcy.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Va banque (All-In)</b>: Odkłada do 2×PP kości z aktywnej obrony; przy sukcesie następny atak ma tyle Wyzwalaczy, ile kości odłożył.</li><li><b>Karta losu (Card of Destiny)</b> <i>(wym.: Wiara; Kruk, Albatros lub Myszołów)</i>: Stawia sobie karty: zna kult przeciwnika z przyszłego starcia; jeśli zdarzy się w ciągu 10 dni, +PP do rzutów CHA i PSY w tej sytuacji.</li><li><b>Gniazdo (Crow's Nest)</b> <i>(wym.: Pierwotność)</i>: Działając dla Stada albo w jego obronie: 1 Ego za +1K/PP do dowolnego rzutu.</li><li><b>Lustro (Mirror)</b> <i>(wym.: Skupienie)</i>: Aktywna obrona z Wyzwalaczem: przeciw temu wrogowi +PP do Obrony; może skopiować jego aktywowany Potencjał na tym samym poziomie.</li><li><b>Czarny omen (Black Omen)</b>: Klątwa jako atak mentalny: PSY+Dominacja +1K/PP vs PSY+Wiara (kto wybrał Wolę, jest odporny). Przegrany ma trwałą karę do wszystkich rzutów = Wyzwalacze+1, dopóki się nie oczyści (modlitwa, rytuał, pielgrzymka).</li><li><b>1000 dróg (1,000 Ways)</b> <i>(wym.: tylko wręcz)</i>: Każdy Wyzwalacz w ataku wręcz daje wrogowi −1K do aktywnej obrony (maks. PP); Wyzwalacze nadal liczą się do obrażeń i efektów.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 87–88, Potencjały s. 89. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 1100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "xuaTWxeUuWmuRjox",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.xuaTWxeUuWmuRjox",
+   "name": "Anabaptyści",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Pochodnie w raju. Rolnicy i wojownicy Neognozy, palą Sepsę i Burn, a Cathedral City jest ich twierdzą.</p><p><b>Bonusy do limitu umiejętności:</b> Broń biała, Siła, Mobilność, Legendy, Wiara, Wola</p><p><b>Metoda (śledztwo):</b> Wizja, kazanie, rozpoznanie herezji, głos demiurgów (PSY+Wiara, CHA+Ekspresja).</p><p><b>Ideał:</b> Ciało jest więzieniem, ale świat wciąż jest do ocalenia.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Dotknięty (Touched)</b></td><td>—</td><td>Trzy kropki wytatuowane na czole (+1K do obrony mentalnej) i kółko w nosie, które przykuwa duszę do ciała.</td><td>Długa łopata; ziarno od bandy</td></tr><tr><td>2</td><td><b>Asceta (Ascetic)</b></td><td>CIA+Kondycja 6; CHA+Obycie 4; PSY+Wiara 6 lub PSY+Wola 6</td><td>Wobec dostawców i rolników +1K do CHA+Przywództwo i CHA+Obycie.</td><td>Nasiona</td></tr><tr><td>2</td><td><b>Orgiasta (Orgiastic)</b></td><td>CIA+Twardość 4; CIA+Broń biała 6; INT+Skupienie 6 lub INS+Pierwotność 6</td><td>Z bandą +1K do ataku, −1K do aktywnej obrony. Żyjąc skrajnościami ma +1K do PSY+Wiara/Wola; półśrodki je odbierają.</td><td>Bidenhänder</td></tr><tr><td>3</td><td><b>Elizjanin (Elysian)</b></td><td>INT+Medycyna 8; INT+Legendy 6; INT+Nauka 6; Sława 2; Sekrety 2</td><td>Oleje elizejskie: +2K do odporności na Sepsę; potrafi je sporządzać.</td><td>Tygiel i tłuczek; zioła; kamienie znad Adriatyku</td></tr><tr><td>3</td><td><b>Furor</b></td><td>CIA+Broń biała 8; PSY+Wiara 8 lub PSY+Wola 8; Sława 4</td><td>Wstęp do katakumb i arsenałów Cathedral City; dowolna broń z listy ogólnej; ze Spitfire'em +1K do ataku.</td><td>Spitfire</td></tr><tr><td>4</td><td><b>Wysłannik (Emissary)</b></td><td>PSY+Dominacja 8 lub CHA+Obycie 8; CHA+Negocjacje 6; PSY+Wiara 10 lub PSY+Wola 10; Autorytet 4; Sława 3</td><td>Rozejm z Klastrem: +2K do CHA+Negocjacje z Kronikarzami.</td><td>—</td></tr><tr><td>4</td><td><b>Wzniosły (Sublime)</b></td><td>INT+Skupienie 10 lub INS+Pierwotność 10; Sojusznicy 4; Sława 6</td><td>Uznany za objawioną emanację: Zasoby 6 w Cathedral City, ale każdy krok śledzą Wysłannicy.</td><td>Zakazane oleje</td></tr><tr><td>5</td><td><b>Doradca / Acheron / Baptysta</b></td><td>kampania</td><td>Następcy Baptystów, legendarni wojownicy, przywódcy kultu.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Krew rybaka (Fisherman's Blood)</b> <i>(wym.: Pierwotność)</i>: Po przyjęciu ponad połowy obrażeń wpada w szał do końca walki: bez limitu Ego na rzut, bez aktywnej obrony. Tylko jeden poziom. [2.0: szał od drugiej rany Poważnej albo od rany Krytycznej.]</li><li><b>Królestwo Emanacji (Realm of Emanations)</b> <i>(wym.: PSY+Wiara 8)</i>: Broniąc się przed Zjawiskiem Psychonauty z co najmniej 1 Wyzwalaczem, rzuca dodatkowo PP kości; najwyższy wynik dodaje jako sukcesy.</li><li><b>Zabójczy żart (Killing Joke)</b>: Cios głowicą w nieopancerzone miejsce: atak −5K (+1K/PP); trafiony traci całe Ego i pada nieprzytomny; pudło = przez rundę walczy jak bez broni.</li><li><b>Pochodnia (Torchbearer)</b> <i>(wym.: co najmniej Elizjanin lub Furor)</i>: +1K/PP do INS+Percepcja przy szukaniu Psychonautów, ich pomiotu, Leperosów i pól spor.</li><li><b>Pneuma</b> <i>(wym.: Skupienie)</i>: Zadając w jednym ataku co najmniej 5 obrażeń (próg −1/PP), odzyskuje 1 Ego.</li><li><b>Zelota (Zealot)</b>: Kary za rany mniejsze o 1/PP.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 91–92, Potencjały s. 93. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 1200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "wP992nRjmo4QsoSv",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.wP992nRjmo4QsoSv",
+   "name": "Palerzy",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Pełzacze krypt. Mieszkańcy bunkrów, wrażliwi na światło, czekają na powrót swoich bogów.</p><p><b>Bonusy do limitu umiejętności:</b> Strzelectwo, Skradanie, Inżynieria, Spryt, Percepcja</p><p><b>Metoda (śledztwo):</b> Ciemność, bunkry, podsłuch, sekretny język (ZRĘ+Skradanie, INS+Percepcja).</p><p><b>Ideał:</b> Słońce jest wrogiem, Bunkier jest domem, Śpiący wrócą.</p><h3>Rangi</h3><p>Wymagania liczą sumę Atrybut+Umiejętność. Każdy zaczyna od rangi 1 i wspina się, dopóki je spełnia.</p><table><tr><th>Poz.</th><th>Ranga</th><th>Wymagania</th><th>Co daje</th><th>Ekwipunek</th></tr><tr><td>1</td><td><b>Widmo (Specter)</b></td><td>urodzony w ciemności</td><td>Doskonały słuch: +2K do INS+Percepcja przy nasłuchiwaniu i gdy ktoś się skrada. Kary za jasne światło.</td><td>—</td></tr><tr><td>2</td><td><b>Solar</b></td><td>INT+Inżynieria 5; ZRĘ+Rzemiosło 5; Zasoby 1; Sekrety 2</td><td>Przyzwyczajony do słońca: znika kara do ataku i aktywnej obrony za światło dzienne.</td><td>Dysk Słońca (Arbiter, poziom 1); narzędzia elektroniczne</td></tr><tr><td>2</td><td><b>Ożywiciel (Reviver)</b></td><td>INS+Przetrwanie 4; PSY+Spryt 6; Sieć 3</td><td>Bez kar za światło dzienne; zbiera ślady bunkrów, Padlinożercy pomagają mu się do nich dostać.</td><td>Dysk Słońca (Phaeton 1); Sunburst; złoty pasek (200 CD); pistolet maszynowy</td></tr><tr><td>2</td><td><b>Fantom (Phantom)</b></td><td>INS+Percepcja 4; ZRĘ+Strzelectwo 6; ZRĘ+Skradanie 4</td><td>+2 Zasoby w arsenałach bunkrów; kara za ciemność spada z −4K do −2K.</td><td>Wytłumiony pistolet maszynowy z bagnetem; +1k6 naboi/mies.; granat ogłuszający</td></tr><tr><td>3</td><td><b>Zorza (Aurora)</b></td><td>INT+Inżynieria 8; ZRĘ+Rzemiosło 8; Zasoby 3; Sekrety 4</td><td>Kontroluje programy memetyczne bunkra i jego obronę; traci wiarę.</td><td>Dysk Słońca (Arbiter, poziom 2)</td></tr><tr><td>3</td><td><b>Odkupiciel (Redeemer)</b></td><td>Dysk Słońca (Orbital 1); obudził co najmniej jeden bunkier; INS+Orientacja 6; PSY+Oszustwo 8; INT+Artefakty 6; Sojusznicy 3; Sieć 4</td><td>Palerzy z otwartego bunkra pojawiają się, gdy ich potrzebuje (+2 Sojusznicy).</td><td>Atlas RG</td></tr><tr><td>3</td><td><b>Cyklop (Cyclops)</b></td><td>CIA+Atletyka 6; ZRĘ+Strzelectwo 8; Sława 4</td><td>+2K do inicjatywy w ciemności; sabotażysta.</td><td>Oko Cyklopa; Dysk Słońca (Quantum 1); +2k6 naboi/mies.</td></tr><tr><td>4</td><td><b>Aspirant / Halo</b></td><td>kampania</td><td>Droga demagogii albo służby Prorokowi Śpiących.</td><td>—</td></tr><tr><td>5</td><td><b>Demagog (Demagogue)</b></td><td>INT+Skupienie 10 lub INS+Pierwotność 10; CHA+Przywództwo 8; Autorytet 6 lub Sława 6</td><td>Rzutuje opanowaną emocję (+2K); odporny na innych Demagogów.</td><td>—</td></tr></table><h3>Potencjały</h3><ul><li><b>Koszmar (Nightmare)</b>: +1K/PP do ZRĘ+Skradanie; po wygranym Starciu Skradania z Percepcją wroga następnego ataku nie można bronić aktywnie, a przy trafieniu +PP Wyzwalaczy.</li><li><b>Północne słońce (Midnight Sun)</b> <i>(wym.: Skupienie)</i>: Kary za złą widoczność, ślepotę i ciemność mniejsze o 1/PP.</li><li><b>Lament</b> <i>(wym.: Pierwotność)</i>: Wrzask: INS+Pierwotność +1K/PP; wynik to Trudność obrony mentalnej dla wszystkich bez ochrony słuchu (także sojuszników); kto nie zda, traci co najmniej rundę (+1 runda za każde 3 Wyzwalacze).</li><li><b>Alias</b>: +1K/PP do PSY+Oszustwo, gdy ukrywa, że jest Palerem.</li><li><b>Wybrany (Chosen)</b> <i>(wym.: Halo)</i>: +PP do Autorytetu i Sekretów wobec Proroka Śpiących.</li><li><b>Sugestor (Suggestor)</b> <i>(wym.: Demagog)</i>: Po podkradnięciu się (Skradanie vs Percepcja) szepcze do ofiary: +2K/PP do CHA+Negocjacje przeciw jej obronie mentalnej, by zasiać myśl.</li></ul><p class='d2-gmnote'>Źródło: Katharsys, rangi s. 95–96, Potencjały s. 97. Treść streszczona i przeliczona na 2.0 (+1D → +1K, Rany Powierzchowne → Lekkie rany, Trauma → rana Poważna). Dopiski w nawiasie [2.0] są nasze. „spec.” = ranga poboczna (np. Zero, Lekarz wiejski), nie do wyboru w kreatorze.</p>"
+   },
+   "sort": 1300000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "YYFiWhDpo8OJMyDd",
+   "_key": "!journal.pages!mSBTrXFZKHmEqwxy.YYFiWhDpo8OJMyDd",
+   "name": "Potencjały ogólne",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Dostępne dla każdego kultu. PP = poziom Potencjału (1–3).</p><ul><li><b>Asceza (Asceticism)</b>: Może opuścić 1 posiłek na poziom Potencjału (PP) bez kar.</li><li><b>Zew Eteru (Ether Call)</b> <i>(wym.: Zarażenie ≥ 5)</i>: Wyczuwa zarażonych i Psychonautów: +1K/PP w Starciu z zarażonym przeciwnikiem i w Percepcji wobec niego. [2.0: dobrze łączy się z Szeptem Prymera.]</li><li><b>Przenoszenie gór (Moving Mountains)</b>: W desperackiej sytuacji +1 automatyczny sukces/PP do jednego rzutu. Raz na 3 dni.</li><li><b>Słonina (Elephant Skin)</b>: +1 pancerza/PP, ale −1K/PP do CHA+Uwodzenie.</li><li><b>Olśnienie (Brainwave)</b>: Raz dziennie +1K/PP do rzutu na INT.</li><li><b>Czujność (Danger Sense)</b>: Gdy grozi niebezpieczeństwo, +1K/PP do INS+Percepcja.</li><li><b>Wężowy (Sleek)</b>: +1K/PP do wyrwania się z chwytu, więzów, łańcuchów.</li><li><b>Mogło być gorzej (Could Be Worse)</b>: Kary za rany mniejsze o 1/PP. [2.0: odejmij PP od sumy kar z ran Poważnych i Krytycznej.]</li><li><b>Maraton (Marathon)</b>: +1K/PP do CIA+Kondycja przy biegu.</li><li><b>Niezłomny (Unyielding)</b> <i>(wym.: Wola)</i>: Raz na konflikt odpiera atak mentalny siłą woli z +1K/PP do obrony mentalnej.</li><li><b>Liczydło (Number Cruncher)</b> <i>(wym.: INT 4)</i>: +1K/PP do rzutów rozwiązujących problem logiką lub matematyką. [2.0: także do rzutu na Wniosek, gdy teoria opiera się na liczbach lub danych.]</li></ul>"
+   },
+   "sort": 1400000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "categories": []
+}

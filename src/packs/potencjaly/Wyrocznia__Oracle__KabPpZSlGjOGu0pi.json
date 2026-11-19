@@ -1,0 +1,27 @@
+{
+ "_id": "KabPpZSlGjOGu0pi",
+ "_key": "!items!KabPpZSlGjOGu0pi",
+ "name": "Wyrocznia (Oracle)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Raz dziennie przepowiednia: kto w ciągu miesiąca trafi na opisaną sytuację, ma +1K/PP do akcji zbliżającej go do celu. [2.0: dobre narzędzie MG do zasiania tropu.]</p>",
+  "level": 1,
+  "kult": "Jehammedanie",
+  "prerequisite": "ranga Wyroczni"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

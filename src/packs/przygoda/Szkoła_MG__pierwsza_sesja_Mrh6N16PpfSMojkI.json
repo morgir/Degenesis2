@@ -1,0 +1,395 @@
+{
+ "_id": "Mrh6N16PpfSMojkI",
+ "_key": "!journal!Mrh6N16PpfSMojkI",
+ "name": "Szkoła MG: pierwsza sesja",
+ "pages": [
+  {
+   "_id": "2pSLzdANr3AtdVyR",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.2pSLzdANr3AtdVyR",
+   "name": "1. Przygotowanie w Foundry (45 minut)",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Zrób to dzień przed sesją, nie godzinę przed. Spokojna głowa jest ważniejsza niż wszystko inne.</p>\n<ol><li><b>Zaimportuj sceny</b> z kompendium „Quick start: sceny” (prawy przycisk na kompendium → Importuj wszystko). Jeśli któraś scena nie ma tła, uruchom makro „Utwórz sceny przygody”.</li>\n<li><b>Zaimportuj aktorów</b> z „Quick start: aktorzy” i „Gotowe postacie”.</li>\n<li><b>Przydziel postacie</b>: Ustawienia → Użytkownicy → przypisz każdemu graczowi postać. Daj graczom uprawnienie <i>Właściciel</i> do aktora <i>Śledztwo: Ciche studnie</i>, bo to ich wspólna tablica.</li>\n<li><b>Lokacje</b>: graczom uprawnienie <i>Obserwator</i> do Lokacji. Ukryte Cechy zobaczą dopiero, gdy je ujawnisz (ikonka oka).</li>\n<li><b>Sprawdź muzykę:</b> instalator dodał playlisty do zakładki Playlisty. Ustaw głośność muzyki w ustawieniach dźwięku na około 40%.</li>\n<li><b>Makra</b>: przeciągnij na pasek „Wyrocznia FU”, „Nowa sesja” i „Nałóż obrażenia na cel”.</li>\n<li><b>Przeczytaj</b> raz cały dziennik przygody. Drugi raz przeczytaj tylko tabelę „Kto czego chce” i zegary. To wystarczy.</li></ol>\n<p><b>Test techniczny:</b> wejdź jako gracz (drugie okno przeglądarki w trybie incognito) i sprawdź, czy widzisz kartę postaci, Tablicę śledztwa i scenę z targiem.</p>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "7gWjz8zRGIGyB2Hq",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.7gWjz8zRGIGyB2Hq",
+   "name": "2. Sesja zero w 15 minut",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Na początku pierwszej sesji, zanim padnie pierwsza kość:</p>\n<ol><li><b>Ton</b>: „Gramy w horror postapokaliptyczny. Świat jest okrutny, ale wasze postacie rzadko giną przypadkiem. Częściej płacą: zdrowiem, długami, duszą.”</li>\n<li><b>Granice (linie i zasłony)</b>: zapytaj, czego nie chcą w grze wcale (linie) i co ma się dziać tylko poza kadrem (zasłony). W tej przygodzie są choroba, narkotyki, śmierć i manipulacja. Zapytaj o to wprost.</li>\n<li><b>Karta X</b>: połóż na stole kartkę z X (albo umów słowo w czacie). Kto ją dotknie, ten fragment znika bez tłumaczenia.</li>\n<li><b>Postacie</b>: każdy gracz w 30 sekund mówi, kim jest jego postać i czego chce. Potem jedno pytanie do każdego: „Kogo z drużyny znasz i skąd?”</li>\n<li><b>Zasady w 3 zdaniach</b>: „Rzucacie tyle kości, ile macie Atrybut + Umiejętność. Każde 4–6 to sukces, 6 to Wyzwalacz. Ja mówię, ile sukcesów trzeba, a wy mówicie, co robicie, nie co rzucacie.”</li></ol>"
+   },
+   "sort": 200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "lR0UsacVt67dGKLL",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.lR0UsacVt67dGKLL",
+   "name": "3. Rytm sesji (4 godziny)",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<table><tr><th>Czas</th><th>Co</th><th>Uwagi</th></tr>\n<tr><td>0:00–0:15</td><td>Sesja zero</td><td>strona 2</td></tr>\n<tr><td>0:15–0:35</td><td>Otwarcie: haki osobiste, zbiórka przy studni</td><td>tekst „Otwarcie”, muzyka „Wiatr”</td></tr>\n<tr><td>0:35–2:15</td><td>Śledztwo: 3–4 sceny (A–E)</td><td>gracze wybierają kolejność; przesuwaj zegary co scenę</td></tr>\n<tr><td>2:15–2:25</td><td>Przerwa</td><td>i ty, i gracze jej potrzebujecie</td></tr>\n<tr><td>2:25–3:15</td><td>Spelunka i/lub kancelaria</td><td>tu rosną stawki</td></tr>\n<tr><td>3:15–3:45</td><td>Finał</td><td>pozwól graczom wybrać rozwiązanie</td></tr>\n<tr><td>3:45–4:00</td><td>Epilog, PD, długi, Imię</td><td>makro „Nowa sesja” na koniec</td></tr></table>\n<p><b>Jeśli gracze są wolni</b>, zostań przy jednej sesji i pomiń scenę E. <b>Jeśli są szybcy</b>, Varga ucieka i finał w kanałach (z mapą Borsuka) przenosi się na drugą sesję.</p>"
+   },
+   "sort": 300000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "eJZWGuAw36dK45qa",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.eJZWGuAw36dK45qa",
+   "name": "4. Jak prowadzić rzut — krok po kroku",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p><b>Złota zasada:</b> gracz opisuje, <i>co robi</i>, a ty decydujesz, <i>czy i co rzuca</i>. Nie odwrotnie.</p>\n<ol><li><b>Czy w ogóle rzut?</b> Rzucaj tylko, gdy oba wyniki są ciekawe. Otworzenie drzwi to nie rzut. Otworzenie drzwi, zanim patrol skręci, już tak.</li>\n<li><b>Który rzut?</b> Wybierz Atrybut + Umiejętność pasujące do opisu. Ściąga jest w Podręczniku gracza.</li>\n<li><b>Trudność</b>: zwykle 2. Trudna sytuacja 3, bardzo trudna 4. Nie podawaj 6, chyba że to akt desperacji.</li>\n<li><b>Stawka</b>: powiedz, co się stanie przy porażce, zanim rzuci. „Jeśli się nie uda, ktoś cię zauważy.”</li>\n<li><b>Wynik</b>: czytaj z karty czatu (Tak, i… / Tak / Tak, ale… / Nie / Nie, i…) i opowiedz go.</li></ol>\n<h3>Przykład z przygody</h3>\n<blockquote class=\"d2-read\"><p><b>Gracz (Borsuk):</b> Chcę się prześlizgnąć za kurtynę w spelunce, kiedy tragarze patrzą na scenę.<br><b>MG:</b> Rzuć ZRĘ+Skradanie, Trudność 3, bo jest ich dwóch, ale są zajęci. Jeśli się nie uda, zauważą cię w połowie drogi.<br><b>Gracz:</b> Mam 5 kości… 6, 5, 3, 2, 1. Dwa sukcesy, jedna szóstka.<br><b>MG:</b> Brakuje ci jednego, więc to „Tak, ale…”. Możesz wejść, ale jeden z tragarzy odwraca się, gdy już jesteś za kurtyną. Słyszysz kroki. Wchodzisz?</p></blockquote>\n<p><b>Uwaga:</b> przy „Tak, ale…” to gracz wybiera, czy przyjmuje koszt. Wyzwalacze przepadają.</p>"
+   },
+   "sort": 400000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "sQYBfEESykwMcbp5",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.sQYBfEESykwMcbp5",
+   "name": "5. Śledztwo w praktyce",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p><b>Najważniejsze:</b> tropu kluczowego nie da się „nie znaleźć”. Jeśli gracz szuka we właściwym miejscu i ma umiejętność, po prostu mu go dajesz. Rzut decyduje o dodatkach.</p>\n<h3>Przykład: lazaret</h3>\n<blockquote class=\"d2-read\"><p><b>Gracz (Wera):</b> Badam ślinę chorych pod Molluskiem.<br><b>MG:</b> Jesteś Spitalianką, więc od razu widzisz trop: białe włókna, ale Mollusk prawie nie reaguje. To nie jest zwykła Sepsa. Chcesz rzucić INT+Medycyna, żeby dowiedzieć się więcej?<br><b>Gracz:</b> Tak. 3 sukcesy, 1 Wyzwalacz.<br><b>MG:</b> Sukces daje ci Odsłonę: objawy pasują do odurzenia Burnem Unity, nie do choroby. Za Wyzwalacz możesz wziąć drugą Odsłonę albo zrobić to Szybko, zanim wróci Kessel.</p></blockquote>\n<h3>Gdy gracze utkną</h3>\n<ul><li><b>Zegar</b>: przesuń go i pokaż skutek („dzwon, kolejny zmarły”).</li><li><b>NPC przychodzi do nich</b>: Halka, Tobiasz albo Ilsa szukają ich sami.</li>\n<li><b>Wniosek</b>: zaproponuj rzut na Wniosek z tropów, które już mają.</li><li><b>Zapytaj</b>: „Co twoja postać myśli, że tu się dzieje?” Gracze często wiedzą więcej, niż mówią.</li></ul>\n<p>Zapisujcie tropy na aktorze <b>Śledztwo</b>. Niech robi to jeden gracz, „protokolant”.</p>"
+   },
+   "sort": 500000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "NOL6MoLPTsuFQ0a4",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.NOL6MoLPTsuFQ0a4",
+   "name": "6. Rozmowy i Dźwignia",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<ol><li><b>Sprawdź Postawę</b> NPC (na jego karcie). Nieufna Halka = Trudność 3.</li>\n<li><b>Waga prośby</b>: „powiedz, co widziałaś” to prośba istotna, więc +1. Razem 4.</li>\n<li><b>Dźwignia</b>: gdy gracze znają lęk Halki o syna i go użyją, dostają +2K albo prośba schodzi do drobnej.</li>\n<li><b>Wynik</b>: sukces to informacja albo lepsza Postawa. „Tak, ale…” to informacja z warunkiem albo plotka. Porażka to Postawa −1.</li></ol>\n<blockquote class=\"d2-read\"><p><b>Gracz (Oddo):</b> Mówię Halce, że jak powie prawdę, załatwię jej syna glejt od Sędziów, żeby nikt go nie ruszył.<br><b>MG:</b> To jej Cena. Nie rzucasz, Halka mięknie i mówi o wozie z beczkami. Ale teraz jesteś jej winien glejt. Zapisuję dług Drobny: Oddo wobec Halki.</p></blockquote>\n<p><b>Rada:</b> nagradzaj odgrywanie. Dobry argument to Dźwignia. Nie każ rzucać za każde zdanie.</p>"
+   },
+   "sort": 600000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "XPcgx3f75AzwMrNm",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.XPcgx3f75AzwMrNm",
+   "name": "7. Walka krok po kroku",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Przykład: drużyna kontra Banda tragarzy Kruków (liczebność 6, Próg 4, pancerz 1).</p>\n<ol><li><b>Ogłoś stawkę</b>: „To nie Stawka Śmierci. Jeśli przegracie, obudzicie się w zaułku z długiem.”</li>\n<li><b>Inicjatywa</b>: w trackerze walki kliknij „Rzuć wszystkim”. Liczą się sukcesy PSY+Refleks. Rzucasz raz na całą walkę.</li>\n<li><b>Tura gracza</b>: Oddo atakuje młotem. Klik na broń, Trudność to Obrona Bandy (1). Wynik: 3 sukcesy, 1 Wyzwalacz.</li>\n<li><b>Obrażenia</b>: młot 4+F/2, przy F=5 to 6, plus 1 za Wyzwalacz = 7. Gracz wybiera cel (klawisz T) i klika „Nałóż na cel”. Pancerz 1, więc netto 6 przy Progu 4: rana Poważna, Banda traci 2 członków.</li>\n<li><b>Tura Bandy</b>: Banda atakuje raz z +2K za liczebność (4 członków). Oddo może wydać 1 Ego na aktywną obronę.</li>\n<li><b>Morale</b>: po 3 stratach Banda ucieka. Opisz to.</li></ol>\n<p><b>Najczęstszy błąd:</b> walka do ostatniego. Wrogowie chcą żyć. Uciekają, poddają się, negocjują.</p>"
+   },
+   "sort": 700000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "6CRU3wBT4ihngUWJ",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.6CRU3wBT4ihngUWJ",
+   "name": "8. Sepsa i Szept Prymera",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Szept to propozycja, nie atak. Zawsze pytaj.</p>\n<ol><li>Postać ma Zarażenie ≥ 1 i jest w pobliżu źródła (studnia, chorzy, Burn).</li>\n<li>Opisz pokusę i powiedz, co zyska: odpowiedź, siłę, przeczucie.</li>\n<li>Gracz decyduje. Przyjęcie daje +1 Zarażenia (zaznacz na karcie, zakładka Dusza i Sepsa) i prawdziwą Odsłonę.</li>\n<li>Odmowa nic nie kosztuje. Pochwal ją, bo to też jest decyzja postaci.</li></ol>\n<p>Przy połowie skali Zarażenia opisz stygmat na piersi. Gracze powinni się tego bać.</p>"
+   },
+   "sort": 800000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "uMYKz0JoajE8rHJc",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.uMYKz0JoajE8rHJc",
+   "name": "9. Po każdej scenie: zegary, długi, Imię",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<ul><li><b>Zegary</b>: przesuń te, które wynikają z fikcji (hałas, czas, Koszty).</li>\n<li><b>Długi</b>: ktoś pomógł za darmo? Wpisz dług w Rejestrze. Dług spłacony albo zerwany? Kliknij odpowiedni przycisk, a Echo frakcji zmieni się samo.</li>\n<li><b>Imię</b>: publiczny czyn albo zbrodnia przy świadkach? Kliknij +/− przy Echu frakcji i wpisz powód.</li>\n<li><b>Ego i rany</b>: po scenie odpoczynku Lekkie rany znikają.</li></ul>\n<p>Na koniec sesji: PD (5 + premie), makro „Nowa sesja” (odnawia Archetypy), krótka rozmowa: co się podobało, co zmienić.</p>"
+   },
+   "sort": 900000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "VdFe3FrlT9HlnRau",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.VdFe3FrlT9HlnRau",
+   "name": "10. Błędy nowego MG i improwizacja",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<ul><li><b>Za dużo rzutów.</b> Jeśli nic nie zależy od wyniku, nie rzucaj.</li>\n<li><b>Ukrywanie tropów.</b> Tropy kluczowe dawaj zawsze. Śledztwo bez tropów to nuda, nie wyzwanie.</li>\n<li><b>Gotowe zakończenie.</b> Nie planuj, jak gracze rozwiążą sprawę. Zaplanuj, co zrobią NPC, gdy gracze nic nie zrobią.</li>\n<li><b>Zasady przed fikcją.</b> Gdy nie pamiętasz reguły, zdecyduj sensownie i graj dalej. Sprawdzisz po sesji.</li></ul>\n<h3>Improwizacja</h3>\n<ul><li><b>Wyrocznia FU</b> (makro): gdy nie wiesz, czy coś jest prawdą, zadaj pytanie tak/nie i rzuć.</li>\n<li><b>Imiona na podorędziu</b>: Borca: Jarek, Dagna, Lew, Wilma, Gerold. Kruki: Szpak, Wronka, Czerń. Spitalianie: Kessel, Tobiasz, Marten.</li>\n<li><b>„Tak, ale…”</b> jako odpowiedź na pomysł gracza prawie zawsze działa.</li></ul>"
+   },
+   "sort": 1000000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "nu30UEGsEMQypJze",
+   "_key": "!journal.pages!Mrh6N16PpfSMojkI.nu30UEGsEMQypJze",
+   "name": "11. Muzyka i klimat",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p><b>W Foundry:</b> system zawiera tylko odgłosy tła (playlisty <i>Odgłosy</i> i <i>Efekty</i>). Muzykę dodaj własną: utwórz playlistę w zakładce Playlisty i wrzuć pliki albo linki. Poniżej propozycje.</p>\n<h3>Poza Foundry (Spotify lub YouTube) — moje propozycje</h3>\n<table><tr><th>Scena / nastrój</th><th>Muzyka</th><th>Dlaczego</th></tr>\n<tr><td>Dzielnica, codzienna groza</td><td>Hildur Guðnadóttir — <i>Chernobyl</i> (OST)</td><td>skażenie, które słychać, zanim się je zobaczy</td></tr>\n<tr><td>Studnia, Szept Prymera</td><td>Ben Salisbury &amp; Geoff Barrow — <i>Annihilation</i> (OST)</td><td>piękna, obca przemiana, idealna na Prymer</td></tr>\n<tr><td>Sny chorych</td><td>Mica Levi — <i>Under the Skin</i> (OST)</td><td>niepokój, coś nieludzkiego</td></tr>\n<tr><td>Lazaret</td><td>Jóhann Jóhannsson — <i>Arrival</i> (OST)</td><td>smutek i tajemnica</td></tr>\n<tr><td>Kancelaria, konfrontacja</td><td>Jóhann Jóhannsson — <i>Sicario</i> (OST)</td><td>ciężkie, dudniące napięcie</td></tr>\n<tr><td>Spelunka Kruków</td><td>Tom Waits — <i>Rain Dogs</i>; Nick Cave &amp; the Bad Seeds — <i>Murder Ballads</i></td><td>brud, hazard, półświatek</td></tr>\n<tr><td>Kanały, ruiny</td><td>Lustmord — <i>Heresy</i>; wytwórnia Cryo Chamber (dark ambient)</td><td>podziemny, przytłaczający ambient</td></tr>\n<tr><td>Klany i pustkowia (na przyszłość)</td><td>Heilung — <i>Ofnir</i>; Wardruna</td><td>plemienne, rytualne</td></tr>\n<tr><td>Ruiny Bygone, Kronikarze</td><td>Eduard Artemiew — <i>Stalker</i></td><td>mistyka zony i martwej techniki</td></tr></table>\n<p><b>Rada:</b> muzyka bez słów pod narrację, ze słowami tylko w spelunce. Zbuduj 2–3 playlisty (Napięcie, Groza, Spelunka) i przełączaj je jednym kliknięciem, nie co scenę.</p>\n<p>Darmowe ambienty pod konkretne miejsca znajdziesz na Tabletop Audio (szukaj: plague, sewer, tavern, rain).</p>"
+   },
+   "sort": 1100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "categories": []
+}

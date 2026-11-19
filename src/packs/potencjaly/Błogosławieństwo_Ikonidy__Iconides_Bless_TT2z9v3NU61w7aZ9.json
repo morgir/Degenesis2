@@ -1,0 +1,27 @@
+{
+ "_id": "TT2z9v3NU61w7aZ9",
+ "_key": "!items!TT2z9v3NU61w7aZ9",
+ "name": "Błogosławieństwo Ikonidy (Iconides Blessing)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Uznaje ważne wydarzenie za omen: przez ten dzień Ikony, które tworzy, mają efekty silniejsze o +1K/PP.</p>",
+  "level": 1,
+  "kult": "Jehammedanie",
+  "prerequisite": "Ikonida lub Wyrocznia"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

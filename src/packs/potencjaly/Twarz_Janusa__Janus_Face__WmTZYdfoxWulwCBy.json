@@ -1,0 +1,27 @@
+{
+ "_id": "WmTZYdfoxWulwCBy",
+ "_key": "!items!WmTZYdfoxWulwCBy",
+ "name": "Twarz Janusa (Janus Face)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>INS+Empatia vs PSY+Wiara/Wola przeciwnika; przy sukcesie +1K/PP do ataku i obrony przeciw niemu do końca walki.</p>",
+  "level": 1,
+  "kult": "Sędziowie",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

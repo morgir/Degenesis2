@@ -1,3 +1,4 @@
+import re
 # -*- coding: utf-8 -*-
 import json, os, random, string, shutil, sys
 sys.path.insert(0, os.path.dirname(__file__))
@@ -399,6 +400,35 @@ for i, (name, desc, mode, channel, vol, repeat, tracks) in enumerate(PLAYLISTS):
         "mode": mode, "channel": channel, "playing": False, "fade": 1500, "sounds": sounds, "folder": None, "sort": i * 100, "seed": None,
         "ownership": {"default": 0}, "flags": {}, "_stats": STATS})
 packs["gracze"].append(journal("Odgłosy — źródła i licencje", [("Źródła", open("/home/claude/degenesis2/assets/audio/CREDITS.html", encoding="utf-8").read())]))
+
+# --- Stałe ID (deterministyczne): te same dokumenty mają te same ID w każdej wersji ---
+import hashlib
+_ALPH = string.ascii_letters + string.digits
+def _sid(*parts):
+    h = hashlib.sha256("|".join(parts).encode("utf-8")).digest()
+    return "".join(_ALPH[b % len(_ALPH)] for b in h[:16])
+_IDMAP = {}
+for _pname, _docs in packs.items():
+    _seen = {}
+    for _d in _docs:
+        _kind = _d["_key"].split("!")[1]
+        _base = f"{_pname}|{_kind}|{_d.get('type', '')}|{_d['name']}"
+        _n = _seen.get(_base, 0); _seen[_base] = _n + 1
+        _new = _sid(_base, str(_n))
+        _IDMAP[_d["_id"]] = _new
+        for _emb in ("items", "pages", "sounds"):
+            _eseen = {}
+            for _e in _d.get(_emb, []) or []:
+                _eb = f"{_new}|{_emb}|{_e.get('name', '')}"
+                _en = _eseen.get(_eb, 0); _eseen[_eb] = _en + 1
+                if "_id" in _e: _IDMAP[_e["_id"]] = _sid(_eb, str(_en))
+_RX = re.compile("|".join(map(re.escape, sorted(_IDMAP, key=len, reverse=True)))) if _IDMAP else None
+def _remap(obj):
+    if isinstance(obj, dict): return {k: _remap(v) for k, v in obj.items()}
+    if isinstance(obj, list): return [_remap(v) for v in obj]
+    if isinstance(obj, str) and _RX: return _RX.sub(lambda m: _IDMAP[m.group(0)], obj)
+    return obj
+packs = {k: [_remap(d) for d in v] for k, v in packs.items()}
 
 # --- Zapis ---
 shutil.rmtree(ROOT, ignore_errors=True)

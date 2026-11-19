@@ -1,0 +1,225 @@
+{
+ "_id": "kfwvfIu6Bazi07HJ",
+ "_key": "!actors!kfwvfIu6Bazi07HJ",
+ "name": "Higienista Kessel",
+ "type": "npc",
+ "img": "systems/degenesis2/assets/portraits/kessel.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 3
+   },
+   "zre": {
+    "value": 2
+   },
+   "cha": {
+    "value": 2
+   },
+   "int": {
+    "value": 3
+   },
+   "psy": {
+    "value": 3
+   },
+   "ins": {
+    "value": 2
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 3
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 3
+   },
+   "nauka": {
+    "value": 3
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 3
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 0
+   },
+   "wola": {
+    "value": 3
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 2
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "weteran",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 6,
+   "max": 6
+  },
+  "armor": 1,
+  "progBonus": 0,
+  "kult": "",
+  "ranga": "",
+  "motyw": "Wypalić ognisko, zanim się rozprzestrzeni",
+  "lek": "Psychonauty ukrytego w mieście",
+  "sekret": "Dostał rozkaz, by nie pytać Sędziów",
+  "cena": "Dowód, że to nie Sepsa",
+  "postawa": -1,
+  "frakcja": "",
+  "eliminated": false,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Higienista Spitalu w masce gazowej. Wierzy, że lepiej spalić za dużo niż za mało. Nie jest zły, tylko przerażony.</p>"
+ },
+ "items": [
+  {
+   "name": "Pistolet",
+   "type": "bron",
+   "img": "icons/svg/target.svg",
+   "system": {
+    "description": "",
+    "skill": "strzelectwo",
+    "handling": 0,
+    "damage": "5",
+    "range": "10/40",
+    "magazine": {
+     "value": 6,
+     "max": 6
+    },
+    "qualities": "",
+    "encumbrance": 1,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "8OPb67O4lo7exEWl",
+   "_key": "!actors.items!kfwvfIu6Bazi07HJ.8OPb67O4lo7exEWl"
+  }
+ ],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Higienista Kessel",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "systems/degenesis2/assets/tokens/kessel.webp"
+  }
+ }
+}

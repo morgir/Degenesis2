@@ -1,0 +1,55 @@
+{
+ "_id": "spxWK9bfPIITht9k",
+ "_key": "!journal!spxWK9bfPIITht9k",
+ "name": "Świat — ściągawka",
+ "pages": [
+  {
+   "_id": "Zms6NsDkGi5bpP5V",
+   "_key": "!journal.pages!spxWK9bfPIITht9k.Zms6NsDkGi5bpP5V",
+   "name": "Kultury, kulty, Prymer",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Rok 2595, 522 lata po Eschatonie. Streszczenia własnymi słowami; szczegóły w Primal Punk.</p><h2>Kultury</h2><h3>Borca</h3><p>Dawne serce Europy: rdzawe pustkowia, ruiny pełne artefaktów i odbudowane metropolie, takie jak Justitian. Porządek kultów zderza się tu z Klanami, które wracają z podziemi po swoje.</p><p><i>Typowe kulty:</i> Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Hellveci, Jehammedanie, Sędziowie, Złomiarze, Spitalianie</p><h3>Franka</h3><p>Kraina Roju. Feromanci tkają sieci zapachów, a owady służą im jak armia. Ludzie żyją na rzekach i prowadzą wojnę podjazdową z ulami i zigguratami.</p><p><i>Typowe kulty:</i> Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Hellveci, Sędziowie, Złomiarze, Spitalianie</p><h3>Pollen</h3><p>Zamarznięta północ i wieczna wędrówka. Pola zarodników, pajęcze sieci i oazy, które powstają i giną. Biokinetycy rządzą dziką krainą.</p><p><i>Typowe kulty:</i> Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Złomiarze, Spitalianie</p><h3>Balkhan</h3><p>Beczka prochu. Wojewodowie, góry, lasy i jaskinie, gdzie niesie się pieśń Dushani. Krew, przysięgi i stare długi.</p><p><i>Typowe kulty:</i> Apokaliptycy, Klanowcy, Hellveci, Jehammedanie, Palerzy, Złomiarze</p><h3>Hybrispania</h3><p>Pola śmierci. Stulecia walki z afrykańskimi najeźdźcami, a w sercu kraju anomalia czasu i Pregnoktycy, wyrocznie, które żyją jednocześnie w przeszłości i przyszłości.</p><p><i>Typowe kulty:</i> Anubianie, Apokaliptycy, Klanowcy, Jehammedanie, Neolibijczycy, Palerzy, Skurgerzy, Złomiarze, Spitalianie</p><h3>Purgare</h3><p>Ziemia wybranych, rozdarta między spaloną pustynią a żyznymi równinami. Rody, rodzina ponad wszystko i wieże czujników wypatrujących Psychokinetyków.</p><p><i>Typowe kulty:</i> Anabaptyści, Apokaliptycy, Klanowcy, Hellveci, Złomiarze, Spitalianie</p><h3>Afryka</h3><p>Lew. Bogactwo, złoto i handel Trypolisu, a przy tym walka z Psychovorami, roślinnością, która pożera kraj. Afryka patrzy na północ z pogardą i apetytem.</p><p><i>Typowe kulty:</i> Anubianie, Apokaliptycy, Klanowcy, Neolibijczycy, Skurgerzy, Złomiarze</p><h2>Kulty</h2><h3>Spitalianie</h3><p>Ostatni bastion. Lekarze i żołnierze w wojnie z Sepsą i Psychonautami. Leczenie jest przywilejem, a ogień oczyszcza.</p><p><b>Metoda:</b> Sekcja, test na zarodniki, kwarantanna, dokumentacja przypadku (INT+Medycyna, INT+Nauka).<br><b>Ideał:</b> Ludzkość musi przetrwać, nawet jeśli pojedynczy człowiek nie.</p><h3>Kronikarze</h3><p>Wszechwiedzący. Spadkobiercy Strumienia, kupują artefakty, kontrolują przepływ informacji i Drafty, którymi płaci pół Europy.</p><p><b>Metoda:</b> Dane, korelacja, nasłuch, archiwa i płatni informatorzy (INT+Artefakty, PSY+Spryt).<br><b>Ideał:</b> Wiedza musi płynąć, ale to my decydujemy dokąd.</p><h3>Hellveci</h3><p>Bractwo broni z Twierdzy Alpejskiej. Żołnierze do szpiku kości, pobierają myto za przejście przez góry.</p><p><b>Metoda:</b> Rekonesans, obserwacja, raport, przesłuchanie jeńca (INS+Percepcja, PSY+Refleks).<br><b>Ideał:</b> Broń, towarzysz, kraj. Każdy zmarnowany strzał osłabia Fortecę.</p><h3>Sędziowie</h3><p>Młot sprawiedliwości. Przynieśli prawo na pustkowia, a Justitian i Protektorat są ich dziełem. Klany znów rosną w siłę.</p><p><b>Metoda:</b> Przesłuchanie, Kodeks, rejestry, świadkowie, wyrok (PSY+Dominacja, INS+Empatia).<br><b>Ideał:</b> Prawo ponad litość. Bez prawa jest tylko pustkowie.</p><h3>Klanowcy</h3><p>Władcy pustkowi. Od ludów epoki kamienia po osiadłe społeczności: rodziny, plemiona, nomadzi.</p><p><b>Metoda:</b> Tropienie, znaki, ścieżki zwierząt, opowieści starszyzny (INS+Przetrwanie, INS+Orientacja).<br><b>Ideał:</b> Klan jest wszystkim, jednostka niczym.</p><h3>Złomiarze</h3><p>Kopacze. Przeszukują ruiny w poszukiwaniu artefaktów dla Kronikarzy, żyją na krawędzi i liczą na łut szczęścia.</p><p><b>Metoda:</b> Ruiny, materiał, ślady pracy, zapomniane wejścia (ZRĘ+Rzemiosło, INT+Artefakty).<br><b>Ideał:</b> Co znajdziesz, jest twoje, dopóki go nie sprzedasz.</p><h3>Neolibijczycy</h3><p>Zdobywcy świata. Kupcy, kartografowie i łowcy z Trypolisu: koncesje, banki, kontrakty.</p><p><b>Metoda:</b> Księgi handlowe, przepływ towaru i dinarów, kto komu jest winien (CHA+Negocjacje, INT+Nauka).<br><b>Ideał:</b> Każdy opór ma swoją cenę i swój zysk.</p><h3>Skurgerzy</h3><p>Mściciele Czarnego Lądu. Afrykańscy wojownicy-łowcy pełni gniewu na Europejczyków, w Hybrispanii i poza nią.</p><p><b>Metoda:</b> Polowanie, zapach strachu, presja, pościg (INS+Percepcja, PSY+Dominacja).<br><b>Ideał:</b> Lew nie przebacza Wronie.</p><h3>Anubianie</h3><p>Strażnicy proroctwa. Uzdrowiciele i sędziowie dusz, wierni wiecznemu cyklowi życia i śmierci.</p><p><b>Metoda:</b> Zmarli, Ka i Ba, rytuał, sąd nad duszą (INT+Legendy, INS+Empatia).<br><b>Ideał:</b> Krąg musi się domknąć: każda dusza wraca na swoje miejsce.</p><h3>Jehammedanie</h3><p>Niosący oblicze Boga. Plemiona potomków Jehammeda, wojownicy-pasterze, dla których przysięga i ród znaczą wszystko.</p><p><b>Metoda:</b> Rody, przysięgi, długi krwi, pamięć plemion (CHA+Obycie, PSY+Wiara).<br><b>Ideał:</b> Krew Jehammeda zobowiązuje: przysięga jest święta.</p><h3>Apokaliptycy</h3><p>Władcy pożądania. Przemytnicy, dilerzy Burnu, hazardziści i ptaki nocy, każdy Stado ma swój kod.</p><p><b>Metoda:</b> Półświatek, plotka, przysługa, Burn jako waluta (CHA+Uwodzenie, PSY+Oszustwo).<br><b>Ideał:</b> Żyj teraz. Jutro i tak należy do kogoś innego.</p><h3>Anabaptyści</h3><p>Pochodnie w raju. Rolnicy i wojownicy Neognozy, palą Sepsę i Burn, a Cathedral City jest ich twierdzą.</p><p><b>Metoda:</b> Wizja, kazanie, rozpoznanie herezji, głos demiurgów (PSY+Wiara, CHA+Ekspresja).<br><b>Ideał:</b> Ciało jest więzieniem, ale świat wciąż jest do ocalenia.</p><h3>Palerzy</h3><p>Pełzacze krypt. Mieszkańcy bunkrów, wrażliwi na światło, czekają na powrót swoich bogów.</p><p><b>Metoda:</b> Ciemność, bunkry, podsłuch, sekretny język (ZRĘ+Skradanie, INS+Percepcja).<br><b>Ideał:</b> Słońce jest wrogiem, Bunkier jest domem, Śpiący wrócą.</p><h2>Prymer i Psychonauci</h2><p>Z asteroid przyszedł Prymer. Sepsa porasta ziemię polami zarodników, Burn kusi rozkoszą i mocą, a w pobliżu pól macierzystych rodzą się dzieci bez duszy: Psychonauci. W każdym regionie objawiają się inaczej: Biokinetycy (Pollen), Feromanci (Franka), Dushani (Balkhan), Pregnoktycy (Hybrispania), Psychokinetycy (Purgare).</p>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "categories": []
+}

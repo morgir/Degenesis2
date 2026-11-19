@@ -1,0 +1,317 @@
+{
+ "_id": "slXmiXBW6KlYxdIf",
+ "_key": "!actors!slXmiXBW6KlYxdIf",
+ "name": "Feromant — Królowa",
+ "type": "npc",
+ "img": "icons/svg/skull.svg",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 1
+   },
+   "zre": {
+    "value": 1
+   },
+   "cha": {
+    "value": 6
+   },
+   "int": {
+    "value": 1
+   },
+   "psy": {
+    "value": 5
+   },
+   "ins": {
+    "value": 1
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 0
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 6
+   },
+   "przywodztwo": {
+    "value": 6
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 5
+   },
+   "wola": {
+    "value": 3
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 0
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "antagonista",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 4,
+   "max": 4
+  },
+  "armor": 4,
+  "progBonus": 7,
+  "kult": "Psychonauci",
+  "ranga": "",
+  "motyw": "Ul musi rosnąć",
+  "lek": "",
+  "sekret": "",
+  "cena": "",
+  "postawa": -2,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 24,
+   "max": 24
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Matka ula. Prawie się nie porusza (Ruch 2K) — porusza się wszystko wokół niej. Rój siła 15. [Katharsys s. 305]</p>"
+ },
+ "items": [
+  {
+   "name": "Kwas",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Plunięcie ichorem w oczy: −1K za każdy punkt Przeciążenia + Wyzwalacz do rzutów opartych na wzroku. Nie działa na zamknięty hełm.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 5
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "aowYL0RXrjcOtjCy",
+   "_key": "!actors.items!slXmiXBW6KlYxdIf.aowYL0RXrjcOtjCy"
+  },
+  {
+   "name": "Dron",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Feromonowa sieć osady: wchodzący rzuca PSY+Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 10
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "Q1J1fvBLMirAc6dw",
+   "_key": "!actors.items!slXmiXBW6KlYxdIf.Q1J1fvBLMirAc6dw"
+  },
+  {
+   "name": "Kępki Burnu",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>6 sztuk; wdychanie (1 akcja) daje +1 Zarażenia za kępkę. [Katharsys s. 305]</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "QIHPhqZs1ayw3xOT",
+   "_key": "!actors.items!slXmiXBW6KlYxdIf.QIHPhqZs1ayw3xOT"
+  },
+  {
+   "name": "Rój i straż",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Zawsze otacza ją 5–10 Leperosów lub mieszkańców pod Zjawiskiem Dron oraz 2–4 Apokaliptyków zbierających dla niej Burn (prowadź jako Bandę).</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "qe0J3Cgxq2QDDITU",
+   "_key": "!actors.items!slXmiXBW6KlYxdIf.qe0J3Cgxq2QDDITU"
+  },
+  {
+   "name": "Ziggurat [2.0]",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Walka z nią to Stawka Śmierci.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "S4nNbCCmdD1jCwk3",
+   "_key": "!actors.items!slXmiXBW6KlYxdIf.S4nNbCCmdD1jCwk3"
+  }
+ ],
+ "effects": [],
+ "folder": "aIKTAfiMyXPvtA0Q",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Feromant — Królowa",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "icons/svg/skull.svg"
+  }
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "_id": "hqS1RG5jeWOimhk4",
+ "_key": "!actors!hqS1RG5jeWOimhk4",
+ "name": "Brat Tobiasz",
+ "type": "npc",
+ "img": "systems/degenesis2/assets/portraits/tobiasz.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 2
+   },
+   "zre": {
+    "value": 2
+   },
+   "cha": {
+    "value": 2
+   },
+   "int": {
+    "value": 3
+   },
+   "psy": {
+    "value": 2
+   },
+   "ins": {
+    "value": 3
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 2
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 4
+   },
+   "nauka": {
+    "value": 2
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 0
+   },
+   "wola": {
+    "value": 2
+   },
+   "empatia": {
+    "value": 3
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 0
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "weteran",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 6,
+   "max": 6
+  },
+  "armor": 1,
+  "progBonus": 0,
+  "kult": "",
+  "ranga": "",
+  "motyw": "Wyleczyć ludzi",
+  "lek": "Kessela i ognia",
+  "sekret": "Wie, że to Burn, ale nie ma dowodu",
+  "cena": "Ochrona przed Kesselem",
+  "postawa": 1,
+  "frakcja": "",
+  "eliminated": false,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Famulancer z lazaretu, zmęczony i uczciwy. Sojusznik Wery i każdego, kto chce prawdy.</p>"
+ },
+ "items": [
+  {
+   "name": "Włócznia",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 0,
+    "damage": "2+F/2",
+    "range": "2",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Długa",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "ThQRirra4WjWH9Kv",
+   "_key": "!actors.items!hqS1RG5jeWOimhk4.ThQRirra4WjWH9Kv"
+  }
+ ],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Brat Tobiasz",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "systems/degenesis2/assets/tokens/tobiasz.webp"
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "_id": "n98u1QcCYdF4pITc",
+ "_key": "!items!n98u1QcCYdF4pITc",
+ "name": "Skurgerzy",
+ "type": "kult",
+ "img": "icons/svg/temple.svg",
+ "system": {
+  "description": "<p>Mściciele Czarnego Lądu. Afrykańscy wojownicy-łowcy pełni gniewu na Europejczyków, w Hybrispanii i poza nią.</p>",
+  "skillBonuses": [
+   "atletyka",
+   "sila",
+   "kondycja",
+   "mobilnosc",
+   "refleks"
+  ],
+  "metoda": "Polowanie, zapach strachu, presja, pościg (INS+Percepcja, PSY+Dominacja).",
+  "ideal": "Lew nie przebacza Wronie.",
+  "moneyFactor": 100,
+  "currency": "Dinarów",
+  "ranks": [
+   {
+    "level": 1,
+    "name": "Dufu",
+    "prereq": "[]",
+    "prereqText": "—",
+    "result": "Codziennie udowadnia wartość w zwiadzie i polowaniu; nie wolno mu się skarżyć ani uchylać od wyzwań.",
+    "equipment": "Włócznia; owalna tarcza; maska Skurgera; hełm; kamizelka"
+   },
+   {
+    "level": 2,
+    "name": "Hondo",
+    "prereq": "[[\"cia\", \"bijatyka\", 5], [\"cia\", \"bronBiala\", 6], [\"cia\", \"kondycja\", 6], [\"zre\", \"mobilnosc\", 4], [\"bg\", \"slawa\", 2], [\"bg\", \"sojusznicy\", 1]]",
+    "prereqText": "CIA+Bijatyka 5; CIA+Broń biała 6; CIA+Kondycja 6; ZRĘ+Mobilność 4; Sława 2; Sojusznicy 1",
+    "result": "Sprawdzony wojownik: może używać broni palnej z arsenałów Neolibijczyków (wg Zasobów). Poza Afryką traktowany nieufnie.",
+    "equipment": "Karabin szturmowy; +2k6 naboi/mies.; bicz Skurgera"
+   },
+   {
+    "level": 2,
+    "name": "Damu",
+    "prereq": "[[\"cia\", \"bijatyka\", 5], [\"cha\", \"przywodztwo\", 6], [\"psy\", \"spryt\", 5], [\"ins\", \"percepcja\", 5], [\"bg\", \"autorytet\", 3], [\"bg\", \"sojusznicy\", 1]]",
+    "prereqText": "CIA+Bijatyka 5; CHA+Przywództwo 6; PSY+Spryt 5; INS+Percepcja 5; Autorytet 3; Sojusznicy 1",
+    "result": "Zwiadowca stada; udany atak z zaskoczenia według jego planu daje stadu +2K do inicjatywy.",
+    "equipment": "Karabin szturmowy; +2k6 naboi/mies.; bicz Skurgera"
+   },
+   {
+    "level": 3,
+    "name": "Chaga",
+    "prereq": "[[[\"cia\", \"bronBiala\", 8], [\"zre\", \"strzelectwo\", 8]], [\"cha\", \"przywodztwo\", 8], [\"int\", \"legendy\", 6], [\"bg\", \"autorytet\", 4]]",
+    "prereqText": "CIA+Broń biała 8 lub ZRĘ+Strzelectwo 8; CHA+Przywództwo 8; INT+Legendy 6; Autorytet 4",
+    "result": "Stado wykonuje jego rozkazy bez pytań; tylko Dumisai może go wyzwać (pojedynek na pięści).",
+    "equipment": "Broń przodków (+2K do ataku)"
+   },
+   {
+    "level": 3,
+    "name": "Simba",
+    "prereq": "[[\"txt\", \"ranga Simby musi być wolna\"], [\"cia\", \"atletyka\", 8], [\"cia\", \"bronBiala\", 8], [\"zre\", \"strzelectwo\", 8], [\"psy\", \"refleks\", 6], [\"bg\", \"slawa\", 5], [\"bg\", \"sojusznicy\", 3]]",
+    "prereqText": "ranga Simby musi być wolna; CIA+Atletyka 8; CIA+Broń biała 8; ZRĘ+Strzelectwo 8; PSY+Refleks 6; Sława 5; Sojusznicy 3",
+    "result": "Jedyny w stadzie: wyzywa najsilniejszego wroga i walczy sam; odmowa lub porażka −1 Sława.",
+    "equipment": "Hełm lwa; +3k6 naboi/mies."
+   },
+   {
+    "level": 4,
+    "name": "Dumisai",
+    "prereq": "[[\"txt\", \"pokonać Dumisaia w rytualnym pojedynku albo zostać mianowanym\"], [\"cia\", \"twardosc\", 10], [\"cia\", \"bronBiala\", 10], [\"zre\", \"strzelectwo\", 10], [\"bg\", \"slawa\", 5], [\"bg\", \"autorytet\", 5]]",
+    "prereqText": "pokonać Dumisaia w rytualnym pojedynku albo zostać mianowanym; CIA+Twardość 10; CIA+Broń biała 10; ZRĘ+Strzelectwo 10; Sława 5; Autorytet 5",
+    "result": "Nikt go nie wyzywa; tylko on może podważyć decyzję Chagi.",
+    "equipment": "Dowolna ilość amunicji od Neolibijczyków"
+   },
+   {
+    "level": 0,
+    "name": "Moyo / Kifo",
+    "prereq": "[[\"txt\", \"kampania\"]]",
+    "prereqText": "kampania",
+    "result": "Dusza-bliźniak Dumisaia albo wygnaniec, który stracił dostęp do zasobów.",
+    "equipment": "—"
+   }
+  ]
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

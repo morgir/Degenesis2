@@ -1,0 +1,36 @@
+{
+ "_id": "rEwUDRtFbJsuWphS",
+ "_key": "!items!rEwUDRtFbJsuWphS",
+ "name": "Borca",
+ "type": "kultura",
+ "img": "icons/svg/village.svg",
+ "system": {
+  "description": "<p>Dawne serce Europy: rdzawe pustkowia, ruiny pełne artefaktów i odbudowane metropolie, takie jak Justitian. Porządek kultów zderza się tu z Klanami, które wracają z podziemi po swoje.</p>",
+  "attributeBonuses": [
+   "zre",
+   "ins"
+  ],
+  "skillBonuses": [
+   "twardosc",
+   "artefakty",
+   "inzynieria",
+   "rzemioslo",
+   "przetrwanie"
+  ],
+  "kulty": "Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Hellveci, Jehammedanie, Sędziowie, Złomiarze, Spitalianie"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

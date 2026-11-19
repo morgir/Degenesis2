@@ -1,0 +1,572 @@
+{
+ "_id": "wzvzc8SunuwsHgcv",
+ "_key": "!actors!wzvzc8SunuwsHgcv",
+ "name": "Kapral Anja Reiss",
+ "type": "postac",
+ "img": "systems/degenesis2/assets/portraits/anja.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 3
+   },
+   "zre": {
+    "value": 3
+   },
+   "cha": {
+    "value": 2
+   },
+   "int": {
+    "value": 2
+   },
+   "psy": {
+    "value": 3
+   },
+   "ins": {
+    "value": 3
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 2
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 3
+   },
+   "twardosc": {
+    "value": 3
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 2
+   },
+   "strzelectwo": {
+    "value": 3
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 2
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 2
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 3
+   },
+   "wola": {
+    "value": 2
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 2
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 2
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "path": "skupienie",
+  "belief": "wola",
+  "backgrounds": {
+   "sojusznicy": {
+    "value": 1,
+    "spent": 0
+   },
+   "autorytet": {
+    "value": 2,
+    "spent": 0
+   },
+   "slawa": {
+    "value": 0,
+    "spent": 0
+   },
+   "zasoby": {
+    "value": 1,
+    "spent": 0
+   },
+   "sekrety": {
+    "value": 0,
+    "spent": 0
+   },
+   "siec": {
+    "value": 0,
+    "spent": 0
+   }
+  },
+  "zarazenie": {
+   "value": 0,
+   "permanent": 0
+  },
+  "archetypeUsed": false,
+  "identity": {
+   "kultura": "Borca",
+   "koncept": "XVI. Obrońca",
+   "kult": "Hellveci",
+   "ranga": "Kapral (Corporal)",
+   "wiek": "",
+   "plec": ""
+  },
+  "ambicja": "Wrócić do Fortecy z raportem, który da jej własny oddział.",
+  "tajemnica": "Ma rozkaz z Fortecy: ocenić, czy Sędziowie panują nad Justitian, i raportować każdą ich słabość. Także o drużynie.",
+  "cien": "Dusi tych, których chroni.",
+  "wiezi": "Szeregowy Pit, ostatni żyjący z jej dawnego oddziału",
+  "blizny": "",
+  "xp": {
+   "total": 0,
+   "spent": 0
+  },
+  "money": "",
+  "eliminated": false,
+  "ego": {
+   "value": 8
+  },
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Anja przeżyła zasadzkę Klanów na przełęczy, w której zginęła połowa jej oddziału. Forteca dała jej awans i odesłała ją z dala od gór, do Justitian, jako łącznika przy Sędziach. Rozkaz brzmi: obserwować, raportować, nie strzelać bez potrzeby. Od tygodnia szeregowy Pit, ostatni z jej dawnych ludzi, nie zgłosił się na raport. Anja znalazła go w lazarecie. Uśmiecha się i nie pamięta jej imienia.</p>"
+ },
+ "items": [
+  {
+   "name": "Borca",
+   "type": "kultura",
+   "img": "icons/svg/village.svg",
+   "system": {
+    "description": "<p>Dawne serce Europy: rdzawe pustkowia, ruiny pełne artefaktów i odbudowane metropolie, takie jak Justitian. Porządek kultów zderza się tu z Klanami, które wracają z podziemi po swoje.</p>",
+    "attributeBonuses": [
+     "zre",
+     "ins"
+    ],
+    "skillBonuses": [
+     "twardosc",
+     "artefakty",
+     "inzynieria",
+     "rzemioslo",
+     "przetrwanie"
+    ],
+    "kulty": "Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Hellveci, Jehammedanie, Sędziowie, Złomiarze, Spitalianie"
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "hV0ysr5DwH8LD8ww",
+   "_key": "!actors.items!wzvzc8SunuwsHgcv.hV0ysr5DwH8LD8ww"
+  },
+  {
+   "name": "XVI. Obrońca",
+   "type": "koncept",
+   "img": "icons/svg/book.svg",
+   "system": {
+    "description": "<p>Arkana XVI. Raz na sesję +2K w sytuacji zgodnej z Archetypem. <b>Cień:</b> Dusi tych, których chroni.</p>",
+    "tarot": "XVI",
+    "attributeBonuses": [
+     "psy"
+    ],
+    "skillBonuses": [
+     "kondycja",
+     "twardosc"
+    ],
+    "cien": "Dusi tych, których chroni."
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "xHdPoaLKtAg7a5dI",
+   "_key": "!actors.items!wzvzc8SunuwsHgcv.xHdPoaLKtAg7a5dI"
+  },
+  {
+   "name": "Hellveci",
+   "type": "kult",
+   "img": "icons/svg/temple.svg",
+   "system": {
+    "description": "<p>Bractwo broni z Twierdzy Alpejskiej. Żołnierze do szpiku kości, pobierają myto za przejście przez góry.</p>",
+    "skillBonuses": [
+     "sila",
+     "kondycja",
+     "strzelectwo",
+     "przywodztwo",
+     "refleks"
+    ],
+    "metoda": "Rekonesans, obserwacja, raport, przesłuchanie jeńca (INS+Percepcja, PSY+Refleks).",
+    "ideal": "Broń, towarzysz, kraj. Każdy zmarnowany strzał osłabia Fortecę.",
+    "moneyFactor": 50,
+    "currency": "CD",
+    "ranks": [
+     {
+      "level": 1,
+      "name": "Żołnierz (Soldier)",
+      "prereq": "[]",
+      "prereqText": "—",
+      "result": "Raport w Fortecy Alpejskiej co pół roku, inaczej Zasoby trwale −1 za każdy opuszczony raport.",
+      "equipment": "Trailblazer; +5 naboi/mies.; Uprząż (Harness); ostatnia racja"
+     },
+     {
+      "level": 2,
+      "name": "Kapral (Corporal)",
+      "prereq": "[[\"cia\", \"sila\", 4], [\"zre\", \"strzelectwo\", 5], [\"ins\", \"przetrwanie\", 4], [\"bg\", \"autorytet\", 2]]",
+      "prereqText": "CIA+Siła 4; ZRĘ+Strzelectwo 5; INS+Przetrwanie 4; Autorytet 2",
+      "result": "Trailblazer dostaje ulepszenie 1 poziomu (+20% zasięgu, +1K Poręczności albo +1 obrażeń); może nosić 2 ładunki wybuchowe.",
+      "equipment": "+10 naboi/mies. (także na wyższych rangach)"
+     },
+     {
+      "level": 3,
+      "name": "Saper (Sapper)",
+      "prereq": "[[\"cia\", \"sila\", 6], [\"cia\", \"kondycja\", 6], [\"zre\", \"zwinnePalce\", 6], [\"int\", \"nauka\", 4], [\"bg\", \"autorytet\", 3]]",
+      "prereqText": "CIA+Siła 6; CIA+Kondycja 6; ZRĘ+Zwinne palce 6; INT+Nauka 4; Autorytet 3",
+      "result": "+3 Zasobów na materiały wybuchowe; do walki zabiera 4 ładunki.",
+      "equipment": "Tarcza tunelowa; granatnik; lekki karabin maszynowy; materiały wybuchowe"
+     },
+     {
+      "level": 3,
+      "name": "Grenadier",
+      "prereq": "[[\"zre\", \"strzelectwo\", 8], [\"psy\", \"refleks\", 6], [\"ins\", \"przetrwanie\", 6], [\"ins\", \"orientacja\", 6], [\"bg\", \"autorytet\", 3]]",
+      "prereqText": "ZRĘ+Strzelectwo 8; PSY+Refleks 6; INS+Przetrwanie 6; INS+Orientacja 6; Autorytet 3",
+      "result": "Bez obowiązku raportów; znaki do skrytek z bronią; ulepszenie Trailblazera 2 poziomu; +1K do negocjacji ze Skurgerami.",
+      "equipment": "+20 naboi/mies.; Pathfinder"
+     },
+     {
+      "level": 3,
+      "name": "Wartownik (Sentinel)",
+      "prereq": "[[\"cia\", \"sila\", 8], [\"cia\", \"twardosc\", 6], [\"zre\", \"prowadzenie\", 6], [\"cha\", \"negocjacje\", 6], [\"bg\", \"autorytet\", 4], [\"bg\", \"zasoby\", 3]]",
+      "prereqText": "CIA+Siła 8; CIA+Twardość 6; ZRĘ+Prowadzenie 6; CHA+Negocjacje 6; Autorytet 4; Zasoby 3",
+      "result": "+3 Zasobów na materiały wybuchowe; może aresztować każdego w Fortecy i postawić przed Trybunałem.",
+      "equipment": "Ciężka uprząż"
+     },
+     {
+      "level": 3,
+      "name": "Radiooperator (Radio Beam Unit)",
+      "prereq": "[[\"cia\", \"kondycja\", 6], [\"zre\", \"rzemioslo\", 6], [\"int\", \"inzynieria\", 8], [\"bg\", \"zasoby\", 3]]",
+      "prereqText": "CIA+Kondycja 6; ZRĘ+Rzemiosło 6; INT+Inżynieria 8; Zasoby 3",
+      "result": "Łączność z siecią radiową Kronikarzy; wezwanie pomocy sprowadza pluton Grenadierów (minuty–godziny, w zasięgu Alp).",
+      "equipment": "Plecak radiowy; Pathfinder"
+     },
+     {
+      "level": 3,
+      "name": "Obserwator (Spotter)",
+      "prereq": "[[\"cia\", \"atletyka\", 6], [\"zre\", \"skradanie\", 7], [\"ins\", \"percepcja\", 6], [\"ins\", \"orientacja\", 6], [\"bg\", \"siec\", 3]]",
+      "prereqText": "CIA+Atletyka 6; ZRĘ+Skradanie 7; INS+Percepcja 6; INS+Orientacja 6; Sieć 3",
+      "result": "Bransoleta-transponder, żeby swoi nie wzięli go w przebraniu za wroga.",
+      "equipment": "Lekka uprząż Obserwatora; bransoleta-transponder; lornetka"
+     },
+     {
+      "level": 3,
+      "name": "Medyk (Medic)",
+      "prereq": "[[\"int\", \"medycyna\", 7], [\"ins\", \"empatia\", 4], [\"bg\", \"autorytet\", 2]]",
+      "prereqText": "INT+Medycyna 7; INS+Empatia 4; Autorytet 2",
+      "result": "+1K do rzutów PSY i CHA w kantonach; +1 Autorytet.",
+      "equipment": "Granaty dymne i ogłuszające; zestaw polowy"
+     },
+     {
+      "level": 3,
+      "name": "Genie",
+      "prereq": "[[\"cia\", \"sila\", 6], [\"zre\", \"prowadzenie\", 4], [\"zre\", \"rzemioslo\", 6], [\"int\", \"inzynieria\", 6], [\"int\", \"nauka\", 6], [\"bg\", \"zasoby\", 2]]",
+      "prereqText": "CIA+Siła 6; ZRĘ+Prowadzenie 4; ZRĘ+Rzemiosło 6; INT+Inżynieria 6; INT+Nauka 6; Zasoby 2",
+      "result": "Umocnienia: oddział w osłonie ma +1K do aktywnej obrony i +1 Obrony; +3 Zasobów na ciężki sprzęt.",
+      "equipment": "Ciężka uprząż z modułem dźwigowym"
+     },
+     {
+      "level": 3,
+      "name": "Kwatermistrz (Forager)",
+      "prereq": "[[\"int\", \"artefakty\", 6], [\"cha\", \"negocjacje\", 6], [\"cha\", \"obycie\", 4], [\"bg\", \"zasoby\", 3], [\"bg\", \"slawa\", 3], [\"bg\", \"siec\", 2]]",
+      "prereqText": "INT+Artefakty 6; CHA+Negocjacje 6; CHA+Obycie 4; Zasoby 3; Sława 3; Sieć 2",
+      "result": "Zamawiając amunicję i sprzęt (bez Uprzęży, Trailblazerów, pojazdów) ma Zasoby 6. Przymyka uszy (+1 Sława) albo notuje brudy (+1 Sekrety).",
+      "equipment": "Uplink kwatermistrza"
+     },
+     {
+      "level": 4,
+      "name": "Oddział specjalny (Special Detachment)",
+      "prereq": "[[\"cia\", \"bijatyka\", 6], [\"cia\", \"bronBiala\", 6], [\"zre\", \"strzelectwo\", 10], [\"zre\", \"skradanie\", 6], [\"psy\", \"refleks\", 7], [\"bg\", \"slawa\", 3]]",
+      "prereqText": "CIA+Bijatyka 6; CIA+Broń biała 6; ZRĘ+Strzelectwo 10; ZRĘ+Skradanie 6; PSY+Refleks 7; Sława 3",
+      "result": "Wolny wstęp do siedzib kultów, dopóki nosi oznaczenia rangi.",
+      "equipment": "Skrócony Trailblazer; +20 naboi/mies."
+     },
+     {
+      "level": 4,
+      "name": "Infiltrator",
+      "prereq": "[[\"psy\", \"oszustwo\", 8], [\"psy\", \"spryt\", 8], [\"psy\", \"refleks\", 6], [\"bg\", \"siec\", 4]]",
+      "prereqText": "PSY+Oszustwo 8; PSY+Spryt 8; PSY+Refleks 6; Sieć 4",
+      "result": "Zna ukryte przejścia Fortecy: +4K do INS+Orientacja przy ich szukaniu.",
+      "equipment": "—"
+     },
+     {
+      "level": 4,
+      "name": "Subaltern",
+      "prereq": "[[\"cha\", \"przywodztwo\", 8], [\"zre\", \"strzelectwo\", 8], [\"bg\", \"autorytet\", 4]]",
+      "prereqText": "CHA+Przywództwo 8; ZRĘ+Strzelectwo 8; Autorytet 4",
+      "result": "Oficer: trwale +1 Autorytet; dowodzi oddziałami; negocjuje dostawy z Neolibijczykami i Złomiarzami.",
+      "equipment": "—"
+     },
+     {
+      "level": 5,
+      "name": "Oddział P-26 (P-26 Squad)",
+      "prereq": "[[\"cha\", \"obycie\", 6], [\"cha\", \"ekspresja\", 6], [\"cia\", \"bronBiala\", 8], [\"psy\", \"spryt\", 10], [\"bg\", \"siec\", 5]]",
+      "prereqText": "CHA+Obycie 6; CHA+Ekspresja 6; CIA+Broń biała 8; PSY+Spryt 10; Sieć 5",
+      "result": "Komórka 1–3 Infiltratorów; Zasoby 6 w arsenale Fortecy, póki działa na rzecz zjednoczenia Konfederacji.",
+      "equipment": "—"
+     },
+     {
+      "level": 5,
+      "name": "Oficer polowy (Field Officer)",
+      "prereq": "[[\"bg\", \"sojusznicy\", 3], [\"bg\", \"autorytet\", 5], [\"bg\", \"slawa\", 4]]",
+      "prereqText": "Sojusznicy 3; Autorytet 5; Sława 4",
+      "result": "+1 Sekrety; wobec cywilów Hellwecji Autorytet jako kości do PSY+Dominacja.",
+      "equipment": "—"
+     },
+     {
+      "level": 6,
+      "name": "Komendant korpusu (Corps Commander)",
+      "prereq": "[[\"txt\", \"stanowisko musi być wolne\"], [\"bg\", \"sojusznicy\", 5], [\"bg\", \"autorytet\", 6]]",
+      "prereqText": "stanowisko musi być wolne; Sojusznicy 5; Autorytet 6",
+      "result": "Naczelne dowództwo jednego z czterech regionów terytorialnych.",
+      "equipment": "—"
+     }
+    ]
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "PmdSjFnPKy8ZIpMb",
+   "_key": "!actors.items!wzvzc8SunuwsHgcv.PmdSjFnPKy8ZIpMb"
+  },
+  {
+   "name": "Ściana tarcz (Shield Wall)",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Przejmuje atak na towarzysza w zasięgu ruchu: PSY+Refleks (4 wręcz / 6 dystans) +1K/PP; z bagnetem Wyzwalacze dają kontratak.</p>",
+    "level": 1,
+    "kult": "Hellveci",
+    "prerequisite": ""
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "qIa3wKfZqnHJm4XW",
+   "_key": "!actors.items!wzvzc8SunuwsHgcv.qIa3wKfZqnHJm4XW"
+  },
+  {
+   "name": "Karabin myśliwski",
+   "type": "bron",
+   "img": "icons/svg/target.svg",
+   "system": {
+    "description": "",
+    "skill": "strzelectwo",
+    "handling": 0,
+    "damage": "7",
+    "range": "30/120",
+    "magazine": {
+     "value": 4,
+     "max": 4
+    },
+    "qualities": "",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "V66lJT0FgDhagJjy",
+   "_key": "!actors.items!wzvzc8SunuwsHgcv.V66lJT0FgDhagJjy"
+  },
+  {
+   "name": "Nóż",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 1,
+    "damage": "1+F/3",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Ukrywalna",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "UJlGE6OSWdUYSfSd",
+   "_key": "!actors.items!wzvzc8SunuwsHgcv.UJlGE6OSWdUYSfSd"
+  },
+  {
+   "name": "Płaszcz skórzany",
+   "type": "pancerz",
+   "img": "icons/svg/shield.svg",
+   "system": {
+    "description": "",
+    "armor": 2,
+    "qualities": "",
+    "encumbrance": 2,
+    "equipped": true
+   },
+   "effects": [],
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "16qTcksiSqketFUq",
+   "_key": "!actors.items!wzvzc8SunuwsHgcv.16qTcksiSqketFUq"
+  }
+ ],
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Kapral Anja Reiss",
+  "actorLink": true,
+  "disposition": 1,
+  "texture": {
+   "src": "systems/degenesis2/assets/tokens/anja.webp"
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "_id": "yhUxSkHee54jXsHV",
+ "_key": "!items!yhUxSkHee54jXsHV",
+ "name": "Oko Horusa (Eye of Horus)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Wyczuwa zaburzenia fali (PP1: 100 m, PP2: 1 km, PP3: 10 km), prowadzi do Psychonautów; +1 Wyzwalacz/PP w ataku na Psychonautów, bestie sporowe i Leperosów.</p>",
+  "level": 1,
+  "kult": "Anubianie",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

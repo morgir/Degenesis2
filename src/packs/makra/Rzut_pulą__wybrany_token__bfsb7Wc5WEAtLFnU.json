@@ -1,0 +1,23 @@
+{
+ "_id": "bfsb7Wc5WEAtLFnU",
+ "_key": "!macros!bfsb7Wc5WEAtLFnU",
+ "name": "Rzut pulą (wybrany token)",
+ "type": "script",
+ "scope": "global",
+ "command": "const actor = canvas.tokens.controlled[0]?.actor ?? game.user.character;\nif (!actor) ui.notifications.warn(\"Zaznacz token albo przypisz postać.\");\nelse game.degenesis2.rollDialog(actor);",
+ "img": "icons/svg/d20-grey.svg",
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "author": null
+}

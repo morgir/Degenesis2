@@ -1,0 +1,353 @@
+{
+ "_id": "We8wmRBXjM4RycZu",
+ "_key": "!actors!We8wmRBXjM4RycZu",
+ "name": "Biokinetyk — Rezydent",
+ "type": "npc",
+ "img": "icons/svg/skull.svg",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 6
+   },
+   "zre": {
+    "value": 3
+   },
+   "cha": {
+    "value": 1
+   },
+   "int": {
+    "value": 1
+   },
+   "psy": {
+    "value": 5
+   },
+   "ins": {
+    "value": 6
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 3
+   },
+   "sila": {
+    "value": 6
+   },
+   "bronBiala": {
+    "value": 3
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 3
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 4
+   },
+   "wola": {
+    "value": 1
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 6
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "antagonista",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 8,
+   "max": 8
+  },
+  "armor": 4,
+  "progBonus": 11,
+  "kult": "Psychonauci",
+  "ranga": "",
+  "motyw": "Pole spor jest nim, a on polem",
+  "lek": "Spitalianie z miotaczami",
+  "sekret": "",
+  "cena": "",
+  "postawa": -2,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 22,
+   "max": 22
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Zrośnięty ze swoim polem spor: przędzie nici, które donoszą mu o każdym kroku. Rój siła 10. Gdy ginie, Sepsa trawi go w kilka dni. [Katharsys s. 293]</p>"
+ },
+ "items": [
+  {
+   "name": "Ugryzienie",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bijatyka",
+    "handling": 0,
+    "damage": "8",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Płynny (2W); może przenieść Ukąszenie pająka",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "mSdIh35NkPEhXlXX",
+   "_key": "!actors.items!We8wmRBXjM4RycZu.mSdIh35NkPEhXlXX"
+  },
+  {
+   "name": "Ramię-szpon / ramię-maczuga",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 0,
+    "damage": "12",
+    "range": "2",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Płynny (2W); maczuga: Tępa",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "h6QWOx4T7v0E5M03",
+   "_key": "!actors.items!We8wmRBXjM4RycZu.h6QWOx4T7v0E5M03"
+  },
+  {
+   "name": "Plaga (rój)",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Wypuszcza swój rój. Zaatakowani mają karę −K równą Sile roju do wszystkich akcji i co rundę 1 Lekką ranę; rój ranią tylko broń obszarowa i ogień. Biokinetyk: Siła roju +1 za każdy punkt Przeciążenia.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 1
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "x98qmzILNuxJUyhr",
+   "_key": "!actors.items!We8wmRBXjM4RycZu.x98qmzILNuxJUyhr"
+  },
+  {
+   "name": "Ukąszenie pająka",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Jad o Mocy = Przeciążenie. Ofiara co rundę rzuca CIA+Twardość przeciw Mocy; porażka: traci Ego równe Mocy.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 4
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "v6NF6udovlFeSzV5",
+   "_key": "!actors.items!We8wmRBXjM4RycZu.v6NF6udovlFeSzV5"
+  },
+  {
+   "name": "Włoski parzące",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Łączone z ZRĘ+Strzelectwo: obrażenia = Przeciążenie + Wyzwalacze − pancerz. Trafiony ma −2K, dopóki włosków nie usunie; usunięcie zadaje te same obrażenia.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 4
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "VhckPwUoeBePgw7g",
+   "_key": "!actors.items!We8wmRBXjM4RycZu.VhckPwUoeBePgw7g"
+  },
+  {
+   "name": "Odnowa",
+   "type": "potencjal",
+   "img": "icons/svg/biohazard.svg",
+   "system": {
+    "description": "<p>Wyrywa się z każdych więzów, ale płaci ciałem: w 2.0 otrzymuje ranę Poważną (w podręczniku 10 Ran Powierzchownych).</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": true,
+    "poziomZjawiska": 5
+   },
+   "effects": [],
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "_id": "DkW49f5PeJXJvWiA",
+   "_key": "!actors.items!We8wmRBXjM4RycZu.DkW49f5PeJXJvWiA"
+  }
+ ],
+ "effects": [],
+ "folder": "aIKTAfiMyXPvtA0Q",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "prototypeToken": {
+  "name": "Biokinetyk — Rezydent",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "icons/svg/skull.svg"
+  }
+ }
+}

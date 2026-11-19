@@ -1,0 +1,27 @@
+{
+ "_id": "8udfv562WxhrqZML",
+ "_key": "!items!8udfv562WxhrqZML",
+ "name": "Lustro (Mirror)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Aktywna obrona z Wyzwalaczem: przeciw temu wrogowi +PP do Obrony; może skopiować jego aktywowany Potencjał na tym samym poziomie.</p>",
+  "level": 1,
+  "kult": "Apokaliptycy",
+  "prerequisite": "Skupienie"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

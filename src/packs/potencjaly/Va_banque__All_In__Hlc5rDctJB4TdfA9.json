@@ -1,0 +1,27 @@
+{
+ "_id": "Hlc5rDctJB4TdfA9",
+ "_key": "!items!Hlc5rDctJB4TdfA9",
+ "name": "Va banque (All-In)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Odkłada do 2×PP kości z aktywnej obrony; przy sukcesie następny atak ma tyle Wyzwalaczy, ile kości odłożył.</p>",
+  "level": 1,
+  "kult": "Apokaliptycy",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

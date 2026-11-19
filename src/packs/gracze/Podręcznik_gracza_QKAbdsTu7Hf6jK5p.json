@@ -1,0 +1,259 @@
+{
+ "_id": "QKAbdsTu7Hf6jK5p",
+ "_key": "!journal!QKAbdsTu7Hf6jK5p",
+ "name": "Podręcznik gracza",
+ "pages": [
+  {
+   "_id": "kZaN7zR1RbbVwR85",
+   "_key": "!journal.pages!QKAbdsTu7Hf6jK5p.kZaN7zR1RbbVwR85",
+   "name": "1. Witaj w 2595 roku",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Rok 2595. Pięćset lat temu asteroidy spaliły świat i przyniosły <b>Prymer</b>: obcą siłę, która przepisuje życie. Ziemię porasta <b>Sepsa</b>, grzyb tworzący pola zarodników. Z pól zbiera się <b>Burn</b>, narkotyk, który daje rozkosz i moc, ale zaraża. Przy polach rodzą się <b>Psychonauci</b>, dzieci bez duszy, następny gatunek.</p>\n<p>Ludzie żyją w siedmiu <b>Kulturach</b> (Borca, Franka, Pollen, Balkhan, Hybrispania, Purgare, Afryka) i służą trzynastu <b>Kultom</b>. Każdy kult ma inną odpowiedź na pytanie, jak przetrwać, i inną prawdę, którą ukrywa.</p>\n<p>Gracie ludźmi, którzy muszą wybrać, czyja prawda jest warta ceny. W tej wersji zasad świat jest groźny, ale was nie morduje: rany, długi i Sepsa kosztują, a śmierć przychodzi tylko wtedy, gdy stawka zostanie ogłoszona.</p>\n<h3>Co musisz wiedzieć na pierwszą sesję</h3>\n<ol><li>Jak rzucać kośćmi (strona 2).</li><li>Co znaczą wyniki (strona 3).</li><li>Co możesz robić w scenie (strona 4).</li><li>Czym płacisz (strona 5).</li></ol>\n<p>Resztę wyjaśnia MG w trakcie gry. Na pierwszą sesję możesz wziąć gotową postać z kompendium <i>Gotowe postacie</i> albo zrobić własną w kreatorze (strona 6).</p>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "csFvTtOkzym0Q19n",
+   "_key": "!journal.pages!QKAbdsTu7Hf6jK5p.csFvTtOkzym0Q19n",
+   "name": "2. Jak rzucać",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Kiedy postać robi coś ryzykownego, MG mówi: „rzuć Atrybut + Umiejętność”, np. <b>INS+Percepcja</b>.</p>\n<ol><li>Na karcie kliknij <b>nazwę umiejętności</b>. Liczba „5K” obok niej to twoja pula: tyle kości k6 rzucasz.</li>\n<li>W oknie rzutu ustaw <b>Trudność</b>, którą podał MG (zwykle 2). Możesz dodać kości:<ul>\n<li><b>Ego</b>: 1 punkt = +1 kość, maks. 3 na rzut;</li><li><b>Zaplecze</b>: pomoc twojego kultu, maks. +3;</li>\n<li><b>Archetyp</b>: raz na sesję +2, gdy działasz zgodnie ze swoim Konceptem;</li><li><b>Cechy miejsca</b>: +2 za każdą wywołaną Cechę.</li></ul></li>\n<li>Każda kość z wynikiem <b>4, 5 lub 6 to sukces</b>. Każda <b>6 to także Wyzwalacz</b>, czyli coś ekstra.</li>\n<li>Wynik pojawi się na czacie razem z podpowiedzią, co dalej.</li></ol>\n<p><b>Przykład:</b> Wera (INT 3 + Medycyna 4 = 7 kości) opatruje rannego. Trudność 2. Wypada 6, 5, 4, 3, 2, 2, 1, czyli 3 sukcesy i 1 Wyzwalacz. Wynik: „Tak, i…”. Wera kupuje za Wyzwalacz efekt <i>Szybko</i> i zdąży przed patrolem.</p>\n<p><b>Starcie:</b> gdy ktoś ci się przeciwstawia, rzucacie oboje. Więcej sukcesów wygrywa, potem decydują Wyzwalacze, a przy remisie wygrywa obrońca.</p>"
+   },
+   "sort": 200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "nFoQrp22lu763Ebx",
+   "_key": "!journal.pages!QKAbdsTu7Hf6jK5p.nFoQrp22lu763Ebx",
+   "name": "3. Co znaczą wyniki",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<table><tr><th>Wynik</th><th>Kiedy</th><th>Co się dzieje</th></tr>\n<tr><td><b>Tak, i…</b></td><td>sukcesów ≥ Trudność, są szóstki</td><td>Udało się, a każdy Wyzwalacz kupuje Efekt.</td></tr>\n<tr><td><b>Tak</b></td><td>sukcesów ≥ Trudność</td><td>Udało się.</td></tr>\n<tr><td><b>Tak, ale…</b></td><td>co najmniej 1 sukces, brakuje 1–2</td><td>Ty wybierasz: porażka albo sukces, za który MG naliczy Koszt.</td></tr>\n<tr><td><b>Nie</b></td><td>za mało sukcesów</td><td>Nie wychodzi i sytuacja się zmienia. Trop kluczowy i tak dostajesz.</td></tr>\n<tr><td><b>Nie, i…</b></td><td>więcej jedynek niż sukcesów</td><td>Zgrzyt: coś idzie bardzo źle.</td></tr></table>\n<h3>Efekty Wyzwalaczy (1 Wyzwalacz = 1 Efekt)</h3>\n<ul><li><b>Szybko</b>: bez straty czasu.</li><li><b>Czysto</b>: bez śladów i świadków.</li><li><b>Więcej</b>: dodatkowa informacja albo +1 obrażenie.</li>\n<li><b>Przewaga</b>: tworzysz nową Cechę sceny, np. „Strażnik patrzy w złą stronę”, z darmowym wywołaniem.</li><li><b>Wrażenie</b>: ktoś zaczyna cię lubić albo o tobie mówić.</li><li><b>Ochrona</b>: osłaniasz drużynę przed jednym Kosztem.</li></ul>\n<h3>Koszty (przy „Tak, ale…”)</h3>\n<p>Lekka rana, utrata Ego, hałas, ślad, zgubiony sprzęt, ktoś cię mniej lubi, dług, upływ czasu. Wybiera je MG, ale zawsze z sensem w fikcji.</p>"
+   },
+   "sort": 300000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "4nh7JyDZBKIwgH87",
+   "_key": "!journal.pages!QKAbdsTu7Hf6jK5p.4nh7JyDZBKIwgH87",
+   "name": "4. Co możesz robić w scenie",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<h3>Śledzić</h3>\n<p>Jeśli szukasz we właściwym miejscu i masz odpowiednią umiejętność, <b>trop kluczowy dostajesz zawsze</b>, bez rzutu. Rzut daje <b>Odsłony</b>: szczegół, powiązanie, haczyk na kogoś (Dźwignię), ostrzeżenie albo czas. Twój kult ma swoją <b>Metodę</b> (jest w opisie kultu): raz na scenę daje dodatkową Odsłonę.</p>\n<p>Zapisujcie tropy na wspólnej <b>Tablicy śledztwa</b>. Gdy połączycie dwa tropy w teorię, rzućcie na <b>Wniosek</b>: MG powie „ciepło” albo „zimno” i nie skłamie.</p>\n<h3>Rozmawiać</h3>\n<p>Każdy NPC ma Postawę: Wrogi, Nieufny, Obojętny, Życzliwy albo Oddany. Im gorsza Postawa, tym trudniej. <b>Dźwignia</b> to znajomość tego, czego NPC chce, czego się boi, co ukrywa albo za co pomoże. Daje +2 kości albo pozwala na prośbę, która bez niej byłaby niemożliwa. Najlepsze rozmowy wygrywa się wcześniej, w śledztwie.</p>\n<h3>Patrzeć uważnie</h3>\n<p>Miejsca mają <b>Cechy</b>, np. „Tłum na targu” albo „Zardzewiałe rusztowania”. Część jest ukryta. Kto pyta i patrzy, odkrywa je i dostaje darmowe +2 kości. Opisz, jak Cecha ci pomaga, i ją wywołaj.</p>\n<h3>Korzystać z kultu</h3>\n<p><b>Zaplecze</b> to Sojusznicy, Autorytet, Sława, Zasoby, Sekrety i Sieć. Daje kości do rzutu albo pewną przysługę bez rzutu (Wykorzystanie), ale wtedy punkt jest zużyty do Interludium.</p>\n<h3>Zaciągać i ściągać długi</h3>\n<p>Kto ci pomógł za darmo, ma u ciebie <b>dług</b>. Kto ma dług u ciebie, jest ci winien przysługę. Długi wpisuje MG. Zerwany dług psuje twoje <b>Imię</b>, czyli reputację drużyny u frakcji. Imię decyduje, czy w mieście otwierają się drzwi, czy szykuje się stryczek.</p>"
+   },
+   "sort": 400000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "sMW8oD6YQkpngsck",
+   "_key": "!journal.pages!QKAbdsTu7Hf6jK5p.sMW8oD6YQkpngsck",
+   "name": "5. Czym płacisz",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<h3>Ego</h3>\n<p>Twoja odporność psychiczna i waluta. Wydajesz je na kości (+1 za punkt), na aktywną obronę w walce (1) albo na złagodzenie rany (2). Tracisz je przez grozę, presję i Psychonautów. Przy zerze się łamiesz. Odzyskujesz je snem, grą zgodną z Archetypem, Ideałem kultu, Więziami i Burnem (ten ostatni kosztuje Zarażenie).</p>\n<h3>Rany</h3>\n<p>Twój <b>Próg</b> to CIA+Twardość. Trafienie poniżej Progu to rana Lekka, od Progu Poważna, a od podwójnego Progu Krytyczna. Masz 3 miejsca na Lekkie, 2 na Poważne i 1 na Krytyczną. Poważna daje −1 kość, Krytyczna −2. Gdy zabraknie miejsc, jesteś <b>wyeliminowany</b>: nie martwy, ale coś tracisz (niewola, sprzęt, blizna, dług). Śmierć grozi tylko wtedy, gdy MG ogłosi <b>Stawkę Śmierci</b>.</p>\n<h3>Zarażenie (Sepsa)</h3>\n<p>Zarodniki, Burn i pola spor podnoszą Zarażenie. Od połowy skali na piersi wykwita stygmat. Powyżej maksimum walczysz o duszę. Uwaga na <b>Szept Prymera</b>: gdy jesteś zarażony, MG może zaproponować ci wizję albo siłę za kolejny punkt Zarażenia. Czasem to jedyna droga do prawdy. Zawsze możesz odmówić.</p>\n<h3>Archetyp i jego Cień</h3>\n<p>Twój Koncept raz na sesję daje +2 kości. Jego <b>Cień</b> to ciemna strona. Gdy MG zaproponuje Pokusę, czyli działanie zgodne z Cieniem, i się zgodzisz, dostajesz +2 Ego i +1 PD, a historia się komplikuje.</p>"
+   },
+   "sort": 500000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "14ffik7SgiJaON4g",
+   "_key": "!journal.pages!QKAbdsTu7Hf6jK5p.14ffik7SgiJaON4g",
+   "name": "6. Tworzenie postaci (kreator)",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Utwórz aktora typu <b>Postać</b>, otwórz kartę i kliknij <b>Kreator</b> w nagłówku. Kreator prowadzi przez 9 kroków i pilnuje punktów:</p>\n<ol><li><b>Pochodzenie</b>: Kultura, Koncept, Kult. Każde podnosi limit kilku cech (gwiazdka).</li>\n<li><b>Ścieżka</b>: Skupienie albo Pierwotność (skąd bierzesz Ego) i Wiara albo Wola (co cię chroni). Druga z pary zostaje na zawsze na 0.</li>\n<li><b>Atrybuty</b>: start 1, 10 punktów, limit 3 (+1 za gwiazdkę).</li>\n<li><b>Umiejętności</b>: 28 punktów, limit 2 (+1 za gwiazdkę).</li>\n<li><b>Zaplecze</b>: 4 punkty, limit 3.</li>\n<li><b>Ranga</b>: kreator pokazuje, które rangi kultu już osiągasz. Wybierz jedną.</li>\n<li><b>Potencjał</b>: jedna specjalna zdolność z kultu albo ogólna.</li>\n<li><b>Człowiek</b>: imię, Ambicja, Tajemnica, 1–2 Więzi, Cień.</li>\n<li><b>Podsumowanie</b>: Ego, Zarażenie, Próg i pieniądze liczą się same.</li></ol>\n<p><b>Rada:</b> postać w Degenesis to najpierw ktoś z kultu. Zanim wydasz punkty, przeczytaj stronę swojego kultu w dzienniku <i>Kulty — przewodnik</i>: rangi, Metodę, Ideał i Potencjały.</p>"
+   },
+   "sort": 600000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "sFVt7yQOlgoqic2p",
+   "_key": "!journal.pages!QKAbdsTu7Hf6jK5p.sFVt7yQOlgoqic2p",
+   "name": "7. Ściąga",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<table><tr><th>Sytuacja</th><th>Rzut</th></tr>\n<tr><td>Zauważyć, nasłuchiwać, przeszukać</td><td>INS+Percepcja</td></tr><tr><td>Wyczuć kłamstwo, nastrój</td><td>INS+Empatia</td></tr>\n<tr><td>Przekonać, targować się</td><td>CHA+Negocjacje</td></tr><tr><td>Zastraszyć, przesłuchać</td><td>PSY+Dominacja</td></tr>\n<tr><td>Okłamać, przebrać się</td><td>PSY+Oszustwo</td></tr><tr><td>Wiedzieć o kultach, historii</td><td>INT+Legendy</td></tr>\n<tr><td>Leczyć, zbadać zwłoki</td><td>INT+Medycyna</td></tr><tr><td>Zakraść się</td><td>ZRĘ+Skradanie</td></tr>\n<tr><td>Strzelać</td><td>ZRĘ+Strzelectwo</td></tr><tr><td>Walczyć bronią / pięściami</td><td>CIA+Broń biała / Bijatyka</td></tr>\n<tr><td>Uskoczyć, uciec z więzów</td><td>ZRĘ+Mobilność</td></tr><tr><td>Inicjatywa</td><td>PSY+Refleks</td></tr>\n<tr><td>Oprzeć się wpływowi, Sepsie</td><td>PSY+Wiara albo Wola</td></tr><tr><td>Przetrwać w dziczy</td><td>INS+Przetrwanie</td></tr></table>\n<p><b>Trudność:</b> 1 rutynowa, 2 wymagająca, 3 trudna, 4 bardzo trudna, 6 desperacka.</p>\n<p><b>Walka w skrócie:</b> inicjatywa raz na starcie, potem 1 akcja i ruch na turę. Atak to rzut przeciw Obronie celu (zwykle 1). Obrażenia + Wyzwalacze − pancerz dają ranę. Aktywna obrona kosztuje 1 Ego. Uciekać wolno zawsze.</p>"
+   },
+   "sort": 700000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "categories": []
+}

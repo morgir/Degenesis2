@@ -1,0 +1,27 @@
+{
+ "_id": "kwEuxTfht3F9btIY",
+ "_key": "!items!kwEuxTfht3F9btIY",
+ "name": "Nova",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Wpada między wrogów i odpala wszystkie moduły obronne: INT+Inżynieria (5), Trudność −1/PP. Przy 2+ wrogach wręcz sojusznicy są bezpieczni; porażka odpala tylko 1 losowy moduł i dotyka też swoich.</p>",
+  "level": 1,
+  "kult": "Kronikarze",
+  "prerequisite": "Pierwotność"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

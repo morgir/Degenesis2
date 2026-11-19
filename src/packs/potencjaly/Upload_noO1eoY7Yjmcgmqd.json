@@ -1,0 +1,27 @@
+{
+ "_id": "noO1eoY7Yjmcgmqd",
+ "_key": "!items!noO1eoY7Yjmcgmqd",
+ "name": "Upload",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>+PP Wyzwalaczy przy wpływaniu na kogoś CHA lub PSY. Łączy się z Download.</p>",
+  "level": 1,
+  "kult": "Kronikarze",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

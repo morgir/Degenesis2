@@ -1,0 +1,27 @@
+{
+ "_id": "AxayZD6QaYYn30Hk",
+ "_key": "!items!AxayZD6QaYYn30Hk",
+ "name": "Niezłomny (Unyielding)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Raz na konflikt odpiera atak mentalny siłą woli z +1K/PP do obrony mentalnej.</p>",
+  "level": 1,
+  "kult": "Ogólne",
+  "prerequisite": "Wola"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

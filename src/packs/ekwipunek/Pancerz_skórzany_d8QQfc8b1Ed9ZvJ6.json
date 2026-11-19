@@ -1,0 +1,28 @@
+{
+ "_id": "d8QQfc8b1Ed9ZvJ6",
+ "_key": "!items!d8QQfc8b1Ed9ZvJ6",
+ "name": "Pancerz skórzany",
+ "type": "pancerz",
+ "img": "icons/svg/shield.svg",
+ "system": {
+  "description": "",
+  "armor": 3,
+  "qualities": "",
+  "encumbrance": 2,
+  "equipped": true
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "_id": "H0lice9tshFFTGPq",
+ "_key": "!items!H0lice9tshFFTGPq",
+ "name": "Szczur (Rat)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>+1K/PP przy zacieraniu śladów własnych czynów.</p>",
+  "level": 1,
+  "kult": "Złomiarze",
+  "prerequisite": "PSY+Spryt 6"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

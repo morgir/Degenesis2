@@ -1,0 +1,19 @@
+{
+ "_id": "AWxaJdyagN51k1GO",
+ "_key": "!folders!AWxaJdyagN51k1GO",
+ "name": "Bestie",
+ "type": "Actor",
+ "folder": null,
+ "sorting": "a",
+ "sort": 100,
+ "color": null,
+ "description": "",
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

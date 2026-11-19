@@ -1,0 +1,27 @@
+{
+ "_id": "BLLv9ud57sM5pAqM",
+ "_key": "!items!BLLv9ud57sM5pAqM",
+ "name": "Łaska Anubisa (Mercy of Anubis)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Wyeliminowany walczy dalej przez PP rund, a jego broń budzi grozę. [2.0: po tych rundach pada — to Stawka Śmierci na własne życzenie.]</p>",
+  "level": 1,
+  "kult": "Anubianie",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "_id": "y8FQKyLKxjRgEWMb",
+ "_key": "!items!y8FQKyLKxjRgEWMb",
+ "name": "Zew Eteru (Ether Call)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Wyczuwa zarażonych i Psychonautów: +1K/PP w Starciu z zarażonym przeciwnikiem i w Percepcji wobec niego. [2.0: dobrze łączy się z Szeptem Prymera.]</p>",
+  "level": 1,
+  "kult": "Ogólne",
+  "prerequisite": "Zarażenie ≥ 5"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

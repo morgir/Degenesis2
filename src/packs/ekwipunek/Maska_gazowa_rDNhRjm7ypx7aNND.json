@@ -1,0 +1,27 @@
+{
+ "_id": "rDNhRjm7ypx7aNND",
+ "_key": "!items!rDNhRjm7ypx7aNND",
+ "name": "Maska gazowa",
+ "type": "ekwipunek",
+ "img": "icons/svg/item-bag.svg",
+ "system": {
+  "description": "<p>Filtr przeciw zarodnikom i gazom. Daje 2 automatyczne sukcesy w rzutach odporności na sporyzację.</p>",
+  "quantity": 1,
+  "encumbrance": 0,
+  "value": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

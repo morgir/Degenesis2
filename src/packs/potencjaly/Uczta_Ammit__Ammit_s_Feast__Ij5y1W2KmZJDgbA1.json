@@ -1,0 +1,27 @@
+{
+ "_id": "Ij5y1W2KmZJDgbA1",
+ "_key": "!items!Ij5y1W2KmZJDgbA1",
+ "name": "Uczta Ammit (Ammit's Feast)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>2 Wyzwalacze w ataku wręcz = szał: bez aktywnej obrony, co rundę +1K i +1 obrażeń (maks. PP); trzeba go odnawiać 2 Wyzwalaczami, każda runda po pierwszej kosztuje Lekką ranę.</p>",
+  "level": 1,
+  "kult": "Anubianie",
+  "prerequisite": "Pierwotność"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

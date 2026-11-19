@@ -1,0 +1,55 @@
+{
+ "_id": "mOvvPwqvxWDhisay",
+ "_key": "!journal!mOvvPwqvxWDhisay",
+ "name": "Muzyka do sesji (Spotify, YouTube)",
+ "pages": [
+  {
+   "_id": "E11FiwPks8x9Ftks",
+   "_key": "!journal.pages!mOvvPwqvxWDhisay.E11FiwPks8x9Ftks",
+   "name": "Playlisty i albumy",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Foundry nie odtwarza Spotify ani YouTube w playlistach, więc puszczaj muzykę obok (druga karta przeglądarki, telefon, głośnik), a w Foundry zostaw <b>Odgłosy</b> jako tło. Linki „(szukaj)” otwierają wyszukiwanie — wybierz oficjalny album.</p><p><b>Zasada:</b> bez wokalu pod narrację; po walce wróć do ciszy albo samego ambientu. Głośność muzyki niższa niż twój głos.</p><h2>Pustkowia i podróż</h2><p><i>ruiny, wędrówka, pustka po Eschatonie</i></p><ul><li>Post-Apocalyptic Ambience (playlista, 108 utworów): <a href=\"https://open.spotify.com/playlist/1NgtMYR7HG4EYMbQzAJJVW\" target=\"_blank\" rel=\"noopener\">Spotify</a></li><li>Nick Cave & Warren Ellis — <i>The Road</i> (OST): <a href=\"https://music.apple.com/album/1435936237\" target=\"_blank\" rel=\"noopener\">Apple Music</a> · <a href=\"https://open.spotify.com/search/The%20Road%20Nick%20Cave%20Warren%20Ellis\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a> · <a href=\"https://www.youtube.com/results?search_query=The+Road+soundtrack+Nick+Cave+Warren+Ellis+full\" target=\"_blank\" rel=\"noopener\">YouTube (szukaj)</a></li></ul><h2>Prymer, pola spor, Psychonauci</h2><p><i>obcość, groza, coś żywego w powietrzu</i></p><ul><li>Ben Salisbury & Geoff Barrow — <i>Annihilation</i> (OST): <a href=\"https://invada.bandcamp.com/album/annihilation-music-from-the-motion-picture\" target=\"_blank\" rel=\"noopener\">Bandcamp</a> · <a href=\"https://open.spotify.com/search/Annihilation%20Ben%20Salisbury%20Geoff%20Barrow\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a> · <a href=\"https://www.youtube.com/results?search_query=Annihilation+soundtrack+Salisbury+Barrow+full+album\" target=\"_blank\" rel=\"noopener\">YouTube (szukaj)</a></li><li>Cryo Chamber — wytwórnia dark ambient (długie miksy): <a href=\"https://www.youtube.com/channel/UCVHOgH4XEyYx-ZEaya1XqCQ\" target=\"_blank\" rel=\"noopener\">YouTube (kanał)</a> · <a href=\"https://cryochamber.bandcamp.com/\" target=\"_blank\" rel=\"noopener\">Bandcamp</a> · <a href=\"https://open.spotify.com/search/Cryo%20Chamber%20dark%20ambient\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a></li></ul><h2>Miasto, śledztwo, intryga</h2><p><i>Justitian, przesłuchania, kancelarie, kulty</i></p><ul><li>Jóhann Jóhannsson — <i>Sicario</i> (OST): <a href=\"https://open.spotify.com/search/Sicario%20Johann%20Johannsson\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a> · <a href=\"https://www.youtube.com/results?search_query=Sicario+soundtrack+Johann+Johannsson+full\" target=\"_blank\" rel=\"noopener\">YouTube (szukaj)</a></li><li>Cyberpunk Meditations — dark & dystopian ambient (playlista): <a href=\"https://open.spotify.com/playlist/7xIEp8VMrMijKiPUWCfxEB\" target=\"_blank\" rel=\"noopener\">Spotify</a></li></ul><h2>Bunkry, Kronikarze, technika dawnego świata</h2><p><i>zimne światło, szum maszyn, Klastry i bunkry Palerów</i></p><ul><li>Ben Frost — <i>Dark</i> (Netflix, OST): <a href=\"https://open.spotify.com/search/Ben%20Frost%20Dark%20soundtrack\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a> · <a href=\"https://www.youtube.com/results?search_query=Ben+Frost+Dark+soundtrack\" target=\"_blank\" rel=\"noopener\">YouTube (szukaj)</a></li><li>Ben Salisbury & Geoff Barrow — <i>Ex Machina</i> (OST): <a href=\"https://open.spotify.com/search/Ex%20Machina%20soundtrack%20Salisbury%20Barrow\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a></li></ul><h2>Afryka, Neolibijczycy, pustynia</h2><p><i>karawany, przepych Trypolisu, Skurgerzy</i></p><ul><li>Hans Zimmer — <i>Dune</i> (OST): <a href=\"https://open.spotify.com/search/Dune%20Hans%20Zimmer%20soundtrack\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a> · <a href=\"https://www.youtube.com/results?search_query=Dune+Hans+Zimmer+soundtrack+full\" target=\"_blank\" rel=\"noopener\">YouTube (szukaj)</a></li></ul><h2>Walka i pościg</h2><p><i>krótko, głośno, wyłącz po walce</i></p><ul><li>Jóhann Jóhannsson — „The Beast” (<i>Sicario</i>): <a href=\"https://open.spotify.com/search/The%20Beast%20Johann%20Johannsson\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a> · <a href=\"https://www.youtube.com/results?search_query=Sicario+The+Beast+Johann+Johannsson\" target=\"_blank\" rel=\"noopener\">YouTube (szukaj)</a></li><li>Junkie XL — <i>Mad Max: Fury Road</i> (OST): <a href=\"https://open.spotify.com/search/Mad%20Max%20Fury%20Road%20Junkie%20XL\" target=\"_blank\" rel=\"noopener\">Spotify (szukaj)</a></li></ul><h2>Spelunka, targ, życie dzielnicy</h2><p><i>gwar, dym, tani alkohol</i></p><ul><li>Tabletop Audio — darmowe pętle pod miejsca (tawerna, targ, deszcz, kanały): <a href=\"https://tabletopaudio.com/\" target=\"_blank\" rel=\"noopener\">Tabletop Audio</a></li></ul><h2>Ciche studnie — co kiedy</h2><table><tr><th>Scena</th><th>Nastrój</th></tr><tr><td>Świt nad dzielnicą, targ</td><td>Pustkowia (The Road) + Odgłos „Mżawka”</td></tr><tr><td>Lazaret</td><td>Prymer (Annihilation), cicho</td></tr><tr><td>Spelunka Kruków</td><td>Tabletop Audio — tawerna</td></tr><tr><td>Kancelaria Vargi, przesłuchania</td><td>Miasto (Sicario)</td></tr><tr><td>Kanały, piwnice</td><td>Cryo Chamber + Odgłos „Podziemia”</td></tr><tr><td>Konfrontacja</td><td>Walka (The Beast) — potem cisza</td></tr></table>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "categories": []
+}

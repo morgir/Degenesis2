@@ -1,0 +1,27 @@
+{
+ "_id": "E58imICr3UW747Mj",
+ "_key": "!items!E58imICr3UW747Mj",
+ "name": "Zemsta lwa (The Lion's Revenge)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Kto trafi go wręcz w zasięgu jego broni, dostaje tyle samo obrażeń (maks. PP); chroni tylko pancerz Massive.</p>",
+  "level": 1,
+  "kult": "Skurgerzy",
+  "prerequisite": "Pierwotność"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

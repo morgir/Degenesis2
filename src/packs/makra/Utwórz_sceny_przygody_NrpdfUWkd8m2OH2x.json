@@ -1,0 +1,23 @@
+{
+ "_id": "NrpdfUWkd8m2OH2x",
+ "_key": "!macros!NrpdfUWkd8m2OH2x",
+ "name": "Utwórz sceny przygody",
+ "type": "script",
+ "scope": "global",
+ "command": "const maps = [[\"Justitian — plan dzielnicy Dostawców\",\"dzielnica\",2400,1600,0],[\"Targ i studnia przy Bramie\",\"targ-studnia\",2100,1400,1],[\"Lazaret Spitalian\",\"lazaret\",1960,1260,1],[\"Pod Złamanym Skrzydłem (spelunka Kruków)\",\"spelunka-krukow\",1820,1260,1],[\"Kancelaria Sędziego Vargi\",\"kancelaria-vargi\",1680,1260,1]];\nfor (const [name, f, w, h, g] of maps) {\n  if (game.scenes.getName(name)) continue;\n  await Scene.create({ name, width: w, height: h, padding: 0.05, background: { src: `systems/degenesis2/assets/maps/${f}.webp` },\n    grid: { type: g, size: 70, distance: 1, units: \"m\", alpha: 0 } });\n}\nui.notifications.info(\"Sceny przygody gotowe.\");",
+ "img": "icons/svg/castle.svg",
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "author": null
+}

@@ -1,0 +1,35 @@
+{
+ "_id": "3XvDa8EsxudyfFPc",
+ "_key": "!items!3XvDa8EsxudyfFPc",
+ "name": "Karabin myśliwski",
+ "type": "bron",
+ "img": "icons/svg/target.svg",
+ "system": {
+  "description": "",
+  "skill": "strzelectwo",
+  "handling": 0,
+  "damage": "7",
+  "range": "30/120",
+  "magazine": {
+   "value": 4,
+   "max": 4
+  },
+  "qualities": "",
+  "encumbrance": 2,
+  "equipped": true
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "_id": "cKgjH8bAHoEldKN4",
+ "_key": "!items!cKgjH8bAHoEldKN4",
+ "name": "Topór / maczeta",
+ "type": "bron",
+ "img": "icons/svg/sword.svg",
+ "system": {
+  "description": "",
+  "skill": "bronBiala",
+  "handling": -1,
+  "damage": "3+F/2",
+  "range": "1",
+  "magazine": {
+   "value": 0,
+   "max": 0
+  },
+  "qualities": "Ciężka",
+  "encumbrance": 2,
+  "equipped": true
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

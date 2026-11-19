@@ -1,0 +1,19 @@
+{
+ "_id": "aIKTAfiMyXPvtA0Q",
+ "_key": "!folders!aIKTAfiMyXPvtA0Q",
+ "name": "Psychonauci",
+ "type": "Actor",
+ "folder": null,
+ "sorting": "a",
+ "sort": 400,
+ "color": null,
+ "description": "",
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

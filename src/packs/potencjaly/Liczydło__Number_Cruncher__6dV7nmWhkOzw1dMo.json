@@ -1,0 +1,27 @@
+{
+ "_id": "6dV7nmWhkOzw1dMo",
+ "_key": "!items!6dV7nmWhkOzw1dMo",
+ "name": "Liczydło (Number Cruncher)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>+1K/PP do rzutów rozwiązujących problem logiką lub matematyką. [2.0: także do rzutu na Wniosek, gdy teoria opiera się na liczbach lub danych.]</p>",
+  "level": 1,
+  "kult": "Ogólne",
+  "prerequisite": "INT 4"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "_id": "uD6nvDgS6kB7FBZ3",
+ "_key": "!items!uD6nvDgS6kB7FBZ3",
+ "name": "Pamięć fraktalna (Fractal Memory)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Zawsze aktywny: +PP Wyzwalaczy do rzutów na INT. [2.0: Wyzwalacze kupują Odsłony w śledztwie.]</p>",
+  "level": 1,
+  "kult": "Kronikarze",
+  "prerequisite": "Skupienie"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

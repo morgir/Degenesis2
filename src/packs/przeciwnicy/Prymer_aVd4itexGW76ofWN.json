@@ -1,0 +1,19 @@
+{
+ "_id": "aVd4itexGW76ofWN",
+ "_key": "!folders!aVd4itexGW76ofWN",
+ "name": "Prymer",
+ "type": "Actor",
+ "folder": null,
+ "sorting": "a",
+ "sort": 200,
+ "color": null,
+ "description": "",
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

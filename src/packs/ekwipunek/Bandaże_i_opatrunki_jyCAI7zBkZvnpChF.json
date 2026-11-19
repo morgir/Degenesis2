@@ -1,0 +1,27 @@
+{
+ "_id": "jyCAI7zBkZvnpChF",
+ "_key": "!items!jyCAI7zBkZvnpChF",
+ "name": "Bandaże i opatrunki",
+ "type": "ekwipunek",
+ "img": "icons/svg/item-bag.svg",
+ "system": {
+  "description": "<p>Pierwsza pomoc: +1K do INT+Medycyna przy ranach.</p>",
+  "quantity": 5,
+  "encumbrance": 0,
+  "value": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

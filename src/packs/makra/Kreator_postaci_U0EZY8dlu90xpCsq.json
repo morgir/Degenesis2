@@ -1,0 +1,23 @@
+{
+ "_id": "U0EZY8dlu90xpCsq",
+ "_key": "!macros!U0EZY8dlu90xpCsq",
+ "name": "Kreator postaci",
+ "type": "script",
+ "scope": "global",
+ "command": "let a = game.user.character ?? canvas.tokens.controlled[0]?.actor;\nif (!a || a.type !== \"postac\") a = await Actor.create({ name: \"Nowa postać\", type: \"postac\" });\nif (a) game.degenesis2.openCreator(a);",
+ "img": "icons/svg/statue.svg",
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ },
+ "author": null
+}

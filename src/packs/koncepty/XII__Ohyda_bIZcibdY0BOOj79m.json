@@ -1,0 +1,33 @@
+{
+ "_id": "bIZcibdY0BOOj79m",
+ "_key": "!items!bIZcibdY0BOOj79m",
+ "name": "XII. Ohyda",
+ "type": "koncept",
+ "img": "icons/svg/book.svg",
+ "system": {
+  "description": "<p>Arkana XII. Raz na sesję +2K w sytuacji zgodnej z Archetypem. <b>Cień:</b> Karmi się strachem innych.</p>",
+  "tarot": "XII",
+  "attributeBonuses": [
+   "psy"
+  ],
+  "skillBonuses": [
+   "dominacja",
+   "twardosc"
+  ],
+  "cien": "Karmi się strachem innych."
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 1300,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

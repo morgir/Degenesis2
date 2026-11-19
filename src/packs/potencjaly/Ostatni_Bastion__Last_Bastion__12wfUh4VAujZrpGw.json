@@ -1,0 +1,27 @@
+{
+ "_id": "12wfUh4VAujZrpGw",
+ "_key": "!items!12wfUh4VAujZrpGw",
+ "name": "Ostatni Bastion (Last Bastion)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>+1 Wyzwalacz/PP do każdego ataku przeciw Psychonautom.</p>",
+  "level": 1,
+  "kult": "Spitalianie",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

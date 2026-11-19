@@ -1,0 +1,27 @@
+{
+ "_id": "vcDjbXbJsS0g5SJh",
+ "_key": "!items!vcDjbXbJsS0g5SJh",
+ "name": "Lwia część (Lion's Share)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>+PP Wyzwalaczy w negocjowaniu transakcji (większy udział albo niższa cena).</p>",
+  "level": 1,
+  "kult": "Neolibijczycy",
+  "prerequisite": ""
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

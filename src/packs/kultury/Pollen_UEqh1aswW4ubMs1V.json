@@ -1,0 +1,36 @@
+{
+ "_id": "UEqh1aswW4ubMs1V",
+ "_key": "!items!UEqh1aswW4ubMs1V",
+ "name": "Pollen",
+ "type": "kultura",
+ "img": "icons/svg/village.svg",
+ "system": {
+  "description": "<p>Zamarznięta północ i wieczna wędrówka. Pola zarodników, pajęcze sieci i oazy, które powstają i giną. Biokinetycy rządzą dziką krainą.</p>",
+  "attributeBonuses": [
+   "cia",
+   "ins"
+  ],
+  "skillBonuses": [
+   "bronBiala",
+   "kondycja",
+   "legendy",
+   "przetrwanie",
+   "empatia"
+  ],
+  "kulty": "Anabaptyści, Apokaliptycy, Kronikarze, Klanowcy, Złomiarze, Spitalianie"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}

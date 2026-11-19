@@ -1,0 +1,27 @@
+{
+ "_id": "0jovrIhquknnILMg",
+ "_key": "!items!0jovrIhquknnILMg",
+ "name": "Gniew Jehammeda (Ire of Jehammed)",
+ "type": "potencjal",
+ "img": "icons/svg/aura.svg",
+ "system": {
+  "description": "<p>Liczy ataki bluźnierców (Psychonautów, Apokaliptyków, Anabaptystów, wyjętych spod prawa) na grupę (atak na przyjaciela liczy się podwójnie); przy 10 wpada w szał: +1K/PP do ataku, +1 Ego za każde trafienie.</p>",
+  "level": 1,
+  "kult": "Jehammedanie",
+  "prerequisite": "Wiara"
+ },
+ "effects": [],
+ "folder": null,
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.1.0"
+ }
+}
