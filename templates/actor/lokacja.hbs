@@ -1,0 +1,36 @@
+<div class="d2-sheet">
+  <header class="d2-header">
+    <img class="profile" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="{{actor.name}}" width="72" height="72">
+    <div class="d2-header-main">
+      <input class="d2-name" type="text" name="name" value="{{actor.name}}">
+      <label class="d2-block">{{localize "D2.Lokacja.region"}}<input type="text" name="system.region" value="{{system.region}}"></label>
+    </div>
+  </header>
+  <div class="d2-body">
+    <section class="d2-cechy">
+      <h3>{{localize "D2.Cecha.title"}}
+        {{#if isGM}}<a class="d2-add" data-action="arrayAdd" data-path="cechy"><i class="fa-solid fa-plus"></i></a>{{/if}}
+      </h3>
+      {{#each cechy as |c|}}
+      <div class="d2-cecha {{#if c.hidden}}hidden-cecha{{/if}}">
+        {{#if @root.isGM}}
+          <a data-action="cechaToggle" data-index="{{c.index}}" data-tooltip="{{localize 'D2.Cecha.toggle'}}"><i class="fa-solid {{#if c.hidden}}fa-eye-slash{{else}}fa-eye{{/if}}"></i></a>
+          <input type="text" class="grow" value="{{c.name}}" data-array="cechy" data-index="{{c.index}}" data-field="name">
+          <label class="d2-sub">{{localize "D2.Cecha.free"}} <input class="tiny" type="number" min="0" max="5" value="{{c.free}}" data-array="cechy" data-index="{{c.index}}" data-field="free"></label>
+        {{else}}
+          <span class="grow cecha-name">{{c.name}}</span>
+          <span class="d2-sub">{{localize "D2.Cecha.free"}}: {{c.free}}</span>
+        {{/if}}
+        <button type="button" data-action="cechaInvoke" data-index="{{c.index}}">{{localize "D2.Cecha.invoke"}}</button>
+        {{#if @root.isGM}}<a data-action="arrayDelete" data-path="cechy" data-index="{{c.index}}"><i class="fa-solid fa-trash"></i></a>{{/if}}
+      </div>
+      {{else}}
+      <p class="d2-empty">{{localize "D2.Cecha.none"}}</p>
+      {{/each}}
+      {{#unless isGM}}{{#if hiddenCount}}<p class="d2-hint"><i class="fa-solid fa-magnifying-glass"></i> {{localize "D2.Cecha.hiddenExist"}}</p>{{/if}}{{/unless}}
+      <p class="d2-hint">{{localize "D2.Cecha.hint"}}</p>
+    </section>
+    <h3>{{localize "D2.Description"}}</h3>
+    <textarea class="d2-notes" name="system.description" rows="10">{{system.description}}</textarea>
+  </div>
+</div>

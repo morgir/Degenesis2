@@ -1,0 +1,33 @@
+<div class="d2-sheet">
+  <header class="d2-header">
+    <img class="profile" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="{{actor.name}}" width="72" height="72">
+    <div class="d2-header-main">
+      <input class="d2-name" type="text" name="name" value="{{actor.name}}">
+      <div class="d2-identity">
+        <label>{{localize "D2.Frakcja.zasoby"}}<input type="number" name="system.zasoby" value="{{system.zasoby}}" min="1" max="5"></label>
+        <label class="span-3">{{localize "D2.Frakcja.cecha"}}<input type="text" name="system.cecha" value="{{system.cecha}}"></label>
+      </div>
+    </div>
+  </header>
+  <div class="d2-body">
+    <section class="d2-imie">
+      <h3>{{localize "D2.Imie.title"}}</h3>
+      <div class="d2-imie-row">
+        <select name="system.imie.value">{{selectOptions imieOptions selected=system.imie.value}}</select>
+        <span class="d2-echo" data-tooltip="{{localize 'D2.Imie.echoHint'}}">
+          <span class="label">{{localize "D2.Imie.echo"}}</span>
+          <a data-action="echoShift" data-delta="-1"><i class="fa-solid fa-minus"></i></a>
+          {{#each echoBoxes as |b|}}<span class="d2-echo-box {{#if b.filled}}filled{{/if}} {{#if b.zero}}zero{{/if}} {{#if b.neg}}neg{{/if}}"></span>{{/each}}
+          <a data-action="echoShift" data-delta="1"><i class="fa-solid fa-plus"></i></a>
+        </span>
+      </div>
+      <p><b>{{localize "D2.Imie.attitude"}}:</b> {{imieAttitude}} · {{imieEffect}}</p>
+      <label class="d2-block">{{localize "D2.Imie.osobiste"}}<input type="text" name="system.osobiste" value="{{system.osobiste}}" placeholder="{{localize 'D2.Imie.osobisteHint'}}"></label>
+    </section>
+    <label class="d2-block">{{localize "D2.Frakcja.cel"}}<input type="text" name="system.cel" value="{{system.cel}}"></label>
+    {{> "systems/degenesis2/templates/parts/clocks.hbs"}}
+    <p class="d2-hint">{{localize "D2.Frakcja.hint"}}</p>
+    <h3>{{localize "D2.Tab.notes"}}</h3>
+    <textarea class="d2-notes" name="system.notes" rows="8">{{system.notes}}</textarea>
+  </div>
+</div>

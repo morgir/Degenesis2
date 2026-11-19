@@ -1,0 +1,6 @@
+<div class="d2 d2-chat-oracle oracle-{{key}}">
+  <h3><i class="fa-solid fa-eye"></i> {{localize "D2.Oracle.title"}}</h3>
+  {{#if question}}<p class="d2-question">„{{question}}”</p>{{/if}}
+  <p class="d2-sub">{{mode}} · {{#each results as |r|}}<span class="d2-die">{{r}}</span>{{/each}}</p>
+  <p class="d2-outcome">{{answer}}</p>
+</div>

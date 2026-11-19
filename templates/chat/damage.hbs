@@ -1,0 +1,11 @@
+<div class="d2 d2-chat-damage">
+  <h3>{{actor}}</h3>
+  <p>{{localize "D2.Chat.damageLine" damage=damage armor=armor net=net threshold=threshold}}</p>
+  {{#if casualties}}
+    <p class="d2-outcome">{{localize "D2.Chat.casualties" n=casualties}}</p>
+  {{else}}
+    <p class="d2-outcome">{{tierLabel}}{{#if upgraded}} <span class="d2-sub">({{localize "D2.Chat.upgraded"}})</span>{{/if}}</p>
+  {{/if}}
+  {{#if eliminated}}<p class="d2-warning strong"><i class="fa-solid fa-skull-crossbones"></i> {{localize "D2.Wounds.eliminatedChat"}}</p>{{/if}}
+  {{#if isPC}}{{#if tier}}<p class="d2-hint">{{localize "D2.Chat.absorbHint"}}</p>{{/if}}{{/if}}
+</div>

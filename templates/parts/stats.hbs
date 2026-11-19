@@ -1,0 +1,21 @@
+<div class="d2-attributes">
+  {{#each attributes as |attr|}}
+  <section class="d2-attr-block">
+    <header class="d2-attr-head">
+      <a class="d2-rollable" data-action="rollAttr" data-attr="{{attr.key}}" data-tooltip="{{localize 'D2.Roll.attribute'}}">
+        <span class="abbr">{{attr.abbr}}</span> {{attr.label}}
+      </a>
+      <input type="number" name="system.attributes.{{attr.key}}.value" value="{{attr.value}}" min="0" max="6" {{#unless @root.editable}}disabled{{/unless}}>
+    </header>
+    <ul class="d2-skill-list">
+      {{#each attr.skills as |sk|}}
+      <li class="d2-skill {{#if sk.locked}}locked{{/if}}">
+        <a class="d2-rollable" data-action="rollSkill" data-skill="{{sk.key}}">{{sk.label}}</a>
+        <input type="number" name="system.skills.{{sk.key}}.value" value="{{sk.value}}" min="0" max="6" {{#if sk.locked}}data-tooltip="{{localize 'D2.Sheet.lockedSkill'}}"{{/if}} {{#unless @root.editable}}disabled{{/unless}}>
+        <span class="d2-pool" data-tooltip="{{localize 'D2.Sheet.pool'}}">{{sk.total}}K</span>
+      </li>
+      {{/each}}
+    </ul>
+  </section>
+  {{/each}}
+</div>

@@ -1,0 +1,153 @@
+<div class="d2-creator-wrap">
+  <nav class="d2-creator-steps">
+    {{#each steps as |st|}}<a class="{{#if st.active}}active{{/if}}" data-action="goto" data-i="{{st.i}}">{{st.label}}</a>{{/each}}
+  </nav>
+  <div class="d2-creator-body">
+
+  {{#if (d2eq step "origin")}}
+    <h2>{{localize "D2.Creator.step.origin"}}</h2>
+    <p class="d2-hint">{{localize "D2.Creator.help.origin"}}</p>
+    <div class="d2-grid-3">
+      <label>{{localize "D2.Identity.kultura"}}
+        <select name="kultura"><option value="">—</option>{{#each kultury as |o|}}<option value="{{o.id}}" {{#if o.selected}}selected{{/if}}>{{o.name}}</option>{{/each}}</select></label>
+      <label>{{localize "D2.Identity.koncept"}}
+        <select name="koncept"><option value="">—</option>{{#each koncepty as |o|}}<option value="{{o.id}}" {{#if o.selected}}selected{{/if}}>{{o.name}}</option>{{/each}}</select></label>
+      <label>{{localize "D2.Identity.kult"}}
+        <select name="kult"><option value="">—</option>{{#each kulty as |o|}}<option value="{{o.id}}" {{#if o.selected}}selected{{/if}}>{{o.name}}</option>{{/each}}</select></label>
+    </div>
+    <div class="d2-grid-3 d2-cards">
+      <div class="d2-card">{{#if kul}}<h3>{{kul.name}}</h3>{{{kul.system.description}}}<p><b>{{localize "D2.Bonuses"}}:</b> {{bonusText.kul}}</p><p class="d2-sub">{{localize "D2.Kultura.kulty"}}: {{kul.system.kulty}}</p>{{else}}<p class="d2-empty">{{localize "D2.Creator.help.kultura"}}</p>{{/if}}</div>
+      <div class="d2-card">{{#if kon}}<h3>{{kon.name}}</h3>{{{kon.system.description}}}<p><b>{{localize "D2.Bonuses"}}:</b> {{bonusText.kon}}</p>{{else}}<p class="d2-empty">{{localize "D2.Creator.help.koncept"}}</p>{{/if}}</div>
+      <div class="d2-card">{{#if kt}}<h3>{{kt.name}}</h3>{{{kt.system.description}}}<p><b>{{localize "D2.Bonuses"}}:</b> {{bonusText.kt}}</p><p><b>{{localize "D2.Kult.metoda"}}:</b> {{kt.system.metoda}}</p><p><b>{{localize "D2.Kult.ideal"}}:</b> {{kt.system.ideal}}</p>{{else}}<p class="d2-empty">{{localize "D2.Creator.help.kult"}}</p>{{/if}}</div>
+    </div>
+  {{/if}}
+
+  {{#if (d2eq step "path")}}
+    <h2>{{localize "D2.Creator.step.path"}}</h2>
+    <div class="d2-grid-2">
+      <div class="d2-card">
+        <h3>{{localize "D2.Path"}}</h3>
+        <label class="d2-radio"><input type="radio" name="path" value="skupienie" {{#if (d2eq s.path "skupienie")}}checked{{/if}}> <b>{{localize "D2.Skill.skupienie"}}</b> — {{localize "D2.Creator.help.skupienie"}}</label>
+        <label class="d2-radio"><input type="radio" name="path" value="pierwotnosc" {{#if (d2eq s.path "pierwotnosc")}}checked{{/if}}> <b>{{localize "D2.Skill.pierwotnosc"}}</b> — {{localize "D2.Creator.help.pierwotnosc"}}</label>
+      </div>
+      <div class="d2-card">
+        <h3>{{localize "D2.Belief"}}</h3>
+        <label class="d2-radio"><input type="radio" name="belief" value="wiara" {{#if (d2eq s.belief "wiara")}}checked{{/if}}> <b>{{localize "D2.Skill.wiara"}}</b> — {{localize "D2.Creator.help.wiara"}}</label>
+        <label class="d2-radio"><input type="radio" name="belief" value="wola" {{#if (d2eq s.belief "wola")}}checked{{/if}}> <b>{{localize "D2.Skill.wola"}}</b> — {{localize "D2.Creator.help.wola"}}</label>
+      </div>
+    </div>
+    <p class="d2-hint">{{localize "D2.Creator.help.pathRule"}}</p>
+  {{/if}}
+
+  {{#if (d2or (d2eq step "attrs") (d2eq step "skills"))}}
+    <h2>{{#if (d2eq step "attrs")}}{{localize "D2.Creator.step.attrs"}}{{else}}{{localize "D2.Creator.step.skills"}}{{/if}}
+      <span class="d2-budget {{#if budget.attrLeft}}open{{/if}}">{{localize "D2.Creator.attrLeft"}}: {{budget.attrLeft}}</span>
+      <span class="d2-budget {{#if budget.skillLeft}}open{{/if}}">{{localize "D2.Creator.skillLeft"}}: {{budget.skillLeft}}</span></h2>
+    <p class="d2-hint">{{#if (d2eq step "attrs")}}{{localize "D2.Creator.help.attrs"}}{{else}}{{localize "D2.Creator.help.skills" locked=locked}}{{/if}}</p>
+    <div class="d2-attributes">
+    {{#each attributes as |a|}}
+      <section class="d2-attr-block">
+        <header class="d2-attr-head">
+          <span><span class="abbr">{{a.abbr}}</span> {{a.label}}{{#if a.bonus}} <i class="fa-solid fa-star d2-star" data-tooltip="{{localize 'D2.Creator.bonusMark'}}"></i>{{/if}}</span>
+          <span class="d2-bump"><a data-action="bump" data-kind="attr" data-key="{{a.key}}" data-delta="-1">−</a><b>{{a.value}}</b><a data-action="bump" data-kind="attr" data-key="{{a.key}}" data-delta="1">+</a><span class="d2-sub">/{{a.max}}</span></span>
+        </header>
+        <ul class="d2-skill-list">
+        {{#each a.skills as |sk|}}
+          <li class="d2-skill {{#if sk.locked}}locked{{/if}}">
+            <span class="grow">{{sk.label}}{{#if sk.bonus}} <i class="fa-solid fa-star d2-star"></i>{{/if}}</span>
+            <span class="d2-bump"><a data-action="bump" data-kind="skill" data-key="{{sk.key}}" data-delta="-1">−</a><b>{{sk.value}}</b><a data-action="bump" data-kind="skill" data-key="{{sk.key}}" data-delta="1">+</a><span class="d2-sub">/{{sk.max}}</span></span>
+            <span class="d2-pool">{{sk.pool}}K</span>
+          </li>
+        {{/each}}
+        </ul>
+      </section>
+    {{/each}}
+    </div>
+  {{/if}}
+
+  {{#if (d2eq step "bgs")}}
+    <h2>{{localize "D2.Creator.step.bgs"}} <span class="d2-budget {{#if budget.bgLeft}}open{{/if}}">{{localize "D2.Creator.bgLeft"}}: {{budget.bgLeft}}</span></h2>
+    <p class="d2-hint">{{localize "D2.Creator.help.bgs"}}</p>
+    {{#each bgs as |bg|}}
+    <div class="d2-bg-row">
+      <span class="label">{{bg.label}}</span>
+      <span class="d2-bump"><a data-action="bump" data-kind="bg" data-key="{{bg.key}}" data-delta="-1">−</a><b>{{bg.value}}</b><a data-action="bump" data-kind="bg" data-key="{{bg.key}}" data-delta="1">+</a><span class="d2-sub">/{{bg.max}}</span></span>
+      <span class="d2-hint">{{bg.hint}}</span>
+    </div>
+    {{/each}}
+  {{/if}}
+
+  {{#if (d2eq step "rank")}}
+    <h2>{{localize "D2.Creator.step.rank"}}</h2>
+    <p class="d2-hint">{{localize "D2.Creator.help.rank"}}</p>
+    {{#unless kt}}<p class="d2-warning">{{localize "D2.Creator.err.origin"}}</p>{{/unless}}
+    <table class="d2-table d2-ranks">
+      <thead><tr><th></th><th>{{localize "D2.Level"}}</th><th>{{localize "D2.Identity.ranga"}}</th><th>{{localize "D2.Prerequisite"}}</th><th>{{localize "D2.Creator.rankResult"}}</th></tr></thead>
+      <tbody>
+      {{#each ranks as |r|}}
+        <tr class="{{#if r.reachable}}ok{{else}}no{{/if}}">
+          <td>{{#if r.reachable}}<input type="radio" name="rank" value="{{r.index}}" {{#if (d2eq r.index @root.chosenRank.index)}}checked{{/if}}>{{/if}}</td>
+          <td class="num">{{r.level}}</td>
+          <td><b>{{r.name}}</b></td>
+          <td class="small">{{r.prereqText}}{{#if r.missing.length}}<br><span class="d2-penalty">{{localize "D2.Creator.missing"}}: {{#each r.missing as |m|}}{{m}}{{#unless @last}}; {{/unless}}{{/each}}</span>{{/if}}{{#if r.manual.length}}<br><span class="d2-sub">{{localize "D2.Creator.gmCheck"}}: {{#each r.manual as |m|}}{{m}}{{#unless @last}}; {{/unless}}{{/each}}</span>{{/if}}</td>
+          <td class="small">{{r.result}}{{#if r.equipment}}<br><i>{{localize "D2.Gear"}}: {{r.equipment}}</i>{{/if}}</td>
+        </tr>
+      {{/each}}
+      </tbody>
+    </table>
+  {{/if}}
+
+  {{#if (d2eq step "potential")}}
+    <h2>{{localize "D2.Creator.step.potential"}}</h2>
+    <p class="d2-hint">{{localize "D2.Creator.help.potential"}}</p>
+    <div class="d2-pot-list">
+    {{#each potentials as |p|}}
+      <label class="d2-pot {{#if p.selected}}selected{{/if}}">
+        <input type="radio" name="potential" value="{{p.id}}" {{#if p.selected}}checked{{/if}}>
+        <span><b>{{p.name}}</b> <span class="d2-sub">{{p.kult}}{{#if p.prereq}} · {{localize "D2.Prerequisite"}}: {{p.prereq}}{{/if}}</span>{{{p.desc}}}</span>
+      </label>
+    {{/each}}
+    </div>
+  {{/if}}
+
+  {{#if (d2eq step "person")}}
+    <h2>{{localize "D2.Creator.step.person"}}</h2>
+    <div class="d2-grid-3">
+      <label>{{localize "D2.Name"}}<input type="text" name="name" value="{{s.name}}"></label>
+      <label>{{localize "D2.Creator.age"}}<input type="text" name="wiek" value="{{s.wiek}}"></label>
+      <label>{{localize "D2.Creator.sex"}}<input type="text" name="plec" value="{{s.plec}}"></label>
+    </div>
+    <div class="d2-grid-2">
+      <label>{{localize "D2.Ambicja"}}<input type="text" name="ambicja" value="{{s.ambicja}}" placeholder="{{localize 'D2.Creator.help.ambicja'}}"></label>
+      <label>{{localize "D2.Tajemnica"}}<input type="text" name="tajemnica" value="{{s.tajemnica}}" placeholder="{{localize 'D2.Creator.help.tajemnica'}}"></label>
+      <label>{{localize "D2.Wiezi"}} 1<input type="text" name="wiez1" value="{{s.wiez1}}" placeholder="{{localize 'D2.Creator.help.wiez'}}"></label>
+      <label>{{localize "D2.Wiezi"}} 2<input type="text" name="wiez2" value="{{s.wiez2}}"></label>
+      <label class="span-2">{{localize "D2.Cien"}}<input type="text" name="cien" value="{{s.cien}}"></label>
+    </div>
+    <p class="d2-hint">{{localize "D2.Creator.help.person"}}</p>
+  {{/if}}
+
+  {{#if (d2eq step "summary")}}
+    <h2>{{localize "D2.Creator.step.summary"}}</h2>
+    <div class="d2-grid-2">
+      <div class="d2-card">
+        <p><b>{{s.name}}</b> — {{kul.name}} · {{kon.name}} · {{kt.name}}</p>
+        <p>{{localize "D2.Identity.ranga"}}: <b>{{chosenRank.name}}</b></p>
+        <p>{{localize "D2.Ego"}}: <b>{{derived.ego}}</b> · {{localize "D2.Zarazenie.max"}}: <b>{{derived.spores}}</b> · {{localize "D2.Wounds.threshold"}}: <b>{{derived.prog}}</b></p>
+        <p>{{localize "D2.Money"}}: <b>{{derived.money}} {{derived.currency}}</b></p>
+      </div>
+      <div class="d2-card">
+        {{#if problems.length}}<p class="d2-warning">{{localize "D2.Creator.problems"}}</p><ul>{{#each problems as |p|}}<li>{{p}}</li>{{/each}}</ul>
+        {{else}}<p><i class="fa-solid fa-check"></i> {{localize "D2.Creator.allGood"}}</p>{{/if}}
+      </div>
+    </div>
+    <p class="d2-hint">{{localize "D2.Creator.help.summary"}}</p>
+  {{/if}}
+  </div>
+
+  <footer class="d2-creator-foot">
+    {{#unless isFirst}}<button type="button" data-action="step" data-delta="-1"><i class="fa-solid fa-arrow-left"></i> {{localize "D2.Creator.back"}}</button>{{/unless}}
+    {{#unless isLast}}<button type="button" data-action="step" data-delta="1">{{localize "D2.Creator.next"}} <i class="fa-solid fa-arrow-right"></i></button>{{/unless}}
+    {{#if isLast}}<button type="button" class="d2-finish" data-action="finish"><i class="fa-solid fa-user-check"></i> {{localize "D2.Creator.finish"}}</button>{{/if}}
+  </footer>
+</div>

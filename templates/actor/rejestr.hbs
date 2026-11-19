@@ -1,0 +1,84 @@
+<div class="d2-sheet">
+  <header class="d2-header">
+    <img class="profile" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="{{actor.name}}" width="64" height="64">
+    <div class="d2-header-main">
+      <input class="d2-name" type="text" name="name" value="{{actor.name}}">
+      <div class="d2-resources">
+        <span class="label">{{localize "D2.Dlug.open"}}:</span>
+        {{#each totals as |t|}}<span class="d2-res"><span class="label">{{t.label}}</span> <b>{{t.n}}</b></span>{{/each}}
+      </div>
+    </div>
+  </header>
+  <div class="d2-body">
+    <h3>{{localize "D2.Dlug.open"}}
+      {{#if isGM}}<a class="d2-add" data-action="arrayAdd" data-path="debts" data-tooltip="{{localize 'D2.Dlug.add'}}"><i class="fa-solid fa-plus"></i></a>{{/if}}
+    </h3>
+    <table class="d2-table d2-debts">
+      <thead><tr>
+        <th>{{localize "D2.Dlug.debtor"}}</th><th></th><th>{{localize "D2.Dlug.creditor"}}</th>
+        <th>{{localize "D2.Dlug.wagaLabel"}}</th><th>{{localize "D2.Dlug.powod"}}</th><th></th>
+      </tr></thead>
+      <tbody>
+      {{#each open as |d|}}
+        <tr class="waga-{{d.waga}} {{#if d.hidden}}hidden-debt{{/if}}">
+          <td>
+            {{#if @root.isGM}}
+            <select data-array="debts" data-index="{{d.index}}" data-field="debtor">
+              <option value="">{{localize "D2.Dlug.manual"}}</option>
+              {{#each @root.partyOptions as |g|}}<optgroup label="{{g.label}}">{{#each g.options as |o|}}<option value="{{o.value}}" {{#if (d2eq o.value d.debtor)}}selected{{/if}}>{{o.label}}</option>{{/each}}</optgroup>{{/each}}
+            </select>
+            {{#unless d.debtor}}<input type="text" value="{{d.debtorText}}" data-array="debts" data-index="{{d.index}}" data-field="debtorText" placeholder="{{localize 'D2.Dlug.who'}}">{{/unless}}
+            {{else}}<b>{{d.debtorName}}</b>{{/if}}
+          </td>
+          <td class="d2-arrow">→</td>
+          <td>
+            {{#if @root.isGM}}
+            <select data-array="debts" data-index="{{d.index}}" data-field="creditor">
+              <option value="">{{localize "D2.Dlug.manual"}}</option>
+              {{#each @root.partyOptions as |g|}}<optgroup label="{{g.label}}">{{#each g.options as |o|}}<option value="{{o.value}}" {{#if (d2eq o.value d.creditor)}}selected{{/if}}>{{o.label}}</option>{{/each}}</optgroup>{{/each}}
+            </select>
+            {{#unless d.creditor}}<input type="text" value="{{d.creditorText}}" data-array="debts" data-index="{{d.index}}" data-field="creditorText" placeholder="{{localize 'D2.Dlug.who'}}">{{/unless}}
+            {{else}}<b>{{d.creditorName}}</b>{{/if}}
+          </td>
+          <td>
+            {{#if @root.isGM}}
+            <select data-number data-array="debts" data-index="{{d.index}}" data-field="waga">
+              {{#each @root.wagaOptions as |w|}}<option value="{{w.value}}" {{#if (d2eq w.value d.waga)}}selected{{/if}}>{{w.label}}</option>{{/each}}
+            </select>
+            {{else}}{{d2loc "D2.Dlug.waga" d.waga}}{{/if}}
+          </td>
+          <td class="grow">
+            {{#if @root.isGM}}<input type="text" value="{{d.powod}}" data-array="debts" data-index="{{d.index}}" data-field="powod" placeholder="{{localize 'D2.Dlug.powodHint'}}">
+            {{else}}{{d.powod}}{{/if}}
+          </td>
+          <td class="d2-controls debt-actions">
+            {{#if @root.isGM}}
+            <a data-action="debtCall" data-index="{{d.index}}" data-tooltip="{{localize 'D2.Dlug.call'}}"><i class="fa-solid fa-bell"></i></a>
+            <a data-action="debtStatus" data-status="sciagniety" data-index="{{d.index}}" data-tooltip="{{localize 'D2.Dlug.collect'}}"><i class="fa-solid fa-hand-holding-dollar"></i></a>
+            <a data-action="debtStatus" data-status="splacony" data-index="{{d.index}}" data-tooltip="{{localize 'D2.Dlug.repay'}}"><i class="fa-solid fa-check"></i></a>
+            <a data-action="debtStatus" data-status="zerwany" data-index="{{d.index}}" data-tooltip="{{localize 'D2.Dlug.break'}}"><i class="fa-solid fa-link-slash"></i></a>
+            <label data-tooltip="{{localize 'D2.Dlug.hidden'}}"><input type="checkbox" data-array="debts" data-index="{{d.index}}" data-field="hidden" {{#if d.hidden}}checked{{/if}}><i class="fa-solid fa-eye-slash"></i></label>
+            <a data-action="arrayDelete" data-path="debts" data-index="{{d.index}}"><i class="fa-solid fa-trash"></i></a>
+            {{/if}}
+          </td>
+        </tr>
+      {{else}}
+        <tr><td colspan="6" class="d2-empty">{{localize "D2.Dlug.none"}}</td></tr>
+      {{/each}}
+      </tbody>
+    </table>
+    <p class="d2-hint">{{localize "D2.Dlug.hint"}}</p>
+
+    <h3>{{localize "D2.Dlug.closed"}}</h3>
+    <ul class="d2-item-list">
+      {{#each closed as |d|}}
+      <li class="dlug-{{d.status}}"><b>{{d.debtorName}}</b> → {{d.creditorName}} · {{d2loc "D2.Dlug.waga" d.waga}} · {{d.powod}} <span class="d2-sub">{{d.statusLabel}}</span>
+        {{#if @root.isGM}}<span class="d2-controls"><a data-action="debtStatus" data-status="otwarty" data-index="{{d.index}}" data-tooltip="{{localize 'D2.Dlug.reopen'}}"><i class="fa-solid fa-rotate-left"></i></a><a data-action="arrayDelete" data-path="debts" data-index="{{d.index}}"><i class="fa-solid fa-trash"></i></a></span>{{/if}}
+      </li>
+      {{else}}<li class="d2-empty">—</li>{{/each}}
+    </ul>
+
+    <h3>{{localize "D2.Tab.notes"}}</h3>
+    <textarea class="d2-notes" name="system.notes" rows="5">{{system.notes}}</textarea>
+  </div>
+</div>

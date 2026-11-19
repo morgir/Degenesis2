@@ -1,0 +1,26 @@
+<section class="d2-clocks">
+  <h3>{{localize "D2.Clock.title"}}
+    {{#if @root.editable}}<a class="d2-add" data-action="arrayAdd" data-path="clocks"><i class="fa-solid fa-plus"></i></a>{{/if}}
+  </h3>
+  {{#each clocks as |c|}}
+  <div class="d2-clock">
+    <input type="text" value="{{c.name}}" data-array="clocks" data-index="{{c.index}}" data-field="name" placeholder="{{localize 'D2.Clock.name'}}" {{#unless @root.editable}}disabled{{/unless}}>
+    <span class="d2-clock-segs">
+      {{#each c.segments as |s|}}
+      <a class="d2-seg {{#if s.filled}}filled{{/if}}" data-action="clockSeg" data-index="{{c.index}}" data-seg="{{s.seg}}"></a>
+      {{/each}}
+    </span>
+    <span class="d2-clock-count">{{c.value}}/{{c.size}}</span>
+    <select data-number data-array="clocks" data-index="{{c.index}}" data-field="size" {{#unless @root.editable}}disabled{{/unless}}>
+      <option value="4" {{#if (d2eq c.size 4)}}selected{{/if}}>4</option>
+      <option value="6" {{#if (d2eq c.size 6)}}selected{{/if}}>6</option>
+      <option value="8" {{#if (d2eq c.size 8)}}selected{{/if}}>8</option>
+      <option value="10" {{#if (d2eq c.size 10)}}selected{{/if}}>10</option>
+      <option value="12" {{#if (d2eq c.size 12)}}selected{{/if}}>12</option>
+    </select>
+    {{#if @root.editable}}<a data-action="arrayDelete" data-path="clocks" data-index="{{c.index}}"><i class="fa-solid fa-trash"></i></a>{{/if}}
+  </div>
+  {{else}}
+  <p class="d2-empty">{{localize "D2.Clock.none"}}</p>
+  {{/each}}
+</section>

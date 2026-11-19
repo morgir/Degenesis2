@@ -1,0 +1,42 @@
+<div class="d2 d2-roll-dialog">
+  <div class="form-group">
+    <label>{{localize "D2.Roll.attribute"}}</label>
+    <select name="attr">{{#each attrOptions as |o|}}<option value="{{o.value}}" {{#if o.selected}}selected{{/if}}>{{o.label}}</option>{{/each}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "D2.Roll.skill"}}</label>
+    <select name="skill">{{#each skillOptions as |o|}}<option value="{{o.value}}" {{#if o.selected}}selected{{/if}}>{{o.label}}</option>{{/each}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "D2.Roll.difficulty"}}</label>
+    <select name="difficulty">{{#each diffOptions as |o|}}<option value="{{o.value}}" {{#if o.selected}}selected{{/if}}>{{o.label}}</option>{{/each}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "D2.Roll.modifier"}}</label>
+    <input type="number" name="mod" value="0">
+  </div>
+  <div class="form-group">
+    <label>{{localize "D2.Roll.cechy"}}</label>
+    <input type="number" name="cechy" value="0" min="0" max="3">
+  </div>
+  {{#if egoMax}}
+  <div class="form-group">
+    <label>{{localize "D2.Roll.ego"}}</label>
+    <input type="number" name="ego" value="0" min="0" max="{{egoMax}}">
+  </div>
+  {{/if}}
+  {{#if isPC}}
+  <div class="form-group">
+    <label>{{localize "D2.Roll.background"}}</label>
+    <select name="background">{{#each bgOptions as |o|}}<option value="{{o.value}}">{{o.label}}</option>{{/each}}</select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "D2.Archetype"}}</label>
+    <input type="checkbox" name="archetype" {{#unless archetypeAvailable}}disabled{{/unless}}>
+    <span class="hint">{{#if archetypeAvailable}}+2K{{else}}{{localize "D2.ArchetypeUsed"}}{{/if}}</span>
+  </div>
+  {{/if}}
+  {{#if handling}}<p class="hint">{{localize "D2.Weapon.handling"}}: {{d2signed handling}}K</p>{{/if}}
+  {{#if gang}}<p class="hint">{{localize "D2.Npc.gangBonusHint"}}</p>{{/if}}
+  {{#if woundPenalty}}<p class="hint d2-penalty">{{localize "D2.Wounds.penalty"}}: −{{woundPenalty}}K</p>{{/if}}
+</div>

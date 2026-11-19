@@ -1,0 +1,24 @@
+<div class="d2 d2-chat-roll outcome-{{outcomeClass}}">
+  <header>
+    <h3>{{label}}</h3>
+    <span class="d2-sub">{{#each parts as |p|}}{{p.label}} {{d2signed p.value}}{{#unless @last}} · {{/unless}}{{/each}} = <b>{{pool.dice}}K</b>{{#if pool.autoSuccesses}} + {{pool.autoSuccesses}} {{localize "D2.Roll.auto"}}{{/if}}</span>
+  </header>
+  <div class="d2-dice">
+    {{#each results as |d|}}<span class="d2-die {{d.cls}}">{{d.r}}</span>{{/each}}
+  </div>
+  <div class="d2-result">
+    <span class="d2-outcome">{{outcomeLabel}}</span>
+    <span class="d2-counts">
+      {{localize "D2.Roll.successes"}}: <b>{{ev.successes}}</b>{{#if (d2eq difficulty null)}}{{else}} / {{difficulty}}{{/if}}
+      · {{localize "D2.Roll.triggers"}}: <b>{{ev.triggers}}</b>
+    </span>
+  </div>
+  <p class="d2-hint">{{outcomeHint}}</p>
+  {{#if damage}}
+  <div class="d2-damage">
+    <span>{{localize "D2.Weapon.damage"}}: {{damage.base}}{{#if damage.triggers}} + {{damage.triggers}} ({{localize "D2.Roll.triggers"}}){{/if}} = <b>{{damage.total}}</b></span>
+    <button type="button" data-d2-action="apply-damage" data-damage="{{damage.total}}"><i class="fa-solid fa-droplet"></i> {{localize "D2.Chat.applyDamage"}}</button>
+    {{#if damage.triggers}}<button type="button" data-d2-action="apply-damage" data-damage="{{damage.base}}">{{localize "D2.Chat.applyBase"}}</button>{{/if}}
+  </div>
+  {{/if}}
+</div>

@@ -1,0 +1,43 @@
+<div class="d2-sheet">
+  <header class="d2-header">
+    <img class="profile" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="{{actor.name}}" width="72" height="72">
+    <div class="d2-header-main">
+      <input class="d2-name" type="text" name="name" value="{{actor.name}}">
+      <label class="d2-block">{{localize "D2.Sledztwo.pytanie"}}<input type="text" name="system.pytanie" value="{{system.pytanie}}" placeholder="{{localize 'D2.Sledztwo.pytanieHint'}}"></label>
+    </div>
+  </header>
+  <div class="d2-body">
+    <section class="d2-tropy">
+      <h3>{{localize "D2.Sledztwo.tropy"}}
+        <a class="d2-add" data-action="arrayAdd" data-path="tropy"><i class="fa-solid fa-plus"></i></a>
+      </h3>
+      {{#each tropy as |t|}}
+      <div class="d2-trop kind-{{t.kind}}">
+        <select data-array="tropy" data-index="{{t.index}}" data-field="kind">
+          {{#each @root.kindOptions as |o|}}<option value="{{o.value}}" {{#if (d2eq o.value t.kind)}}selected{{/if}}>{{o.label}}</option>{{/each}}
+        </select>
+        <input type="text" class="grow" value="{{t.text}}" data-array="tropy" data-index="{{t.index}}" data-field="text" placeholder="{{localize 'D2.Sledztwo.tropText'}}">
+        <input type="text" class="source" value="{{t.source}}" data-array="tropy" data-index="{{t.index}}" data-field="source" placeholder="{{localize 'D2.Sledztwo.source'}}">
+        <a data-action="arrayDelete" data-path="tropy" data-index="{{t.index}}"><i class="fa-solid fa-trash"></i></a>
+      </div>
+      {{else}}
+      <p class="d2-empty">{{localize "D2.Sledztwo.none"}}</p>
+      {{/each}}
+      <p class="d2-hint">{{localize "D2.Sledztwo.hint"}}</p>
+    </section>
+
+    <section>
+      <h3>{{localize "D2.Sledztwo.teorie"}}</h3>
+      <textarea name="system.teorie" rows="6" placeholder="{{localize 'D2.Sledztwo.teorieHint'}}">{{system.teorie}}</textarea>
+      <p class="d2-hint">{{localize "D2.Sledztwo.wniosekHint"}}</p>
+    </section>
+
+    {{> "systems/degenesis2/templates/parts/clocks.hbs"}}
+
+    <section>
+      <h3>{{localize "D2.Tab.notes"}}</h3>
+      <textarea class="d2-notes" name="system.notes" rows="6">{{system.notes}}</textarea>
+    </section>
+    <p><button type="button" data-action="oracle"><i class="fa-solid fa-dice"></i> {{localize "D2.Oracle.title"}}</button></p>
+  </div>
+</div>

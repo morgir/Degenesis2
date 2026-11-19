@@ -1,0 +1,244 @@
+<div class="d2-sheet">
+  <header class="d2-header">
+    <img class="profile" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="{{actor.name}}" width="96" height="96">
+    <div class="d2-header-main">
+      <input class="d2-name" type="text" name="name" value="{{actor.name}}" placeholder="{{localize 'D2.Name'}}">
+      <div class="d2-identity">
+        <label>{{localize "D2.Identity.kultura"}}<input type="text" name="system.identity.kultura" value="{{system.identity.kultura}}"></label>
+        <label>{{localize "D2.Identity.koncept"}}<input type="text" name="system.identity.koncept" value="{{system.identity.koncept}}"></label>
+        <label>{{localize "D2.Identity.kult"}}<input type="text" name="system.identity.kult" value="{{system.identity.kult}}"></label>
+        <label>{{localize "D2.Identity.ranga"}}<input type="text" name="system.identity.ranga" value="{{system.identity.ranga}}"></label>
+      </div>
+      <div class="d2-resources">
+        <div class="d2-res">
+          <span class="label" data-tooltip="{{localize 'D2.EgoHint'}}">{{localize "D2.Ego"}}</span>
+          <a data-action="track" data-path="system.ego.value" data-delta="-1"><i class="fa-solid fa-minus"></i></a>
+          <b>{{system.ego.value}}</b>/{{system.ego.max}}
+          <a data-action="track" data-path="system.ego.value" data-delta="1" data-max="{{system.ego.max}}"><i class="fa-solid fa-plus"></i></a>
+        </div>
+        <div class="d2-res">
+          <span class="label">{{localize "D2.Defense"}}</span> <b>{{system.defense.value}}</b>
+        </div>
+        <div class="d2-res">
+          <a class="d2-creator-btn" data-action="openCreator" data-tooltip="{{localize 'D2.Creator.open'}}"><i class="fa-solid fa-user-plus"></i> {{localize "D2.Creator.short"}}</a>
+          <label class="d2-check" data-tooltip="{{localize 'D2.ArchetypeHint'}}">
+            <input type="checkbox" name="system.archetypeUsed" {{#if system.archetypeUsed}}checked{{/if}}> {{localize "D2.ArchetypeUsed"}}
+          </label>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="d2-tabs">
+    <a data-action="d2tab" data-tab="stats">{{localize "D2.Tab.stats"}}</a>
+    <a data-action="d2tab" data-tab="combat">{{localize "D2.Tab.combat"}}</a>
+    <a data-action="d2tab" data-tab="soul">{{localize "D2.Tab.soul"}}</a>
+    <a data-action="d2tab" data-tab="debt">{{localize "D2.Tab.debt"}}</a>
+    <a data-action="d2tab" data-tab="background">{{localize "D2.Tab.background"}}</a>
+    <a data-action="d2tab" data-tab="rozwoj">{{localize "D2.Tab.rozwoj"}}</a>
+    <a data-action="d2tab" data-tab="gear">{{localize "D2.Tab.gear"}}</a>
+    <a data-action="d2tab" data-tab="notes">{{localize "D2.Tab.notes"}}</a>
+  </nav>
+
+  <section class="tab-panel" data-tab-panel="stats">
+    <div class="d2-paths">
+      <label>{{localize "D2.Path"}}
+        <select name="system.path">{{selectOptions pathOptions selected=system.path}}</select>
+      </label>
+      <label>{{localize "D2.Belief"}}
+        <select name="system.belief">{{selectOptions beliefOptions selected=system.belief}}</select>
+      </label>
+    </div>
+    {{> "systems/degenesis2/templates/parts/stats.hbs"}}
+  </section>
+
+  <section class="tab-panel" data-tab-panel="combat">
+    {{> "systems/degenesis2/templates/parts/wounds.hbs"}}
+    <label class="d2-inline">{{localize "D2.DefenseBonus"}}
+      <input type="number" name="system.defense.bonus" value="{{system.defense.bonus}}">
+    </label>
+    {{> "systems/degenesis2/templates/parts/weapons.hbs"}}
+    <section>
+      <h3>{{localize "D2.Blizny"}}</h3>
+      <textarea name="system.blizny" rows="3" placeholder="{{localize 'D2.BliznyHint'}}">{{system.blizny}}</textarea>
+    </section>
+  </section>
+
+  <section class="tab-panel" data-tab-panel="soul">
+    <section class="d2-spores">
+      <h3>{{localize "D2.Zarazenie.title"}} <span class="d2-sub">{{localize "D2.Zarazenie.max"}}: {{system.zarazenie.max}}</span></h3>
+      <div class="d2-boxes spores">
+        {{#each sporeBoxes as |b|}}
+        <span class="d2-box spore {{#if b.permanent}}permanent{{/if}} {{#if b.filled}}filled{{/if}} {{#if b.half}}half{{/if}}"></span>
+        {{/each}}
+      </div>
+      <div class="d2-spore-controls">
+        <span>{{localize "D2.Zarazenie.value"}}
+          <a data-action="track" data-path="system.zarazenie.value" data-delta="-1"><i class="fa-solid fa-minus"></i></a>
+          <b>{{system.zarazenie.value}}</b>
+          <a data-action="track" data-path="system.zarazenie.value" data-delta="1"><i class="fa-solid fa-plus"></i></a>
+        </span>
+        <span>{{localize "D2.Zarazenie.permanent"}}
+          <a data-action="track" data-path="system.zarazenie.permanent" data-delta="-1"><i class="fa-solid fa-minus"></i></a>
+          <b>{{system.zarazenie.permanent}}</b>
+          <a data-action="track" data-path="system.zarazenie.permanent" data-delta="1"><i class="fa-solid fa-plus"></i></a>
+        </span>
+      </div>
+      {{#if sporeOver}}<p class="d2-warning"><i class="fa-solid fa-biohazard"></i> {{localize "D2.Zarazenie.over" n=sporeOver}}</p>{{/if}}
+      {{#if system.zarazenie.stigma}}<p class="d2-warning">{{localize "D2.Zarazenie.stigma"}}</p>{{/if}}
+      {{#if system.zarazenie.leperos}}<p class="d2-warning strong">{{localize "D2.Zarazenie.leperos"}}</p>{{/if}}
+      <p class="d2-hint">{{localize "D2.Zarazenie.whisperHint"}}</p>
+    </section>
+
+    <section class="d2-grid-2">
+      <label>{{localize "D2.Ambicja"}}<input type="text" name="system.ambicja" value="{{system.ambicja}}"></label>
+      <label>{{localize "D2.Tajemnica"}}<input type="text" name="system.tajemnica" value="{{system.tajemnica}}"></label>
+      <label class="span-2">{{localize "D2.Cien"}}<input type="text" name="system.cien" value="{{system.cien}}" placeholder="{{cienHint}}"></label>
+    </section>
+    {{#if metoda}}<p class="d2-hint"><b>{{localize "D2.Kult.metoda"}}:</b> {{metoda}}</p>{{/if}}
+    {{#if ideal}}<p class="d2-hint"><b>{{localize "D2.Kult.ideal"}}:</b> {{ideal}}</p>{{/if}}
+    <section>
+      <h3>{{localize "D2.Wiezi"}}</h3>
+      <textarea name="system.wiezi" rows="4" placeholder="{{localize 'D2.WieziHint'}}">{{system.wiezi}}</textarea>
+    </section>
+  </section>
+
+  <section class="tab-panel" data-tab-panel="debt">
+    <section>
+      <h3>{{localize "D2.Dlug.held"}}</h3>
+      <ul class="d2-item-list d2-debt-list">
+        {{#each debtsHeld as |d|}}<li class="waga-{{d.waga}}"><i class="fa-solid fa-hand-holding-dollar"></i> <b>{{d.other}}</b> · {{d.wagaLabel}} · {{d.powod}}</li>
+        {{else}}<li class="d2-empty">{{localize "D2.Dlug.noneHeld"}}</li>{{/each}}
+      </ul>
+      <h3>{{localize "D2.Dlug.owed"}}</h3>
+      <ul class="d2-item-list d2-debt-list">
+        {{#each debtsOwed as |d|}}<li class="waga-{{d.waga}}"><i class="fa-solid fa-link"></i> <b>{{d.other}}</b> · {{d.wagaLabel}} · {{d.powod}}</li>
+        {{else}}<li class="d2-empty">{{localize "D2.Dlug.noneOwed"}}</li>{{/each}}
+      </ul>
+      {{#if debtsClosed.length}}
+      <details><summary>{{localize "D2.Dlug.closed"}} ({{debtsClosed.length}})</summary>
+        <ul class="d2-item-list">{{#each debtsClosed as |d|}}<li class="dlug-{{d.status}}">{{d.other}} · {{d.powod}} <span class="d2-sub">{{d.statusLabel}}</span></li>{{/each}}</ul>
+      </details>
+      {{/if}}
+      <p class="d2-hint">{{localize "D2.Dlug.pcHint"}}</p>
+    </section>
+    <section>
+      <h3>{{localize "D2.Imie.title"}}</h3>
+      <table class="d2-table d2-rep">
+        <tbody>
+        {{#each reputation as |r|}}
+          <tr class="{{r.cls}}">
+            <td><a data-action="openActor" data-uuid="{{r.uuid}}">{{r.name}}</a></td>
+            <td class="num">{{d2signed r.value}}</td>
+            <td><b>{{r.tier}}</b></td>
+            <td class="small">{{r.osobiste}}</td>
+          </tr>
+        {{else}}
+          <tr><td class="d2-empty">{{localize "D2.Imie.none"}}</td></tr>
+        {{/each}}
+        </tbody>
+      </table>
+    </section>
+  </section>
+
+  <section class="tab-panel" data-tab-panel="background">
+    <section class="d2-backgrounds">
+      <h3>{{localize "D2.Background.title"}}</h3>
+      {{#each backgrounds as |bg|}}
+      <div class="d2-bg-row">
+        <span class="label">{{bg.label}}</span>
+        <input type="number" name="system.backgrounds.{{bg.key}}.value" value="{{bg.value}}" min="0" max="6">
+        <span class="d2-boxes">
+          {{#each bg.boxes as |b|}}<span class="d2-box {{#if b.filled}}filled{{/if}} {{#if b.spent}}spent{{/if}}"></span>{{/each}}
+        </span>
+        <a data-action="bgSpend" data-key="{{bg.key}}" data-delta="1" data-tooltip="{{localize 'D2.Background.spend'}}"><i class="fa-solid fa-hand-holding"></i></a>
+        <a data-action="bgSpend" data-key="{{bg.key}}" data-delta="-1" data-tooltip="{{localize 'D2.Background.restore'}}"><i class="fa-solid fa-rotate-left"></i></a>
+      </div>
+      {{/each}}
+      <p class="d2-hint">{{localize "D2.Background.hint"}}</p>
+    </section>
+
+    <section>
+      <h3>{{localize "D2.Identity.title"}}</h3>
+      <ul class="d2-item-list">
+        {{#each items.tozsamosc as |i|}}
+        <li data-item-id="{{i.id}}"><img src="{{i.img}}" width="24" height="24" alt=""> <b>{{localize (concat "TYPES.Item." i.type)}}:</b> {{i.name}}
+          <span class="d2-controls"><a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a></span></li>
+        {{else}}
+        <li class="d2-empty">{{localize "D2.Identity.dropHint"}}</li>
+        {{/each}}
+      </ul>
+    </section>
+
+    <section>
+      <h3>{{localize "D2.Potentials"}} <a class="d2-add" data-action="itemCreate" data-type="potencjal"><i class="fa-solid fa-plus"></i></a></h3>
+      <ul class="d2-item-list">
+        {{#each items.potencjaly as |i|}}
+        <li data-item-id="{{i.id}}"><a data-action="rollItem">{{i.name}}</a> <span class="d2-sub">{{localize "D2.Level"}} {{i.system.level}}</span>
+          <span class="d2-controls"><a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a></span></li>
+        {{/each}}
+      </ul>
+    </section>
+
+  </section>
+
+  <section class="tab-panel d2-rozwoj" data-tab-panel="rozwoj">
+    <div class="d2-xp-head">
+      <div class="d2-xp-box"><span>{{localize "D2.Xp.total"}}</span>{{#if rozwoj.isGM}}<input type="number" name="system.xp.total" value="{{system.xp.total}}">{{else}}<b>{{rozwoj.total}}</b>{{/if}}</div>
+      <div class="d2-xp-box"><span>{{localize "D2.Xp.spent"}}</span>{{#if rozwoj.isGM}}<input type="number" name="system.xp.spent" value="{{system.xp.spent}}">{{else}}<b>{{rozwoj.spent}}</b>{{/if}}</div>
+      <div class="d2-xp-box big"><span>{{localize "D2.Xp.available"}}</span><b>{{rozwoj.avail}}</b></div>
+    </div>
+    {{#if rozwoj.isGM}}
+    <div class="d2-xp-awards"><span>{{localize "D2.Xp.award"}}:</span>
+      {{#each rozwoj.awards as |w|}}<button type="button" data-action="xpAward" data-amount="{{w.amount}}" data-reason="{{w.reason}}">+{{w.amount}} {{w.reason}}</button>{{/each}}
+    </div>
+    {{/if}}
+    <p class="d2-hint">{{localize "D2.Xp.costs"}}{{#if rozwoj.origin}} · {{localize "D2.Xp.pref"}}: {{rozwoj.origin}}{{/if}}</p>
+
+    <div class="d2-xp-grid">
+      {{#each rozwoj.groups as |g|}}
+      <div class="d2-xp-group">
+        <div class="d2-xp-row attr {{#if g.pref}}pref{{/if}}">
+          <span class="n">{{g.abbr}} — {{g.label}}{{#if g.pref}} <i class="fa-solid fa-star" data-tooltip="{{localize 'D2.Xp.prefHint'}}"></i>{{/if}}</span>
+          <b>{{g.value}}</b>
+          {{#if g.max}}<span class="c">maks.</span>{{else}}<button type="button" class="buy" data-action="xpBuy" data-kind="attr" data-key="{{g.key}}" {{#unless g.can}}disabled{{/unless}}>+1 · {{g.cost}} PD</button>{{/if}}
+        </div>
+        {{#each g.skills as |s|}}
+        <div class="d2-xp-row {{#if s.pref}}pref{{/if}}">
+          <span class="n">{{s.label}}{{#if s.pref}} <i class="fa-solid fa-star"></i>{{/if}} <small>(pula {{s.pool}})</small></span>
+          <b>{{s.value}}</b>
+          {{#if s.max}}<span class="c">maks.</span>{{else}}<button type="button" class="buy" data-action="xpBuy" data-kind="skill" data-key="{{s.key}}" {{#unless s.can}}disabled{{/unless}}>+1 · {{s.cost}} PD</button>{{/if}}
+        </div>
+        {{/each}}
+      </div>
+      {{/each}}
+    </div>
+
+    <h3>{{localize "D2.Potentials"}} <button type="button" class="d2-add-btn" data-action="xpNewPotential"><i class="fa-solid fa-plus"></i> {{localize "D2.Xp.newPot"}} ({{rozwoj.newPotCost}} PD)</button></h3>
+    {{#each rozwoj.potentials as |p|}}
+    <div class="d2-xp-row"><span class="n">{{p.name}}</span><b>{{p.level}}</b>
+      {{#if p.max}}<span class="c">maks.</span>{{else}}<button type="button" class="buy" data-action="xpBuy" data-kind="potential" data-key="{{p.id}}" {{#unless p.can}}disabled{{/unless}}>+1 · {{p.cost}} PD</button>{{/if}}</div>
+    {{else}}<p class="d2-hint">—</p>{{/each}}
+    <p class="d2-hint">{{localize "D2.Xp.bgNote"}}</p>
+
+    <h3>{{localize "D2.Xp.log"}} {{#if rozwoj.isGM}}<a data-action="xpUndo" data-tooltip="{{localize 'D2.Xp.undo'}}"><i class="fa-solid fa-rotate-left"></i></a>{{/if}}</h3>
+    <ul class="d2-xp-log">
+      {{#each rozwoj.log as |e|}}<li class="{{#if e.pos}}pos{{else}}neg{{/if}}"><span>{{e.date}}</span> {{e.t}} <b>{{#if e.pos}}+{{/if}}{{e.delta}}</b></li>{{else}}<li class="d2-hint">—</li>{{/each}}
+    </ul>
+  </section>
+
+  <section class="tab-panel" data-tab-panel="gear">
+    <label class="d2-inline">{{localize "D2.Money"}}<input type="text" name="system.money" value="{{system.money}}"></label>
+    <h3>{{localize "D2.Gear"}} <a class="d2-add" data-action="itemCreate" data-type="ekwipunek"><i class="fa-solid fa-plus"></i></a></h3>
+    <ul class="d2-item-list">
+      {{#each items.ekwipunek as |i|}}
+      <li data-item-id="{{i.id}}"><img src="{{i.img}}" width="24" height="24" alt=""> {{i.name}} <span class="d2-sub">×{{i.system.quantity}}</span>
+        <span class="d2-controls"><a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a></span></li>
+      {{/each}}
+    </ul>
+  </section>
+
+  <section class="tab-panel" data-tab-panel="notes">
+    <textarea class="d2-notes" name="system.notes" rows="20">{{system.notes}}</textarea>
+  </section>
+</div>

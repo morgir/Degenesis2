@@ -1,0 +1,87 @@
+<div class="d2-sheet">
+  <header class="d2-header">
+    <img class="profile" src="{{item.img}}" data-edit="img" data-action="editImage" alt="{{item.name}}" width="64" height="64">
+    <div class="d2-header-main">
+      <input class="d2-name" type="text" name="name" value="{{item.name}}">
+      <span class="d2-sub">{{localize (concat "TYPES.Item." item.type)}}</span>
+    </div>
+  </header>
+  <div class="d2-body">
+    {{#if isType.bron}}
+    <div class="d2-grid-3">
+      <label>{{localize "D2.Weapon.skill"}}<select name="system.skill">{{selectOptions weaponSkillOptions selected=system.skill}}</select></label>
+      <label>{{localize "D2.Weapon.handling"}}<input type="number" name="system.handling" value="{{system.handling}}"></label>
+      <label>{{localize "D2.Weapon.damage"}}<input type="text" name="system.damage" value="{{system.damage}}" data-tooltip="{{localize 'D2.Weapon.damageHint'}}"></label>
+      <label>{{localize "D2.Weapon.range"}}<input type="text" name="system.range" value="{{system.range}}"></label>
+      <label>{{localize "D2.Weapon.magazine"}}<span class="d2-pair"><input type="number" name="system.magazine.value" value="{{system.magazine.value}}"> / <input type="number" name="system.magazine.max" value="{{system.magazine.max}}"></span></label>
+      <label>{{localize "D2.Encumbrance"}}<input type="number" name="system.encumbrance" value="{{system.encumbrance}}"></label>
+      <label class="span-3">{{localize "D2.Weapon.qualities"}}<input type="text" name="system.qualities" value="{{system.qualities}}"></label>
+    </div>
+    {{/if}}
+
+    {{#if isType.pancerz}}
+    <div class="d2-grid-3">
+      <label>{{localize "D2.Armor"}}<input type="number" name="system.armor" value="{{system.armor}}"></label>
+      <label>{{localize "D2.Encumbrance"}}<input type="number" name="system.encumbrance" value="{{system.encumbrance}}"></label>
+      <label class="d2-check"><input type="checkbox" name="system.equipped" {{#if system.equipped}}checked{{/if}}> {{localize "D2.Sheet.equip"}}</label>
+      <label class="span-3">{{localize "D2.Weapon.qualities"}}<input type="text" name="system.qualities" value="{{system.qualities}}"></label>
+    </div>
+    {{/if}}
+
+    {{#if isType.ekwipunek}}
+    <div class="d2-grid-3">
+      <label>{{localize "D2.Quantity"}}<input type="number" name="system.quantity" value="{{system.quantity}}"></label>
+      <label>{{localize "D2.Encumbrance"}}<input type="number" name="system.encumbrance" value="{{system.encumbrance}}"></label>
+      <label>{{localize "D2.Value"}}<input type="text" name="system.value" value="{{system.value}}"></label>
+    </div>
+    {{/if}}
+
+    {{#if isType.potencjal}}
+    <div class="d2-grid-3">
+      <label>{{localize "D2.Level"}}<input type="number" name="system.level" value="{{system.level}}" min="1" max="3"></label>
+      <label>{{localize "D2.Identity.kult"}}<input type="text" name="system.kult" value="{{system.kult}}"></label>
+      <label>{{localize "D2.Prerequisite"}}<input type="text" name="system.prerequisite" value="{{system.prerequisite}}"></label>
+    </div>
+    <div class="d2-grid-3">
+      <label><input type="checkbox" name="system.zjawisko" {{checked system.zjawisko}}> {{localize "D2.Phenomenon.is"}}</label>
+      {{#if system.zjawisko}}<label>{{localize "D2.Phenomenon.level"}}<input type="number" name="system.poziomZjawiska" value="{{system.poziomZjawiska}}" min="0" max="20"></label>{{/if}}
+    </div>
+    {{/if}}
+
+    {{#if isType.koncept}}
+    <div class="d2-grid-2">
+      <label>{{localize "D2.Koncept.tarot"}}<input type="text" name="system.tarot" value="{{system.tarot}}"></label>
+      <label>{{localize "D2.Cien"}}<input type="text" name="system.cien" value="{{system.cien}}"></label>
+    </div>
+    {{/if}}
+
+    {{#if isType.kultura}}
+    <label class="d2-block">{{localize "D2.Kultura.kulty"}}<input type="text" name="system.kulty" value="{{system.kulty}}"></label>
+    {{/if}}
+
+    {{#if isType.kult}}
+    <label class="d2-block">{{localize "D2.Kult.metoda"}}<input type="text" name="system.metoda" value="{{system.metoda}}"></label>
+    <label class="d2-block">{{localize "D2.Kult.ideal"}}<input type="text" name="system.ideal" value="{{system.ideal}}"></label>
+    {{/if}}
+
+    {{#if hasBonuses}}
+    <h3>{{localize "D2.Bonuses"}}</h3>
+    <p class="d2-hint">{{localize "D2.BonusesHint"}}</p>
+    <div class="d2-bonus-grid">
+      {{#each bonusGrid as |a|}}
+      <div class="d2-bonus-col">
+        {{#if a.showAttr}}
+        <a class="d2-bonus attr {{#if a.active}}active{{/if}}" data-action="toggleBonus" data-kind="attributeBonuses" data-key="{{a.key}}">{{a.label}}</a>
+        {{else}}<span class="d2-bonus attr static">{{a.label}}</span>{{/if}}
+        {{#each a.skills as |s|}}
+        <a class="d2-bonus {{#if s.active}}active{{/if}}" data-action="toggleBonus" data-kind="skillBonuses" data-key="{{s.key}}">{{s.label}}</a>
+        {{/each}}
+      </div>
+      {{/each}}
+    </div>
+    {{/if}}
+
+    <h3>{{localize "D2.Description"}}</h3>
+    <textarea class="d2-notes" name="system.description" rows="10">{{system.description}}</textarea>
+  </div>
+</div>

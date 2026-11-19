@@ -1,0 +1,20 @@
+<section class="d2-wounds">
+  <h3>{{localize "D2.Wounds.title"}} <span class="d2-sub">{{localize "D2.Wounds.threshold"}}: <b>{{system.threshold}}</b> · {{localize "D2.Armor"}}: <b>{{armorValue}}</b>{{#if system.woundPenalty}} · <span class="d2-penalty">−{{system.woundPenalty}}K</span>{{/if}}</span></h3>
+  {{#each wounds as |w|}}
+  <div class="d2-wound-row">
+    <span class="label">{{w.label}}</span>
+    <span class="d2-boxes">
+      {{#each w.boxes as |b|}}
+      <a class="d2-box wound-{{w.key}} {{#if b.filled}}filled{{/if}}" data-action="woundBox" data-tier="{{w.key}}" data-index="{{b.index}}"></a>
+      {{/each}}
+    </span>
+  </div>
+  {{/each}}
+  <p class="d2-hint">{{localize "D2.Wounds.ladder" t=system.threshold t2=system.threshold2}}</p>
+  {{#if system.eliminated}}
+  <div class="d2-eliminated">
+    <i class="fa-solid fa-skull-crossbones"></i> {{localize "D2.Wounds.eliminated"}}
+    <a data-action="reviveEliminated" data-tooltip="{{localize 'D2.Wounds.revive'}}"><i class="fa-solid fa-rotate-left"></i></a>
+  </div>
+  {{/if}}
+</section>

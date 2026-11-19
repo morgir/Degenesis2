@@ -1,0 +1,181 @@
+# -*- coding: utf-8 -*-
+"""Bestiariusz 2.0. Źródła oznaczone w opisie: [Katharsys]/[Primal Punk] = profil z podręcznika, [2.0] = dodatek własny. Pule (K) jak w profilach z Katharsys tam, gdzie istnieją; ludzie — własne profile.
+Próg = Kondycja/2 z podręcznika (Rany Powierzchowne = Próg×2). Obrażenia kostkowe uśrednione (1K ≈ 3)."""
+
+# pools: klucz umiejętności -> pula (atrybut+umiejętność). Specjalne: "init" = PSY+Refleks, "mental" = PSY+Wola
+# ---- Zjawiska (nazwa, opis 2.0, poziom = Trudność) — Katharsys, rozdz. Psychonauci ----
+def _plague(extra):
+    return ("Plaga (rój)", "Wypuszcza swój rój. Zaatakowani mają karę −K równą Sile roju do wszystkich akcji i co rundę 1 Lekką ranę; rój ranią tylko broń obszarowa i ogień. " + extra)
+PLAGUE1 = _plague("Biokinetyk: Siła roju +1 za każdy punkt Przeciążenia.") + (1,)
+PLAGUE1D = _plague("") + (1,)
+PLAGUE0 = _plague("") + (0,)
+PLAGUE1P = _plague("Psychokinetyk żywi się wioską przez swój rój i regeneruje się.") + (1,)
+SPIDER = ("Ukąszenie pająka", "Jad o Mocy = Przeciążenie. Ofiara co rundę rzuca CIA+Twardość przeciw Mocy; porażka: traci Ego równe Mocy.", 4)
+NETTLE = ("Włoski parzące", "Łączone z ZRĘ+Strzelectwo: obrażenia = Przeciążenie + Wyzwalacze − pancerz. Trafiony ma −2K, dopóki włosków nie usunie; usunięcie zadaje te same obrażenia.", 4)
+RENEWAL = ("Odnowa", "Wyrywa się z każdych więzów, ale płaci ciałem: w 2.0 otrzymuje ranę Poważną (w podręczniku 10 Ran Powierzchownych).", 5)
+RESONANCE = ("Rezonans", "Atak na Ego: ofiara broni się PSY+Wiara/Wola; porażka = utrata Ego równa Przeciążeniu.", 5)
+TONGUES = ("Mowa językami", "Pierwotna mowa omija świadomość: ofiara rzuca PSY+Wola/Wiara (Trudność = Przeciążenie) albo wykonuje wolę Dushana.", 5)
+FOULSEED = ("Plugawe ziarno", "Zasiewa w podświadomości rozkaz, emocję albo myśl sprzeczną z ideologią ofiary; dojrzewa w kolejnych tygodniach. Opór: PSY+Wiara/Wola (Trudność = Przeciążenie). Po porażce ofiara broni się znowu tylko wtedy, gdy ziarno zmusza ją do czynu wbrew jej naturze. [2.0: idealny motor śledztwa.]", 10)
+ACID = ("Kwas", "Plunięcie ichorem w oczy: −1K za każdy punkt Przeciążenia + Wyzwalacz do rzutów opartych na wzroku. Nie działa na zamknięty hełm.", 5)
+UNITY = ("Jedność", "Obszar: kto nie zda PSY+Wiara/Wola (Trudność = Przeciążenie), składa broń.", 4)
+FEAR = ("Strach", "Kto nie zda PSY+Wiara/Wola (Trudność = Przeciążenie), ucieka.", 6)
+DRONE = ("Dron", "Feromonowa sieć osady: wchodzący rzuca PSY+Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.", 10)
+FREEFLOW = ("Swobodny przepływ", "Za każdy punkt Przeciążenia +1K do ataków do końca walki, ale tyle samo Lekkich ran.", 4)
+NERVEHIT = ("Uderzenie w nerwy", "Łączone z atakiem wręcz: przy trafieniu cel traci Ego = Przeciążenie + Wyzwalacze.", 5)
+RAGE = ("Równowaga gniewu", "Włącza się samo przy Zarażeniu 6, bez Przeciążenia: każdy punkt obrażeń, który przyjmie, dodaje do obrażeń następnego ataku wręcz.", 6)
+BLAST = ("Fala uderzeniowa", "Stożek, którego wielkość wybiera: u źródła 1K + Przeciążenie obrażeń, −1 za każdy metr.", 8)
+
+ENEMIES = [
+# ---------------- LUDZIE ----------------
+("Ludzie", "Bandyta z pustkowi", "statysta", 3, 1, 4,
+ {"init": 4, "mental": 4, "bronBiala": 5, "strzelectwo": 4, "mobilnosc": 4, "percepcja": 4, "skradanie": 4, "dominacja": 4},
+ [("Maczeta", "bronBiala", "3+F/2", "1", "", 0), ("Stara strzelba", "strzelectwo", "8", "5/20", "Rozrzut, 2 naboje", 0)],
+ [], "Łup i przeżycie do jutra", "Sędziowie i Hellveci", "", "Woda, amunicja",
+ "Zdesperowani ludzie z ruin. Uciekają, gdy padnie połowa."),
+("Ludzie", "Banda z kanałów", "banda", 3, 1, 4,
+ {"init": 4, "mental": 3, "bronBiala": 4, "bijatyka": 4, "skradanie": 5, "percepcja": 4},
+ [("Noże, łomy, pałki", "bronBiala", "2+F/3", "1", "", 0)],
+ [], "Utrzymać rewir", "Światło i patrole", "", "Udział w łupie",
+ "Gang prowadzony jako jeden aktor. Liczebność 6; morale łamie się przy 3 stratach."),
+("Ludzie", "Patrol Sędziów (Sędzia miejski)", "weteran", 5, 2, 5,
+ {"init": 5, "mental": 6, "bronBiala": 7, "strzelectwo": 5, "dominacja": 6, "empatia": 4, "percepcja": 5, "obycie": 4},
+ [("Młot sędziowski", "bronBiala", "4+F/2", "1", "Ciężka (−1K następna akcja po trafieniu)", -1), ("Muszkiet", "strzelectwo", "9", "15/60", "Ładowany od lufy", -1)],
+ [("Lincz", "+1K do CHA+Przywództwo przy podburzaniu tłumu.")], "Utrzymać porządek, wypełnić Kodeks", "Że prawo upadnie", "", "Szacunek i informacja",
+ "Kapelusz, płaszcz, młot. Nie przyjmie łapówki publicznie — prywatnie bywa różnie."),
+("Ludzie", "Hellweta (żołnierz)", "weteran", 5, 3, 6,
+ {"init": 6, "mental": 6, "strzelectwo": 8, "bronBiala": 5, "mobilnosc": 5, "percepcja": 6, "przetrwanie": 5},
+ [("Trailblazer", "strzelectwo", "9", "30/120", "Salwa", 1), ("Bagnet", "bronBiala", "2+F/2", "1", "", 0)],
+ [("Ściana tarcz", "Może przejąć atak na towarzysza (PSY+Refleks 4/6).")], "Wykonać rozkaz, oszczędzać amunicję", "Hańba przed Fortecą", "", "Myto, informacje o Klanach",
+ "Uprząż, karabin, dyscyplina. Każdy chybiony strzał to raport."),
+("Ludzie", "Prezerwista Spitalu", "antagonista", 6, 3, 7,
+ {"init": 7, "mental": 7, "bronBiala": 9, "strzelectwo": 6, "mobilnosc": 6, "medycyna": 6, "percepcja": 6},
+ [("Miecz Preservalis", "bronBiala", "3+F/2", "1", "", 1), ("Pistolet", "strzelectwo", "5", "10/40", "", 0)],
+ [("Ostatni Bastion", "+1 Wyzwalacz w ataku na Psychonautów."), ("Preservalis", "Po trafieniu mieczem strzał ignorujący pancerz (−2K).")],
+ "Wypalić Sepsę razem z tymi, którzy ją niosą", "Że Spital przegrywa", "", "Psychonauta albo pole spor",
+ "Najlepszy wojownik Spitalu. Nie bierze jeńców wśród zarażonych. Typowa Stawka Śmierci."),
+("Ludzie", "Apokaliptyk — nożownik Stada", "weteran", 6, 1, 4,
+ {"init": 7, "mental": 5, "bronBiala": 7, "bijatyka": 6, "mobilnosc": 7, "oszustwo": 6, "uwodzenie": 5, "spryt": 6},
+ [("Bransoleta z ostrzem", "bijatyka", "2+F/3", "1", "Ukryta", 1)],
+ [("1000 dróg", "Każdy Wyzwalacz w ataku wręcz: −1K do aktywnej obrony wroga.")], "Interes Stada", "Że Stado go wyrzuci", "", "Burn, sekrety, dług",
+ "Szybki, wesoły, śmiertelny. Woli dług niż trupa — trup nie płaci."),
+("Ludzie", "Złomiarz-najemnik", "weteran", 4, 2, 5,
+ {"init": 5, "mental": 4, "strzelectwo": 6, "bronBiala": 5, "skradanie": 5, "percepcja": 6, "przetrwanie": 6, "artefakty": 5},
+ [("Marvel (karabin domowej roboty)", "strzelectwo", "7", "20/80", "Zacina się na Zgrzyt", 0)],
+ [("Trufla", "+1K do Percepcji przy szukaniu złomu i pułapek.")], "Zarobić i wrócić", "Kartel", "", "Drafty",
+ "Zna ruiny lepiej niż ktokolwiek. Lojalny wobec tego, kto płaci najwięcej."),
+("Ludzie", "Skurger — łowca", "weteran", 6, 2, 6,
+ {"init": 7, "mental": 6, "bronBiala": 8, "strzelectwo": 7, "atletyka": 7, "mobilnosc": 6, "percepcja": 6, "dominacja": 5},
+ [("Włócznia", "bronBiala", "3+F/2", "2", "", 0), ("Karabin szturmowy", "strzelectwo", "8", "30/100", "Salwa", 0)],
+ [("Śmiech hieny", "Raz na walkę, w 1. rundzie +1K do ataku i obrony.")], "Ukarać Wronę (Europejczyków)", "Hańba wobec przodków", "", "Godny przeciwnik",
+ "Maska, tarcza i gniew. Szanuje odwagę bardziej niż słabość."),
+("Ludzie", "Karaluch — wojownik klanu", "statysta", 4, 1, 4,
+ {"init": 5, "mental": 4, "bronBiala": 6, "bijatyka": 6, "skradanie": 6, "percepcja": 5},
+ [("Kościana włócznia", "bronBiala", "2+F/2", "2", "", 0)],
+ [("Szał roju", "Gdy ginie Karaluch, świadkowie z klanu zyskują +1 Ego (ponad maksimum).")], "Zemsta na „ludziach z młotami”", "Światło", "", "Mięso i broń",
+ "Klan z podziemi Borki. Atakuje rojem z tuneli, wycofuje się, gdy przegrywa."),
+("Ludzie", "Król Karaluchów", "antagonista", 3, 2, 9,
+ {"init": 3, "mental": 3, "bronBiala": 9, "sila": 10, "bijatyka": 8},
+ [("Żelazna maczuga", "bronBiala", "4+F/2", "2", "Tępa, ciężka", -1)],
+ [("Kolos", "Słaby punkt: wolny, głupi, bez broni dystansowej. Kto trzyma dystans, przeżyje.")], "Rozkazy kapłanów", "", "", "",
+ "Zdeformowany kolos trzymany w łańcuchach w najgłębszych kryptach. Wypuszczany do wojny."),
+("Ludzie", "Leperos", "statysta", 12, 0, 4,
+ {"init": 4, "mental": 6, "bronBiala": 5, "refleks": 4},
+ [("Prymitywna broń", "bronBiala", "5", "1", "", 0)],
+ [("Rozgorzenie", "Gdy ginie Leperos, pozostali atakują winnych w szale: +1K do ataków za każdego martwego (maks. +4K), bez aktywnej obrony. [Primal Punk]"), ("Nosiciel [2.0]", "Bliski kontakt: rzut na Sepsę (intensywność 2).")],
+ "Wola Prymera", "", "", "",
+ "Człowiek, którego duszę pożarł Prymer; myśli Leperosów i Psychonautów splatają się w zewie Czakr. Spitalianie palą ich bez pytania. [Primal Punk]"),
+# ---------------- BESTIE ----------------
+("Bestie", "Gendo (wilk pustkowi)", "weteran", 6, 2, 5,
+ {"init": 8, "mental": 8, "bijatyka": 7, "mobilnosc": 9, "refleks": 9, "atletyka": 10, "percepcja": 7},
+ [("Ugryzienie", "bijatyka", "5", "1", "", 0)],
+ [("Zmysł watahy", "Dopóki żyje alfa, wataha ma +2 sukcesy do obrony mentalnej.")], "Głód", "Ogień", "", "",
+ "Wataha poluje na słabszych. Za głowę Gendo płacą w osadach do 20 Draftów. [Primal Punk s. 249]"),
+("Bestie", "Mamut", "antagonista", 5, 2, 16,
+ {"init": 4, "mental": 5, "bijatyka": 5, "sila": 6, "mobilnosc": 5},
+ [("Zamach kłami", "bijatyka", "8", "3", "Tępa", 0), ("Stratowanie (tylko w panice)", "bijatyka", "15", "1", "Tępa; unik Mobilnością lub Atletyką", 1)],
+ [("Panika", "Przy Ego 0 rzut k6: 1–3 = ucieka albo tratuje najbliższych.")], "Chronić stado", "", "", "",
+ "Stada Garganti. W kręgu bronią młodych, rzadko atakują pierwsze."),
+("Prymer", "Bestia sporowa", "antagonista", 4, 3, 9,
+ {"init": 9, "mental": 12, "bijatyka": 9, "skradanie": 10, "mobilnosc": 9},
+ [("Pazury i kły", "bijatyka", "7", "1", "", 0)],
+ [("Nieugięta", "Nie traci Ego od ataków mentalnych i społecznych; Shocker zadaje jej ranę Poważną.")], "Polować na słabszych", "", "", "",
+ "Zwierzę przemienione przez Prymer, z kostnymi naroślami. W Borce i przy Barierze Lodowej samotne i przebiegłe — atakuje tylko słabszych, gniazduje głęboko pod ziemią. [Primal Punk]"),
+("Prymer", "Skorpion Stukowski", "statysta", 2, 2, 3,
+ {"init": 6, "mental": 3, "bijatyka": 6, "skradanie": 8},
+ [("Żądło", "bijatyka", "2", "1", "Jad (Moc 6, opór CIA+Twardość): −1 CIA i ZRĘ na rundę aż do paraliżu", 0)],
+ [], "", "", "", "",
+ "Zakopane w skorupie solniska; reagują na drgania i atakują wszystko bliżej niż dziesięć kroków, jad wywołuje ciężki paraliż [Katharsys]. Statystyki własne [2.0] — podręcznik nie podaje profilu."),
+# ---------------- MASZYNY / ŚPIĄCY ----------------
+("Maszyny i Śpiący", "AMSUMO Egzekutor (Enforcer)", "antagonista", 0, 8, 20,
+ {"init": 14, "mental": 12, "bronBiala": 7, "percepcja": 7, "obr": 2},
+ [("Kamienna maczuga", "bronBiala", "10", "1", "Tępa", 0)],
+ [("Maszyna", "Nie ma Ego; odporna na wpływy mentalne i społeczne. Pancerz Masywny (10). Obrona bierna 3."), ("Rdzeń jądrowy", "Uszkodzenie ogniwa może rozgrzać reaktor ponad 1000°C i skazić okolicę promieniowaniem. [Katharsys]")],
+ "Program", "", "", "",
+ "Kolos z zapomnianej armii. [Katharsys] Pojedynek z nim to zawsze Stawka Śmierci [2.0]."),
+("Maszyny i Śpiący", "Śpiący — żołnierz", "antagonista", 16, 6, 8,
+ {"init": 10, "mental": 7, "strzelectwo": 11, "bronBiala": 7, "mobilnosc": 10, "przywodztwo": 8},
+ [("Karabin strzałkowy", "strzelectwo", "13", "30/80", "Salwa (5)", 1)],
+ [("Wstrzykiwacz bojowy", "Bransoleta z endorfinami i adrenaliną: na czas walki +2K do inicjatywy. [Katharsys]")], "Misja sprzed wieków", "", "", "",
+ "Żołnierz z kriostazy. Technologia, której nikt dziś nie rozumie."),
+("Maszyny i Śpiący", "Śpiący — Łowca", "antagonista", 16, 6, 7,
+ {"init": 10, "mental": 14, "strzelectwo": 10, "bronBiala": 7, "mobilnosc": 10, "dominacja": 7, "percepcja": 10},
+ [("Karabin strzałkowy", "strzelectwo", "13", "30/80", "Salwa (5)", 1), ("Nóż bojowy", "bronBiala", "5", "1", "", 1)],
+ [("Sprzęt", "Enkoder; Interferencer (zakłóca łączność). Pancerz kompozytowy, kuloodporny (9).")], "Tropić i odzyskiwać", "", "", "",
+ "Tropiciel Śpiących. Pojawia się tam, gdzie ktoś otworzył niewłaściwy bunkier."),
+# ---------------- PSYCHONAUCI ----------------
+# Profile z Katharsys (rozdz. Psychonauci). Zjawiska: pula = Zarażenie − Przeciążenie, Trudność = poziom (Katharsys s. 285).
+# Przeliczenie 2.0: Rana Powierzchowna → Lekka rana, Trauma → rana Poważna, Próg = Kondycja/2, Obrona bierna → bonus Obrony.
+("Psychonauci", "Biokinetyk — Migrant", "antagonista", 6, 4, 14,
+ {"init": 8, "mental": 5, "bijatyka": 9, "bronBiala": 10, "sila": 10, "mobilnosc": 6, "prymer": (12, 16), "obr": 1},
+ [("Ugryzienie", "bijatyka", "6", "1", "Płynny (2W); może przenieść Ukąszenie pająka", 0), ("Ciężki topór", "bronBiala", "14", "1", "Uderzenie (2W)", 0)],
+ [PLAGUE1, SPIDER, NETTLE, RENEWAL],
+ "Strzec pola spor", "Ogień", "", "",
+ "Psychonauta z Pollen, wędrowiec pól spor; szybszy i mniej agresywny niż Rezydent. Kostne narośla i częściowy egzoszkielet (pancerz 4). Rój siła 4. [Katharsys s. 293]"),
+("Psychonauci", "Biokinetyk — Rezydent", "antagonista", 8, 4, 17,
+ {"init": 9, "mental": 6, "bijatyka": 9, "bronBiala": 9, "sila": 14, "percepcja": 12, "mobilnosc": 6, "prymer": (22, 22)},
+ [("Ugryzienie", "bijatyka", "8", "1", "Płynny (2W); może przenieść Ukąszenie pająka", 0), ("Ramię-szpon / ramię-maczuga", "bronBiala", "12", "2", "Płynny (2W); maczuga: Tępa", 0)],
+ [PLAGUE1, SPIDER, NETTLE, RENEWAL],
+ "Pole spor jest nim, a on polem", "Spitalianie z miotaczami", "", "",
+ "Zrośnięty ze swoim polem spor: przędzie nici, które donoszą mu o każdym kroku. Rój siła 10. Gdy ginie, Sepsa trawi go w kilka dni. [Katharsys s. 293]"),
+("Psychonauci", "Dushani — Lesnje", "weteran", 3, 2, 7,
+ {"init": 8, "mental": 4, "bronBiala": 9, "percepcja": 14, "prymer": (14, 18), "obr": 1},
+ [("Włócznia-sierp", "bronBiala", "7", "2", "Tnąca (2W: +1 obrażeń)", 0)],
+ [PLAGUE1D, RESONANCE],
+ "Pieśń Mokoscha musi brzmieć czysto", "", "", "",
+ "„Szept lasu”: strażnik matrycy dźwięku Mokoscha w Balkhanie, w masce pancernej, poruszający się chaotycznie (Obrona bierna 2). [Katharsys s. 298]"),
+("Psychonauci", "Dushani — Wodnik (Vodjanoi)", "antagonista", 2, 1, 6,
+ {"init": 6, "mental": 2, "bijatyka": 8, "prymer": (18, 18), "zjb": 5},
+ [("Objęcie", "bijatyka", "0", "1", "Skacze z ofiarą do wody — zasady tonięcia; ofiara opiera się CIA+Siła lub ZRĘ+Mobilność", 0)],
+ [("Chmura atramentu", "Bez akcji wypuszcza fioletowy aerozol: Obrona +4 do jego następnej akcji. [Katharsys s. 298]"),
+  TONGUES, FOULSEED, ("Zew Prymera [2.0]", "W pobliżu Wodnika każdy z Zarażeniem ≥1 dostaje Szept co scenę.")],
+ "Wzmacniać pieśń Mokoscha", "Zakłócenie pieśni — wpada wtedy w szał", "", "",
+ "Demon rzek i bagien z ludowych podań; ofiary wypływają po kilku dniach. Maska-wzmacniacz (+1K) i węże (+4K) do aktywacji Zjawisk. Rój siła 2. [Katharsys s. 298]"),
+("Psychonauci", "Feromant — Akuszerka (Midwife)", "antagonista", 6, 0, 7,
+ {"init": 6, "mental": 9, "bronBiala": 5, "przywodztwo": 12, "mobilnosc": 7, "prymer": (12, 16)},
+ [("Laska z gniazdem os", "bronBiala", "3", "2", "Osy żądlą każdego, kto podejdzie (1K obrażeń, chroni tylko pancerz Szczelny); udany blok też rani osami", 0)],
+ [PLAGUE0, ACID, UNITY, FEAR, DRONE],
+ "Rozszerzyć ul", "", "", "",
+ "Psychonautka z Franki, prowadzi wybranych do świata Prymera. Rój siła 6. [Katharsys s. 305]"),
+("Psychonauci", "Feromant — Królowa", "antagonista", 4, 4, 8,
+ {"init": 10, "mental": 8, "przywodztwo": 14, "ekspresja": 12, "prymer": (24, 24)},
+ [],
+ [ACID, DRONE, ("Kępki Burnu", "6 sztuk; wdychanie (1 akcja) daje +1 Zarażenia za kępkę. [Katharsys s. 305]"),
+  ("Rój i straż", "Zawsze otacza ją 5–10 Leperosów lub mieszkańców pod Zjawiskiem Dron oraz 2–4 Apokaliptyków zbierających dla niej Burn (prowadź jako Bandę)."),
+  ("Ziggurat [2.0]", "Walka z nią to Stawka Śmierci.")],
+ "Ul musi rosnąć", "", "", "",
+ "Matka ula. Prawie się nie porusza (Ruch 2K) — porusza się wszystko wokół niej. Rój siła 15. [Katharsys s. 305]"),
+("Psychonauci", "Pregnoktyk — Węzeł (Node)", "antagonista", 12, 0, 8,
+ {"init": 12, "mental": 8, "bronBiala": 6, "negocjacje": 9, "legendy": 12, "prymer": (24, 24), "obr": 3},
+ [("Laska", "bronBiala", "5", "2", "Tępa", 0)],
+ [("Prekognicja", "Obrona bierna 4; nie broni się aktywnie — po prostu nie ma jej tam, gdzie pada cios. [Katharsys s. 310]"),
+  ("Naszyjniki z muszli", "Otwiera muszlę i wdycha zapisane w niej doświadczenie (1 akcja): dowolna umiejętność, także bojowa, z pulą 10 na scenę. [Katharsys s. 310]"),
+  ("Wyrocznia [2.0 — hak]", "Zna odpowiedzi na pytania śledztwa — za cenę Długu.")],
+ "Utrzymać nić czasu", "", "", "",
+ "Wyrocznia z Hybrispanii; INT+Legendy 20K w podręczniku (w 2.0: pula 12, nadwyżka to sukcesy automatyczne — dodaj +8 modyfikatora). [Katharsys s. 310]"),
+("Psychonauci", "Psychokinetyk — Hylikoi", "antagonista", 6, 0, 8,
+ {"init": 12, "mental": 9, "bronBiala": 7, "prymer": (12, 16), "obr": 1},
+ [("Włócznia-kaniula", "bronBiala", "7", "2", "Krew spływa do drzewca: za każde trafienie leczy 1 Lekką ranę tego dnia", 0)],
+ [PLAGUE1P, FREEFLOW, NERVEHIT, RAGE, BLAST],
+ "Karmić się", "", "", "",
+ "Psychokinetyk z Purgare; odchyla linie pola elektrycznego (Obrona bierna 2). Rój siła 4. [Katharsys s. 317]"),
+]

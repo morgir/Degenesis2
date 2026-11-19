@@ -1,0 +1,289 @@
+{
+  "id": "degenesis2",
+  "title": "Degenesis: Katharsys 2.0 (fanowski)",
+  "description": "Nieoficjalna, fanowska wersja mechaniki Degenesis: narracyjna, śledcza i mniej śmiertelna. Do użytku prywatnego. Degenesis © SIXMOREVODKA.",
+  "version": "0.6.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.370"
+  },
+  "authors": [
+    {
+      "name": "Robert"
+    }
+  ],
+  "esmodules": [
+    "degenesis2.mjs"
+  ],
+  "styles": [
+    "styles/degenesis2.css"
+  ],
+  "languages": [
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json"
+    },
+    {
+      "lang": "en",
+      "name": "English (PL texts)",
+      "path": "lang/pl.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "postac": {
+        "htmlFields": [
+          "notes",
+          "wiezi",
+          "blizny"
+        ]
+      },
+      "npc": {
+        "htmlFields": [
+          "notes"
+        ]
+      },
+      "frakcja": {
+        "htmlFields": [
+          "notes"
+        ]
+      },
+      "sledztwo": {
+        "htmlFields": [
+          "notes",
+          "teorie"
+        ]
+      },
+      "lokacja": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "rejestr": {
+        "htmlFields": [
+          "notes"
+        ]
+      }
+    },
+    "Item": {
+      "bron": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "pancerz": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "ekwipunek": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "potencjal": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "kultura": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "koncept": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "kult": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "kultury",
+      "label": "Kultury",
+      "path": "packs/kultury",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "koncepty",
+      "label": "Koncepty (Archetypy)",
+      "path": "packs/koncepty",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kulty",
+      "label": "Kulty",
+      "path": "packs/kulty",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ekwipunek",
+      "label": "Ekwipunek ogólny",
+      "path": "packs/ekwipunek",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "zasady",
+      "label": "Zasady Katharsys 2.0",
+      "path": "packs/zasady",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "makra",
+      "label": "Makra MG",
+      "path": "packs/makra",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "przyklady",
+      "label": "Quick start: aktorzy (NPC, frakcje, śledztwo)",
+      "path": "packs/przyklady",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "potencjaly",
+      "label": "Potencjały",
+      "path": "packs/potencjaly",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gracze",
+      "label": "Dla graczy: podręcznik, kulty, kultury",
+      "path": "packs/gracze",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "postacie",
+      "label": "Gotowe postacie",
+      "path": "packs/postacie",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "przeciwnicy",
+      "label": "Przeciwnicy i bestiariusz",
+      "path": "packs/przeciwnicy",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "przygoda",
+      "label": "Quick start: przygoda i Szkoła MG",
+      "path": "packs/przygoda",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sceny",
+      "label": "Quick start: sceny (mapy)",
+      "path": "packs/sceny",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "muzyka",
+      "label": "Odgłosy",
+      "path": "packs/muzyka",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Degenesis 2.0 — Gracze",
+      "sorting": "m",
+      "packs": [
+        "gracze",
+        "postacie",
+        "kultury",
+        "koncepty",
+        "kulty",
+        "potencjaly",
+        "ekwipunek"
+      ]
+    },
+    {
+      "name": "Degenesis 2.0 — MG",
+      "sorting": "m",
+      "packs": [
+        "zasady",
+        "przygoda",
+        "sceny",
+        "przyklady",
+        "muzyka",
+        "przeciwnicy",
+        "makra"
+      ]
+    }
+  ],
+  "grid": {
+    "type": 1,
+    "distance": 1,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "ego",
+  "initiative": "(@initPool)d6cs>=4",
+  "url": "https://github.com/morgir/degenesis2",
+  "manifest": "https://github.com/morgir/degenesis2/releases/latest/download/system.json",
+  "download": "https://github.com/morgir/degenesis2/releases/download/v0.6.1/degenesis2.zip",
+  "license": "Fan content. Mechanika i kod: użytek prywatny.",
+  "flags": {}
+}

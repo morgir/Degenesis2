@@ -1,0 +1,93 @@
+<div class="d2-sheet">
+  <header class="d2-header">
+    <img class="profile" src="{{actor.img}}" data-edit="img" data-action="editImage" alt="{{actor.name}}" width="80" height="80">
+    <div class="d2-header-main">
+      <input class="d2-name" type="text" name="name" value="{{actor.name}}">
+      <div class="d2-identity">
+        <label>{{localize "D2.Npc.scale.label"}}<select name="system.scale">{{selectOptions scaleOptions selected=system.scale}}</select></label>
+        <label>{{localize "D2.Identity.kult"}}<input type="text" name="system.kult" value="{{system.kult}}"></label>
+        <label>{{localize "D2.Identity.ranga"}}<input type="text" name="system.ranga" value="{{system.ranga}}"></label>
+        <label>{{localize "D2.Attitude.label"}}<select name="system.postawa" data-dtype="Number">{{selectOptions attitudeOptions selected=system.postawa}}</select></label>
+      </div>
+      <div class="d2-resources">
+        <div class="d2-res"><span class="label">{{localize "D2.Ego"}}</span>
+          <a data-action="track" data-path="system.ego.value" data-delta="-1"><i class="fa-solid fa-minus"></i></a>
+          <b>{{system.ego.value}}</b>/<input class="tiny" type="number" name="system.ego.max" value="{{system.ego.max}}">
+          <a data-action="track" data-path="system.ego.value" data-delta="1" data-max="{{system.ego.max}}"><i class="fa-solid fa-plus"></i></a>
+        </div>
+        <div class="d2-res"><span class="label">{{localize "D2.Defense"}}</span> <b>{{system.defense.value}}</b>
+          (<input class="tiny" type="number" name="system.defense.bonus" value="{{system.defense.bonus}}">)</div>
+        <div class="d2-res"><span class="label">{{localize "D2.Armor"}}</span> <input class="tiny" type="number" name="system.armor" value="{{system.armor}}"></div>
+        {{#if system.prymer.max}}
+        <div class="d2-res" data-tooltip="{{localize "D2.Phenomenon.sporesHint"}}"><span class="label">{{localize "D2.Phenomenon.spores"}}</span>
+          <a data-action="track" data-path="system.prymer.value" data-delta="-1"><i class="fa-solid fa-minus"></i></a>
+          <b>{{system.prymer.value}}</b>/<input class="tiny" type="number" name="system.prymer.max" value="{{system.prymer.max}}">
+          <a data-action="track" data-path="system.prymer.value" data-delta="1" data-max="{{system.prymer.max}}"><i class="fa-solid fa-plus"></i></a>
+        </div>
+        {{/if}}
+        {{#if isGang}}
+        <div class="d2-res"><span class="label">{{localize "D2.Npc.size"}}</span>
+          <a data-action="track" data-path="system.size.value" data-delta="-1"><i class="fa-solid fa-minus"></i></a>
+          <b>{{system.size.value}}</b>/<input class="tiny" type="number" name="system.size.max" value="{{system.size.max}}">
+          <a data-action="track" data-path="system.size.value" data-delta="1" data-max="{{system.size.max}}"><i class="fa-solid fa-plus"></i></a>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+  </header>
+
+  <nav class="d2-tabs">
+    <a data-action="d2tab" data-tab="social">{{localize "D2.Tab.social"}}</a>
+    <a data-action="d2tab" data-tab="stats">{{localize "D2.Tab.stats"}}</a>
+    <a data-action="d2tab" data-tab="combat">{{localize "D2.Tab.combat"}}</a>
+    <a data-action="d2tab" data-tab="notes">{{localize "D2.Tab.notes"}}</a>
+  </nav>
+
+  <section class="tab-panel" data-tab-panel="social">
+    <div class="d2-faction-link">
+      <label>{{localize "D2.Npc.frakcja"}}<select name="system.frakcja">{{selectOptions factionOptions selected=system.frakcja}}</select></label>
+      {{#if factionImie}}
+      <span>{{localize "D2.Imie.title"}}: <b>{{factionImie.tier}}</b> → {{localize "D2.Imie.attitude"}}: <b>{{factionImie.attitudeLabel}}</b></span>
+      {{#if factionImie.differs}}<button type="button" data-action="applyFactionAttitude">{{localize "D2.Imie.applyAttitude"}}</button>{{/if}}
+      {{/if}}
+    </div>
+    <p class="d2-hint">{{localize "D2.Attitude.difficultyHint" d=system.attitudeDifficulty}}</p>
+    <section class="d2-grid-2">
+      <label>{{localize "D2.Npc.motyw"}}<input type="text" name="system.motyw" value="{{system.motyw}}"></label>
+      <label>{{localize "D2.Npc.lek"}}<input type="text" name="system.lek" value="{{system.lek}}"></label>
+      <label>{{localize "D2.Npc.sekret"}}<input type="text" name="system.sekret" value="{{system.sekret}}"></label>
+      <label>{{localize "D2.Npc.cena"}}<input type="text" name="system.cena" value="{{system.cena}}"></label>
+    </section>
+    <p class="d2-hint">{{localize "D2.Npc.leverageHint"}}</p>
+  </section>
+
+  <section class="tab-panel" data-tab-panel="stats">
+    {{> "systems/degenesis2/templates/parts/stats.hbs"}}
+  </section>
+
+  <section class="tab-panel" data-tab-panel="combat">
+    {{#if isGang}}
+      <p class="d2-hint">{{localize "D2.Npc.gangHint"}}</p>
+    {{else if isMook}}
+      <p class="d2-hint">{{localize "D2.Npc.mookHint"}}</p>
+    {{else}}
+      {{> "systems/degenesis2/templates/parts/wounds.hbs"}}
+    {{/if}}
+    {{#if system.eliminated}}{{#unless wounds.length}}
+      <div class="d2-eliminated"><i class="fa-solid fa-skull-crossbones"></i> {{localize "D2.Wounds.eliminated"}}
+        <a data-action="reviveEliminated"><i class="fa-solid fa-rotate-left"></i></a></div>
+    {{/unless}}{{/if}}
+    {{> "systems/degenesis2/templates/parts/weapons.hbs"}}
+    <h3>{{localize "D2.Potentials"}} <a class="d2-add" data-action="itemCreate" data-type="potencjal"><i class="fa-solid fa-plus"></i></a></h3>
+    <ul class="d2-item-list">
+      {{#each potencjaly as |i|}}
+      <li data-item-id="{{i.id}}"><a data-action="rollItem">{{i.name}}</a> <span class="d2-sub">{{#if i.system.zjawisko}}{{localize "D2.Phenomenon.short"}} {{i.system.poziomZjawiska}}{{else}}{{localize "D2.Level"}} {{i.system.level}}{{/if}}</span>
+        <span class="d2-controls"><a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a></span></li>
+      {{/each}}
+    </ul>
+  </section>
+
+  <section class="tab-panel" data-tab-panel="notes">
+    <textarea class="d2-notes" name="system.notes" rows="20">{{system.notes}}</textarea>
+  </section>
+</div>

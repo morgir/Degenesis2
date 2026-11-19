@@ -1,0 +1,52 @@
+<section class="d2-weapons">
+  <h3>{{localize "D2.Weapons"}}
+    {{#if @root.editable}}<a class="d2-add" data-action="itemCreate" data-type="bron" data-tooltip="{{localize 'D2.Sheet.add'}}"><i class="fa-solid fa-plus"></i></a>{{/if}}
+  </h3>
+  <table class="d2-table">
+    <thead><tr>
+      <th></th><th>{{localize "D2.Name"}}</th><th>{{localize "D2.Weapon.skill"}}</th><th>{{localize "D2.Weapon.handling"}}</th>
+      <th>{{localize "D2.Weapon.damage"}}</th><th>{{localize "D2.Weapon.range"}}</th><th>{{localize "D2.Weapon.qualities"}}</th><th></th>
+    </tr></thead>
+    <tbody>
+    {{#each weapons as |w|}}
+      <tr data-item-id="{{w.id}}">
+        <td><img src="{{w.img}}" width="24" height="24" alt=""></td>
+        <td><a class="d2-rollable" data-action="rollItem">{{w.name}}</a></td>
+        <td>{{w.skillLabel}}</td>
+        <td>{{d2signed w.system.handling}}K</td>
+        <td>{{w.system.damage}}</td>
+        <td>{{w.system.range}}</td>
+        <td class="small">{{w.system.qualities}}</td>
+        <td class="d2-controls">
+          <a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a>
+          {{#if @root.editable}}<a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+        </td>
+      </tr>
+    {{else}}
+      <tr><td colspan="8" class="d2-empty">{{localize "D2.Sheet.empty"}}</td></tr>
+    {{/each}}
+    </tbody>
+  </table>
+
+  <h3>{{localize "D2.Armors"}}
+    {{#if @root.editable}}<a class="d2-add" data-action="itemCreate" data-type="pancerz"><i class="fa-solid fa-plus"></i></a>{{/if}}
+  </h3>
+  <table class="d2-table">
+    <tbody>
+    {{#each armors as |a|}}
+      <tr data-item-id="{{a.id}}">
+        <td><a data-action="itemEquip" data-tooltip="{{localize 'D2.Sheet.equip'}}"><i class="fa-{{#if a.system.equipped}}solid{{else}}regular{{/if}} fa-circle-check"></i></a></td>
+        <td>{{a.name}}</td>
+        <td>{{localize "D2.Armor"}} {{a.system.armor}}</td>
+        <td class="small">{{a.system.qualities}}</td>
+        <td class="d2-controls">
+          <a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a>
+          {{#if @root.editable}}<a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+        </td>
+      </tr>
+    {{else}}
+      <tr><td colspan="5" class="d2-empty">{{localize "D2.Sheet.empty"}}</td></tr>
+    {{/each}}
+    </tbody>
+  </table>
+</section>

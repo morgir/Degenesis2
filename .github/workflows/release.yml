@@ -1,0 +1,56 @@
+name: Wydanie systemu
+
+# Uruchamia się po opublikowaniu Release na GitHubie (tag w formacie v0.6.2).
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Wersja z tagu
+        id: ver
+        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Ustaw wersję, manifest i download w system.json
+        env:
+          VERSION: ${{ steps.ver.outputs.version }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const s = JSON.parse(fs.readFileSync("system.json", "utf8"));
+            s.version = process.env.VERSION;
+            s.url = `https://github.com/${process.env.REPO}`;
+            s.manifest = `https://github.com/${process.env.REPO}/releases/latest/download/system.json`;
+            s.download = `https://github.com/${process.env.REPO}/releases/download/${process.env.TAG}/degenesis2.zip`;
+            fs.writeFileSync("system.json", JSON.stringify(s, null, 2));
+          '
+
+      - name: Kompilacja kompendiów i testy
+        run: |
+          npm install --no-audit --no-fund
+          npm run build
+          npm test
+
+      - name: Paczka ZIP (folder degenesis2/)
+        run: |
+          mkdir -p dist/degenesis2
+          cp -r assets degenesis2.mjs lang module packs styles templates system.json README.md dist/degenesis2/
+          cd dist && zip -rq degenesis2.zip degenesis2
+
+      - name: Załącz pliki do Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$GITHUB_REF_NAME" dist/degenesis2.zip system.json --clobber
