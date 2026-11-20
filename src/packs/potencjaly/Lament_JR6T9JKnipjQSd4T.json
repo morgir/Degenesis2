@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Wrzask: INS+Pierwotność +1K/PP; wynik to Trudność obrony mentalnej dla wszystkich bez ochrony słuchu (także sojuszników); kto nie zda, traci co najmniej rundę (+1 runda za każde 3 Wyzwalacze).</p>",
+  "description": "<p>Wrzask: Instynkt + Pierwotność +1K/PP; wynik to Trudność obrony mentalnej dla wszystkich bez ochrony słuchu (także sojuszników); kto nie zda, traci co najmniej rundę (+1 runda za każde 3 Wyzwalacze).</p>",
   "level": 1,
   "kult": "Palerzy",
   "prerequisite": "Pierwotność"

@@ -9,7 +9,7 @@
   "skill": "strzelectwo",
   "handling": -1,
   "damage": "9",
-  "range": "15/60",
+  "range": "Daleko",
   "magazine": {
    "value": 1,
    "max": 1

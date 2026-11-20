@@ -180,7 +180,7 @@
     "skill": "bronBiala",
     "handling": -1,
     "damage": "4+F/2",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -210,7 +210,7 @@
     "skill": "strzelectwo",
     "handling": -1,
     "damage": "9",
-    "range": "15/60",
+    "range": "Daleko",
     "magazine": {
      "value": 0,
      "max": 0
@@ -236,7 +236,7 @@
    "type": "potencjal",
    "img": "icons/svg/aura.svg",
    "system": {
-    "description": "<p>+1K do CHA+Przywództwo przy podburzaniu tłumu.</p>",
+    "description": "<p>+1K do Charyzma + Przywództwo przy podburzaniu tłumu.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

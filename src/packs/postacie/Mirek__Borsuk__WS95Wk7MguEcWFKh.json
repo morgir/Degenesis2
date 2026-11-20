@@ -279,7 +279,7 @@
      "artefakty",
      "przetrwanie"
     ],
-    "metoda": "Ruiny, materiał, ślady pracy, zapomniane wejścia (ZRĘ+Rzemiosło, INT+Artefakty).",
+    "metoda": "Ruiny, materiał, ślady pracy, zapomniane wejścia (Zręczność + Rzemiosło, Intelekt + Artefakty).",
     "ideal": "Co znajdziesz, jest twoje, dopóki go nie sprzedasz.",
     "moneyFactor": 50,
     "currency": "CD",
@@ -296,7 +296,7 @@
       "level": 2,
       "name": "Borsuk (Badger)",
       "prereq": "[[\"ins\", \"percepcja\", 4], [\"ins\", \"przetrwanie\", 6]]",
-      "prereqText": "INS+Percepcja 4; INS+Przetrwanie 6",
+      "prereqText": "Instynkt + Percepcja 4; Instynkt + Przetrwanie 6",
       "result": "Działa sam; ma własną runę. Znakując nią ostrzeżenia w ruinach, z czasem zyskuje Sławę (maks. 3).",
       "equipment": "Strzelba albo karabin myśliwski"
      },
@@ -304,7 +304,7 @@
       "level": 3,
       "name": "Lis (Fox)",
       "prereq": "[[\"psy\", \"spryt\", 6], [\"ins\", \"przetrwanie\", 6], [\"ins\", \"orientacja\", 6]]",
-      "prereqText": "PSY+Spryt 6; INS+Przetrwanie 6; INS+Orientacja 6",
+      "prereqText": "Psyche + Spryt 6; Instynkt + Przetrwanie 6; Instynkt + Orientacja 6",
       "result": "Ruiny to dom: +2K do zbierania złomu. W swojej kryjówce +2K do aktywnej obrony i +2 Obrony.",
       "equipment": "Marvel (karabin Złomiarza); stelaż; motyka"
      },
@@ -312,9 +312,9 @@
       "level": 3,
       "name": "Mechanik (Mechanist)",
       "prereq": "[[\"int\", \"inzynieria\", 6], [\"zre\", \"rzemioslo\", 7], [\"bg\", \"zasoby\", 2]]",
-      "prereqText": "INT+Inżynieria 6; ZRĘ+Rzemiosło 7; Zasoby 2",
+      "prereqText": "Intelekt + Inżynieria 6; Zręczność + Rzemiosło 7; Zasoby 2",
       "result": "+1 Zasoby; o 50% więcej surowca z rozbiórki artefaktów.",
-      "equipment": "Skrzynka narzędzi (+1K do ZRĘ+Rzemiosło na poziom)"
+      "equipment": "Skrzynka narzędzi (+1K do Zręczność + Rzemiosło na poziom)"
      },
      {
       "level": 3,
@@ -336,23 +336,23 @@
       "level": 4,
       "name": "Samotny Wilk (Lone Wolf)",
       "prereq": "[[\"int\", \"artefakty\", 6], [\"zre\", \"rzemioslo\", 6], [\"ins\", \"percepcja\", 6], [\"bg\", \"slawa\", 4]]",
-      "prereqText": "INT+Artefakty 6; ZRĘ+Rzemiosło 6; INS+Percepcja 6; Sława 4",
-      "result": "Marvel ma +1 miejsce na ulepszenia; +1K do zbierania złomu; uciekając na swoim terenie +2K do ZRĘ+Skradanie i CIA+Atletyka.",
+      "prereqText": "Intelekt + Artefakty 6; Zręczność + Rzemiosło 6; Instynkt + Percepcja 6; Sława 4",
+      "result": "Marvel ma +1 miejsce na ulepszenia; +1K do zbierania złomu; uciekając na swoim terenie +2K do Zręczność + Skradanie i Ciało + Atletyka.",
       "equipment": "—"
      },
      {
       "level": 4,
       "name": "Wytwórca (Manufacturer)",
       "prereq": "[[\"txt\", \"wyposażony warsztat w Centrum Technicznym lub Syrakuzach\"], [\"int\", \"inzynieria\", 10], [\"bg\", \"slawa\", 5], [\"bg\", \"zasoby\", 4]]",
-      "prereqText": "wyposażony warsztat w Centrum Technicznym lub Syrakuzach; INT+Inżynieria 10; Sława 5; Zasoby 4",
-      "result": "W warsztacie +4K do ZRĘ+Rzemiosło; w cudzych warsztatach +2K.",
+      "prereqText": "wyposażony warsztat w Centrum Technicznym lub Syrakuzach; Intelekt + Inżynieria 10; Sława 5; Zasoby 4",
+      "result": "W warsztacie +4K do Zręczność + Rzemiosło; w cudzych warsztatach +2K.",
       "equipment": "Klucze do warsztatów"
      },
      {
       "level": 4,
       "name": "Alfa (Alpha Wolf)",
       "prereq": "[[\"cha\", \"przywodztwo\", 8], [\"bg\", \"autorytet\", 4], [\"bg\", \"siec\", 4], [\"bg\", \"sojusznicy\", 4]]",
-      "prereqText": "CHA+Przywództwo 8; Autorytet 4; Sieć 4; Sojusznicy 4",
+      "prereqText": "Charyzma + Przywództwo 8; Autorytet 4; Sieć 4; Sojusznicy 4",
       "result": "W walce z Kartelem Sojusznicy rosną do 6.",
       "equipment": "—"
      },
@@ -360,7 +360,7 @@
       "level": 4,
       "name": "Rzeczoznawca (Appraiser)",
       "prereq": "[[[\"cha\", \"negocjacje\", 7], [\"psy\", \"dominacja\", 7]], [\"int\", \"artefakty\", 6], [\"bg\", \"autorytet\", 3], [\"bg\", \"sojusznicy\", 2]]",
-      "prereqText": "CHA+Negocjacje 7 lub PSY+Dominacja 7; INT+Artefakty 6; Autorytet 3; Sojusznicy 2",
+      "prereqText": "Charyzma + Negocjacje 7 lub Psyche + Dominacja 7; Intelekt + Artefakty 6; Autorytet 3; Sojusznicy 2",
       "result": "Negocjuje z Kronikarzami w imieniu innych Złomiarzy za 20% zysku.",
       "equipment": "Rewolwer albo inna ciężka broń krótka"
      },
@@ -368,7 +368,7 @@
       "level": 5,
       "name": "Niedźwiedź Jaskiniowy (Cave Bear)",
       "prereq": "[[\"cia\", \"twardosc\", 8], [\"ins\", \"przetrwanie\", 10], [\"bg\", \"slawa\", 5]]",
-      "prereqText": "CIA+Twardość 8; INS+Przetrwanie 10; Sława 5",
+      "prereqText": "Ciało + Twardość 8; Instynkt + Przetrwanie 10; Sława 5",
       "result": "Kronikarze płacą mu 30% więcej; z Krukami rozmawia jak równy z równym. W swojej jaskini-pułapce +4K do aktywnej obrony i +3 Obrony; Marvel +1 miejsce na ulepszenia.",
       "equipment": "—"
      },
@@ -384,7 +384,7 @@
       "level": 5,
       "name": "Oficer Kartelu (Officer)",
       "prereq": "[[[\"cha\", \"negocjacje\", 9], [\"psy\", \"dominacja\", 9]], [\"psy\", \"spryt\", 6], [\"bg\", \"autorytet\", 5]]",
-      "prereqText": "CHA+Negocjacje 9 lub PSY+Dominacja 9; PSY+Spryt 6; Autorytet 5",
+      "prereqText": "Charyzma + Negocjacje 9 lub Psyche + Dominacja 9; Psyche + Spryt 6; Autorytet 5",
       "result": "Wyciska Rzeczoznawców (+4 Zasoby) albo daje im żyć.",
       "equipment": "—"
      }
@@ -439,7 +439,7 @@
     "skill": "strzelectwo",
     "handling": 0,
     "damage": "10",
-    "range": "5/20",
+    "range": "Blisko",
     "magazine": {
      "value": 2,
      "max": 2
@@ -472,7 +472,7 @@
     "skill": "bronBiala",
     "handling": 1,
     "damage": "1+F/3",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0

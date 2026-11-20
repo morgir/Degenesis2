@@ -12,7 +12,7 @@ const STEPS = ["origin", "path", "attrs", "skills", "bgs", "rank", "potential", 
 function prereqLabel(e) {
   if (e[0] === "bg") return `${loc(`D2.Background.${e[1]}`)} ${e[2]}`;
   if (e[0] === "txt") return e[1];
-  return `${ATTRIBUTES[e[0]].abbr}+${loc(`D2.Skill.${e[1]}`)} ${e[2]}`;
+  return `${loc(`D2.Attr.${e[0]}`)} + ${loc(`D2.Skill.${e[1]}`)} ${e[2]}`;
 }
 
 export class D2CharacterCreator extends HandlebarsApplicationMixin(ApplicationV2) {

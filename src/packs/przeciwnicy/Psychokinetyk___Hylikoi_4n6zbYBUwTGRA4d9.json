@@ -180,7 +180,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "7",
-    "range": "2",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -302,7 +302,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Stożek, którego wielkość wybiera: u źródła 1K + Przeciążenie obrażeń, −1 za każdy metr.</p>",
+    "description": "<p>Stożek, którego wielkość wybiera: u źródła 1K + Przeciążenie obrażeń, −1 za każdą strefę dalej.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

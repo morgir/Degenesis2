@@ -279,7 +279,7 @@
      "obycie",
      "dominacja"
     ],
-    "metoda": "Przesłuchanie, Kodeks, rejestry, świadkowie, wyrok (PSY+Dominacja, INS+Empatia).",
+    "metoda": "Przesłuchanie, Kodeks, rejestry, świadkowie, wyrok (Psyche + Dominacja, Instynkt + Empatia).",
     "ideal": "Prawo ponad litość. Bez prawa jest tylko pustkowie.",
     "moneyFactor": 50,
     "currency": "CD",
@@ -296,7 +296,7 @@
       "level": 2,
       "name": "Sędzia miejski (City Judge)",
       "prereq": "[[\"int\", \"legendy\", 4], [\"cia\", \"bronBiala\", 6], [\"cha\", \"ekspresja\", 4], [\"cha\", \"obycie\", 4]]",
-      "prereqText": "INT+Legendy 4; CIA+Broń biała 6; CHA+Ekspresja 4; CHA+Obycie 4",
+      "prereqText": "Intelekt + Legendy 4; Ciało + Broń biała 6; Charyzma + Ekspresja 4; Charyzma + Obycie 4",
       "result": "Sądzi drobne przestępstwa; pies stróżujący w strefach kryzysu. Jeśli włączy osadę do Protektoratu, zostaje tam przedstawicielem Justitian i pobiera dziesięcinę (+1 do +4 Zasobów).",
       "equipment": "Młot sędziowski; skórzany płaszcz; kapelusz; Kodeks (prosty druk)"
      },
@@ -304,7 +304,7 @@
       "level": 3,
       "name": "Protektor (Protector)",
       "prereq": "[[\"zre\", \"prowadzenie\", 6], [[\"int\", \"skupienie\", 6], [\"ins\", \"pierwotnosc\", 6]], [\"psy\", \"refleks\", 6], [\"bg\", \"sojusznicy\", 2]]",
-      "prereqText": "ZRĘ+Prowadzenie 6; INT+Skupienie 6 lub INS+Pierwotność 6; PSY+Refleks 6; Sojusznicy 2",
+      "prereqText": "Zręczność + Prowadzenie 6; Intelekt + Skupienie 6 lub Instynkt + Pierwotność 6; Psyche + Refleks 6; Sojusznicy 2",
       "result": "+2 Sojusznicy wobec innych Protektorów; zna każdy kąt Protektoratu; +2 Sieć przy szukaniu drobnych przestępców i informatorów.",
       "equipment": "Muszkiet sędziowski; +1k6 naboi/mies.; koń"
      },
@@ -312,15 +312,15 @@
       "level": 3,
       "name": "Adwokat (Advocate)",
       "prereq": "[[\"cha\", \"ekspresja\", 6], [\"cha\", \"negocjacje\", 6], [\"int\", \"legendy\", 6], [\"bg\", \"autorytet\", 2], [\"bg\", \"zasoby\", 2]]",
-      "prereqText": "CHA+Ekspresja 6; CHA+Negocjacje 6; INT+Legendy 6; Autorytet 2; Zasoby 2",
+      "prereqText": "Charyzma + Ekspresja 6; Charyzma + Negocjacje 6; Intelekt + Legendy 6; Autorytet 2; Zasoby 2",
       "result": "Może podważać wyroki Protektorów i Egzekutorów (+2 Autorytetu wobec Protektorów).",
-      "equipment": "Kodeks z komentarzem (+2K do CHA+Ekspresja przy wyrokach)"
+      "equipment": "Kodeks z komentarzem (+2K do Charyzma + Ekspresja przy wyrokach)"
      },
      {
       "level": 4,
       "name": "Egzekutor (Executioner)",
       "prereq": "[[\"cia\", \"twardosc\", 6], [[\"psy\", \"dominacja\", 6], [\"cha\", \"przywodztwo\", 6]], [\"bg\", \"slawa\", 3]]",
-      "prereqText": "CIA+Twardość 6; PSY+Dominacja 6 lub CHA+Przywództwo 6; Sława 3",
+      "prereqText": "Ciało + Twardość 6; Psyche + Dominacja 6 lub Charyzma + Przywództwo 6; Sława 3",
       "result": "Legenda gniewu (+1 Sieć); je i śpi w Protektoracie za darmo. Wierny Kodeksowi może korzystać z Sojuszników innych kultów przeciw wspólnemu wrogowi.",
       "equipment": "Koń bojowy; +2k6 naboi/mies."
      },
@@ -328,7 +328,7 @@
       "level": 4,
       "name": "Czarny Sędzia (Black Judge)",
       "prereq": "[[[\"cia\", \"bronBiala\", 8], [\"zre\", \"strzelectwo\", 8]], [\"zre\", \"skradanie\", 8], [\"psy\", \"spryt\", 6], [\"bg\", \"autorytet\", 3], [\"bg\", \"sojusznicy\", 3]]",
-      "prereqText": "CIA+Broń biała 8 lub ZRĘ+Strzelectwo 8; ZRĘ+Skradanie 8; PSY+Spryt 6; Autorytet 3; Sojusznicy 3",
+      "prereqText": "Ciało + Broń biała 8 lub Zręczność + Strzelectwo 8; Zręczność + Skradanie 8; Psyche + Spryt 6; Autorytet 3; Sojusznicy 3",
       "result": "Tajny zabójca senatora Rutgara; poluje na skorumpowanych Sędziów (+1 Sekrety).",
       "equipment": "Radio; broń Tech IV z ulepszeniami; +2k6 naboi/mies."
      },
@@ -336,7 +336,7 @@
       "level": 4,
       "name": "Arbiter",
       "prereq": "[[[\"psy\", \"wiara\", 6], [\"psy\", \"wola\", 6]], [\"cha\", \"ekspresja\", 8], [\"bg\", \"autorytet\", 3], [\"bg\", \"zasoby\", 4]]",
-      "prereqText": "PSY+Wiara 6 lub PSY+Wola 6; CHA+Ekspresja 8; Autorytet 3; Zasoby 4",
+      "prereqText": "Psyche + Wiara 6 lub Psyche + Wola 6; Charyzma + Ekspresja 8; Autorytet 3; Zasoby 4",
       "result": "Współautor Kodeksu: +3 Autorytetu wobec Protektorów.",
       "equipment": "—"
      },
@@ -344,7 +344,7 @@
       "level": 4,
       "name": "Asesor (Assessor)",
       "prereq": "[[\"ins\", \"percepcja\", 8], [[\"psy\", \"dominacja\", 6], [\"cha\", \"negocjacje\", 6]], [\"bg\", \"sojusznicy\", 1], [\"bg\", \"siec\", 2]]",
-      "prereqText": "INS+Percepcja 8; PSY+Dominacja 6 lub CHA+Negocjacje 6; Sojusznicy 1; Sieć 2",
+      "prereqText": "Instynkt + Percepcja 8; Psyche + Dominacja 6 lub Charyzma + Negocjacje 6; Sojusznicy 1; Sieć 2",
       "result": "Pomaga Komisarzowi dojść do wyroku; w wielu miastach pod ochroną Kruków.",
       "equipment": "+1k6 naboi/mies."
      },
@@ -352,7 +352,7 @@
       "level": 5,
       "name": "Komisarz (Commissioner)",
       "prereq": "[[[\"psy\", \"dominacja\", 10], [\"cha\", \"negocjacje\", 10]], [\"ins\", \"empatia\", 6], [\"bg\", \"slawa\", 4], [\"bg\", \"siec\", 4], [\"bg\", \"sojusznicy\", 2]]",
-      "prereqText": "PSY+Dominacja 10 lub CHA+Negocjacje 10; INS+Empatia 6; Sława 4; Sieć 4; Sojusznicy 2",
+      "prereqText": "Psyche + Dominacja 10 lub Charyzma + Negocjacje 10; Instynkt + Empatia 6; Sława 4; Sieć 4; Sojusznicy 2",
       "result": "Śledczy z siecią informatorów; dostęp do Alków i zapisów Klastra.",
       "equipment": "+2k6 naboi/mies."
      },
@@ -368,7 +368,7 @@
       "level": 6,
       "name": "Senator",
       "prereq": "[[\"txt\", \"wolne miejsce w Senacie\"], [\"cha\", \"ekspresja\", 10], [[\"bg\", \"slawa\", 6], [\"bg\", \"zasoby\", 6]]]",
-      "prereqText": "wolne miejsce w Senacie; CHA+Ekspresja 10; Sława 6 lub Zasoby 6",
+      "prereqText": "wolne miejsce w Senacie; Charyzma + Ekspresja 10; Sława 6 lub Zasoby 6",
       "result": "Stanowi prawo w Protektoracie i miastach sprzymierzonych.",
       "equipment": "—"
      }
@@ -394,7 +394,7 @@
    "type": "potencjal",
    "img": "icons/svg/aura.svg",
    "system": {
-    "description": "<p>INS+Empatia vs PSY+Wiara/Wola przeciwnika; przy sukcesie +1K/PP do ataku i obrony przeciw niemu do końca walki.</p>",
+    "description": "<p>Instynkt + Empatia vs Psyche + Wiara/Wola przeciwnika; przy sukcesie +1K/PP do ataku i obrony przeciw niemu do końca walki.</p>",
     "level": 1,
     "kult": "Sędziowie",
     "prerequisite": ""
@@ -423,7 +423,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "2+F/3",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -456,7 +456,7 @@
     "skill": "strzelectwo",
     "handling": -1,
     "damage": "9",
-    "range": "15/60",
+    "range": "Daleko",
     "magazine": {
      "value": 1,
      "max": 1

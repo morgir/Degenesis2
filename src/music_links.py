@@ -7,7 +7,7 @@ def yt(q): return f"https://www.youtube.com/results?search_query={quote(q).repla
 def a(url, label): return f'<a href="{url}" target="_blank" rel="noopener">{label}</a>'
 
 ROWS = [
- ("Pustkowia i podróż", "ruiny, wędrówka, pustka po Eschatonie", [
+ ("Pustkowia i podróż", "ruiny, wędrówka, pustka po Eshatonie", [
    ("Post-Apocalyptic Ambience (playlista, 108 utworów)", [a("https://open.spotify.com/playlist/1NgtMYR7HG4EYMbQzAJJVW", "Spotify")]),
    ("Nick Cave & Warren Ellis — <i>The Road</i> (OST)", [a("https://music.apple.com/album/1435936237", "Apple Music"), a(sp("The Road Nick Cave Warren Ellis"), "Spotify (szukaj)"), a(yt("The Road soundtrack Nick Cave Warren Ellis full"), "YouTube (szukaj)")]),
  ]),

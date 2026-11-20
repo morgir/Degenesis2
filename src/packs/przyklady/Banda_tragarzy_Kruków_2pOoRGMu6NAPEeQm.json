@@ -173,7 +173,7 @@
     "skill": "bronBiala",
     "handling": 1,
     "damage": "1+F/3",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0

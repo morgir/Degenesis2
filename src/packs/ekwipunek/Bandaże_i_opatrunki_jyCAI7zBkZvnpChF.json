@@ -5,7 +5,7 @@
  "type": "ekwipunek",
  "img": "icons/svg/item-bag.svg",
  "system": {
-  "description": "<p>Pierwsza pomoc: +1K do INT+Medycyna przy ranach.</p>",
+  "description": "<p>Pierwsza pomoc: +1K do Intelekt + Medycyna przy ranach.</p>",
   "quantity": 5,
   "encumbrance": 0,
   "value": ""

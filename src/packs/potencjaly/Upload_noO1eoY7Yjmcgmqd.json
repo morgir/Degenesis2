@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>+PP Wyzwalaczy przy wpływaniu na kogoś CHA lub PSY. Łączy się z Download.</p>",
+  "description": "<p>+PP Wyzwalaczy przy wpływaniu na kogoś Charyzmą lub Psyche. Łączy się z Download.</p>",
   "level": 1,
   "kult": "Kronikarze",
   "prerequisite": ""

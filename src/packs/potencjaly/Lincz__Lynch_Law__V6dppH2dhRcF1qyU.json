@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>+1K/PP do CHA+Przywództwo przy podburzaniu tłumu przeciw celowi.</p>",
+  "description": "<p>+1K/PP do Charyzma + Przywództwo przy podburzaniu tłumu przeciw celowi.</p>",
   "level": 1,
   "kult": "Sędziowie",
   "prerequisite": ""

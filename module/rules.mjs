@@ -59,7 +59,7 @@ export function resolveContest(a, b) {
 
 /**
  * Obrażenia broni. Obsługuje liczby i wyrażenia typu "2+F/2", "F/3", "F", "8".
- * F = CIA + Siła. Dzielenie zaokrągla w dół (jak w Rebirth).
+ * F = Ciało + Siła. Dzielenie zaokrągla w dół (jak w Rebirth).
  */
 export function parseDamage(expr, force = 0) {
   if (typeof expr === "number") return expr;

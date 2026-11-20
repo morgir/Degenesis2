@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>W konflikcie z przedstawicielami innego kultu podburza tłum: CHA+Przywództwo +1K/PP (przeciwnik może uspokajać CHA+Ekspresja); potem wydaje mu rozkazy (Trudność 2–6).</p>",
+  "description": "<p>W konflikcie z przedstawicielami innego kultu podburza tłum: Charyzma + Przywództwo +1K/PP (przeciwnik może uspokajać Charyzma + Ekspresja); potem wydaje mu rozkazy (Trudność 2–6).</p>",
   "level": 1,
   "kult": "Złomiarze",
   "prerequisite": ""

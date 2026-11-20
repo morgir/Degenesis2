@@ -180,12 +180,12 @@
     "skill": "bijatyka",
     "handling": 0,
     "damage": "0",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
     },
-    "qualities": "Skacze z ofiarą do wody — zasady tonięcia; ofiara opiera się CIA+Siła lub ZRĘ+Mobilność",
+    "qualities": "Skacze z ofiarą do wody — zasady tonięcia; ofiara opiera się Ciało + Siła lub Zręczność + Mobilność",
     "encumbrance": 0,
     "equipped": true
    },
@@ -230,7 +230,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Pierwotna mowa omija świadomość: ofiara rzuca PSY+Wola/Wiara (Trudność = Przeciążenie) albo wykonuje wolę Dushana.</p>",
+    "description": "<p>Pierwotna mowa omija świadomość: ofiara rzuca Psyche + Wola/Wiara (Trudność = Przeciążenie) albo wykonuje wolę Dushana.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",
@@ -254,7 +254,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Zasiewa w podświadomości rozkaz, emocję albo myśl sprzeczną z ideologią ofiary; dojrzewa w kolejnych tygodniach. Opór: PSY+Wiara/Wola (Trudność = Przeciążenie). Po porażce ofiara broni się znowu tylko wtedy, gdy ziarno zmusza ją do czynu wbrew jej naturze. [2.0: idealny motor śledztwa.]</p>",
+    "description": "<p>Zasiewa w podświadomości rozkaz, emocję albo myśl sprzeczną z ideologią ofiary; dojrzewa w kolejnych tygodniach. Opór: Psyche + Wiara/Wola (Trudność = Przeciążenie). Po porażce ofiara broni się znowu tylko wtedy, gdy ziarno zmusza ją do czynu wbrew jej naturze. [2.0: idealny motor śledztwa.]</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

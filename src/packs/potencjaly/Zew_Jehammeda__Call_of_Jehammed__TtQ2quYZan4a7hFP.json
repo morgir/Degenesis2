@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Runda modlitwy: CHA+Sztuka +1K/PP (Trudność 2–6 wg zagrożenia); sukces łamie psychiczną manipulację wroga, Wyzwalacze to dodatkowe kości do obrony mentalnej grupy (maleją o 1 na rundę).</p>",
+  "description": "<p>Runda modlitwy: Charyzma + Sztuka +1K/PP (Trudność 2–6 wg zagrożenia); sukces łamie psychiczną manipulację wroga, Wyzwalacze to dodatkowe kości do obrony mentalnej grupy (maleją o 1 na rundę).</p>",
   "level": 1,
   "kult": "Jehammedanie",
   "prerequisite": ""

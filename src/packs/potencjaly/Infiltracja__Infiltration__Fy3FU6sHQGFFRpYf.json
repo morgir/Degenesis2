@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>+1K/PP do rzutów CHA i PSY na oszukiwanie; +1 Sieć/PP.</p>",
+  "description": "<p>+1K/PP do rzutów Charyzmy i Psyche na oszukiwanie; +1 Sieć/PP.</p>",
   "level": 1,
   "kult": "Hellveci",
   "prerequisite": ""

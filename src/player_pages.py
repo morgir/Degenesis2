@@ -11,14 +11,14 @@ PLAYER_PAGES = [
 <p>Resztę wyjaśnia MG w trakcie gry. Na pierwszą sesję możesz wziąć gotową postać z kompendium <i>Gotowe postacie</i> albo zrobić własną w kreatorze (strona 6).</p>
 """),
 ("2. Jak rzucać", """
-<p>Kiedy postać robi coś ryzykownego, MG mówi: „rzuć Atrybut + Umiejętność”, np. <b>INS+Percepcja</b>.</p>
+<p>Kiedy postać robi coś ryzykownego, MG mówi: „rzuć Atrybut + Umiejętność”, np. <b>Instynkt + Percepcja</b>.</p>
 <ol><li>Na karcie kliknij <b>nazwę umiejętności</b>. Liczba „5K” obok niej to twoja pula: tyle kości k6 rzucasz.</li>
 <li>W oknie rzutu ustaw <b>Trudność</b>, którą podał MG (zwykle 2). Możesz dodać kości:<ul>
 <li><b>Ego</b>: 1 punkt = +1 kość, maks. 3 na rzut;</li><li><b>Zaplecze</b>: pomoc twojego kultu, maks. +3;</li>
 <li><b>Archetyp</b>: raz na sesję +2, gdy działasz zgodnie ze swoim Konceptem;</li><li><b>Cechy miejsca</b>: +2 za każdą wywołaną Cechę.</li></ul></li>
 <li>Każda kość z wynikiem <b>4, 5 lub 6 to sukces</b>. Każda <b>6 to także Wyzwalacz</b>, czyli coś ekstra.</li>
 <li>Wynik pojawi się na czacie razem z podpowiedzią, co dalej.</li></ol>
-<p><b>Przykład:</b> Wera (INT 3 + Medycyna 4 = 7 kości) opatruje rannego. Trudność 2. Wypada 6, 5, 4, 3, 2, 2, 1, czyli 3 sukcesy i 1 Wyzwalacz. Wynik: „Tak, i…”. Wera kupuje za Wyzwalacz efekt <i>Szybko</i> i zdąży przed patrolem.</p>
+<p><b>Przykład:</b> Wera (Intelekt 3 + Medycyna 4 = 7 kości) opatruje rannego. Trudność 2. Wypada 6, 5, 4, 3, 2, 2, 1, czyli 3 sukcesy i 1 Wyzwalacz. Wynik: „Tak, i…”. Wera kupuje za Wyzwalacz efekt <i>Szybko</i> i zdąży przed patrolem.</p>
 <p><b>Starcie:</b> gdy ktoś ci się przeciwstawia, rzucacie oboje. Więcej sukcesów wygrywa, potem decydują Wyzwalacze, a przy remisie wygrywa obrońca.</p>
 """),
 ("3. Co znaczą wyniki", """
@@ -51,7 +51,7 @@ PLAYER_PAGES = [
 <h3>Ego</h3>
 <p>Twoja odporność psychiczna i waluta. Wydajesz je na kości (+1 za punkt), na aktywną obronę w walce (1) albo na złagodzenie rany (2). Tracisz je przez grozę, presję i Psychonautów. Przy zerze się łamiesz. Odzyskujesz je snem, grą zgodną z Archetypem, Ideałem kultu, Więziami i Burnem (ten ostatni kosztuje Zarażenie).</p>
 <h3>Rany</h3>
-<p>Twój <b>Próg</b> to CIA+Twardość. Trafienie poniżej Progu to rana Lekka, od Progu Poważna, a od podwójnego Progu Krytyczna. Masz 3 miejsca na Lekkie, 2 na Poważne i 1 na Krytyczną. Poważna daje −1 kość, Krytyczna −2. Gdy zabraknie miejsc, jesteś <b>wyeliminowany</b>: nie martwy, ale coś tracisz (niewola, sprzęt, blizna, dług). Śmierć grozi tylko wtedy, gdy MG ogłosi <b>Stawkę Śmierci</b>.</p>
+<p>Twój <b>Próg</b> to Ciało + Twardość. Trafienie poniżej Progu to rana Lekka, od Progu Poważna, a od podwójnego Progu Krytyczna. Masz 3 miejsca na Lekkie, 2 na Poważne i 1 na Krytyczną. Poważna daje −1 kość, Krytyczna −2. Gdy zabraknie miejsc, jesteś <b>wyeliminowany</b>: nie martwy, ale coś tracisz (niewola, sprzęt, blizna, dług). Śmierć grozi tylko wtedy, gdy MG ogłosi <b>Stawkę Śmierci</b>.</p>
 <h3>Zarażenie (Sepsa)</h3>
 <p>Zarodniki, Burn i pola spor podnoszą Zarażenie. Od połowy skali na piersi wykwita stygmat. Powyżej maksimum walczysz o duszę. Uwaga na <b>Szept Prymera</b>: gdy jesteś zarażony, MG może zaproponować ci wizję albo siłę za kolejny punkt Zarażenia. Czasem to jedyna droga do prawdy. Zawsze możesz odmówić.</p>
 <h3>Archetyp i jego Cień</h3>
@@ -72,13 +72,13 @@ PLAYER_PAGES = [
 """),
 ("7. Ściąga", """
 <table><tr><th>Sytuacja</th><th>Rzut</th></tr>
-<tr><td>Zauważyć, nasłuchiwać, przeszukać</td><td>INS+Percepcja</td></tr><tr><td>Wyczuć kłamstwo, nastrój</td><td>INS+Empatia</td></tr>
-<tr><td>Przekonać, targować się</td><td>CHA+Negocjacje</td></tr><tr><td>Zastraszyć, przesłuchać</td><td>PSY+Dominacja</td></tr>
-<tr><td>Okłamać, przebrać się</td><td>PSY+Oszustwo</td></tr><tr><td>Wiedzieć o kultach, historii</td><td>INT+Legendy</td></tr>
-<tr><td>Leczyć, zbadać zwłoki</td><td>INT+Medycyna</td></tr><tr><td>Zakraść się</td><td>ZRĘ+Skradanie</td></tr>
-<tr><td>Strzelać</td><td>ZRĘ+Strzelectwo</td></tr><tr><td>Walczyć bronią / pięściami</td><td>CIA+Broń biała / Bijatyka</td></tr>
-<tr><td>Uskoczyć, uciec z więzów</td><td>ZRĘ+Mobilność</td></tr><tr><td>Inicjatywa</td><td>PSY+Refleks</td></tr>
-<tr><td>Oprzeć się wpływowi, Sepsie</td><td>PSY+Wiara albo Wola</td></tr><tr><td>Przetrwać w dziczy</td><td>INS+Przetrwanie</td></tr></table>
+<tr><td>Zauważyć, nasłuchiwać, przeszukać</td><td>Instynkt + Percepcja</td></tr><tr><td>Wyczuć kłamstwo, nastrój</td><td>Instynkt + Empatia</td></tr>
+<tr><td>Przekonać, targować się</td><td>Charyzma + Negocjacje</td></tr><tr><td>Zastraszyć, przesłuchać</td><td>Psyche + Dominacja</td></tr>
+<tr><td>Okłamać, przebrać się</td><td>Psyche + Oszustwo</td></tr><tr><td>Wiedzieć o kultach, historii</td><td>Intelekt + Legendy</td></tr>
+<tr><td>Leczyć, zbadać zwłoki</td><td>Intelekt + Medycyna</td></tr><tr><td>Zakraść się</td><td>Zręczność + Skradanie</td></tr>
+<tr><td>Strzelać</td><td>Zręczność + Strzelectwo</td></tr><tr><td>Walczyć bronią / pięściami</td><td>Ciało + Broń biała / Bijatyka</td></tr>
+<tr><td>Uskoczyć, uciec z więzów</td><td>Zręczność + Mobilność</td></tr><tr><td>Inicjatywa</td><td>Psyche + Refleks</td></tr>
+<tr><td>Oprzeć się wpływowi, Sepsie</td><td>Psyche + Wiara albo Wola</td></tr><tr><td>Przetrwać w dziczy</td><td>Instynkt + Przetrwanie</td></tr></table>
 <p><b>Trudność:</b> 1 rutynowa, 2 wymagająca, 3 trudna, 4 bardzo trudna, 6 desperacka.</p>
 <p><b>Walka w skrócie:</b> inicjatywa raz na starcie, potem 1 akcja i ruch na turę. Atak to rzut przeciw Obronie celu (zwykle 1). Obrażenia + Wyzwalacze − pancerz dają ranę. Aktywna obrona kosztuje 1 Ego. Uciekać wolno zawsze.</p>
 """),
@@ -111,13 +111,13 @@ ADVENTURE_PAGES = [
 <h3>C. Studnia</h3>
 <p><i>Cechy:</i> „Łańcuch i pieczęć Spitalu”, „Wilgoć i ciemność” (ukryta: „Ślady ciągnięcia beczek po bruku”).</p>
 <ul><li><b>Tropy:</b> na cembrowinie biały, słodkawy osad, którego nie wyczuwa Mollusk (→ A albo D); świeże rysy po linie, jakby coś spuszczano nocą (→ D); w szczelinie skrawek czarnego pióra, znak Kruczego Stada (→ D).</li>
-<li><b>Sporyzacja:</b> kto schodzi do studni bez maski, rzuca CIA+Twardość (2). Porażka daje +1 Zarażenie. To dobra okazja do pierwszego <b>Szeptu Prymera</b>: wizja ciepłej, posłusznej dzielnicy i obietnica „spokoju”. Kto przyjmie Szept, wie od razu, że to Burn Unity.</li></ul>
+<li><b>Sporyzacja:</b> kto schodzi do studni bez maski, rzuca Ciało + Twardość (2). Porażka daje +1 Zarażenie. To dobra okazja do pierwszego <b>Szeptu Prymera</b>: wizja ciepłej, posłusznej dzielnicy i obietnica „spokoju”. Kto przyjmie Szept, wie od razu, że to Burn Unity.</li></ul>
 <h3>D. Spelunka Kruków („Pod Złamanym Skrzydłem”)</h3>
 <p><i>Cechy:</i> „Dym, kości i muzyka”, „Każdy coś jest winien Krukom” (ukryta: „Magazyn za kurtyną”).</p>
 <ul><li><b>Tropy:</b> Kruki mają w magazynie beczki z resztkami białego pyłu (→ F); kapłanka Stada wie, kto płaci, i sprzeda to za dług Poważny (→ F); tragarze (banda) pilnują wozu, który rusza o świcie (Zegar Dostawy).</li>
 <li>Ta scena może skończyć się walką z bandą tragarzy. Morale łamie się po 3 stratach. Kruki wolą jednak handlować: Kruk woli dłużnika niż trupa.</li></ul>
 <h3>E. Sny chorych</h3>
-<p>Rozmowy z chorymi (INS+Empatia) albo Szept Prymera. <b>Tropy:</b> wszyscy śnią to samo; sen nasila się po wypiciu wody (→ C); jeden chory powtarza „sędzia pił z nami wino, a potem woda zrobiła się słodka” (→ F).</p>
+<p>Rozmowy z chorymi (Instynkt + Empatia) albo Szept Prymera. <b>Tropy:</b> wszyscy śnią to samo; sen nasila się po wypiciu wody (→ C); jeden chory powtarza „sędzia pił z nami wino, a potem woda zrobiła się słodka” (→ F).</p>
 <h3>F. Kancelaria Sędziego Vargi</h3>
 <p><i>Cechy:</i> „Kodeks na pulpicie”, „Dwaj Protektorzy przy drzwiach” (ukryta: „Księga wydatków z podwójnymi wpisami”).</p>
 <ul><li>Varga jest Obojętny. Jego Motyw: spokój przed wizytą Senatora. Lęk: że Kodeks go dosięgnie. Sekret: zapłacił Krukom. Cena: czyjaś głowa zamiast jego. Bez Dźwigni nie powie nic. Z dowodami (księga, pióro, beczki, zeznanie kapłanki) zaczyna negocjować.</li></ul>

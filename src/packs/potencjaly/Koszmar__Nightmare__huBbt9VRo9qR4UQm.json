@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>+1K/PP do ZRĘ+Skradanie; po wygranym Starciu Skradania z Percepcją wroga następnego ataku nie można bronić aktywnie, a przy trafieniu +PP Wyzwalaczy.</p>",
+  "description": "<p>+1K/PP do Zręczność + Skradanie; po wygranym Starciu Skradania z Percepcją wroga następnego ataku nie można bronić aktywnie, a przy trafieniu +PP Wyzwalaczy.</p>",
   "level": 1,
   "kult": "Palerzy",
   "prerequisite": ""

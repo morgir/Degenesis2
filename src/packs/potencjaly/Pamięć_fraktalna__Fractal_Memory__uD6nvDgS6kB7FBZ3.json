@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Zawsze aktywny: +PP Wyzwalaczy do rzutów na INT. [2.0: Wyzwalacze kupują Odsłony w śledztwie.]</p>",
+  "description": "<p>Zawsze aktywny: +PP Wyzwalaczy do rzutów na Intelekt. [2.0: Wyzwalacze kupują Odsłony w śledztwie.]</p>",
   "level": 1,
   "kult": "Kronikarze",
   "prerequisite": "Skupienie"

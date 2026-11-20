@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>+1K/PP do PSY+Oszustwo, gdy ukrywa, że jest Palerem.</p>",
+  "description": "<p>+1K/PP do Psyche + Oszustwo, gdy ukrywa, że jest Palerem.</p>",
   "level": 1,
   "kult": "Palerzy",
   "prerequisite": ""

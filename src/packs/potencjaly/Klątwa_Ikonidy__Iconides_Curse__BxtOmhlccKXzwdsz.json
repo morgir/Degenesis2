@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Atak mentalny na grupę ludzi: PSY+Wiara/Wola +1K/PP; kto nie obroni się aktywnie, ma −1K za każdy Wyzwalacz, malejąco o 1 na rundę.</p>",
+  "description": "<p>Atak mentalny na grupę ludzi: Psyche + Wiara/Wola +1K/PP; kto nie obroni się aktywnie, ma −1K za każdy Wyzwalacz, malejąco o 1 na rundę.</p>",
   "level": 1,
   "kult": "Jehammedanie",
   "prerequisite": "Ikonida lub Wyrocznia"

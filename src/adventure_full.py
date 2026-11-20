@@ -51,13 +51,13 @@ ADVENTURE = [
 """),
 
 ("A. Lazaret Spitalian", read("Wapno chrzęści pod butami. Długa sala, dwa rzędy łóżek, na każdym ktoś, kto się uśmiecha. Kobieta nuci kołysankę do sufitu. Mężczyzna w kącie głaszcze ścianę, jakby była żywa. Między łóżkami chodzi Spitalianin w masce z goglami i liczy oddechy.") + """
-<p><b>Cechy:</b> „Smród wapna i strachu”, „Za mało łóżek”. Ukryta: „Brat Tobiasz ma wątpliwości” (odkrywa INS+Empatia albo szczera rozmowa).</p>
+<p><b>Cechy:</b> „Smród wapna i strachu”, „Za mało łóżek”. Ukryta: „Brat Tobiasz ma wątpliwości” (odkrywa Instynkt + Empatia albo szczera rozmowa).</p>
 <p><b>Kto tu jest:</b> Higienista Kessel (Nieufny, Spitalianin wysokiej rangi), brat Tobiasz (Życzliwy wobec Wery), chorzy, w tym brat Wery, Lew.</p>
 <p><b>Tropy kluczowe:</b></p>
 <ol><li>Chorują tylko ludzie pijący ze studni przy Bramie. Z innych studni nikt. → <b>C</b></li>
 <li>W ślinie chorych są białe włókna, ale Mollusk reaguje słabo. To nie wygląda na zwykłą Sepsę. → <b>C</b> albo <b>D</b></li>
 <li>Chorzy śnią ten sam sen o „matce pod miastem”. → <b>E</b></li></ol>
-<p><b>Odsłony:</b> objawy przypominają odurzenie Burnem Unity, a nie chorobę (INT+Medycyna z Wyzwalaczem); Kessel ma rozkaz „nie pytać Sędziów” (Dźwignia na Kessela); Tobiasz odda próbki za obietnicę ochrony przed Kesselem (tworzy <b>dług Drobny</b> Tobiasza wobec drużyny albo odwrotnie).</p>
+<p><b>Odsłony:</b> objawy przypominają odurzenie Burnem Unity, a nie chorobę (Intelekt + Medycyna z Wyzwalaczem); Kessel ma rozkaz „nie pytać Sędziów” (Dźwignia na Kessela); Tobiasz odda próbki za obietnicę ochrony przed Kesselem (tworzy <b>dług Drobny</b> Tobiasza wobec drużyny albo odwrotnie).</p>
 <p><b>Komplikacje:</b> Kessel każe wszystkim przejść oczyszczanie wapnem (−1 Ego, zgubiony sprzęt); Lew w majakach mówi o „beczkach w nocy” przy wszystkich, co spala Srokę przed drużyną, jeśli jest obecna.</p>
 """ + gm("Metoda Spitalian (sekcja, testy) daje Werze automatyczną Odsłonę raz na scenę. To dobry moment, by pokazać graczom, że ich kult ma znaczenie w śledztwie.") + "<p><b>Mapa:</b> Lazaret. <b>Muzyka:</b> „Lazaret”.</p>"),
 
@@ -77,7 +77,7 @@ ADVENTURE = [
 <ol><li>Na cembrowinie biały, słodkawy osad, którego nie wyczuwa Mollusk. → <b>A</b> albo <b>D</b></li>
 <li>Świeże rysy po linie, jakby coś spuszczano nocą. → <b>D</b></li>
 <li>W szczelinie tkwi czarne pióro, znak Kruczego Stada. → <b>D</b></li></ol>
-<p><b>Sporyzacja:</b> kto schodzi do studni albo wącha osad bez maski, rzuca CIA+Twardość (2). Porażka daje +1 Zarażenie. Kto ma Zarażenie ≥ 1, może dostać pierwszy <b>Szept Prymera</b>:</p>
+<p><b>Sporyzacja:</b> kto schodzi do studni albo wącha osad bez maski, rzuca Ciało + Twardość (2). Porażka daje +1 Zarażenie. Kto ma Zarażenie ≥ 1, może dostać pierwszy <b>Szept Prymera</b>:</p>
 """ + read("Ciepło. Wszyscy razem, wszyscy spokojni, nikt nie musi się bać. Dzielnica oddycha jednym oddechem jak śpiące dziecko. Wystarczy przestać się opierać…") + """
 <p>Jeśli gracz przyjmie Szept (+1 Zarażenie), powiedz mu wprost: <i>to Burn Unity, dużo, rozcieńczony w wodzie</i>. To prawdziwa Odsłona za cenę ciała.</p>
 """ + gm("Zatrzymaj się tu na chwilę i zapytaj gracza: „Chcesz to poczuć? Dostaniesz odpowiedź, ale Prymer cię dotknie”. To najlepszy moment, żeby pokazać, czym jest Degenesis.") + "<p><b>Mapa:</b> Targ i studnia. <b>Muzyka:</b> „Studnia”.</p>"),
@@ -94,7 +94,7 @@ ADVENTURE = [
 """ + gm("Kruk woli dłużnika niż trupa. Zanim padnie pierwszy cios, Ilsa proponuje rozmowę. Pokaż graczom, że w tej grze walka jest tylko jedną z opcji.") + "<p><b>Mapa:</b> Spelunka Kruków. <b>Muzyka:</b> „Napięcie” (walka) albo muzyka z listy (spelunka).</p>"),
 
 ("E. Sny chorych", read("Stary tragarz łapie cię za rękę zaskakująco mocno. „Ona jest pod nami” — szepcze z uśmiechem. — „Ciepła. Mówi, że już nie musimy się bać. Sędzia pił z nami wino w zeszłym tygodniu. A potem woda zrobiła się słodka.”") + """
-<p>Rozmowy z chorymi w domach dzielnicy (INS+Empatia, Trudność 2) albo w wizji przez Szept Prymera.</p>
+<p>Rozmowy z chorymi w domach dzielnicy (Instynkt + Empatia, Trudność 2) albo w wizji przez Szept Prymera.</p>
 <p><b>Tropy kluczowe:</b></p>
 <ol><li>Wszyscy śnią to samo: „matkę pod miastem”. → zostaw jako nić kampanii</li>
 <li>Sen nasila się po wypiciu wody. → <b>C</b></li>
@@ -102,7 +102,7 @@ ADVENTURE = [
 """ + gm("Ta scena to horror, nie akcja. Mów cicho, rób pauzy. Puść „Studnię” albo „Lazaret” i pozwól graczom się bać.") + "<p><b>Mapa:</b> Plan dzielnicy (teatr wyobraźni). <b>Muzyka:</b> „Studnia”.</p>"),
 
 ("F. Kancelaria Sędziego Vargi", read("Hala sądowa pachnie woskiem i starym papierem. Na pulpicie leży Kodeks, otwarty na rozdziale o porządku publicznym. Sędzia Varga nie wstaje zza biurka. Kapelusz zdjął, ale rękę trzyma na młocie. „Słucham. Krótko. Mam miasto do pilnowania.”") + """
-<p><b>Cechy:</b> „Kodeks na pulpicie”, „Dwaj Protektorzy przy drzwiach”. Ukryta: „Księga wydatków z podwójnymi wpisami” (Kronikarz albo INT+Nauka, Trudność 3).</p>
+<p><b>Cechy:</b> „Kodeks na pulpicie”, „Dwaj Protektorzy przy drzwiach”. Ukryta: „Księga wydatków z podwójnymi wpisami” (Kronikarz albo Intelekt + Nauka, Trudność 3).</p>
 <p><b>Varga:</b> Obojętny. Motyw: spokój przed Senatorem. Lęk: że Kodeks go dosięgnie. Sekret: zapłacił Krukom. Cena: czyjaś głowa zamiast jego. Bez Dźwigni nie powie nic i każe wyprowadzić gości. Każdy dowód (księga, pióro, beczki, list Ilsy, zeznanie chorego) to Dźwignia: +2K i coraz mniej miejsca na kłamstwa. Przy trzech dowodach zaczyna negocjować.</p>
 """ + gm("Oddo w tej scenie stoi przed wyborem: lojalność wobec przełożonego czy wobec Kodeksu. Nie rozstrzygaj tego za gracza. Zaproponuj Pokusę Archetypu: „Sprawiedliwy dzieli świat na winnych i niewinnych, a ty jesteś zawsze po właściwej stronie. Czy aby na pewno?”") + "<p><b>Mapa:</b> Kancelaria Vargi. <b>Muzyka:</b> „Napięcie”.</p>"),
 
@@ -171,13 +171,13 @@ GM_SCHOOL = [
 <li><b>Stawka</b>: powiedz, co się stanie przy porażce, zanim rzuci. „Jeśli się nie uda, ktoś cię zauważy.”</li>
 <li><b>Wynik</b>: czytaj z karty czatu (Tak, i… / Tak / Tak, ale… / Nie / Nie, i…) i opowiedz go.</li></ol>
 <h3>Przykład z przygody</h3>
-""" + read("<b>Gracz (Borsuk):</b> Chcę się prześlizgnąć za kurtynę w spelunce, kiedy tragarze patrzą na scenę.<br><b>MG:</b> Rzuć ZRĘ+Skradanie, Trudność 3, bo jest ich dwóch, ale są zajęci. Jeśli się nie uda, zauważą cię w połowie drogi.<br><b>Gracz:</b> Mam 5 kości… 6, 5, 3, 2, 1. Dwa sukcesy, jedna szóstka.<br><b>MG:</b> Brakuje ci jednego, więc to „Tak, ale…”. Możesz wejść, ale jeden z tragarzy odwraca się, gdy już jesteś za kurtyną. Słyszysz kroki. Wchodzisz?") + """
+""" + read("<b>Gracz (Borsuk):</b> Chcę się prześlizgnąć za kurtynę w spelunce, kiedy tragarze patrzą na scenę.<br><b>MG:</b> Rzuć Zręczność + Skradanie, Trudność 3, bo jest ich dwóch, ale są zajęci. Jeśli się nie uda, zauważą cię w połowie drogi.<br><b>Gracz:</b> Mam 5 kości… 6, 5, 3, 2, 1. Dwa sukcesy, jedna szóstka.<br><b>MG:</b> Brakuje ci jednego, więc to „Tak, ale…”. Możesz wejść, ale jeden z tragarzy odwraca się, gdy już jesteś za kurtyną. Słyszysz kroki. Wchodzisz?") + """
 <p><b>Uwaga:</b> przy „Tak, ale…” to gracz wybiera, czy przyjmuje koszt. Wyzwalacze przepadają.</p>
 """),
 ("5. Śledztwo w praktyce", """
 <p><b>Najważniejsze:</b> tropu kluczowego nie da się „nie znaleźć”. Jeśli gracz szuka we właściwym miejscu i ma umiejętność, po prostu mu go dajesz. Rzut decyduje o dodatkach.</p>
 <h3>Przykład: lazaret</h3>
-""" + read("<b>Gracz (Wera):</b> Badam ślinę chorych pod Molluskiem.<br><b>MG:</b> Jesteś Spitalianką, więc od razu widzisz trop: białe włókna, ale Mollusk prawie nie reaguje. To nie jest zwykła Sepsa. Chcesz rzucić INT+Medycyna, żeby dowiedzieć się więcej?<br><b>Gracz:</b> Tak. 3 sukcesy, 1 Wyzwalacz.<br><b>MG:</b> Sukces daje ci Odsłonę: objawy pasują do odurzenia Burnem Unity, nie do choroby. Za Wyzwalacz możesz wziąć drugą Odsłonę albo zrobić to Szybko, zanim wróci Kessel.") + """
+""" + read("<b>Gracz (Wera):</b> Badam ślinę chorych pod Molluskiem.<br><b>MG:</b> Jesteś Spitalianką, więc od razu widzisz trop: białe włókna, ale Mollusk prawie nie reaguje. To nie jest zwykła Sepsa. Chcesz rzucić Intelekt + Medycyna, żeby dowiedzieć się więcej?<br><b>Gracz:</b> Tak. 3 sukcesy, 1 Wyzwalacz.<br><b>MG:</b> Sukces daje ci Odsłonę: objawy pasują do odurzenia Burnem Unity, nie do choroby. Za Wyzwalacz możesz wziąć drugą Odsłonę albo zrobić to Szybko, zanim wróci Kessel.") + """
 <h3>Gdy gracze utkną</h3>
 <ul><li><b>Zegar</b>: przesuń go i pokaż skutek („dzwon, kolejny zmarły”).</li><li><b>NPC przychodzi do nich</b>: Halka, Tobiasz albo Ilsa szukają ich sami.</li>
 <li><b>Wniosek</b>: zaproponuj rzut na Wniosek z tropów, które już mają.</li><li><b>Zapytaj</b>: „Co twoja postać myśli, że tu się dzieje?” Gracze często wiedzą więcej, niż mówią.</li></ul>
@@ -194,7 +194,7 @@ GM_SCHOOL = [
 ("7. Walka krok po kroku", """
 <p>Przykład: drużyna kontra Banda tragarzy Kruków (liczebność 6, Próg 4, pancerz 1).</p>
 <ol><li><b>Ogłoś stawkę</b>: „To nie Stawka Śmierci. Jeśli przegracie, obudzicie się w zaułku z długiem.”</li>
-<li><b>Inicjatywa</b>: w trackerze walki kliknij „Rzuć wszystkim”. Liczą się sukcesy PSY+Refleks. Rzucasz raz na całą walkę.</li>
+<li><b>Inicjatywa</b>: w trackerze walki kliknij „Rzuć wszystkim”. Liczą się sukcesy Psyche + Refleks. Rzucasz raz na całą walkę.</li>
 <li><b>Tura gracza</b>: Oddo atakuje młotem. Klik na broń, Trudność to Obrona Bandy (1). Wynik: 3 sukcesy, 1 Wyzwalacz.</li>
 <li><b>Obrażenia</b>: młot 4+F/2, przy F=5 to 6, plus 1 za Wyzwalacz = 7. Gracz wybiera cel (klawisz T) i klika „Nałóż na cel”. Pancerz 1, więc netto 6 przy Progu 4: rana Poważna, Banda traci 2 członków.</li>
 <li><b>Tura Bandy</b>: Banda atakuje raz z +2K za liczebność (4 członków). Oddo może wydać 1 Ego na aktywną obronę.</li>

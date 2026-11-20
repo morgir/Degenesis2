@@ -8,7 +8,7 @@
   "description": "<p>15-minutowy rytuał przed walką: obrona mentalna +PP.</p>",
   "level": 1,
   "kult": "Skurgerzy",
-  "prerequisite": "PSY+Wiara 8"
+  "prerequisite": "Psyche + Wiara 8"
  },
  "effects": [],
  "folder": null,

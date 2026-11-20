@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>15-minutowy rytuał: na godzinę umiejętności CHA spadają do 0, ale limit wydawanego Ego na rzut rośnie o PP.</p>",
+  "description": "<p>15-minutowy rytuał: na godzinę umiejętności Charyzmy spadają do 0, ale limit wydawanego Ego na rzut rośnie o PP.</p>",
   "level": 1,
   "kult": "Jehammedanie",
   "prerequisite": "Arianoi; czarne runo"

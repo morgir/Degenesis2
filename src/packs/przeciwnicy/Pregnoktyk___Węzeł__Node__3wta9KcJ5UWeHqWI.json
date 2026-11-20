@@ -168,7 +168,7 @@
    "powazne": 0,
    "krytyczna": 0
   },
-  "notes": "<p>Wyrocznia z Hybrispanii; INT+Legendy 20K w podręczniku (w 2.0: pula 12, nadwyżka to sukcesy automatyczne — dodaj +8 modyfikatora). [Katharsys s. 310]</p>"
+  "notes": "<p>Wyrocznia z Hybrispanii; Intelekt + Legendy 20K w podręczniku (w 2.0: pula 12, nadwyżka to sukcesy automatyczne — dodaj +8 modyfikatora). [Katharsys s. 310]</p>"
  },
  "items": [
   {
@@ -180,7 +180,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "5",
-    "range": "2",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0

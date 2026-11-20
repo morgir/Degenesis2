@@ -180,7 +180,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "3",
-    "range": "2",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -254,7 +254,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Obszar: kto nie zda PSY+Wiara/Wola (Trudność = Przeciążenie), składa broń.</p>",
+    "description": "<p>Obszar: kto nie zda Psyche + Wiara/Wola (Trudność = Przeciążenie), składa broń.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",
@@ -278,7 +278,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Kto nie zda PSY+Wiara/Wola (Trudność = Przeciążenie), ucieka.</p>",
+    "description": "<p>Kto nie zda Psyche + Wiara/Wola (Trudność = Przeciążenie), ucieka.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",
@@ -302,7 +302,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Feromonowa sieć osady: wchodzący rzuca PSY+Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.</p>",
+    "description": "<p>Feromonowa sieć osady: wchodzący rzuca Psyche + Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

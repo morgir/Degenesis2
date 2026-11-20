@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Moduł wyładowań: +1 Wyzwalacz/PP do ZRĘ+Mobilność przy ofensywnym użyciu; +1K/PP do aktywnej obrony wręcz, gdy moduł naładowany.</p>",
+  "description": "<p>Moduł wyładowań: +1 Wyzwalacz/PP do Zręczność + Mobilność przy ofensywnym użyciu; +1K/PP do aktywnej obrony wręcz, gdy moduł naładowany.</p>",
   "level": 1,
   "kult": "Kronikarze",
   "prerequisite": ""

@@ -9,7 +9,7 @@
   "skill": "strzelectwo",
   "handling": 0,
   "damage": "6",
-  "range": "10/40",
+  "range": "Blisko",
   "magazine": {
    "value": 6,
    "max": 6

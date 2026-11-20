@@ -2,6 +2,7 @@ import re
 # -*- coding: utf-8 -*-
 import json, os, random, string, shutil, sys
 sys.path.insert(0, os.path.dirname(__file__))
+from zones import zone
 from content import KULTURY, KONCEPTY, KULTY, WEAPONS, ARMORS, GEAR
 from rules_pages import PAGES, GM_PAGE
 from cult_data import RANKS, COMMON, POTENTIALS, RANK_PAGES
@@ -40,13 +41,13 @@ for _i, (tarot, name, attr, skills, cien) in enumerate(KONCEPTY):
 MONEY = {"Spitalianie": (100, "CD"), "Kronikarze": (128, "CD"), "Hellveci": (50, "CD"), "Sędziowie": (50, "CD"), "Klanowcy": (50, "CD"),
          "Złomiarze": (50, "CD"), "Neolibijczycy": (1000, "Dinarów"), "Skurgerzy": (100, "Dinarów"), "Anubianie": (100, "Dinarów"),
          "Jehammedanie": (100, "CD"), "Apokaliptycy": (200, "CD"), "Anabaptyści": (50, "CD"), "Palerzy": (50, "CD")}
-SKL = {"cia": "CIA", "zre": "ZRĘ", "cha": "CHA", "int": "INT", "psy": "PSY", "ins": "INS"}
+SKL = {"cia": "Ciało", "zre": "Zręczność", "cha": "Charyzma", "int": "Intelekt", "psy": "Psyche", "ins": "Instynkt"}
 import json as _json
 from make_lang_names import SKILL_PL, BG_PL
 def preq_label(e):
     if e[0] == "bg": return f"{BG_PL[e[1]]} {e[2]}"
     if e[0] == "txt": return e[1]
-    return f"{SKL[e[0]]}+{SKILL_PL[e[1]]} {e[2]}"
+    return f"{SKL[e[0]]} + {SKILL_PL[e[1]]} {e[2]}"
 def preq_text(pre):
     out = []
     for x in pre:
@@ -81,7 +82,7 @@ for cult, lst in POTENTIALS.items():
 
 for name, skill, hand, dmg, rng, mag, q, enc in WEAPONS:
     img = "icons/svg/sword.svg" if skill != "strzelectwo" else "icons/svg/target.svg"
-    packs["ekwipunek"].append(item(name, "bron", {"description": "", "skill": skill, "handling": hand, "damage": dmg, "range": rng,
+    packs["ekwipunek"].append(item(name, "bron", {"description": "", "skill": skill, "handling": hand, "damage": dmg, "range": zone(rng),
         "magazine": {"value": mag, "max": mag}, "qualities": q, "encumbrance": enc, "equipped": True}, img))
 for name, armor, q, enc in ARMORS:
     packs["ekwipunek"].append(item(name, "pancerz", {"description": "", "armor": armor, "qualities": q, "encumbrance": enc, "equipped": True}, "icons/svg/shield.svg"))
@@ -101,7 +102,7 @@ def journal(name, pages):
             "image": {}, "video": {"controls": True, "volume": 0.5}, "src": None, "system": {}, "category": None})
     return out
 
-world_html = ["<p>Rok 2595, 522 lata po Eschatonie. Streszczenia własnymi słowami; szczegóły w Primal Punk.</p><h2>Kultury</h2>"]
+world_html = ["<p>Rok 2595, 522 lata po Eshatonie. Streszczenia własnymi słowami; szczegóły w Primal Punk.</p><h2>Kultury</h2>"]
 for name, attrs, skills, cults, desc in KULTURY:
     world_html.append(f"<h3>{name}</h3><p>{desc}</p><p><i>Typowe kulty:</i> {cults}</p>")
 world_html.append("<h2>Kulty</h2>")
@@ -297,7 +298,7 @@ for grp, name, scale, ego, armor, prog, pools, attacks, pots, motyw, lek, sekret
     its = []
     for wn, wsk, dmg, rng, q, hand in attacks:
         its.append({"name": wn, "type": "bron", "img": "icons/svg/sword.svg" if wsk != "strzelectwo" else "icons/svg/target.svg",
-                    "system": {"description": "", "skill": wsk, "handling": hand, "damage": dmg, "range": rng, "magazine": {"value": 0, "max": 0},
+                    "system": {"description": "", "skill": wsk, "handling": hand, "damage": dmg, "range": zone(rng), "magazine": {"value": 0, "max": 0},
                                "qualities": q, "encumbrance": 0, "equipped": True}, "effects": [], "flags": {}, "_stats": STATS})
     for pt in pots:
         pn, pd = pt[0], pt[1]

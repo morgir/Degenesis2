@@ -180,7 +180,7 @@
     "skill": "bijatyka",
     "handling": 0,
     "damage": "8",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -210,7 +210,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "12",
-    "range": "2",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -260,7 +260,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Jad o Mocy = Przeciążenie. Ofiara co rundę rzuca CIA+Twardość przeciw Mocy; porażka: traci Ego równe Mocy.</p>",
+    "description": "<p>Jad o Mocy = Przeciążenie. Ofiara co rundę rzuca Ciało + Twardość przeciw Mocy; porażka: traci Ego równe Mocy.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",
@@ -284,7 +284,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Łączone z ZRĘ+Strzelectwo: obrażenia = Przeciążenie + Wyzwalacze − pancerz. Trafiony ma −2K, dopóki włosków nie usunie; usunięcie zadaje te same obrażenia.</p>",
+    "description": "<p>Łączone z Zręczność + Strzelectwo: obrażenia = Przeciążenie + Wyzwalacze − pancerz. Trafiony ma −2K, dopóki włosków nie usunie; usunięcie zadaje te same obrażenia.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

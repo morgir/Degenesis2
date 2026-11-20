@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Celuje przez pełną rundę; jeśli nie został rozproszony, w następnej +PP Wyzwalaczy do ZRĘ+Strzelectwo.</p>",
+  "description": "<p>Celuje przez pełną rundę; jeśli nie został rozproszony, w następnej +PP Wyzwalaczy do Zręczność + Strzelectwo.</p>",
   "level": 1,
   "kult": "Neolibijczycy",
   "prerequisite": "Skupienie"

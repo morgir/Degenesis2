@@ -180,12 +180,12 @@
     "skill": "bijatyka",
     "handling": 0,
     "damage": "2",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
     },
-    "qualities": "Jad (Moc 6, opór CIA+Twardość): −1 CIA i ZRĘ na rundę aż do paraliżu",
+    "qualities": "Jad (Moc 6, opór Ciało + Twardość): −1 Ciała i Zręczności na rundę aż do paraliżu",
     "encumbrance": 0,
     "equipped": true
    },

@@ -36,7 +36,7 @@ PAGES = [
 <tr><td>Szczegół</td><td>zawęża listę podejrzanych lub miejsc</td></tr><tr><td>Powiązanie</td><td>link do innego tropu, NPC albo frakcji</td></tr>
 <tr><td>Dźwignia</td><td>Motyw, Lęk, Sekret albo Cena NPC</td></tr><tr><td>Ostrzeżenie</td><td>zagrożenie, zanim uderzy</td></tr><tr><td>Czas</td><td>cofasz 1 tyk Zegara zagrożenia</td></tr></table>
 <p><b>Metoda kultu</b>: raz na scenę, gdy śledzisz metodą swojego kultu, dostajesz +1 Odsłonę bez rzutu (opis metody jest w przedmiocie Kultu).</p>
-<p><b>Wniosek</b>: połączcie 2+ tropy w teorię i rzućcie INT+Legendy, INS+Empatia albo PSY+Spryt (2). Sukces: MG mówi „ciepło” lub „zimno” i dodaje fakt. Porażka: tylko „ciepło” lub „zimno”. MG nie kłamie przy Wniosku.</p>
+<p><b>Wniosek</b>: połączcie 2+ tropy w teorię i rzućcie Intelekt + Legendy, Instynkt + Empatia albo Psyche + Spryt (2). Sukces: MG mówi „ciepło” lub „zimno” i dodaje fakt. Porażka: tylko „ciepło” lub „zimno”. MG nie kłamie przy Wniosku.</p>
 <p><b>Zegar zagrożenia</b> (6–8) to plan antagonisty. Tyka od Kosztów, czasu i hałasu. To on daje presję, nie ryzyko śmierci. Prowadź go na aktorze typu <i>Śledztwo</i>.</p>
 """),
 ("4. Interakcje i wpływ", """
@@ -44,7 +44,7 @@ PAGES = [
 <table><tr><th>Postawa</th><th>Trudność bazowa</th></tr><tr><td>Wrogi (−2)</td><td>4</td></tr><tr><td>Nieufny (−1)</td><td>3</td></tr>
 <tr><td>Obojętny (0)</td><td>2</td></tr><tr><td>Życzliwy (+1)</td><td>1</td></tr><tr><td>Oddany (+2)</td><td>bez rzutu przy drobnych prośbach</td></tr></table>
 <p>Waga prośby: +0 drobna, +1 istotna, +2 ryzykowna dla NPC. Prośba sprzeczna z Motywem lub kultem NPC wymaga Dźwigni.</p>
-<p><b>Opór</b>: przy manipulacji (Uwodzenie, Oszustwo, Dominacja) ważny NPC może rzucić PSY+Wiara lub Wola w Starciu.</p>
+<p><b>Opór</b>: przy manipulacji (Uwodzenie, Oszustwo, Dominacja) ważny NPC może rzucić Psyche + Wiara lub Wola w Starciu.</p>
 <p><b>Dźwignia</b>: każdy znany i użyty element (Motyw, Lęk, Sekret, zapłacona Cena) daje +2K albo czyni niemożliwe możliwym.</p>
 <p><b>Wynik</b>: sukces = prośba spełniona albo Postawa +1 (Wyzwalacz: oba lub informacja). „Tak, ale” = spełniona z warunkiem lub plotką. Porażka = Postawa −1 albo NPC robi coś po swojemu.</p>
 <h3>Zaplecze</h3>
@@ -75,7 +75,7 @@ PAGES = [
 <p><b>Imię a Zaplecze</b>: Zaplecze to pozycja we własnym kulcie, a Imię to drużyna w oczach innych. <b>Imię osobiste</b> (opcja): MG wpisuje osobny modyfikator ±1 dla jednej postaci.</p>
 """),
 ("5. Ego i Archetyp", """
-<p>Ego maks. = (INT+Skupienie)×2 albo (INS+Pierwotność)×2.</p>
+<p>Ego maks. = (Intelekt + Skupienie)×2 albo (Instynkt + Pierwotność)×2.</p>
 <table><tr><th>Wydatek</th><th>Koszt</th></tr><tr><td>+1K (maks. 3 na rzut)</td><td>1 Ego za kość</td></tr><tr><td>Aktywna obrona</td><td>1</td></tr>
 <tr><td>Nowa rana o stopień niżej</td><td>2</td></tr><tr><td>Przebłysk: przerzut kości bez sukcesu</td><td>3</td></tr></table>
 <p><b>Załamanie</b> (Ego 0): ucieczka, apatia (−2K na scenę), wybuch zgodny z Cieniem albo przyjęcie Szeptu Prymera. Drugie przed odpoczynkiem zostawia Bliznę psychiczną.</p>
@@ -83,32 +83,40 @@ PAGES = [
 <p><b>Archetyp</b>: raz na sesję +2K w zgodnej sytuacji. <b>Pokusa Archetypu</b>: MG proponuje działanie zgodne z Cieniem. Zgoda daje +2 Ego, +1 PD i komplikację.</p>
 """),
 ("6. Rany i konsekwencje", """
-<p><b>Próg Ran = CIA + Twardość.</b> Obrażenia netto = obrażenia broni + Wyzwalacze − pancerz.</p>
+<p><b>Próg Ran = Ciało + Twardość.</b> Obrażenia netto = obrażenia broni + Wyzwalacze − pancerz.</p>
 <table><tr><th>Netto</th><th>Rana</th><th>Miejsca</th><th>Kara</th></tr><tr><td>≤ 0</td><td>draśnięcie</td><td>—</td><td>—</td></tr>
 <tr><td>1 … Próg−1</td><td>Lekka</td><td>3</td><td>—</td></tr><tr><td>Próg … 2×Próg−1</td><td>Poważna</td><td>2</td><td>−1K każda</td></tr><tr><td>≥ 2×Próg</td><td>Krytyczna</td><td>1</td><td>−2K, opieka po scenie</td></tr></table>
 <p>Pełne miejsca: rana o stopień wyżej. Rana przy zajętej Krytycznej: <b>Wyeliminowany</b>.</p>
 <p><b>Wyeliminowany ≠ martwy.</b> Po scenie przychodzi Konsekwencja: niewola lub przesłuchanie, utrata sprzętu, trwała Blizna, dług, upokorzenie (−1 Sława lub Autorytet), +1k6 Zarażenia, cenę płaci Więź.</p>
 <p><b>Śmierć tylko przy Stawce Śmierci</b>, ogłoszonej przed konfliktem (Psychonauta, Maruder, egzekucja), albo z wyboru gracza.</p>
 <p><b>Absorpcja</b>: 2 Ego albo trwała Blizna (Cecha postaci, maks. 3) obniża ranę o stopień.</p>
-<p><b>Leczenie</b>: Lekkie znikają po scenie odpoczynku. Poważna: tydzień albo INT+Medycyna (2) w Interludium. Krytyczna: tygodnie i Medycyna (3), bez opieki zostaje Blizna.</p>
+<p><b>Leczenie</b>: Lekkie znikają po scenie odpoczynku. Poważna: tydzień albo Intelekt + Medycyna (2) w Interludium. Krytyczna: tygodnie i Medycyna (3), bez opieki zostaje Blizna.</p>
 <p><b>Skala NPC</b>: Statysta pada od 1 rany. Weteran ma 1 Lekką i 1 Poważną. Antagonista ma pełną drabinę. Banda: Lekka −1, Poważna −2, Krytyczna −3 członków. <b>Morale</b>: ucieczka przy połowie strat albo Poważnej ranie przywódcy.</p>
 """),
 ("7. Walka", """
-<ol><li><b>Inicjatywa raz na starcie</b>: PSY+Refleks (tracker walki liczy sukcesy). 2 Wyzwalacze dają dodatkową akcję w 1. rundzie.</li>
-<li><b>Tura</b>: 1 akcja + ruch do CIA+Atletyka m. Ruch ponad 2 m: −2K do akcji, +1 Obrona.</li>
+<ol><li><b>Inicjatywa raz na starcie</b>: Psyche + Refleks (tracker walki liczy sukcesy). 2 Wyzwalacze dają dodatkową akcję w 1. rundzie.</li>
+<li><b>Tura</b>: 1 akcja i przejście o jedną strefę. Przejście o dwie strefy zabiera całą turę (bieg), ale daje +1 Obrony.</li>
 <li><b>Atak</b>: Bijatyka, Broń biała albo Strzelectwo (+ Poręczność) przeciw Obronie celu.</li>
 <li><b>Trafienie</b>: obrażenia + Wyzwalacze, potem pancerz i drabina ran. Zamiast obrażeń Wyzwalacze można wydać na efekt: rozbrój, powal, przyszpil, odrzuć, zajmij pozycję.</li></ol>
-<p><b>Obrona</b>: 1 bazowo, +1 osłona, +1 ruch, +1 tarcza lub teren, +2 ciemność lub duża odległość. Cechy sceny też działają.</p>
+<p><b>Obrona</b>: 1 bazowo, +1 osłona, +1 ruch, +1 tarcza lub teren, +2 ciemność albo cel Daleko. Cechy sceny też działają.</p>
+<p><b>Strefy zamiast metrów</b>: odległość mierzymy strefami, a mapa tylko ilustruje scenę.</p>
+<table><tr><th>Strefa</th><th>Co znaczy</th></tr>
+<tr><td><b>Zwarcie</b></td><td>na wyciągnięcie ręki; walka wręcz, chwyty</td></tr>
+<tr><td><b>Blisko</b></td><td>kilka kroków; rzut nożem lub granatem, pistolet i strzelba bez kary</td></tr>
+<tr><td><b>Daleko</b></td><td>druga strona placu lub hali; tylko broń palna, łuk, kusza</td></tr>
+<tr><td><b>Poza zasięgiem</b></td><td>dalej niż zwykły strzał; tylko broń oznaczona „Daleko+” po akcji celowania</td></tr></table>
+<p>Strzał do strefy dalszej niż zasięg broni: −2K albo w ogóle niemożliwy (decyduje MG). Wyjście ze Zwarcia z wrogiem, który nie jest przyszpilony, daje mu darmowy atak, chyba że wydasz na to akcję.</p>
+
 <p><b>Aktywna obrona</b>: 1 Ego, Starcie (Mobilność, Broń biała, Bijatyka). Wygrana wręcz z 3 Wyzwalaczami to kontratak. Statyści się nie bronią.</p>
 <p><b>Banda</b>: 1 atak na rundę, +1K za każdych 2 członków (maks. +4K).</p>
 <p><b>Wyjście z walki</b> jest zawsze możliwe: ucieczka, kapitulacja, rozmowa. Po Poważnej ranie przywódcy MG proponuje negocjacje.</p>
 <p>W Foundry: atak z karty broni, potem na karcie czatu „Nałóż na cel” (cel = klawisz T). Pancerz i Próg liczą się same.</p>
 """),
 ("8. Sepsa, Burn i Zew Prymera", """
-<ul><li>Zarażenie maks. = (PSY + Wiara/Wola)×2. Przy połowie skali pojawia się stygmat.</li>
-<li>Przekroczenie maksimum: rzut PSY+Wiara/Wola przeciw nadwyżce. Porażka daje +1 trwałe (Nosiciel Nasienia).</li>
+<ul><li>Zarażenie maks. = (Psyche + Wiara/Wola)×2. Przy połowie skali pojawia się stygmat.</li>
+<li>Przekroczenie maksimum: rzut Psyche + Wiara/Wola przeciw nadwyżce. Porażka daje +1 trwałe (Nosiciel Nasienia).</li>
 <li>Trwałe Zarażenie na połowie skali oznacza Leperosa. Ostatnia scena należy do gracza.</li></ul>
-<p><b>Burn</b>: +Moc Ego, +Moc Zarażenia, efekt czakry przez Moc godzin (Bion, Glory, Unity, Muse, Argus; Discordia to ruletka). <b>Głód</b>: 3 dawki w tygodniu dają −1K do kolejnej dawki albo do wygranego w Interludium rzutu PSY+Wola (2).</p>
+<p><b>Burn</b>: +Moc Ego, +Moc Zarażenia, efekt czakry przez Moc godzin (Bion, Glory, Unity, Muse, Argus; Discordia to ruletka). <b>Głód</b>: 3 dawki w tygodniu dają −1K do kolejnej dawki albo do wygranego w Interludium rzutu Psyche + Wola (2).</p>
 <p><b>Zew Prymera</b>: przy Zarażeniu ≥ 1 MG może zaoferować <b>Szept</b>: wizję z prawdziwą, choć zniekształconą Odsłoną, +2K, przeczucie, gdzie jest Psychonauta albo pole, rozumienie insektów przez scenę. Przyjęcie: +1 Zarażenia (silny Szept +2). Odmowa nic nie kosztuje. Od stygmatu wizje przychodzą same, bez korzyści.</p>
 <p>Psychonauci uderzają w Ego i Zarażenie. To typowa okazja do Stawki Śmierci.</p>
 <h3>Zjawiska Psychonautów (z Katharsys, s. 285)</h3>

@@ -9,12 +9,12 @@
   "skill": "strzelectwo",
   "handling": 0,
   "damage": "10",
-  "range": "10/20",
+  "range": "Blisko",
   "magazine": {
    "value": 1,
    "max": 1
   },
-  "qualities": "Obszarowa: −1 obrażeń za metr",
+  "qualities": "Obszarowa: pełne obrażenia w strefie celu, połowa Blisko",
   "encumbrance": 1,
   "equipped": true
  },

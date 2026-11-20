@@ -8,7 +8,7 @@
   "description": "<p>Dodatkowy pancerz „Twarde mięso” równy PP.</p>",
   "level": 1,
   "kult": "Złomiarze",
-  "prerequisite": "CIA+Twardość 6"
+  "prerequisite": "Ciało + Twardość 6"
  },
  "effects": [],
  "folder": null,

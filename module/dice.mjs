@@ -22,7 +22,7 @@ export async function rollDialog(actor, opts = {}) {
   const attrOptions = Object.keys(ATTRIBUTES).map(k => ({ value: k, label: loc(`D2.Attr.${k}`), selected: k === attr }));
   const skillOptions = [{ value: "", label: "—", selected: !skill }].concat(
     Object.entries(ATTRIBUTES).flatMap(([a, def]) => def.skills.map(s => ({
-      value: s, label: `${loc(`D2.Skill.${s}`)} (${def.abbr})`, selected: s === skill
+      value: s, label: `${loc(`D2.Skill.${s}`)} (${loc(`D2.Attr.${a}`)})`, selected: s === skill
     })))
   );
   const diffOptions = [{ value: "none", label: loc("D2.Roll.noDifficulty"), selected: opts.difficulty === null }]

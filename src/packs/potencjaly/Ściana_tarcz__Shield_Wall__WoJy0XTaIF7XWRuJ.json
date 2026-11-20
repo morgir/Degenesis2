@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Przejmuje atak na towarzysza w zasięgu ruchu: PSY+Refleks (4 wręcz / 6 dystans) +1K/PP; z bagnetem Wyzwalacze dają kontratak.</p>",
+  "description": "<p>Przejmuje atak na towarzysza w zasięgu ruchu: Psyche + Refleks (4 wręcz / 6 dystans) +1K/PP; z bagnetem Wyzwalacze dają kontratak.</p>",
   "level": 1,
   "kult": "Hellveci",
   "prerequisite": ""

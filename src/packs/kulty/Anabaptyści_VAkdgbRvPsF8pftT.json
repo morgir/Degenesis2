@@ -14,7 +14,7 @@
    "wiara",
    "wola"
   ],
-  "metoda": "Wizja, kazanie, rozpoznanie herezji, głos demiurgów (PSY+Wiara, CHA+Ekspresja).",
+  "metoda": "Wizja, kazanie, rozpoznanie herezji, głos demiurgów (Psyche + Wiara, Charyzma + Ekspresja).",
   "ideal": "Ciało jest więzieniem, ale świat wciąż jest do ocalenia.",
   "moneyFactor": 50,
   "currency": "CD",
@@ -31,23 +31,23 @@
     "level": 2,
     "name": "Asceta (Ascetic)",
     "prereq": "[[\"cia\", \"kondycja\", 6], [\"cha\", \"obycie\", 4], [[\"psy\", \"wiara\", 6], [\"psy\", \"wola\", 6]]]",
-    "prereqText": "CIA+Kondycja 6; CHA+Obycie 4; PSY+Wiara 6 lub PSY+Wola 6",
-    "result": "Wobec dostawców i rolników +1K do CHA+Przywództwo i CHA+Obycie.",
+    "prereqText": "Ciało + Kondycja 6; Charyzma + Obycie 4; Psyche + Wiara 6 lub Psyche + Wola 6",
+    "result": "Wobec dostawców i rolników +1K do Charyzma + Przywództwo i Charyzma + Obycie.",
     "equipment": "Nasiona"
    },
    {
     "level": 2,
     "name": "Orgiasta (Orgiastic)",
     "prereq": "[[\"cia\", \"twardosc\", 4], [\"cia\", \"bronBiala\", 6], [[\"int\", \"skupienie\", 6], [\"ins\", \"pierwotnosc\", 6]]]",
-    "prereqText": "CIA+Twardość 4; CIA+Broń biała 6; INT+Skupienie 6 lub INS+Pierwotność 6",
-    "result": "Z bandą +1K do ataku, −1K do aktywnej obrony. Żyjąc skrajnościami ma +1K do PSY+Wiara/Wola; półśrodki je odbierają.",
+    "prereqText": "Ciało + Twardość 4; Ciało + Broń biała 6; Intelekt + Skupienie 6 lub Instynkt + Pierwotność 6",
+    "result": "Z bandą +1K do ataku, −1K do aktywnej obrony. Żyjąc skrajnościami ma +1K do Psyche + Wiara/Wola; półśrodki je odbierają.",
     "equipment": "Bidenhänder"
    },
    {
     "level": 3,
     "name": "Elizjanin (Elysian)",
     "prereq": "[[\"int\", \"medycyna\", 8], [\"int\", \"legendy\", 6], [\"int\", \"nauka\", 6], [\"bg\", \"slawa\", 2], [\"bg\", \"sekrety\", 2]]",
-    "prereqText": "INT+Medycyna 8; INT+Legendy 6; INT+Nauka 6; Sława 2; Sekrety 2",
+    "prereqText": "Intelekt + Medycyna 8; Intelekt + Legendy 6; Intelekt + Nauka 6; Sława 2; Sekrety 2",
     "result": "Oleje elizejskie: +2K do odporności na Sepsę; potrafi je sporządzać.",
     "equipment": "Tygiel i tłuczek; zioła; kamienie znad Adriatyku"
    },
@@ -55,7 +55,7 @@
     "level": 3,
     "name": "Furor",
     "prereq": "[[\"cia\", \"bronBiala\", 8], [[\"psy\", \"wiara\", 8], [\"psy\", \"wola\", 8]], [\"bg\", \"slawa\", 4]]",
-    "prereqText": "CIA+Broń biała 8; PSY+Wiara 8 lub PSY+Wola 8; Sława 4",
+    "prereqText": "Ciało + Broń biała 8; Psyche + Wiara 8 lub Psyche + Wola 8; Sława 4",
     "result": "Wstęp do katakumb i arsenałów Cathedral City; dowolna broń z listy ogólnej; ze Spitfire'em +1K do ataku.",
     "equipment": "Spitfire"
    },
@@ -63,15 +63,15 @@
     "level": 4,
     "name": "Wysłannik (Emissary)",
     "prereq": "[[[\"psy\", \"dominacja\", 8], [\"cha\", \"obycie\", 8]], [\"cha\", \"negocjacje\", 6], [[\"psy\", \"wiara\", 10], [\"psy\", \"wola\", 10]], [\"bg\", \"autorytet\", 4], [\"bg\", \"slawa\", 3]]",
-    "prereqText": "PSY+Dominacja 8 lub CHA+Obycie 8; CHA+Negocjacje 6; PSY+Wiara 10 lub PSY+Wola 10; Autorytet 4; Sława 3",
-    "result": "Rozejm z Klastrem: +2K do CHA+Negocjacje z Kronikarzami.",
+    "prereqText": "Psyche + Dominacja 8 lub Charyzma + Obycie 8; Charyzma + Negocjacje 6; Psyche + Wiara 10 lub Psyche + Wola 10; Autorytet 4; Sława 3",
+    "result": "Rozejm z Klastrem: +2K do Charyzma + Negocjacje z Kronikarzami.",
     "equipment": "—"
    },
    {
     "level": 4,
     "name": "Wzniosły (Sublime)",
     "prereq": "[[[\"int\", \"skupienie\", 10], [\"ins\", \"pierwotnosc\", 10]], [\"bg\", \"sojusznicy\", 4], [\"bg\", \"slawa\", 6]]",
-    "prereqText": "INT+Skupienie 10 lub INS+Pierwotność 10; Sojusznicy 4; Sława 6",
+    "prereqText": "Intelekt + Skupienie 10 lub Instynkt + Pierwotność 10; Sojusznicy 4; Sława 6",
     "result": "Uznany za objawioną emanację: Zasoby 6 w Cathedral City, ale każdy krok śledzą Wysłannicy.",
     "equipment": "Zakazane oleje"
    },

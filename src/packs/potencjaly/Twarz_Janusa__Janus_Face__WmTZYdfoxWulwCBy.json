@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>INS+Empatia vs PSY+Wiara/Wola przeciwnika; przy sukcesie +1K/PP do ataku i obrony przeciw niemu do końca walki.</p>",
+  "description": "<p>Instynkt + Empatia vs Psyche + Wiara/Wola przeciwnika; przy sukcesie +1K/PP do ataku i obrony przeciw niemu do końca walki.</p>",
   "level": 1,
   "kult": "Sędziowie",
   "prerequisite": ""

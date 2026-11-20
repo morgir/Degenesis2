@@ -199,7 +199,7 @@
    "teorie": "Teorie",
    "teorieHint": "Wasze hipotezy — piszcie śmiało.",
    "hint": "Trop kluczowy nigdy nie zależy od rzutu. Rzut daje Odsłony: Szczegół, Powiązanie, Dźwignię, Ostrzeżenie, Czas.",
-   "wniosekHint": "Wniosek: połączcie 2+ tropy, rzut INT+Legendy / INS+Empatia / PSY+Spryt (2). Sukces: „ciepło/zimno” + fakt. MG nie kłamie."
+   "wniosekHint": "Wniosek: połączcie 2+ tropy, rzut Intelekt + Legendy / Instynkt + Empatia / Psyche + Spryt (2). Sukces: „ciepło/zimno” + fakt. MG nie kłamie."
   },
   "Trop": {
    "kluczowy": "Kluczowy",
@@ -272,7 +272,7 @@
    "max": "Maksimum",
    "value": "Zwykłe",
    "permanent": "Trwałe",
-   "over": "Przekroczenie o {n}: rzut PSY+Wiara/Wola (Trudność {n}). Porażka: +1 trwałe.",
+   "over": "Przekroczenie o {n}: rzut Psyche + Wiara/Wola (Trudność {n}). Porażka: +1 trwałe.",
    "stigma": "Stygmat Kultury rozkwita na piersi.",
    "leperos": "Leperos. Prymer przejmuje kontrolę — ostatnia scena należy do gracza.",
    "whisperHint": "Zew Prymera: przy Zarażeniu ≥ 1 MG może zaoferować Szept (wizja, +2K, przeczucie). Przyjęcie: +1 Zarażenia (silny Szept +2)."
@@ -288,7 +288,7 @@
    "skill": "Umiejętność",
    "handling": "Poręczność",
    "damage": "Obrażenia",
-   "damageHint": "Liczba albo wyrażenie z F = CIA+Siła, np. 2+F/2",
+   "damageHint": "Liczba albo wyrażenie z F = Ciało + Siła, np. 2+F/2",
    "range": "Zasięg",
    "magazine": "Magazynek",
    "qualities": "Cechy"
@@ -469,8 +469,8 @@
     "kultura": "Kultura to region i lud: Borca, Franka, Pollen, Balkhan, Hybrispania, Purgare albo Afryka.",
     "koncept": "Koncept to archetyp z Tarota. Raz na sesję daje +2K, a jego Cień kusi do złych decyzji (Pokusa Archetypu).",
     "kult": "Kult to twoja organizacja: hierarchia, ekwipunek, Metoda śledcza i Ideał.",
-    "skupienie": "chłodny umysł; Ego liczy się z INT+Skupienie; tańszy rozwój INT, ZRĘ, PSY.",
-    "pierwotnosc": "bestia w sercu; Ego liczy się z INS+Pierwotność; tańszy rozwój CIA, CHA, INS.",
+    "skupienie": "chłodny umysł; Ego liczy się z Intelektu + Skupienia; tańszy rozwój Intelektu, Zręczności i Psyche.",
+    "pierwotnosc": "bestia w sercu; Ego liczy się z Instynktu + Pierwotności; tańszy rozwój Ciała, Charyzmy i Instynktu.",
     "wiara": "siła z boga, przodków albo idei; chroni przed wpływem i Sepsą.",
     "wola": "siła z samego siebie; chroni przed wpływem i Sepsą.",
     "pathRule": "Niewybrana umiejętność z każdej pary zostaje na 0 na zawsze. Ta decyzja to rdzeń charakteru postaci.",

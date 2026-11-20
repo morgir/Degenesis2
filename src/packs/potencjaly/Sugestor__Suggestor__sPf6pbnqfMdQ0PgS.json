@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Po podkradnięciu się (Skradanie vs Percepcja) szepcze do ofiary: +2K/PP do CHA+Negocjacje przeciw jej obronie mentalnej, by zasiać myśl.</p>",
+  "description": "<p>Po podkradnięciu się (Skradanie vs Percepcja) szepcze do ofiary: +2K/PP do Charyzma + Negocjacje przeciw jej obronie mentalnej, by zasiać myśl.</p>",
   "level": 1,
   "kult": "Palerzy",
   "prerequisite": "Demagog"

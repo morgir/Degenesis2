@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>+1 pancerza/PP, ale −1K/PP do CHA+Uwodzenie.</p>",
+  "description": "<p>+1 pancerza/PP, ale −1K/PP do Charyzma + Uwodzenie.</p>",
   "level": 1,
   "kult": "Ogólne",
   "prerequisite": ""

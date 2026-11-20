@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Wpada między wrogów i odpala wszystkie moduły obronne: INT+Inżynieria (5), Trudność −1/PP. Przy 2+ wrogach wręcz sojusznicy są bezpieczni; porażka odpala tylko 1 losowy moduł i dotyka też swoich.</p>",
+  "description": "<p>Wpada między wrogów i odpala wszystkie moduły obronne: Intelekt + Inżynieria (5), Trudność −1/PP. Przy 2+ wrogach wręcz sojusznicy są bezpieczni; porażka odpala tylko 1 losowy moduł i dotyka też swoich.</p>",
   "level": 1,
   "kult": "Kronikarze",
   "prerequisite": "Pierwotność"

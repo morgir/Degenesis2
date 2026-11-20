@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>W rozmowie lub negocjacjach z nie-Neolibijczykiem +1K/PP do umiejętności CHA, ale −3K do PSY.</p>",
+  "description": "<p>W rozmowie lub negocjacjach z nie-Neolibijczykiem +1K/PP do umiejętności Charyzmy, ale −3K do Psyche.</p>",
   "level": 1,
   "kult": "Neolibijczycy",
   "prerequisite": ""

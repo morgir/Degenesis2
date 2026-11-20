@@ -200,7 +200,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Feromonowa sieć osady: wchodzący rzuca PSY+Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.</p>",
+    "description": "<p>Feromonowa sieć osady: wchodzący rzuca Psyche + Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

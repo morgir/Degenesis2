@@ -2,7 +2,7 @@
 """Bestiariusz 2.0. Źródła oznaczone w opisie: [Katharsys]/[Primal Punk] = profil z podręcznika, [2.0] = dodatek własny. Pule (K) jak w profilach z Katharsys tam, gdzie istnieją; ludzie — własne profile.
 Próg = Kondycja/2 z podręcznika (Rany Powierzchowne = Próg×2). Obrażenia kostkowe uśrednione (1K ≈ 3)."""
 
-# pools: klucz umiejętności -> pula (atrybut+umiejętność). Specjalne: "init" = PSY+Refleks, "mental" = PSY+Wola
+# pools: klucz umiejętności -> pula (atrybut+umiejętność). Specjalne: "init" = Psyche + Refleks, "mental" = Psyche + Wola
 # ---- Zjawiska (nazwa, opis 2.0, poziom = Trudność) — Katharsys, rozdz. Psychonauci ----
 def _plague(extra):
     return ("Plaga (rój)", "Wypuszcza swój rój. Zaatakowani mają karę −K równą Sile roju do wszystkich akcji i co rundę 1 Lekką ranę; rój ranią tylko broń obszarowa i ogień. " + extra)
@@ -10,20 +10,20 @@ PLAGUE1 = _plague("Biokinetyk: Siła roju +1 za każdy punkt Przeciążenia.") +
 PLAGUE1D = _plague("") + (1,)
 PLAGUE0 = _plague("") + (0,)
 PLAGUE1P = _plague("Psychokinetyk żywi się wioską przez swój rój i regeneruje się.") + (1,)
-SPIDER = ("Ukąszenie pająka", "Jad o Mocy = Przeciążenie. Ofiara co rundę rzuca CIA+Twardość przeciw Mocy; porażka: traci Ego równe Mocy.", 4)
-NETTLE = ("Włoski parzące", "Łączone z ZRĘ+Strzelectwo: obrażenia = Przeciążenie + Wyzwalacze − pancerz. Trafiony ma −2K, dopóki włosków nie usunie; usunięcie zadaje te same obrażenia.", 4)
+SPIDER = ("Ukąszenie pająka", "Jad o Mocy = Przeciążenie. Ofiara co rundę rzuca Ciało + Twardość przeciw Mocy; porażka: traci Ego równe Mocy.", 4)
+NETTLE = ("Włoski parzące", "Łączone z Zręczność + Strzelectwo: obrażenia = Przeciążenie + Wyzwalacze − pancerz. Trafiony ma −2K, dopóki włosków nie usunie; usunięcie zadaje te same obrażenia.", 4)
 RENEWAL = ("Odnowa", "Wyrywa się z każdych więzów, ale płaci ciałem: w 2.0 otrzymuje ranę Poważną (w podręczniku 10 Ran Powierzchownych).", 5)
-RESONANCE = ("Rezonans", "Atak na Ego: ofiara broni się PSY+Wiara/Wola; porażka = utrata Ego równa Przeciążeniu.", 5)
-TONGUES = ("Mowa językami", "Pierwotna mowa omija świadomość: ofiara rzuca PSY+Wola/Wiara (Trudność = Przeciążenie) albo wykonuje wolę Dushana.", 5)
-FOULSEED = ("Plugawe ziarno", "Zasiewa w podświadomości rozkaz, emocję albo myśl sprzeczną z ideologią ofiary; dojrzewa w kolejnych tygodniach. Opór: PSY+Wiara/Wola (Trudność = Przeciążenie). Po porażce ofiara broni się znowu tylko wtedy, gdy ziarno zmusza ją do czynu wbrew jej naturze. [2.0: idealny motor śledztwa.]", 10)
+RESONANCE = ("Rezonans", "Atak na Ego: ofiara broni się Psyche + Wiara/Wola; porażka = utrata Ego równa Przeciążeniu.", 5)
+TONGUES = ("Mowa językami", "Pierwotna mowa omija świadomość: ofiara rzuca Psyche + Wola/Wiara (Trudność = Przeciążenie) albo wykonuje wolę Dushana.", 5)
+FOULSEED = ("Plugawe ziarno", "Zasiewa w podświadomości rozkaz, emocję albo myśl sprzeczną z ideologią ofiary; dojrzewa w kolejnych tygodniach. Opór: Psyche + Wiara/Wola (Trudność = Przeciążenie). Po porażce ofiara broni się znowu tylko wtedy, gdy ziarno zmusza ją do czynu wbrew jej naturze. [2.0: idealny motor śledztwa.]", 10)
 ACID = ("Kwas", "Plunięcie ichorem w oczy: −1K za każdy punkt Przeciążenia + Wyzwalacz do rzutów opartych na wzroku. Nie działa na zamknięty hełm.", 5)
-UNITY = ("Jedność", "Obszar: kto nie zda PSY+Wiara/Wola (Trudność = Przeciążenie), składa broń.", 4)
-FEAR = ("Strach", "Kto nie zda PSY+Wiara/Wola (Trudność = Przeciążenie), ucieka.", 6)
-DRONE = ("Dron", "Feromonowa sieć osady: wchodzący rzuca PSY+Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.", 10)
+UNITY = ("Jedność", "Obszar: kto nie zda Psyche + Wiara/Wola (Trudność = Przeciążenie), składa broń.", 4)
+FEAR = ("Strach", "Kto nie zda Psyche + Wiara/Wola (Trudność = Przeciążenie), ucieka.", 6)
+DRONE = ("Dron", "Feromonowa sieć osady: wchodzący rzuca Psyche + Wiara/Wola (Trudność = Przeciążenie); poziom pancerza Szczelnego lub maski dodaje się do rzutu. Porażka: chce służyć kolonii i widzi wszystko w różowych barwach; raz dziennie może spróbować się uwolnić, a poza kolonią wpływ z czasem słabnie.", 10)
 FREEFLOW = ("Swobodny przepływ", "Za każdy punkt Przeciążenia +1K do ataków do końca walki, ale tyle samo Lekkich ran.", 4)
 NERVEHIT = ("Uderzenie w nerwy", "Łączone z atakiem wręcz: przy trafieniu cel traci Ego = Przeciążenie + Wyzwalacze.", 5)
 RAGE = ("Równowaga gniewu", "Włącza się samo przy Zarażeniu 6, bez Przeciążenia: każdy punkt obrażeń, który przyjmie, dodaje do obrażeń następnego ataku wręcz.", 6)
-BLAST = ("Fala uderzeniowa", "Stożek, którego wielkość wybiera: u źródła 1K + Przeciążenie obrażeń, −1 za każdy metr.", 8)
+BLAST = ("Fala uderzeniowa", "Stożek, którego wielkość wybiera: u źródła 1K + Przeciążenie obrażeń, −1 za każdą strefę dalej.", 8)
 
 ENEMIES = [
 # ---------------- LUDZIE ----------------
@@ -40,12 +40,12 @@ ENEMIES = [
 ("Ludzie", "Patrol Sędziów (Sędzia miejski)", "weteran", 5, 2, 5,
  {"init": 5, "mental": 6, "bronBiala": 7, "strzelectwo": 5, "dominacja": 6, "empatia": 4, "percepcja": 5, "obycie": 4},
  [("Młot sędziowski", "bronBiala", "4+F/2", "1", "Ciężka (−1K następna akcja po trafieniu)", -1), ("Muszkiet", "strzelectwo", "9", "15/60", "Ładowany od lufy", -1)],
- [("Lincz", "+1K do CHA+Przywództwo przy podburzaniu tłumu.")], "Utrzymać porządek, wypełnić Kodeks", "Że prawo upadnie", "", "Szacunek i informacja",
+ [("Lincz", "+1K do Charyzma + Przywództwo przy podburzaniu tłumu.")], "Utrzymać porządek, wypełnić Kodeks", "Że prawo upadnie", "", "Szacunek i informacja",
  "Kapelusz, płaszcz, młot. Nie przyjmie łapówki publicznie — prywatnie bywa różnie."),
 ("Ludzie", "Hellweta (żołnierz)", "weteran", 5, 3, 6,
  {"init": 6, "mental": 6, "strzelectwo": 8, "bronBiala": 5, "mobilnosc": 5, "percepcja": 6, "przetrwanie": 5},
  [("Trailblazer", "strzelectwo", "9", "30/120", "Salwa", 1), ("Bagnet", "bronBiala", "2+F/2", "1", "", 0)],
- [("Ściana tarcz", "Może przejąć atak na towarzysza (PSY+Refleks 4/6).")], "Wykonać rozkaz, oszczędzać amunicję", "Hańba przed Fortecą", "", "Myto, informacje o Klanach",
+ [("Ściana tarcz", "Może przejąć atak na towarzysza (Psyche + Refleks 4/6).")], "Wykonać rozkaz, oszczędzać amunicję", "Hańba przed Fortecą", "", "Myto, informacje o Klanach",
  "Uprząż, karabin, dyscyplina. Każdy chybiony strzał to raport."),
 ("Ludzie", "Prezerwista Spitalu", "antagonista", 6, 3, 7,
  {"init": 7, "mental": 7, "bronBiala": 9, "strzelectwo": 6, "mobilnosc": 6, "medycyna": 6, "percepcja": 6},
@@ -102,7 +102,7 @@ ENEMIES = [
  "Zwierzę przemienione przez Prymer, z kostnymi naroślami. W Borce i przy Barierze Lodowej samotne i przebiegłe — atakuje tylko słabszych, gniazduje głęboko pod ziemią. [Primal Punk]"),
 ("Prymer", "Skorpion Stukowski", "statysta", 2, 2, 3,
  {"init": 6, "mental": 3, "bijatyka": 6, "skradanie": 8},
- [("Żądło", "bijatyka", "2", "1", "Jad (Moc 6, opór CIA+Twardość): −1 CIA i ZRĘ na rundę aż do paraliżu", 0)],
+ [("Żądło", "bijatyka", "2", "1", "Jad (Moc 6, opór Ciało + Twardość): −1 Ciała i Zręczności na rundę aż do paraliżu", 0)],
  [], "", "", "", "",
  "Zakopane w skorupie solniska; reagują na drgania i atakują wszystko bliżej niż dziesięć kroków, jad wywołuje ciężki paraliż [Katharsys]. Statystyki własne [2.0] — podręcznik nie podaje profilu."),
 # ---------------- MASZYNY / ŚPIĄCY ----------------
@@ -145,7 +145,7 @@ ENEMIES = [
  "„Szept lasu”: strażnik matrycy dźwięku Mokoscha w Balkhanie, w masce pancernej, poruszający się chaotycznie (Obrona bierna 2). [Katharsys s. 298]"),
 ("Psychonauci", "Dushani — Wodnik (Vodjanoi)", "antagonista", 2, 1, 6,
  {"init": 6, "mental": 2, "bijatyka": 8, "prymer": (18, 18), "zjb": 5},
- [("Objęcie", "bijatyka", "0", "1", "Skacze z ofiarą do wody — zasady tonięcia; ofiara opiera się CIA+Siła lub ZRĘ+Mobilność", 0)],
+ [("Objęcie", "bijatyka", "0", "1", "Skacze z ofiarą do wody — zasady tonięcia; ofiara opiera się Ciało + Siła lub Zręczność + Mobilność", 0)],
  [("Chmura atramentu", "Bez akcji wypuszcza fioletowy aerozol: Obrona +4 do jego następnej akcji. [Katharsys s. 298]"),
   TONGUES, FOULSEED, ("Zew Prymera [2.0]", "W pobliżu Wodnika każdy z Zarażeniem ≥1 dostaje Szept co scenę.")],
  "Wzmacniać pieśń Mokoscha", "Zakłócenie pieśni — wpada wtedy w szał", "", "",
@@ -171,7 +171,7 @@ ENEMIES = [
   ("Naszyjniki z muszli", "Otwiera muszlę i wdycha zapisane w niej doświadczenie (1 akcja): dowolna umiejętność, także bojowa, z pulą 10 na scenę. [Katharsys s. 310]"),
   ("Wyrocznia [2.0 — hak]", "Zna odpowiedzi na pytania śledztwa — za cenę Długu.")],
  "Utrzymać nić czasu", "", "", "",
- "Wyrocznia z Hybrispanii; INT+Legendy 20K w podręczniku (w 2.0: pula 12, nadwyżka to sukcesy automatyczne — dodaj +8 modyfikatora). [Katharsys s. 310]"),
+ "Wyrocznia z Hybrispanii; Intelekt + Legendy 20K w podręczniku (w 2.0: pula 12, nadwyżka to sukcesy automatyczne — dodaj +8 modyfikatora). [Katharsys s. 310]"),
 ("Psychonauci", "Psychokinetyk — Hylikoi", "antagonista", 6, 0, 8,
  {"init": 12, "mental": 9, "bronBiala": 7, "prymer": (12, 16), "obr": 1},
  [("Włócznia-kaniula", "bronBiala", "7", "2", "Krew spływa do drzewca: za każde trafienie leczy 1 Lekką ranę tego dnia", 0)],

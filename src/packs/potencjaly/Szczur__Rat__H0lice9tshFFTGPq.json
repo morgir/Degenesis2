@@ -8,7 +8,7 @@
   "description": "<p>+1K/PP przy zacieraniu śladów własnych czynów.</p>",
   "level": 1,
   "kult": "Złomiarze",
-  "prerequisite": "PSY+Spryt 6"
+  "prerequisite": "Psyche + Spryt 6"
  },
  "effects": [],
  "folder": null,

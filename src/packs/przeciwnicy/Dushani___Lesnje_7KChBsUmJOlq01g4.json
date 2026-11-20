@@ -180,7 +180,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "7",
-    "range": "2",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -230,7 +230,7 @@
    "type": "potencjal",
    "img": "icons/svg/biohazard.svg",
    "system": {
-    "description": "<p>Atak na Ego: ofiara broni się PSY+Wiara/Wola; porażka = utrata Ego równa Przeciążeniu.</p>",
+    "description": "<p>Atak na Ego: ofiara broni się Psyche + Wiara/Wola; porażka = utrata Ego równa Przeciążeniu.</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

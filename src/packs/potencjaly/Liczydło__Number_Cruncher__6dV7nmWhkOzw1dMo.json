@@ -8,7 +8,7 @@
   "description": "<p>+1K/PP do rzutów rozwiązujących problem logiką lub matematyką. [2.0: także do rzutu na Wniosek, gdy teoria opiera się na liczbach lub danych.]</p>",
   "level": 1,
   "kult": "Ogólne",
-  "prerequisite": "INT 4"
+  "prerequisite": "Intelekt 4"
  },
  "effects": [],
  "folder": null,

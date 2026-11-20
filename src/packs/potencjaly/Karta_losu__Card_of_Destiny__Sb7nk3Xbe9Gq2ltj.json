@@ -5,7 +5,7 @@
  "type": "potencjal",
  "img": "icons/svg/aura.svg",
  "system": {
-  "description": "<p>Stawia sobie karty: zna kult przeciwnika z przyszłego starcia; jeśli zdarzy się w ciągu 10 dni, +PP do rzutów CHA i PSY w tej sytuacji.</p>",
+  "description": "<p>Stawia sobie karty: zna kult przeciwnika z przyszłego starcia; jeśli zdarzy się w ciągu 10 dni, +PP do rzutów Charyzmy i Psyche w tej sytuacji.</p>",
   "level": 1,
   "kult": "Apokaliptycy",
   "prerequisite": "Wiara; Kruk, Albatros lub Myszołów"
