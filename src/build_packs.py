@@ -234,8 +234,9 @@ packs["przyklady"].append(actor("Banda tragarzy Kruków", "npc", npc_banda, item
 SKILL_ATTR = {sk: a for a, lst in SK.items() for sk in lst}
 ASSET = "systems/degenesis2/assets"
 packs["gracze"].append(journal("Podręcznik gracza", PLAYER_PAGES))
-_pdf = journal("Podręcznik Gracza (PDF)", [("Podręcznik Gracza", "")])
+_pdf = journal("Podręcznik Gracza (PDF)", [("Podręcznik Gracza", ""), ("Karta postaci do druku", "")])
 _pdf["pages"][0].update({"type": "pdf", "src": "systems/degenesis2/assets/docs/Degenesis-2.0-Podrecznik-Gracza.pdf", "text": {"format": 1, "content": ""}})
+_pdf["pages"][1].update({"type": "pdf", "src": "systems/degenesis2/assets/docs/Degenesis-2.0-Karta-Postaci.pdf", "text": {"format": 1, "content": ""}})
 _pdf["sort"] = -1
 packs["gracze"].append(_pdf)
 

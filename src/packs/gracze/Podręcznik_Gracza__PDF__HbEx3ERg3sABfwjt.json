@@ -36,6 +36,40 @@
    "src": "systems/degenesis2/assets/docs/Degenesis-2.0-Podrecznik-Gracza.pdf",
    "system": {},
    "category": null
+  },
+  {
+   "_id": "xqm8V0TxKyfZ5diA",
+   "_key": "!journal.pages!HbEx3ERg3sABfwjt.xqm8V0TxKyfZ5diA",
+   "name": "Karta postaci do druku",
+   "type": "pdf",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": ""
+   },
+   "sort": 200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.1.0"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": "systems/degenesis2/assets/docs/Degenesis-2.0-Karta-Postaci.pdf",
+   "system": {},
+   "category": null
   }
  ],
  "folder": null,

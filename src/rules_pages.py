@@ -138,7 +138,7 @@ PAGES = [
 """),
 ("10. Postać i rozwój", """
 <ol><li>3K: Kultura, Koncept, Kult (przeciągnij z kompendium na kartę). Każde podnosi limit wybranych cech o 1.</li>
-<li>Atrybuty: start 1 + 10 punktów, limit 3. Umiejętności: 28 punktów, limit 2. Wybierz Skupienie albo Pierwotność oraz Wiarę albo Wolę.</li>
+<li>Atrybuty: start 1 + 10 punktów (1:1, suma 16), limit 3. Umiejętności: start 0 + 28 punktów (1:1), limit 2. Każdy bonus: limit +1. Wybierz Skupienie albo Pierwotność oraz Wiarę albo Wolę.</li>
 <li>Zaplecze: 4 punkty, limit 3. Ranga według kultu. Potencjał: 1 na poziomie 1.</li>
 <li>Nowe: 1–2 Więzi, Ambicja, Tajemnica, Cień Archetypu.</li></ol>
 <table><tr><th>PD za sesję</th><th></th></tr><tr><td>Udział</td><td>5</td></tr><tr><td>Ważny Wniosek</td><td>+2</td></tr><tr><td>Przyjęta Pokusa Archetypu</td><td>+1</td></tr><tr><td>Ideał lub Więź ponad interes</td><td>+1</td></tr><tr><td>Odkryty Sekret</td><td>+2</td></tr></table>

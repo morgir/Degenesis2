@@ -2,7 +2,7 @@
   "id": "degenesis2",
   "title": "Degenesis: Katharsys 2.0 (fanowski)",
   "description": "Nieoficjalna, fanowska wersja mechaniki Degenesis: narracyjna, śledcza i mniej śmiertelna. Do użytku prywatnego. Degenesis © SIXMOREVODKA.",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "compatibility": {
     "minimum": "14",
     "verified": "14.370"
@@ -283,7 +283,7 @@
   "initiative": "(@initPool)d6cs>=4",
   "url": "https://github.com/morgir/Degenesis2",
   "manifest": "https://github.com/morgir/degenesis2/releases/latest/download/system.json",
-  "download": "https://github.com/morgir/degenesis2/releases/download/v0.7.0/degenesis2.zip",
+  "download": "https://github.com/morgir/degenesis2/releases/download/v0.7.1/degenesis2.zip",
   "license": "Fan content. Mechanika i kod: użytek prywatny.",
   "flags": {}
 }

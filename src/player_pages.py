@@ -58,11 +58,11 @@ PLAYER_PAGES = [
 <p>Twój Koncept raz na sesję daje +2 kości. Jego <b>Cień</b> to ciemna strona. Gdy MG zaproponuje Pokusę, czyli działanie zgodne z Cieniem, i się zgodzisz, dostajesz +2 Ego i +1 PD, a historia się komplikuje.</p>
 """),
 ("6. Tworzenie postaci (kreator)", """
-<p>Utwórz aktora typu <b>Postać</b>, otwórz kartę i kliknij <b>Kreator</b> w nagłówku. Kreator prowadzi przez 9 kroków i pilnuje punktów:</p>
-<ol><li><b>Pochodzenie</b>: Kultura, Koncept, Kult. Każde podnosi limit kilku cech (gwiazdka).</li>
+<p>Utwórz aktora typu <b>Postać</b>, otwórz kartę i kliknij <b>Kreator</b> w nagłówku. Kreator prowadzi przez 9 kroków i pilnuje punktów. Bez Foundry: karta do druku i procedura na papierze są w dzienniku „Podręcznik Gracza (PDF)”.</p>
+<ol><li><b>Pochodzenie</b>: Kultura, Koncept, Kult. Każde podnosi limit kilku cech o 1 (gwiazdka). Bonus nie jest darmowym punktem, ale obniża koszt rozwoju.</li>
 <li><b>Ścieżka</b>: Skupienie albo Pierwotność (skąd bierzesz Ego) i Wiara albo Wola (co cię chroni). Druga z pary zostaje na zawsze na 0.</li>
-<li><b>Atrybuty</b>: start 1, 10 punktów, limit 3 (+1 za gwiazdkę).</li>
-<li><b>Umiejętności</b>: 28 punktów, limit 2 (+1 za gwiazdkę).</li>
+<li><b>Atrybuty</b>: każdy zaczyna od 1, dokładasz 10 punktów (1 punkt = +1, suma zawsze 16), limit 3 (+1 za gwiazdkę).</li>
+<li><b>Umiejętności</b>: zaczynają od 0, rozdajesz 28 punktów (1 punkt = +1), limit 2 (+1 za gwiazdkę).</li>
 <li><b>Zaplecze</b>: 4 punkty, limit 3.</li>
 <li><b>Ranga</b>: kreator pokazuje, które rangi kultu już osiągasz. Wybierz jedną.</li>
 <li><b>Potencjał</b>: jedna specjalna zdolność z kultu albo ogólna.</li>
